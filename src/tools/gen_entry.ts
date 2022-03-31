@@ -7,9 +7,9 @@ const TargetFilePath = process.cwd() + '/dist/tampermonkey_entry.js'
 
 function write() {
   let replaceText = os.userInfo().username + '/' + Path
-  if (process.platform === 'win32') {
-    replaceText = replaceText.replaceAll('/', '\\')
-  }
+  // if (process.platform === 'win32') {
+  //   replaceText = replaceText.replaceAll('/', '\\')
+  // }
   const newFileString = fs
     .readFileSync(TemplateFilePath, { encoding: 'utf8' })
     .replaceAll('🚧🚧🚧', replaceText)

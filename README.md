@@ -20,8 +20,9 @@
 
 所以我希望有一种功能:
 
-1. 不破坏当前英文的上下文
+1. 不破坏当前英文的上下文, 不离开当前网页
 2. 快速获取中文释义
+3. 顺便优化以下查单词的体验
 
 所以我写了这个叫做 EnglishFlow (以下简称 EF)的脚本
 
@@ -30,6 +31,7 @@
 ![StackOverflow](./screenshots/1.gif)
 ![Github](./screenshots/2.gif)
 ![Wikipedia](./screenshots/3.gif)
+![React](./screenshots/4.gif)
 
 ## 使用流程
 
@@ -147,8 +149,9 @@ src/index.ts
 
 style.less
 
-## TODO
+## TODO (or not)
 
+- 在 yaml 中输入的格式有错时, 脚本不应该中断. w_tools 和 serve 不应该有时间上的依赖
 - 没有可感知到的性能问题
 - 替换并添加 `eft` 这个操作, 在一小部分页面会导致样式错误, 但是我难以排查问题所在
   - 一些 Google Search
@@ -158,6 +161,7 @@ style.less
   - 还没分文件
     - 我无法使用 tsc 将多个 ts 文件编译为一个 js 文件, 并且让该 js 可以在 TM 中使用. 非要这样做的话需要使用 webpack
 - `profile.yaml` 还需要调整
+- 更强的匹配逻辑, 针对各种合成词汇, 匹配时不应该仅仅从前面匹配?
 
 ## Q&A
 

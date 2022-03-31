@@ -638,7 +638,6 @@ function addkeyboardListener() {
 }
 
 function speak(text: string) {
-  console.log('speak', Date.now())
   function synthesis() {
     const utterance = new SpeechSynthesisUtterance(text)
     EFSynth.speak(utterance)
@@ -765,10 +764,10 @@ async function queryGoogleDefineAudios(text: string) {
             }
           },
           onerror: err => {
-            console.log('EFQS:', err)
+            console.log('EF:', err)
           },
           onabort: () => {
-            console.log('EFQS:', 'abort')
+            console.log('EF:', 'abort')
           },
         })
         handles.push(abortHandle)

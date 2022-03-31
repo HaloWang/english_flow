@@ -10,8 +10,8 @@
 // @exclude      *.baidu.com/*
 // @exclude      *.bilibili.com/*
 
-// @require      file:///C:\Users\🚧🚧🚧\english_flow\dist\index.js
-// @resource     EFCSS file:///C:\Users\🚧🚧🚧\english_flow\dist\style.css
+// @require      file:///C:/Users/🚧🚧🚧/english_flow/dist/index.js
+// @resource     EFCSS file:///C:/Users/🚧🚧🚧/english_flow/dist/style.css
 
 // @grant        GM_addStyle
 // @grant        GM_getResourceText

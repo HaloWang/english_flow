@@ -2,6 +2,7 @@ dev/
 dom/
 dist/
 *.tsbuildinfo
+.vscode
 
 # Logs
 logs

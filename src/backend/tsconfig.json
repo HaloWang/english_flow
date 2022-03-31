@@ -4,9 +4,7 @@
     "strict": true,
     "sourceMap": false,
     "removeComments": true,
-    "types": ["node", "node/fs", "node/http"],
     "target": "ESNext",
     "module": "CommonJS"
-  },
-  "files": ["server.ts"]
+  }
 }

@@ -4,8 +4,6 @@ old:
     # 建议参考一下 https://developer.chrome.com/docs/extensions/mv3/match_patterns/
     contain: [
         # Add href You What
-        stackexchange.com,
-        www.digitalocean.com,
         chrome.google.com,
         code.visualstudio.com,
         cs231n.github.io,
@@ -20,6 +18,7 @@ old:
         grammarly.com,
         localhost:8888/web/viewer.html,
         marketplace.visualstudio.com,
+        nestjs.com,
         nih.gov,
         npmjs.com,
         nytimes.com,
@@ -28,12 +27,14 @@ old:
         reactnative.dev,
         sciencedirect.com,
         scientificamerican.com,
+        stackexchange.com,
         stackoverflow.com,
         stanford.edu,
         twitter.com,
         typescriptlang.org,
         web.dev,
         www.artstation.com,
+        www.digitalocean.com,
         www.nature.com/articles,
         www.tampermonkey.net,
         yaml.org,
@@ -48,6 +49,7 @@ old:
     strategies:
       - timeout|0.3
       - timeout|2
+      - interval|5
 
   - name: Wikipedia
     contain:

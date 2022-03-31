@@ -14,6 +14,7 @@ adapt: 适应|适配
 addiction: 瘾|入迷|嗜好
 adequa: 胜任|足够|适当|恰当|令人满意|充分
 adjacen: 临近|毗邻
+adopt: 采用|通过|采取|采纳|收养
 advers: 逆|害|敌|抗|不利
 advoca: 拥护|提倡
 aerospace: 航空航天
@@ -93,6 +94,7 @@ cardiovascular: 心血管de
 catastroph: 灾难|浩劫
 causa: 因果
 cautio: 慎重|警告
+censor: 审查|删掉
 centrolateral: 中.外[部]
 cerebr: 大脑|telencephal|endbrain
 cholinergic: 类胆碱
@@ -117,6 +119,7 @@ collateral: 旁系|附属|次要|抵押|担保
 colleague: 同事|同僚
 collectivis: 集体|集体主义
 colliculus: 丘
+coloni: 殖民
 coma: 昏迷
 compact: 压紧|小型|压实|袖珍|带镜小粉盒|合约|协定
 comparison: 对比|比拟
@@ -224,10 +227,12 @@ dominat: 控制|统治
 dopamine: 多巴胺
 dorsal: 背侧
 dose: 服药|一记
+drama: 剧本|戏剧
 dramatic: 巨大而突然|急剧|戏剧
 drastic: 极端|剧烈
 drear: 阴郁|凄凉|悲伤|枯燥
 drip: 滴
+dude: 家伙|小子|老铁
 due: 到期|预期|应有|应得|应付|应给|适当的
 dysfunction: 功能紊乱
 dysrhythmia: 节律障碍
@@ -290,6 +295,10 @@ extensi: 广阔|延展|延伸
 extent: 程度|范围|长度
 extinguish: 熄灭|消灭|破灭
 extrem: 极|过|末
+facto:
+  m: 事实上
+  options:
+    - FullMatch
 fetter: 束缚|限制|枷锁
 fixation: 定影|固定术
 flaw: 缺陷|缺点
@@ -313,6 +322,7 @@ globu: 球状
 glutamate: 谷氨酸盐|谷氨酸酯
 gnos: 灵知|真知|直觉
 grace: 雅
+gradual: 缓|逐步
 granul: 粒|颗
 graphesthesia: 图形感觉|皮肤图形感
 grass: 草坪|坪草
@@ -725,6 +735,7 @@ slid: 滑动|滑行|滑落
 slot: 插槽|时间段|插
 soma: 体细胞|身体|躯体
 somalia: 索马里
+sophisticat: 精明|老练|尖端|复杂
 span: 跨度|广度|翼展
 spars:
   m: 稀疏|稀少
@@ -781,6 +792,7 @@ suppress: 抑制|镇压
 surgery: 外科手术
 surgical: 外科|外科手术|外科手术使用
 survey: 调查|测验|检测|民调
+suspense: 悬念|焦虑|终止
 sustain: 维持|持续
 syllabic: 音节
 symmetr: 对称
@@ -789,6 +801,7 @@ synap: 突触|触电
 syndrome: 综合征|并发症
 synonym: 同义
 synthesi: 综合|合成|生成
+tactic: 策略|兵法|战术|排兵布阵
 tactil: 触觉
 tangential: 肤浅|离题
 telencephal: 端脑|endbrain|cerebr
@@ -854,4 +867,4 @@ voluntar: 自主|自愿|随意
 vowel: 元音|母音
 wherein: 在其中|在何处
 whilst: 同时
-tactic: 策略|兵法|战术|排兵布阵
+yankee: 美国佬|美国人|洋基队
