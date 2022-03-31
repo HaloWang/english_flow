@@ -167,9 +167,15 @@ style.less
 
 ### 如果我不想一个一个添加单词怎么办? 我可以直接导入字典吗?
 
-我个人的选择是一个一个的添加, 当然也可以全量添加. 有需要的话可以将 [github.ecditc](https://github.com/skywind3000/ECDICT) 中的 csv 数据编译为 json ... 当然如果你已经这样做了的话, 相信你不一定愿意使用 EF 中现有的, 以 json 格式存储的数据. 当前 EF 每次从本地服务器全量拉取字典数据(30kb)也是不可取的
+我个人的选择是一个一个的添加, 当然也可以全量添加. 有需要的话可以将 [github.ecditc](https://github.com/skywind3000/ECDICT) 中的 csv 数据编译为 json ... 当然如果你已经这样做了的话, 相信你不一定愿意使用 EF 中现有的, 以 json 格式存储的数据. 当前 EF 每次从本地服务器全量拉取字典数据(30kb)对于 ecdit 中动辄 100mb 的也是不可取的. 同时, [当前 TM 无法做到懒加载数据](https://github.com/TM/TM/issues/1461). 想导入并使用 ecdict 之类超大型的字典还是需要按照按照单词向 local server 请求数据
 
-同时, [当前 TM 无法做到懒加载数据](https://github.com/TM/TM/issues/1461). 想导入并使用 ecdict 之类超大型的字典还是需要按照按照单词向 local server 请求数据
+总的来说:
+
+1. 要将 csv 转化为 database, 或任意已有的数据库
+2. node.js server 要实现查询 DB 的功能
+3. index.ts 中的 getWordDetail 要改写为 Promise 形式
+4. 前端做一下 throttle
+5. 需要忍受大量的, 可能这辈子都用不到的单词
 
 ### 用了这个脚本就能读懂英文了吗?
 
