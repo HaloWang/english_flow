@@ -702,6 +702,13 @@ async function queryGoogleDefineAudios(text: string) {
       return
     }
 
+    // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+    const { href } = window.location
+    if (href.includes('developer.mozilla.org') || href.includes('github.com')) {
+      reject('CSP error')
+      return
+    }
+
     let _text = text.toLowerCase().replaceAll(' ', '')
 
     const stored = localStorage.getItem(EFStoragePrefix + _text)

@@ -151,6 +151,16 @@ style.less
 
 ## TODO (or not)
 
+### 一部分页面不允许使用 audio 发声
+
+> Refused to load media from '<URL>' because it violates the following Content Security Policy directive: "media-src github.com user-images.githubusercontent.com/".
+
+比如 github, MDN
+
+考虑使用 Blob
+
+### Others
+
 - 合并 yarn 脚本, 并且去除不同脚本之间的依赖, 是不是要考虑 pipeline/webpack?
 - 在 yaml 中输入的格式有错时, 脚本不应该中断. w_tools 和 serve 不应该有时间上的依赖
 - 播放声音的功能还不是太好
