@@ -98,6 +98,13 @@ _🚧 我已经在其中添加了很多网址了_
 - `shift+R`, 当该单词已经被添加至 dictionary.yaml 忠厚, 如果鼠标悬停在该单词上, 则发音
 - `shift+F`, 当该单词已经被添加至 dictionary.yaml 忠厚, 如果鼠标悬停在该单词上, 则快捷打开如下网页, 同时发音
 
+#### 发音
+
+- 优先查询 Google 的发音
+- youdao 的发音也可以添加, 但是通常情况下我还是想选 Google
+- 如果没有结果, 或者选中发音的是一个句子, 则使用 [SpeechSynthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis) API
+- 查询单词的功能不需要在 profile.yaml 中添加对应网站即可运作
+
 ### 添加单词/助记标识/伪词根
 
 - _🚧 我已经在其中添加了很多单词了_
