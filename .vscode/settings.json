@@ -1,0 +1,16 @@
+{
+  "files.autoSave": "onWindowChange",
+  "git.enabled": false,
+  "yaml.completion": false,
+  "yaml.format.singleQuote": true,
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "keep",
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false,
+    },
+  },
+}

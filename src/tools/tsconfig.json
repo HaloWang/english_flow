@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "../../dist/tools/",
+    "strict": false,
+    "sourceMap": false,
+    "removeComments": true,
+    "types": ["node", "node/fs", "node/http"],
+    "target": "ESNext",
+    "module": "CommonJS"
+  },
+  "files": ["json_formator.ts", "yaml2json.ts", "less2css.ts"]
+}

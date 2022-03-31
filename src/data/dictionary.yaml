@@ -1,0 +1,856 @@
+aberran: 变异|反常|脱离轨道
+abolish: 废除
+abort: 终止|中断|流产|堕胎
+abrupt: 突兀|唐突
+absen: 缺席
+accord: 根据|按照|相应|依据
+account: 账户|占|账
+accura: 准确|精确|精密|准|不爽|过分周到|过分注意
+accusat: 指控|控告|指责
+acknowledge: 承认|认可|感谢
+acqui: 获得
+acyclic: 非.循环|非.周期
+adapt: 适应|适配
+addiction: 瘾|入迷|嗜好
+adequa: 胜任|足够|适当|恰当|令人满意|充分
+adjacen: 临近|毗邻
+advers: 逆|害|敌|抗|不利
+advoca: 拥护|提倡
+aerospace: 航空航天
+affect: 影响|作用
+affection: 喜爱|关爱|爱意|情感
+afferen: 传入
+aid: 助
+akin: 类似|相似
+alertness: 清醒|警觉|警惕
+alleviat: 缓解|减轻
+allocortex: 旧皮层
+almond: 杏仁
+alter: 改变|更改|修改|变更|改动|改
+alternative: 其他|替代|备选|异|二中择一|二中择一|选择余地
+ambig: 歧义
+amnesi: 遗忘|健忘
+among: 在当中
+ample: 充足|充裕
+amplif: 放大
+amplitu: 振幅
+amygdal:
+  m: 杏仁核
+  options:
+    - NotFull
+    - almond:杏仁
+analog: 模拟|类比|相似
+analys: 分析
+anesthe: 麻醉|麻木
+anlage: 原基|胚芽
+antago: 对抗
+anterior: 前面|在前
+anterograd: 顺行
+anticonvuls: 抗痉挛|抗惊厥
+apart: 隔开|分别
+aphasi: 失语|语言障碍
+apical: 顶点
+appreciat: 欣赏|鉴赏|理解|明白|感激
+appropriat: 合适|适当|挪用
+arbitrar:
+  m: 任意|专横|武断
+  d:
+    'y': 任意的|随心所欲的|专横的|武断的
+    ily: 任意地|随心所欲地|信口雌黄|肆意地
+    iness: 任意性|随心所欲性|肆意性
+arbor: 乔木|轴
+arboriz: 树枝状
+archicortex: 拱皮层|原脑皮质
+argu: 争论|争辩|辩|说理|主张
+arithmetic: 算数|算法
+arter: 动脉|干线|干流
+articulat: 说出|挂钩|咬|雄辩|发音清楚
+ascen: 升|攀|优|登
+aspir: 渴望|有志于
+assemb: 装配|集合|组装|拼接组装|凑合
+assum: 假定|假设
+atlas: 地图册|切片柱
+attitud: 态度|看法|姿势
+attract: 吸引
+authority: 专家|权威|权力|权限
+axon: 轴索|轴突
+begun: 开始pp
+bias: 偏|倾|势|斜
+bila: 双
+biograph: 传记
+bloat: 胀
+bouton: 小结|疖
+braille: 盲文
+breach: 裂口|决口|突破口
+brittle: 脆|易碎
+burst: 爆炸|炸裂|冲|涨
+bush: 灌木|蓬松
+calbindin: 钙结合蛋白
+cambridge: 剑桥
+capital: 资本|资金|资本家|资方|首都|首府|省会
+capsul: 胶囊|小容器|压缩|简短
+cardiovascular: 心血管de
+catastroph: 灾难|浩劫
+causa: 因果
+cautio: 慎重|警告
+centrolateral: 中.外[部]
+cerebr: 大脑|telencephal|endbrain
+cholinergic: 类胆碱
+chronic: 慢性|长期
+cingul: 扣带
+circuit: 回路|环路
+circumstance: 环境|情况
+circumvent: 回避|绕过
+citation: 引文|引语|传唤|传票|表彰|嘉奖状|引用|引证
+claim: 声称|断言|索取|要求
+clinic: 诊所|门诊
+cluster: 簇|集|聚
+cochle: 耳蜗
+cocky: 自大|骄傲|自负
+coerc: 强制|强迫|迫使
+coevolution: 共同进化
+coheren: 条理|连贯|条理清晰|易于理解
+coherence: 凝聚|伦次|逻辑性
+coin: 硬币|生造
+coinciden: 巧合
+collateral: 旁系|附属|次要|抵押|担保
+colleague: 同事|同僚
+collectivis: 集体|集体主义
+colliculus: 丘
+coma: 昏迷
+compact: 压紧|小型|压实|袖珍|带镜小粉盒|合约|协定
+comparison: 对比|比拟
+compass: 指南针|绕行|圆规|范围
+compatib: 兼容
+compet: 赛|竞
+complain: 诉说|诉苦|抱怨
+complement: 相互补充|相互补足
+compos: 组成|构成
+comprehensive: 全面|全方位|周全|详尽|全盘|通盘|周详|详|缜密|缜|广博的|广大的|广泛的
+compris: 括|包|成|构
+conceal: 藏匿|隐藏
+concentrat: 浓度|浓缩|专心|精选|意兴|意思
+conceptual: 概念化|概念上|使概念化
+concern: 关心|担心|担忧|关注|有关|关于
+conclud: 断定|推论|结束|终止|结论
+concret: 具体|实际|结石|混凝土
+conduct: 实施|进行|行为|举止
+conference: 会议
+confiden: 自信|肯定|机密|秘密
+confound: 混淆|挫败讨厌|混乱|困惑
+confus: 迷惑
+conjectur: 推测
+conscious:
+  m: 意识
+  _suffix:
+    ness: 知觉|清醒|思想|意识|(群体的)观念体系|感知|察觉
+consen: 共识|许可|同意|一致
+consequen: 结果|后果|重要性|价值
+consisten: 一贯|连贯|如一
+conspir: 阴谋|密谋|共同导致|反叛
+constant: 恒定
+constituen: 成分|选取|选民|组成
+contempora: 当代|当今|同龄
+continu: 连续|继续
+contra: 对|反
+controver: 争议|否定
+converge: 汇聚|集中|趋同|收敛
+conversation: 对话
+conversely: 相反
+convinc: 信服|确信|说服
+coordinat: 坐标|协调|对等|配合
+cord: 索|绳|粗线
+correlat: 相关
+counterpart: 同行|副本|对方
+crappy: 蹩脚|糟糕|没价值
+credib: 可靠
+critic: 批评
+critical: 临界|严重|批评|危急|紧要|要紧|紧张|沉重|当紧
+crucial: 至关重要|决定性
+crudity: 粗糙|简陋
+datum: 数据|资料
+debate: 辩论|争论|争议
+decay: 衰减|腐烂
+declaim: 慷慨陈词|演讲
+dedicat: 献身|专用|奉献
+deficit: 赤字|亏|亏空
+deflect: 偏|斜|导|转
+deleterious: 有害
+delinea: 描绘
+demand: 要求|需求|需要
+demethyl: 脱甲基
+democrac: 民主
+dendri: 树状
+denial: 否认|拒绝接受|拒不承认|剥夺|拒绝给予
+dens:
+  m: 稠密
+  options:
+    - NotFull
+dentat: 齿|锯齿边缘
+depict: 描述|描写
+deriv:
+  m: 源自|衍生|派生|获得
+  d:
+    ative: 派生物|衍生物|非独创的
+    ation: 起源|由来|派生
+descen: 降|下|后裔|出身
+desire: 渴望|想要|情欲|性欲
+destin: 命运|指定|终点|目标
+diagno: 诊断
+diencephal: 间脑
+dilat: 扩张|膨胀|散漫
+dilemma: 窘境|困境
+diminish: 减弱|减少
+disambigu: 消歧义|澄清
+disciplin: 纪律|风纪|惩罚|处分|训导|管教|训练|锻炼|自制力|自律能力|科目|学科|学术
+discr: 鉴|区|分
+discrete: 离散|分离
+disingenu: 不坦率|虚伪|不诚实
+disparity: 不同
+disposition: 性情|性格|倾向|癖性|部署
+disput: 争议|争论|纠纷|质疑
+disrupt: 中断|扰乱|瓦解
+dissect: 解剖|切开
+distal: 末梢|末端
+distanc: 离|远
+distinct: 不同|有区别|清楚|明确|明显|确切
+distinguish: 使有别于|看清|认出|区别|分清
+distort: 扭曲
+distraction: 分心
+distribute: 分发|分配|配送|分销|散布|使分布
+disturbance: 干扰|扰乱|失调
+dominanc: 优势|支配
+dominat: 控制|统治
+dopamine: 多巴胺
+dorsal: 背侧
+dose: 服药|一记
+dramatic: 巨大而突然|急剧|戏剧
+drastic: 极端|剧烈
+drear: 阴郁|凄凉|悲伤|枯燥
+drip: 滴
+due: 到期|预期|应有|应得|应付|应给|适当的
+dysfunction: 功能紊乱
+dysrhythmia: 节律障碍
+edify: 熏陶|启发|教诲
+efficien: 效率|有效
+einstein: 爱因斯坦
+elaborat: 阐述|详尽|复杂|缜密
+elast: 弹|柔
+electrocardiogra: 心电图
+electrode: 电极
+electroencephalogra: 脑电图
+electromyogra: 肌电图
+electrooculogra: 眼动电图
+electrophysiologi: 电生理
+elevat: 提升|鼓舞
+eliminat: 剔除|根除
+elsewhere: 别处
+emboss: 浮雕|凸点|浮雕效果|压花
+embrac: 包含|拥抱|接受
+embry: 胚胎|胚
+emerg: 浮现|显露|呈现|诞生|产生
+emergen: 紧急|突发|显现
+eminen: 卓越|著名|明显|特别
+emphasi: 强调|重点
+empiri: 经验主义
+emulat: 仿真|看齐|竞争
+encapsulat: 密封|压缩|包装
+encephalit: 脑炎
+encompass: 包围|包含
+encounter: 遭遇|遇
+encyclopedi: 百科全书|渊博
+endbrain: 终脑|telencephal|cerebr
+engag: 参加|从事|聘用|交战|交互
+enlighten: 阐明|启发|启示|启迪|教导
+enormous: 巨大的
+entailment: 蕴含|需要|必要
+entorhinal: 内嗅
+epigenetic: 表观遗传
+epilep: 癫痫
+epistemolog: 认识论
+epithalam: 上丘脑|颂歌
+equipment: 设备|装备|器材|装置
+especial: 特殊|特别|尤其
+essen: 本质
+estimat: 估计|预算|预计
+ethic: 行为准则|道德规范|伦理标准|信仰
+ethodolog: 行为学
+etymology: 词源|语源
+eviden: 证
+evoke: 唤起|激起|勾|忆
+excit: 刺激|兴奋|激动
+exert: 运用|施加|尽力|努力
+exhibit: 展示|陈列|展品
+exogenous: 外生|外因|外成
+expens: 代价|费用
+experien: 经验
+expla: 解释
+expos: 露|暴|揭
+extensi: 广阔|延展|延伸
+extent: 程度|范围|长度
+extinguish: 熄灭|消灭|破灭
+extrem: 极|过|末
+fetter: 束缚|限制|枷锁
+fixation: 定影|固定术
+flaw: 缺陷|缺点
+fluency: 流利|流畅|娴熟
+forebrain: 前脑
+foresee: 预见
+forest: 森林
+former: 旧|前者
+formulate: 制定|制订|臆造
+fraction: 分数|小数|部分|微量
+fragment: 碎片|片段
+ganglia: 神经节
+ganglion: 神经节
+gap: 隙|裂
+gaze: 凝视|注视
+generat: 产生|引起
+geniculate: 膝状弯曲|有膝状关节
+genome: 全部基因信息|基因组
+genus: 类|种|属
+globu: 球状
+glutamate: 谷氨酸盐|谷氨酸酯
+gnos: 灵知|真知|直觉
+grace: 雅
+granul: 粒|颗
+graphesthesia: 图形感觉|皮肤图形感
+grass: 草坪|坪草
+gratif: 满意|满足
+guarantee: 保证|担保|保障|确保
+gustat: 味
+habitat: 栖息地
+habituation: 习惯|习惯化
+hair: 毛发
+harbor: 港口|海港|窝藏
+haul: 拖|拉|艰难前行|艰难地走|步履蹒跚
+hermeneutic: 诠释学|解释学
+heuristic: 启发式|探索性
+hierarch:
+  m: 层级|等级制度
+  options:
+    - NotFull
+histol: 组织
+homotyp: 同形
+humanity: 人类|人性|人道|仁慈|人文学科
+humor: 幽默|诙谐
+hypothalam: 下丘脑
+hypothe: 假设
+ignoran: 无知|愚昧
+illuminat: 照亮|阐明|启蒙
+illustrat: 插图|插画|图解|说明
+immigrant: 移民
+immobil: 不动|固定
+immun: 免疫
+immunohistochemi: 免疫组织化学
+impair: 损失|妨碍|削弱
+imped: 阻
+impli: 暗示|含蓄|隐含|内隐
+implicat: 卷入|涉及|牵连|累及
+imply: 暗示|含蓄|隐含|内隐
+impose: 强加|强制推行
+impuls: 脉冲
+incapacitat: 使无能为力|使不能
+inclusiv: 广泛|包容
+incomplet: 不完整
+inconsisten: 非.一致|非.不变
+incorporat: 合并|包含|公司|团体
+indecision: 优柔寡断|犹豫不决
+individualis: 利己主义|个人主义
+inert: 惯性|惰性|不活泼
+infer: 推断|臆测|推论|暗示|暗指
+inferior: 下|低|次|弱
+inform: 通知|告诉|报告|告知
+informal: 非.正式
+inhere: 固有|内在|与生俱来
+inherit: 继承
+inhibit: 抑制
+injur: 伤
+innervat: 神经支配|神经分布
+insan: 疯癫|疯狂
+instantiat: 实例|举例
+institut: 机构|团体|学院|协会
+instruct: 指示|吩咐|指令
+insulae:
+  m: 脑岛
+  options:
+    - FullMatch
+insular: 孤岛
+insult: 侮辱|污辱
+intact: 完整|完好
+integrat: 整合|结合|综合|统一
+integrity: 正直|诚实|完整|完全|职业操守|集成度
+intens: 强烈|很大|加强|加剧
+interact: 交互
+interactiv: 交互式|交互性
+interdisciplinar: 跨学科
+interfer: 干扰|干涉
+interleav: 插页|插值
+interlock: 连锁|互锁|扣紧
+interop: 交互+操作
+interpret: 解释|说明|口译|把...理解为|演绎|翻译|译|阐释|解|想象
+interven: 接入|干预
+intra: 内
+intract: 棘手|难题|难治|倔强
+intrica: 错综复杂
+intrigu: 兴趣|好奇
+intuit: 直觉
+invad: 武力入侵|侵略|大量涌入|蜂拥而入|侵扰|干扰|扩散|渗入
+invari: 非.变
+invasive: 入侵|侵犯
+inver: 相反
+investigat: 侦察|调查|研究
+investigate: 调查|探讨
+involv: 牵涉|涉及|包含|需要|使陷入|使卷入
+inward: 向内|本质|精神|内心
+ipsilateral: 同侧
+irrationa: 非.合理|非.理性
+irreducib: 非.可约|非.可简化|非.能消减
+irregular: 非.平整|非.规律|非.正常
+irrelevant: 非.相关|非.着边际
+irrevers: 非.逆
+irrita: 急躁|易怒|过敏
+isolat: 隔离|分离|孤立
+isothalam: 等丘脑|上丘脑
+javelin: 标枪
+junction: 交叉
+kin:
+  m: 亲属
+  options:
+    - FullMatch
+ladder: 梯子
+latency: 潜伏|潜在因素
+latent: 潜在|潜伏|隐藏
+lateral: 侧
+legacy: 遗产|软件.屎坑
+legitima: 合法|正当|合法化
+lesion: 损害
+lick: 舔
+liken: 比作
+likewise: 同样地|类似地
+limbic: 缘|边
+literature: 文学|文献
+loath: 勉强|不情愿|嫌恶|讨厌
+lobule: 小叶|小裂片
+locomot: 移动
+loopy: 循环|迟钝|呆头呆脑|原地转圈
+lumberjack: 伐木工
+macroscop: 宏观
+magnet: 磁
+magnif: 大
+majority: 多数
+malfunction: 故障
+mammill: 乳头
+manifest: 显示|表明|清单
+manner: 方式|态度|举止|样子
+mantle: 地幔|披风|斗篷|罩
+manual: 手工|手册
+manufactur: (机械化)制造
+materiali: 唯物|物质化|实现
+mechanism: 机理|机制|机构
+medial: 中间
+mediocr: 平庸
+medul: 髓
+membran: 膜
+mesio: 近中
+metaphor: 隐喻
+methodolog: 方法论
+methyl: 甲基
+mimicry:
+  m: 模仿
+  s:
+    - >-
+      The hope is that through mimicry, which is an important mode of learning in people, the
+      machine is forced to build a compact internal representation of its world and then generate
+      imaginative content from it.
+miserable: 痛苦|难受
+mislead: 误导
+mitigat: 缓和|减轻
+modalit: 形式|形态|程序|物理疗法|主要的感觉
+moderat: 普|适中|不偏激|调停|仲裁
+modulat: 调|电调|模数
+molecul: 分子
+morpholog: 形态学
+multitude: 众多|大量
+mutual: 相互|彼此|共有
+mydriasis: 瞳孔放大|散瞳
+mytholog: 神话
+narrati: 讲(故事)|陈述
+neat: 整齐|利落|齐整|干净|齐|楚楚
+neglect: 忽略|疏忽|忘记|忽|荒废|轻忽
+neurodegenerat: 神经退行|神经变性
+neuropsycholog: 神经心理
+neurosurgeon: 神经外科医生
+neurotoxi: 神经毒
+nigra: 黑质
+nonetheless: 然而|尽管如此
+notable: 显要|值得注意|令人尊重|非常成功
+notion: 概念|主张
+novelty: 新奇|新颖
+nuance: 细微差别
+nucle: 核
+numerous: 众多
+obligat: 义务|责任|承担
+oblivio: 遗忘
+oblongata: 延髓
+obtain: 获得|争取|得到|鲤鱼跃龙门
+occasion: 场合|机会|时机|场面|度|辰|机|致使
+occasional: 偶然
+occipit: 后|枕
+olfact: 嗅
+oppos: 对|反|竞|阻碍
+opposed: 对抗
+optic: 眼睛|视觉
+optimal: 最佳
+optimis: 乐观
+orchestrate: 编排
+orien: 方位
+originat: 起源
+orthogonal: 正交
+oscillat: 震荡
+overlap: 重叠
+overlook: 俯瞰|忽略|俯视|忘记|轻忽
+overstatement: 大话|夸大其词
+ovoid: 卵形
+ovum: 卵子
+oxidat: 氧化
+paleocortex: 古皮层
+pallid: 苍白
+pallium: 大脑皮层|钯
+panic: 惶恐|恐慌
+paradigm: 范式|范例
+parahippocamp: 海马旁
+paralyz: 无力|瘫痪
+paramedian: 旁正中
+parietal: 顶叶
+partial: 部分
+passive: 被动|消极
+patholog: 病理学
+pedestal: 机架|底座|台
+penaliz: 惩罚|使...处于不利地位
+percept: 感知|洞察|看法|感觉|认识
+periallocortex: 皮层周围
+peripher: 外围|次要
+permit: 允许|准许|电容
+persist: 继续存在|持续|坚持|执意|坚持说|反复说
+perspect: 视角|观点|透视
+phase: 阶段|时期|相位
+phenome: 现象|表现
+philosoph: 哲学
+phonolog: 音位|音韵
+phrase: 短语|词组
+phylogen: 系统发生
+physicalis: 物理主义
+physiolog: 生理
+pillar: 柱子|支柱|主心骨|陈梁|核心
+pituitar: 垂体
+plausible: 合理|有道理|似是而非
+plur: 复|多
+portion: 部分|局部|分配
+pose: 提出|摆|拍照姿势
+posing:
+  m: 提出|摆|拍照姿势
+  _root: pose
+posterior: 后
+postulat: 假定|要求|臆测|公设
+potent: 强大|有力|强效|有性功能
+potentia: 力|能力|潜能
+potential: 潜力|电势|电位
+potentiate: 加强|赋与力量|统治者
+precess: 进动|岁差|选进
+predominant: 统治|优势
+presence: 存在|光临
+present: 当前|现在|介绍|当代|现
+preserve: 保留|保存|保持|保护
+presynaptic: 突触前
+primordi: 原始|原基
+princip: 原则|基本
+prior: 先前|事先|优先
+probabilistic: 概率性的|或然说的|盖然论的
+proce: 程序|步骤
+progenito: 祖
+projection: 投影|投射|发射
+prominen: 主要|重要|显著
+prompt: 促使|导致|迅速|题词
+prone: 易发|倾向于|俯卧撑
+propagat: 传播|繁殖
+proponent: 支持者
+proportion: 比例|比重
+propos: 提出|提议
+propriocepti: 本体感受
+prosencephalon: 前脑
+provo:
+  m: 激起|挑起
+  options:
+    - NotFull
+pseudo: 伪
+psychiatr: 精神病
+psycho: 心理|精神|神经
+psychoneuroendocrinology: 神经内分泌学
+pupil: 门童|瞳孔|小学生
+purport: 声称|打算
+purpos: 意图|有意|打算
+pursue: 追求
+pyramid: 锥|金字塔|锥体
+quale: 特质|特性
+qualia: 特质|特性
+quality: 质量|品质
+quantit: 数量
+quie:
+  m: 静
+  options:
+    - NotFull
+radia: 射|辐
+radical: 根本
+rationa: 合理|理性
+react: 反应|响应|应对
+reactivat: 重.激活
+realism: 务实作风|实事求是|现实性|逼真|现实主义|实在主义|唯实论|权力实用主义
+realize: 实现|明白|认识
+rebut: 反驳
+recipoc: 相互|相互作用|报答|回报
+reciproca: 报答|回报|回应|对应
+reconstruct: '[重.再]造'
+recruit: 招|招募|新兵
+recurren:
+  m: 复发|经常
+  _ref:
+    - ce
+    - t
+    - tly
+    - ces
+refer: 提到|谈及|描述|涉及|查阅|参考
+reflect: 反射|反映|照出|显示|表明|深思|反省|深思后认为|深思后说|引起看法|带来影响
+refrain: 克制|避免
+regard: 看待|视
+regarding: 关于|对于
+regardless: 不管|不顾
+regular: 定期|正常|规则|正规|固定|通常
+regulat: 调节|调整
+rehearsal: 复述|排演
+relay: 传递|传达|中继|接力
+relevant: 相应|可用|对应
+reliable: 可靠
+reliance: 依赖|信赖|信任
+relies: 依赖
+reorganiz: 重.组
+replicat:
+  m: 复制
+  _ref:
+    e:
+      - verb
+      - 复制|折叠
+    es:
+      - 3rd person present
+    ed:
+      - past tense
+      - past participle
+    ing:
+      - gerund or present participle
+    ion: 'n'
+    ive:
+      - adjective
+      - BIOLOGY
+      - relating to or involving the replication of genetic material or living organisms.
+      - 复制的
+    '-t+ble': adj
+    '-t+bility': 'n'
+represent: 代表|表示|表现|意味着
+resect: 切除
+resembl: 似|像
+reserve: 保留|后备|储量|预定|储备
+reside: 居住|定居
+resist: 阻挡|反对|抵抗|抵挡
+resonan: 共振|洪亮|共鸣
+restrict: 限制|制约
+retent:
+  m: 保持|保留|滞留
+  _ref:
+    - retain:v
+reticu: 网
+retinotop: 视网膜定位|视网膜区域定位
+retriev: 检索|取回|恢复
+retrograd: 逆行|倒退
+reverse: 逆转|相对|彻底改变|相反
+rhythm: 节律|节奏|节拍|规则变化|和谐|抑扬节奏|韵律|旋律
+ridge: 山脊|隆起|脊状隆起
+rippl: 波纹|涟漪
+robust: 强壮|强健|鲁棒
+rod:
+  m: 竿|棍|杆
+  options:
+    - FullMatch
+rodolfo: 鲁道夫
+rods:
+  m: 竿|棍|杆
+  options:
+    - FullMatch
+rosehip: 玫瑰果
+rostral: 喙部
+saccad: 眼跳|扫视
+salien: 显著|突出|卓越
+scale: 天平|等级|标尺|范围|比例|改变尺寸|攀登
+scenario: 设想|剧情|情节
+scheme: 方案|格式|计划|系统|体系|密谋|策划
+schizophreni: 精神分裂
+scholar: 学者|学术
+schopenhauer: 叔本华
+scissors: 剪刀
+scope: 范围|规模|评估|眼界
+segregat: 分割|分开|隔离|(种族.性别.宗教)隔离
+seizure: 夺取|控制|突然发作
+seminal: 开创性|揭示性|有创造力|重大|精液|生殖
+sentience: 感觉性|感知性|感觉能力|知性
+septa: 隔
+septum: 膜|隔
+seriali: 序列|连载|串行
+serotonin: 血清素|5-羟色胺
+severe: 严重
+shaft: 轴|杆
+shak: 震动|抖动|摇动|颤抖
+shakespeare: 莎士比亚
+sharp: 锋利|急剧
+shift: 移动|转移
+shrinkage: 收缩|减低
+signature: 签名|署名|签字
+significance: 意义|重要性
+significant: 重大|重要|意义|有意思
+silen: 默|静
+simultaneous: 同时|同步
+singular: 非凡|奇特
+singularity: 奇点|特异点|黑洞|非凡点|奇特点
+sino: 中国|汉人|汉|中
+skim: 撇去|浏览
+slid: 滑动|滑行|滑落
+slot: 插槽|时间段|插
+soma: 体细胞|身体|躯体
+somalia: 索马里
+span: 跨度|广度|翼展
+spars:
+  m: 稀疏|稀少
+  options:
+    - NotFull
+spatial: 空间
+special: 特殊|特别|格外看重|特别要好|专门|特设|特有|独具特色|格外|分外
+spectrum: 范围|幅度|光谱|波谱|频谱|余象
+speculat: 推测|猜想|投机
+spik:
+  m: 猛增|提升|掺入|尖状物|刺入|尖钉
+  options:
+    - NotFull
+spill: 洒|倒|溢
+spinal: 脊髓|脊柱
+spindle: 轴|纺锤|细长|变细长|装锭子于
+spite:
+  m: 恨|烦|悔
+  addition: in spite of 尽管
+spouse: 配偶|和...结婚
+squirrel: 松鼠
+stab:
+  m: 固|稳
+  options:
+    - NotFull
+stall: 停车|摊开|档期|档口|摊位|支支吾吾|缓|推后
+stance: 立场|观点
+stare: 凝视
+starvation: 饥饿
+state: 声明|状况|州|陈述
+statement: 声明|报告|说明|说法|表态|结算单|报表|
+stating: 说明|state-ing
+stimul: 刺激
+stochastic: 随机
+strateg: 策略|战略
+strict: 严
+struggl: 奋斗|努力|搏斗|扭打
+subdue: 征服|抑制|减轻
+subiculum: 菌丝层|脑下脚
+subordinate: 下属|从属|次要|管辖
+subsequen: 随后|接着
+substant: 大量|实|me:低熵
+substrat: 基质|培养基
+subthalam: 底丘脑
+succinct: 简洁|言简意赅
+sufficient: 足够|充足
+sulcu: 沟|槽|裂隙
+summa: 总|合
+superficial: 浅|表
+superimpos: 叠加
+superior: 上|高|大|强
+supervis: 监督
+suppress: 抑制|镇压
+surgery: 外科手术
+surgical: 外科|外科手术|外科手术使用
+survey: 调查|测验|检测|民调
+sustain: 维持|持续
+syllabic: 音节
+symmetr: 对称
+symptom: 症状
+synap: 突触|触电
+syndrome: 综合征|并发症
+synonym: 同义
+synthesi: 综合|合成|生成
+tactil: 触觉
+tangential: 肤浅|离题
+telencephal: 端脑|endbrain|cerebr
+teleolog: 目的论
+templat: 模板|样板|范本
+temporal: 世俗的|现世的|时间的|与时间有关的|太阳穴的|颞部的|表示时间的|时态的|暂时的|世间万物|暂存的事物|颞部
+tend: 趋向|易于|趋|照料|养育|招待
+tendenc: 趋势|倾向
+tentat:
+  m: 试探
+  _ref: tentacle|触手
+term: 术语|项|表示|表明
+termina: 终止|结束
+terminolog: 术语|术语学|用辞
+territor: 领土
+therap: 疗
+thereby: 因此|从而
+therefore: 因此|所以
+thymin: 胸腺
+topograph: 地势|地形
+trace: 跟踪|痕迹|追踪|迹
+tract: 束|道|短文|传单
+tradition: 传统|惯例|传说|信仰
+transcriptom: 转录组
+transien: 短暂|转瞬即逝|无偿
+transparen: 透明|透彻
+transplant: 移植
+transport: 运输|运送|传播
+trebuchet: 投石机
+tremor: 震颤|颤抖|战栗|地震
+trial: 审讯|考研|试验|诉讼
+trim: 修剪,修整|削减,减少|修饰,点缀(尤指某物的边缘)|切除,剪掉(不规则或不需要的部分)
+trisynaptic: 三突触
+tuft: 簇|丛
+tune: 调
+ubiquit: 无处不在|泛|普遍
+ultimat: 最终|终极
+uncorrelated: 非.相关
+underestimat: 低估|轻视|估计不足
+undergo: 正在经历
+underl: 衬底|垫起|支撑
+underlie: 底层|基础
+unforeseea: 非.预见
+unif: 整合|统一
+unroll: 非.卷|展开
+unsupervis: 非.监督
+utter: 说出|发出
+utterance: 发声|发言|表达|语义|话语
+vari: 变
+vegeta: 蔬|植
+ventral: 腹侧
+ventric: 心室|脑室|腹腔
+ventrobasal: 腹.底[部]
+ventrolateral: 腹.外[部]
+verbal: 口头|非书面|用语言文字表达
+verbalize: 用语言表达
+vertebra: 脊椎
+vestibul: 前庭|门廊
+viscea: 内脏
+vital: 重要|核心
+volume: 大量|体积|音量|书卷
+voluntar: 自主|自愿|随意
+vowel: 元音|母音
+wherein: 在其中|在何处
+whilst: 同时

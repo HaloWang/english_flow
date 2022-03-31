@@ -1,0 +1,33 @@
+{
+  "name": "ef_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/js-yaml": "*",
+    "@types/less": "*",
+    "@types/node": "*",
+    "@types/tampermonkey": "*",
+    "js-yaml": "*",
+    "less": "*",
+    "nodemon": "*",
+    "npm-run-all": "*",
+    "prettier": "*",
+    "typescript": "*"
+  },
+  "scripts": {
+    "serve": "nodemon ./dist/server.js -q",
+    "tools_start": "run-p w-dict w-profile w-style",
+    "ts_backend": "tsc -p ./src/backend",
+    "ts_backend_dev": "tsc -w -p ./src/backend",
+    "ts_build": "run-p ts_backend ts_page ts_tools",
+    "ts_build_dev": "run-p ts_backend_dev ts_page_dev ts_tools_dev",
+    "ts_page": "tsc -p ./src/page",
+    "ts_page_dev": "tsc -w -p ./src/page",
+    "ts_tools": "tsc -p ./src/tools",
+    "ts_tools_dev": "tsc -w -p ./src/tools",
+    "w-dict": "node ./dist/tools/yaml2json.js dictionary og",
+    "w-profile": "node ./dist/tools/yaml2json.js profile f",
+    "w-style": "node ./dist/tools/less2css.js dev"
+  }
+}

@@ -1,0 +1,153 @@
+old:
+  - name: Default
+    # 那你咋不直接上类似 tampermonkey 的 @match 呢?
+    # 建议参考一下 https://developer.chrome.com/docs/extensions/mv3/match_patterns/
+    contain: [
+        # Add href You What
+        www.digitalocean.com,
+        chrome.google.com,
+        code.visualstudio.com,
+        cs231n.github.io,
+        cs231n.stanford.edu,
+        developer.chrome.com,
+        developer.mozilla.org,
+        developer.nvidia.com,
+        docs.ansible.com,
+        git-scm.com,
+        github.com,
+        github.io,
+        grammarly.com,
+        localhost:8888/web/viewer.html,
+        marketplace.visualstudio.com,
+        nih.gov,
+        npmjs.com,
+        nytimes.com,
+        pixiv.net,
+        reactjs.org,
+        reactnative.dev,
+        sciencedirect.com,
+        scientificamerican.com,
+        stackoverflow.com,
+        stanford.edu,
+        twitter.com,
+        typescriptlang.org,
+        web.dev,
+        www.artstation.com,
+        www.nature.com/articles,
+        www.tampermonkey.net,
+        yaml.org,
+      ]
+    exclude: [google.com/search]
+    # 需要注意重复遍历的问题
+    rootSelector:
+      - body
+    style:
+      - eft:hover efth { color:#FFF }
+      - eft:hover efth { background-color:#0009 }
+    strategies:
+      - timeout|0.3
+      - timeout|2
+
+  - name: Wikipedia
+    contain:
+      - en.wikipedia.org
+      - zh.wikipedia.org
+    rootSelector:
+      - body
+    style:
+      - 'eft:hover efth { font-weight: bold }'
+      - 'eft:hover efth { color: #FFFF }'
+      - 'eft:hover { color: #FFF9 }'
+    strategies:
+      - immediately
+      - timeout|2
+    _dictionaryLiveReload: true
+    notMatchClassName:
+      - vector-menu-content-list
+
+  - name: Youtube
+    contain:
+      - www.youtube.com
+    rootSelector:
+      - body
+    strategies:
+      - immediately
+      - timeout|2
+      - interval|5
+    style:
+      - h1,h2,h3,h4,h5 {overflow:visible;}
+      - eft:hover efth {color:#FFF}
+    selectorSpecificStrategy:
+      # 针对频繁变化的字幕
+      - selector: #ytp-caption-window-container
+        strategy: interval|0.5
+    notMatchTagName:
+      - iron-iconset-svg
+
+  - name: Instagram
+    contain:
+      - www.instagram.com
+    rootSelector:
+      - [role="main"]
+    strategies:
+      - immediately
+      - interval|2
+
+  - name: Reddit
+    contain:
+      - www.reddit.com
+    style:
+      - h1,h2,h3,h4,h5,._2ZjElFi3ORaU3VPrwmdoCp {overflow:visible !important;}
+      - 'eft:hover efth {font-weight: 900;}'
+      - eft:hover efth {color:#FFF;}
+    strategies:
+      - timeout|0.9
+      - timeout|2.1
+      - interval|4.4
+    rootSelector:
+      - .uI_hDmU5GSiudtABRz_37
+      - ._31AVRNJbVMh2DUFRrpCQcD.RffBqG1xCvuy1r49wYhLr
+      - ._1FUNcfOeszr8eruqLxCMcR._3ZmEUUvrdj4LXpXC9XZdN7
+      - ._3JDs8KEQIXSMn1bTF2ZqJ_
+      - ._2L5G9B5yaoqW3IegiYN-FL
+      - ._1gVVmSnHZpkUgVShsn7-ua
+      - .rpBJOHq2PR60pnwJlUyP0
+checkLangEn: true
+default:
+  root:
+    - body
+  style:
+    - eft:hover efth { color:#FFF }
+    - eft:hover efth { background-color:#0009 }
+  strategies:
+    - timeout|0.4
+    - timeout|2
+  match:
+    [
+      chrome.google.com,
+      cs231n.github.io,
+      cs231n.stanford.edu,
+      developer.chrome.com,
+      developer.mozilla.org,
+      developer.nvidia.com,
+      docs.ansible.com,
+      git-scm.com,
+      github.com,
+      github.io,
+      marketplace.visualstudio.com,
+      nih.gov,
+      npmjs.com,
+      nytimes.com,
+      pixiv.net,
+      reactjs.org,
+      reactnative.dev,
+      stackoverflow.com,
+      stanford.edu,
+      twitter.com,
+      web.dev,
+      www.artstation.com,
+      www.nature.com/articles,
+      www.tampermonkey.net,
+      yaml.org,
+    ]
+  exclude: ['google.com/search']

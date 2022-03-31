@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "../../dist/",
+    "strict": true,
+    "sourceMap": false,
+    "removeComments": true,
+    "target": "ES2022",
+    "types": ["tampermonkey"]
+  },
+  "files": ["index.ts"]
+}
