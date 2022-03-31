@@ -27,7 +27,9 @@
 
 ## 功能展示
 
-![wikipedia](./screenshots/q.gif)
+![StackOverflow](./screenshots/1.gif)
+![Github](./screenshots/2.gif)
+![Wikipedia](./screenshots/3.gif)
 
 ## 使用流程
 
