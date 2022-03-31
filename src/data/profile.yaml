@@ -4,6 +4,7 @@ old:
     # 建议参考一下 https://developer.chrome.com/docs/extensions/mv3/match_patterns/
     contain: [
         # Add href You What
+        stackexchange.com,
         www.digitalocean.com,
         chrome.google.com,
         code.visualstudio.com,

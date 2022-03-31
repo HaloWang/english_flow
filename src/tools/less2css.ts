@@ -18,7 +18,7 @@ if (__DEV__) {
 }
 
 function __dev() {
-  function transfrom(path) {
+  function transfrom(path: string) {
     fs.readFile(path, { encoding: 'utf8' }, (error, lessString) => {
       error && console.error(error)
       less.render(lessString, { paths: ['./'] }, (err, css) => {
@@ -37,7 +37,7 @@ function __dev() {
   }
 
   transfrom(sourcePath)
-  fs.watchFile(sourcePath, { interval: 100 }, () => {
+  fs.watchFile(sourcePath, { interval: 1000 }, () => {
     transfrom(sourcePath)
   })
 }

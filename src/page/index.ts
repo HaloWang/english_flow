@@ -4,8 +4,16 @@ const EFStyledElementHighlightTagName = 'efth'
 const EFSynth = window.speechSynthesis
 const EFUseFullMatchForcedly = false
 const EFLocalServerURL = 'http://localhost:8000'
+const EFStoragePrefix = '_ef_'
+const EFQuerySelectionsKey = 'D'
+const EFSpeakSelectionsKey = 'E'
+const EFQueryHighlightKey = 'F'
+const EFSpeakHighlightKey = 'R'
+
 const efpiFontSize = 16
 const efpiLineHeight = efpiFontSize + 4
+
+let EFHoverWord: string | null = null
 
 function currentFocusingIsInputElement() {
   for (const tagName of ['INPUT', 'TEXTAREA']) {
@@ -89,8 +97,6 @@ async function main() {
     return
   }
 
-  let coreWord: string | null = null
-
   // 为什么 ts 编译器没有自动将 Profile 解包?
   const Profile: SiteProfile = __Profile!
   console.log('EF: 🎉 Using:', Profile.name)
@@ -98,8 +104,6 @@ async function main() {
   const _initalizeInfo = await loadDict()
   let localDict = _initalizeInfo.dict
   let localDictMark = _initalizeInfo.dictMark
-
-  // console.log(localDict['succinct'])
 
   // 运行时中获取的, 已知的单词, 或字典中不包含的单词
   const WordsInWebpageButNotExistInDict: string[] = []
@@ -134,7 +138,7 @@ async function main() {
   // 进行运行时缓存操作
   function getWordDetail(wordInWebpage: string): WordDetailResult | null {
     // BUG: https://en.wikipedia.org/wiki/Mydriasis
-    // can not match word "pupil" in first <a>
+    // Can not match word "pupil" in first <a>, I don't know why 😂
 
     // if (wordInWebpage === 'pupil') {
     //   console.log('💥')
@@ -245,15 +249,6 @@ async function main() {
     panel.id = EFPanelID
     document.body.appendChild(panel)
     GM_addStyle(`efpi {font-size:${efpiFontSize}px; line-height:${efpiLineHeight}px}`)
-    // drawPanel(
-    //   {
-    //     height: 100,
-    //     width: 100,
-    //     top: 100,
-    //     left: 100,
-    //   },
-    //   'realism',
-    // )
   }
 
   function drawPanel(
@@ -267,9 +262,6 @@ async function main() {
     }
 
     const items: string[] = []
-    // if (info.pairKey) {
-    //   items.push(info.pairKey)
-    // }
     items.push(...info.detail.m.split('|'))
 
     const panelHeight = items.length * efpiLineHeight
@@ -326,26 +318,17 @@ async function main() {
     DoNotMatchList.push(...Profile.notMatchTagName)
   }
 
-  // HTMLElementTagNameMap
-  // document.body.querySelector()
+  // const classNameCheckArray: string[] = []
+  // const idCheckArray: string[] = []
+  // const tagNameCheckArray: string[] = []
 
-  const ZeroPath: { [key: string]: number } = {}
-  const classNameCheckArray: string[] = []
-  const idCheckArray: string[] = []
-  const tagNameCheckArray: string[] = []
-
-  // 核心方法
-  function useEFTToReplaceWords(options: {
-    parent: ChildNode
-    // hierarchically: true
-    // parentPath?: string
-  }) {
-    // console.log('replaceWordsInTextNodeUsingStyledElement')
+  /**
+   * 核心方法, 查询并替换 Text Node
+   */
+  function useEFTToReplaceWords(options: { parent: ChildNode }) {
     const { parent } = options
-    // const _parentPath = parentPath ?? ''
     setTimeout(() => {
       // foreach all childNodes
-      // let containTextNode = false
       for (let i = 0; i < parent.childNodes.length; i++) {
         if (!parent.childNodes[i]) {
           continue
@@ -397,7 +380,6 @@ async function main() {
 
             const eft = document.createElement(EFStyledElementTagName)
 
-            // const translations = info.detail.m.split('|')
             const prefix = word.substring(0, info.pairIndex)
             const surfix = word.substring(info.pairIndex)
             const full = `<${EFStyledElementHighlightTagName}>${prefix}</${EFStyledElementHighlightTagName}>${surfix}`
@@ -412,11 +394,12 @@ async function main() {
             // 在鼠标进入标签是, 替换当前核心词汇
             eft.addEventListener('mouseenter', function (this, e) {
               mouseOverFunction(this, word, e)
-              coreWord = word
+              EFHoverWord = word
             })
 
             eft.addEventListener('mouseleave', function (this, e) {
               mouseLeaveFunction(this, e)
+              EFHoverWord = null
             })
 
             Analysis.domChangeCount += 1
@@ -431,31 +414,22 @@ async function main() {
             !Profile.notMatchClassName?.includes(notTextNode.className) &&
             EFPanelID !== nodeId
           ) {
-            // const idAndClass =
-            // '>' + nodeName.toLowerCase() + '#' + nodeId + '.' + notTextNode.className
-            if (!idCheckArray.includes(nodeId)) {
-              idCheckArray.push(nodeId)
-            }
-            if (!tagNameCheckArray.includes(nodeName)) {
-              tagNameCheckArray.push(nodeName)
-            }
-            if (!classNameCheckArray.includes(notTextNode.className)) {
-              classNameCheckArray.push(notTextNode.className)
-            }
+            // if (!idCheckArray.includes(nodeId)) {
+            //   idCheckArray.push(nodeId)
+            // }
+            // if (!tagNameCheckArray.includes(nodeName)) {
+            //   tagNameCheckArray.push(nodeName)
+            // }
+            // if (!classNameCheckArray.includes(notTextNode.className)) {
+            //   classNameCheckArray.push(notTextNode.className)
+            // }
 
             useEFTToReplaceWords({
               parent: notTextNode,
-              // hierarchically,
-              // parentPath: _parentPath + idAndClass,
             })
           }
         }
       }
-      // if (!containTextNode) {
-      // const _count = ZeroPath[_parentPath] == undefined ? 0 : ZeroPath[_parentPath]
-      // ZeroPath[_parentPath] = _count + 1
-      // ZeroPath[_parentPath] = (ZeroPath[_parentPath] === undefined?0:) + 1
-      // }
     })
   }
 
@@ -486,28 +460,7 @@ async function main() {
         console.log('EF:', Analysis.domChangeCount, 'words translated')
       }
     }, 200)
-
-    // setTimeout(() => {
-    //   console.log({
-    //     ZeroPath,
-    //     ZeroClass: classNameCheckArray,
-    //     ZeroID: idCheckArray,
-    //     ZeroTag: tagNameCheckArray,
-    //   })
-    // }, 5000)
   }
-
-  // const EFOB = new MutationObserver(mutations => {
-  //   console.log(mutations)
-  // })
-
-  // if (window.location.href.includes('wikipedia')) {
-  //   EFOB.observe(document.body, {
-  //     attributes: false,
-  //     childList: true,
-  //     subtree: true,
-  //   })
-  // }
 
   let usingProfileStrategies = false
 
@@ -558,38 +511,6 @@ async function main() {
     }
   }
 
-  document.addEventListener('keypress', ev => {
-    if (ev.shiftKey && !ev.altKey && !ev.ctrlKey) {
-      if (currentFocusingIsInputElement()) {
-        return
-      }
-      document.body.blur()
-      if (coreWord) {
-        switch (ev.key) {
-          case 'e':
-          case 'E':
-            {
-              ev.stopPropagation()
-              ev.preventDefault()
-              const utterance = new SpeechSynthesisUtterance(coreWord)
-              EFSynth.speak(utterance)
-            }
-            break
-          case 'd':
-          case 'D':
-            {
-              ev.preventDefault()
-              ev.stopPropagation()
-              window.open(`https://www.youdao.com/w/eng/${coreWord}`)
-            }
-            break
-          default:
-            break
-        }
-      }
-    }
-  })
-
   GM_addStyle(GM_getResourceText('EFCSS'))
 
   // Load site specific style
@@ -607,7 +528,6 @@ async function main() {
 
   // 重置页面变更
   function resetApp() {
-    // console.log('resetApp')
     document.querySelectorAll(EFStyledElementTagName).forEach(e => {
       const t = new Text(
         e.innerHTML
@@ -625,13 +545,11 @@ async function main() {
   setTimeout(() => {
     setInterval(() => {
       queryDictMark().then(info => {
-        // console.log(info)
         if (info.dictMark !== localDictMark) {
           console.log('EF: Will refresh page')
           localDictMark = info.dictMark
-          // console.log('??')
+
           loadDict().then(dict => {
-            // console.log(dict)
             localDict = dict.dict
             resetApp()
             checkDOMFromSelector({ selectors: Profile.rootSelector })
@@ -644,6 +562,232 @@ async function main() {
 }
 
 main()
+
+function addkeyboardListener() {
+  const startLength = localStorage.length
+  for (let i = 0; i < startLength; i++) {
+    const key = localStorage.key(i)
+    if (key?.startsWith('ef___')) {
+      localStorage.removeItem(key)
+    }
+  }
+
+  document.addEventListener('keypress', ev => {
+    if (ev.shiftKey && !ev.altKey && !ev.ctrlKey) {
+      if (currentFocusingIsInputElement()) {
+        return
+      }
+
+      switch (ev.key) {
+        case EFSpeakHighlightKey:
+        case EFSpeakHighlightKey.toLowerCase(): {
+          if (!EFHoverWord) break
+          ev.stopPropagation()
+          ev.preventDefault()
+          speak(EFHoverWord)
+          break
+        }
+        case EFQueryHighlightKey:
+        case EFQueryHighlightKey.toLowerCase(): {
+          if (!EFHoverWord) break
+          ev.preventDefault()
+          ev.stopPropagation()
+          speak(EFHoverWord)
+          GM_openInTab(`https://www.youdao.com/w/eng/${EFHoverWord}`, true)
+          break
+        }
+        default:
+          break
+      }
+
+      if (!document.getSelection()) {
+        return
+      }
+
+      const selection = document.getSelection()!
+      let _string = selection.toString()
+      const isAWord = isSingleWord(_string)
+      if (isAWord) {
+        _string = _string.replaceAll(' ', '')
+      }
+      switch (ev.key) {
+        case EFQuerySelectionsKey:
+        case EFQuerySelectionsKey.toLowerCase(): {
+          ev.preventDefault()
+          ev.stopPropagation()
+          // GM_openInTab(`https://www.deepl.com/translator#en/zh/${_string}`, true)
+          GM_openInTab(`https://translate.google.com/?tl=zh-CN&text=${_string}`, true)
+          // GM_openInTab(`https://www.google.com/search?q=define+${_string}`, true)
+          GM_openInTab(`https://www.youdao.com/w/eng/${_string}`, true)
+          GM_setClipboard(_string)
+          isAWord && speak(_string)
+          break
+        }
+        case EFSpeakSelectionsKey:
+        case EFSpeakSelectionsKey.toLowerCase(): {
+          ev.preventDefault()
+          ev.stopPropagation()
+          speak(_string)
+          break
+        }
+        default:
+          break
+      }
+    }
+  })
+}
+
+function speak(text: string) {
+  console.log('speak', Date.now())
+  function synthesis() {
+    const utterance = new SpeechSynthesisUtterance(text)
+    EFSynth.speak(utterance)
+  }
+
+  let rejected = false
+  let matched = false
+  let timeoutToSynthesis = false
+
+  queryGoogleDefineAudios(text)
+    .then(finalUrl => {
+      matched = true
+      playURL(finalUrl)
+    })
+    .catch(reason => {
+      rejected = true
+      if (!timeoutToSynthesis) {
+        synthesis()
+      }
+    })
+
+  setTimeout(() => {
+    if (!matched && !rejected) {
+      timeoutToSynthesis = true
+      synthesis()
+    }
+  }, 999)
+}
+
+function isSingleWord(text: string) {
+  const regex = /[A-z]+/g
+  const result = text.matchAll(regex)
+  const arr = [...result]
+  return arr.length === 1
+}
+
+const EFPossibleURLPrefix = '//ssl.gstatic.com/dictionary/static/sounds/20200429/'
+
+const EFPossibleURLDict = {
+  '🌟--_us_1.mp3': 1,
+  '🌟--_us_1_rr.mp3': 1,
+  '🌟--_us_2.mp3': 1,
+  '🌟--_us_2_rr.mp3': 1,
+  '🌟--_us_3.mp3': 1,
+  '🌟--_us_4.mp3': 1,
+  '🌟--_us_8.mp3': 1,
+  '🌟--_us_9.mp3': 1,
+  '🌟_--1_us_1.mp3': 1,
+  '_🌟--1_us_1.mp3': 1,
+  // 'https://dict.youdao.com/dictvoice?audio=🌟&type=2': true,
+}
+
+async function queryGoogleDefineAudios(text: string) {
+  return new Promise<string>((resolve, reject) => {
+    if (text.length < 3) {
+      reject('EF: too short')
+      return
+    }
+
+    if (!isSingleWord(text)) {
+      reject(`EF: ${text} is not a word`)
+      return
+    }
+
+    let _text = text.toLowerCase().replaceAll(' ', '')
+
+    const stored = localStorage.getItem(EFStoragePrefix + _text)
+    if (stored) {
+      resolve(EFPossibleURLPrefix + stored)
+      return
+    }
+
+    let plurable = [_text]
+    if (_text.endsWith('s')) {
+      plurable.push(_text.substring(0, _text.length - 1))
+    }
+
+    const handles: Tampermonkey.AbortHandle<void>[] = []
+
+    let possibleURL = Object.keys(EFPossibleURLDict)
+
+    const totalCountWaiting404 = possibleURL.length * plurable.length
+    let currentCount404 = 0
+    for (let i = 0; i < possibleURL.length; i++) {
+      for (let j = 0; j < plurable.length; j++) {
+        const tt = plurable[j]
+        const u = possibleURL[i]
+        const finalUrl =
+          EFPossibleURLPrefix + u.replace('🌟', tt).replace(' ', '').replace('%20', '')
+
+        // Well GM_xmlhttpRequest not support this `fetch` feature
+        // const controller = new AbortController()
+        // const { signal } = controller
+        const abortHandle = GM_xmlhttpRequest({
+          url: finalUrl,
+          nocache: false,
+          cookie: undefined,
+          responseType: 'blob',
+          onload: response => {
+            if (response.status === 200) {
+              for (const handle of handles) {
+                handle.abort()
+              }
+              resolve(finalUrl)
+              localStorage.setItem(
+                EFStoragePrefix + _text,
+                finalUrl.replace(EFPossibleURLPrefix, ''),
+              )
+              setTimeout(() => {
+                const anylithsis = localStorage.getItem('analysis')
+                if (!anylithsis) {
+                  localStorage.setItem('analysis', JSON.stringify({}))
+                }
+                const info = JSON.parse(localStorage.getItem('analysis') || '{}')
+                const count = info[u] || 0
+                info[u] = count + 1
+                localStorage.setItem('analysis', JSON.stringify(info))
+              })
+            } else {
+              currentCount404 += 1
+              if (currentCount404 === totalCountWaiting404) {
+                reject('EF: Can not find pronounce from google')
+              }
+            }
+          },
+          onerror: err => {
+            console.log('EFQS:', err)
+          },
+          onabort: () => {
+            console.log('EFQS:', 'abort')
+          },
+        })
+        handles.push(abortHandle)
+      }
+    }
+  })
+}
+
+function playURL(src: string) {
+  const player = new Audio()
+  document.body.appendChild(player)
+  player.src = src
+  player.load()
+  player.oncanplay = ev => {
+    player.play()
+  }
+}
+
+addkeyboardListener()
 
 type DetailOptions = 'NotFull' | 'FullMatch'
 

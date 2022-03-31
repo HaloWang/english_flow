@@ -127,6 +127,6 @@ function write() {
 
 write()
 console.log(`Watching ${fileName}!`)
-fs.watchFile(sourceFilePath, { interval: 999 }, (curr, prev) => {
+fs.watchFile(sourceFilePath, { interval: 1000 }, (curr, prev) => {
   write()
 })
