@@ -349,19 +349,13 @@ async function main() {
     EFStyledElementTagName,
     EFStyledElementTagName.toUpperCase(),
     'INPUT',
-    'INPUT'.toLowerCase(),
     'SCRIPT',
-    'SCRIPT'.toLowerCase(),
     'SVG',
-    'SVG'.toLowerCase(),
     'VIDEO',
-    'VIDEO'.toLowerCase(),
     'TEXTAREA',
-    'TEXTAREA'.toLowerCase(),
+    'STYLE',
     'SELECT',
-    'SELECT'.toLowerCase(),
     'OPTION',
-    'OPTION'.toLowerCase(),
   ]
 
   if (Profile.notMatchTagName) {
