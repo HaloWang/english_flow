@@ -130,9 +130,9 @@
 
 - 我个人会尽量合并相同词根的单词
   - NotFull 表示不匹配和该 key 完全相同的单词
-    - 比如 `foo` 匹配 foobar, 而不必配 foo
+    - 比如 `foo` 匹配 foobar, 而匹配 foo
   - FullMatch 表示仅仅匹配和该 key 完全相同的单词
-    - 比如 `foo` 匹配 foo, 而不必配 foobar
+    - 比如 `foo` 匹配 foo, 而不匹配 foobar
 
 ### 回到网页
 

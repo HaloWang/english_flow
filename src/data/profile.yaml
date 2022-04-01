@@ -20,6 +20,7 @@ sites:
   - zhihu.com
   - chrome.google.com
   - stackoverflow.com
+  - mail.google.com
 # 当页面 URL 包含哪些字符串时, 不执行 EF, 即使该页面已经存在于 sites 中
 sitesExcluded:
   # - google.com/search
