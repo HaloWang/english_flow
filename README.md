@@ -72,15 +72,19 @@
 5. 确保本项目文件夹在电脑的桌面
 6. 刷新页面, 打开某个英文 wikipedia, 你应该能看到 EF 已经在运行了
 
-### 添加英文网页标识
+#### 在 profile.yaml 添加英文网页标识
 
-_🚧 我已经在其中添加了很多网址了_
+这一步不是必须的, EF 会检测当前 html 的 lang 属性, 若 lang 的值以 `"en"` 开始, 则 EF 会自动执行
 
-在 `profile.yaml` 中添加需要运行 ef 的网页
+##### EF 执行规则
 
-在 old.contain 中添加目标网址包含的字符串就行了, 注意 `,` 号. 当然会有重复网址和冲突网址的问题, 还没实现
+- 当前 html 的 lang 属性的值以 `"en"` 开始
+- profile.yaml 中的 `sites` 字段包含目标网页
+- ~~profile.yaml 中的 `siteSpecificConfig` 字段包含目标网页~~
 
-- contain: 当前网页的 url 如果包含 contain 中的字符串, 则使用该 profile
+##### 部分字段解释
+
+- applyTo: 当前网页的 url 如果包含 applyTo 中的字符串, 则使用该 profile
 - rootSelector: 从那些节点开始遍历
 - style: 独特的样式
 - strategies: 脚本执行策略
@@ -159,8 +163,6 @@ src/index.ts
 style.less
 
 ## TODO (or not)
-
-### 使用 `lang="en"` 来作为执行 EF 的默认标识
 
 ### 一部分页面不允许使用 audio 发声
 
