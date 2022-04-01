@@ -172,6 +172,18 @@ style.less
 - 当 profile.yaml 中添加或减少页面时, 刷新页面
 - `profile.yaml` 还需要调整
 
+### 性能
+
+现在我暂时没有发现性能问题, 从 taskmgr 看性能占用约为 1%. Chrome devtool Performance 页面我暂时不太会用 😂
+
+### 是否可以自动为你在 dictionary.yaml 加入的生词添加上下文
+
+1. 手动选择网页中你想要记忆的句子发送至 localhost (可以使用某种快捷键触发)
+2. 如果句子中存在能匹配到(大概率为 true) dictionary.yaml 中的 keyword 的单词, 则保存该 keyword 和该 sentence 的关联
+3. 下次再出现该 keyword 时, 在网页上展示这个句子
+
+### 使用 transfrom 来高亮显示单词
+
 ### Others
 
 - 合并 yarn 脚本, 并且去除不同脚本之间的依赖, 是不是要考虑 pipeline/webpack?
@@ -184,10 +196,6 @@ style.less
   - 一些 Google Search
   - 极个别的 npmjs.com
 - 更强的匹配逻辑, 针对各种合成词汇, 匹配时不应该仅仅从前面匹配?
-
-### 性能
-
-现在我暂时没有发现性能问题, 从 taskmgr 看性能占用约为 1%. Chrome devtool Performance 页面我暂时不太会用 😂
 
 ## Q&A
 
@@ -219,7 +227,7 @@ EF 的效果大致效果:
 
 > Are you confident(自信) that, given that it appears to have done so every day throughout(始终) your entire life and presumably(想必) the entire existence of humanity(人类) beforehand(事前), the sun will once again rise tomorrow?
 
-所以[这句话](https://www.reddit.com/r/askphilosophy/comments/hqk1q0/comment/fxyfcgq/?utm_source=share&utm_medium=web2x&context=3)在说啥? 我完全不知道...这是在说英语吗?
+所以[这位 reddit 哲学爱好者](https://www.reddit.com/r/askphilosophy/comments/hqk1q0/comment/fxyfcgq/?utm_source=share&utm_medium=web2x&context=3)在说啥? 我完全不知道...这是在说英语吗?
 
 还得借助 Google Translate / youdao 才能慢慢了解这句话的意思:
 
@@ -230,7 +238,7 @@ EF 的效果大致效果:
 
 最终:
 
-你是否会怀疑, 太阳会在明早再次升起这件贯穿你生命始终, 乃至整个人类历史的事?
+你是否会怀疑, 太阳明早会再次升起这一件贯穿你生命始终乃至整个人类的存在之前的事?
 
 ### Chrome Extension Store 上有很多同样功能的插件, 你要和他们竞争吗?
 
