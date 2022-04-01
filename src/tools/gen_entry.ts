@@ -10,9 +10,14 @@ function write() {
   // if (process.platform === 'win32') {
   //   replaceText = replaceText.replaceAll('/', '\\')
   // }
-  const newFileString = fs
+  let newFileString = fs
     .readFileSync(TemplateFilePath, { encoding: 'utf8' })
-    .replaceAll('🚧🚧🚧', replaceText)
+    .replace(/🚧🚧🚧/g, replaceText)
+
+  if (os.platform() === 'darwin') {
+    newFileString = newFileString.replace(/C:\//g, '')
+  }
+
   fs.writeFile(TargetFilePath, newFileString, _ => {})
 }
 
