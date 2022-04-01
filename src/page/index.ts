@@ -16,7 +16,10 @@ const efpiLineHeight = efpiFontSize + 4
 let EFHoverWord: string | null = null
 
 function webpageDeclareItselfAsEn() {
-  return document.head.lang === 'en'
+  if (document.documentElement.lang.startsWith('en')) {
+    return true
+  }
+  return false
 }
 
 function currentFocusingIsInputElement() {
@@ -66,24 +69,65 @@ async function request<T = any>(
   })
 }
 
-async function loadProfile() {
+async function loadProfile(): Promise<SiteProfile | null> {
   const response = await request(`${EFLocalServerURL}/profile`, {
     responseType: 'json',
   })
 
-  const profiles: SiteProfile[] = response.old
+  // return null
+
+  const href = window.location.href
 
   let profile: SiteProfile | null = null
-  const href = location.href
-  for (const _profile of profiles) {
-    for (const _match of _profile.contain) {
-      if (href.includes(_match)) {
-        profile = _profile
-        break
-      }
+
+  for (const exclude of response.sitesExcluded) {
+    if (href.includes(exclude)) {
+      return null
     }
   }
-  return profile
+
+  for (const site of response.sites) {
+    if (href.includes(site)) {
+      profile = response.default
+      for (const specific of response.siteSpecificConfig) {
+        for (const apply of specific.applyTo) {
+          if (href.includes(apply)) {
+            profile = { ...profile, ...specific }
+          }
+        }
+      }
+      return profile
+    }
+  }
+
+  if (webpageDeclareItselfAsEn()) {
+    profile = response.default
+
+    for (const specific of response.siteSpecificConfig) {
+      for (const apply of specific.applyTo) {
+        if (href.includes(apply)) {
+          profile = { ...profile, ...specific }
+        }
+      }
+    }
+    return profile
+  }
+
+  return null
+
+  // const profiles: SiteProfile[] = response
+
+  // let profile: SiteProfile | null = null
+  // const href = location.href
+  // for (const _profile of profiles) {
+  //   for (const _match of _profile.contain) {
+  //     if (href.includes(_match)) {
+  //       profile = _profile
+  //       break
+  //     }
+  //   }
+  // }
+  // return profile
 }
 
 async function loadDict() {
@@ -831,8 +875,6 @@ interface IPairedWords {
 interface SiteProfile {
   name: string
   // 匹配
-  contain: string[]
-  // 遍历根选择器
   rootSelector: string[]
   // 遍历触发策略
   strategies?: string[]
