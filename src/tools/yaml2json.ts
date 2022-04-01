@@ -55,23 +55,29 @@ if (process.platform !== 'darwin') {
 function write() {
   const yamlString = fs.readFileSync(sourceFilePath, `utf8`)
 
-  let dictObj = yaml.load(yamlString)
+  let objectFromYaml: any
+
+  try {
+    objectFromYaml = yaml.load(yamlString)
+  } catch (e) {
+    console.error(e)
+  }
 
   if (Should.OrderDictKeys) {
-    dictObj = Object.keys(dictObj)
+    objectFromYaml = Object.keys(objectFromYaml)
       .sort()
       .reduce((obj, key) => {
-        obj[key] = dictObj[key]
+        obj[key] = objectFromYaml[key]
         return obj
       }, {})
   }
 
   if (ProcessingDict) {
     // 如果只有单词释义, 则生成结构化的单词信息
-    for (const k of Object.keys(dictObj)) {
-      const v = dictObj[k]
+    for (const k of Object.keys(objectFromYaml)) {
+      const v = objectFromYaml[k]
       if (typeof v === 'string') {
-        dictObj[k] = {
+        objectFromYaml[k] = {
           m: v,
         }
       }
@@ -81,9 +87,9 @@ function write() {
   let finalJSONString = ''
 
   if (Should.FormatGeneratedJSONFile) {
-    finalJSONString = JSON.stringify(dictObj, null, 2)
+    finalJSONString = JSON.stringify(objectFromYaml, null, 2)
   } else {
-    finalJSONString = JSON.stringify(dictObj)
+    finalJSONString = JSON.stringify(objectFromYaml)
   }
 
   fs.writeFile(targetFilePath, finalJSONString, { encoding: `utf8` }, errorInfo => {
@@ -96,11 +102,11 @@ function write() {
 
   if (ProcessingDict) {
     // 如果只有单词释义, 则不结构化的单词信息, 仅保留单词释义
-    for (const key of Object.keys(dictObj)) {
-      const value = dictObj[key]
+    for (const key of Object.keys(objectFromYaml)) {
+      const value = objectFromYaml[key]
       if (typeof value === 'object') {
         if (Object.keys(value).length === 1) {
-          dictObj[key] = value.m
+          objectFromYaml[key] = value.m
         }
       }
     }
@@ -109,7 +115,7 @@ function write() {
   if (Should.FenerateYAML) {
     fs.writeFile(
       targetYamlFilePath,
-      yaml.dump(dictObj, {
+      yaml.dump(objectFromYaml, {
         skipInvalid: true,
         lineWidth: 100,
       }),

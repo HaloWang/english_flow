@@ -12,5 +12,6 @@
       "comments": false,
       "strings": false,
     },
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
 }

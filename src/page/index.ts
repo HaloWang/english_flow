@@ -80,9 +80,11 @@ async function loadProfile(): Promise<SiteProfile | null> {
 
   let profile: SiteProfile | null = null
 
-  for (const exclude of response.sitesExcluded) {
-    if (href.includes(exclude)) {
-      return null
+  if (response.sitesExcluded) {
+    for (const exclude of response.sitesExcluded) {
+      if (href.includes(exclude)) {
+        return null
+      }
     }
   }
 
@@ -147,7 +149,7 @@ async function main() {
 
   // 为什么 ts 编译器没有自动将 Profile 解包?
   const Profile: SiteProfile = __Profile!
-  console.log('EF: 🎉 Using:', Profile.name)
+  console.log('EF: 🎉 Using: ', Profile.name, 'and Default')
 
   const _initalizeInfo = await loadDict()
   let localDict = _initalizeInfo.dict
@@ -394,6 +396,12 @@ async function main() {
           if (!allWordsInTextNode) {
             continue
           }
+
+          const display = window.getComputedStyle(parent as HTMLElement).display
+          if (display === 'flex') {
+            continue
+          }
+
           for (const regexResult of allWordsInTextNode) {
             const word = regexResult[0]
 

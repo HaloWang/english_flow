@@ -22,11 +22,17 @@ sites:
   - stackoverflow.com
 # 当页面 URL 包含哪些字符串时, 不执行 EF, 即使该页面已经存在于 sites 中
 sitesExcluded:
-  - google.com/search
+  # - google.com/search
 
 # 哪些页面有自己的特殊规则
 # 特殊规则会和 default 进行合并操作
 siteSpecificConfig:
+  - name: Google
+    applyTo:
+      - www.google.com/search
+    rootSelector:
+      - '#rcnt'
+
   # 规则名称
   - name: __ProfileName__
     # 规则应用页面
@@ -41,14 +47,17 @@ siteSpecificConfig:
       - selector: '#anyselector'
         strategy: interval|0.5
     style:
-      - 'eft:hover efth { font-weight: bold }'
+      - 'eft:hover efth { font-weight: bold; }'
+      - 'eft:hover efth { text-shadow: 0 0 2px white; }'
       - 'eft:hover efth { color: #FFFF }'
       - 'eft:hover { color: #FFF9 }'
+
   - name: Wikipedia
     applyTo:
       - en.wikipedia.org
       - zh.wikipedia.org
     style:
+      - 'eft:hover efth { text-shadow: 0 0 2px #888; }'
       - 'eft:hover efth { font-weight: bold }'
       - 'eft:hover efth { color: #FFFF }'
       - 'eft:hover { color: #FFF9 }'
