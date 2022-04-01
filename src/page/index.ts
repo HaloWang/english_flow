@@ -15,6 +15,10 @@ const efpiLineHeight = efpiFontSize + 4
 
 let EFHoverWord: string | null = null
 
+function webpageDeclareItselfAsEn() {
+  return document.head.lang === 'en'
+}
+
 function currentFocusingIsInputElement() {
   for (const tagName of ['INPUT', 'TEXTAREA']) {
     if (tagName === document.querySelector(':focus')?.tagName) {

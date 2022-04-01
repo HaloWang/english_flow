@@ -159,6 +159,8 @@ style.less
 
 ## TODO (or not)
 
+### 使用 `lang="en"` 来作为执行 EF 的默认标识
+
 ### 一部分页面不允许使用 audio 发声
 
 > Refused to load media from '<URL>' because it violates the following Content Security Policy directive: "media-src github.com user-images.githubusercontent.com/".

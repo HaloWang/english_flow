@@ -37,8 +37,10 @@ old:
         web.dev,
         www.artstation.com,
         www.digitalocean.com,
-        www.nature.com/articles,
+        nature.com,
+        superuser.com,
         www.tampermonkey.net,
+        scholar.google.com,
         yaml.org,
       ]
     exclude: [google.com/search]
@@ -84,7 +86,7 @@ old:
       - eft:hover efth {color:#FFF}
     selectorSpecificStrategy:
       # 针对频繁变化的字幕
-      - selector: #ytp-caption-window-container
+      - selector: '#ytp-caption-window-container'
         strategy: interval|0.5
     notMatchTagName:
       - iron-iconset-svg
