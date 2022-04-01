@@ -1,4 +1,5 @@
 # 默认参数
+# EF 会根据 html.lang.startWith("en") 来做默认匹配, 这意味着我不需要每个英文页面都要加入到 profile 中
 default:
   name: 'Default'
   # 遍历根节点选择器

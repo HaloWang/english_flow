@@ -752,7 +752,11 @@ async function queryGoogleDefineAudios(text: string) {
 
     // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
     const { href } = window.location
-    if (href.includes('developer.mozilla.org') || href.includes('github.com')) {
+    if (
+      href.includes('developer.mozilla.org') ||
+      href.includes('github.com') ||
+      href.includes('datatracker.ietf.org')
+    ) {
       reject('CSP error')
       return
     }

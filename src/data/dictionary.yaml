@@ -44,6 +44,7 @@ analog: 模拟|类比|相似
 analys: 分析
 anesthe: 麻醉|麻木
 anlage: 原基|胚芽
+annotat: 注释|注解
 antago: 对抗
 anterior: 前面|在前
 anterograd: 顺行
@@ -106,6 +107,7 @@ circumstance: 环境|情况
 circumvent: 回避|绕过
 citation: 引文|引语|传唤|传票|表彰|嘉奖状|引用|引证
 claim: 声称|断言|索取|要求
+clause: 条款|条纹|分句|从句
 clinic: 诊所|门诊
 cluster: 簇|集|聚
 cochle: 耳蜗
@@ -154,6 +156,7 @@ consisten: 一贯|连贯|如一
 conspir: 阴谋|密谋|共同导致|反叛
 constant: 恒定
 constituen: 成分|选取|选民|组成
+consult: 咨询|请教|商量|商讨|查询|查阅|当顾问
 contempora: 当代|当今|同龄
 continu: 连续|继续
 contra: 对|反
@@ -165,6 +168,7 @@ convinc: 信服|确信|说服
 coordinat: 坐标|协调|对等|配合
 cord: 索|绳|粗线
 correlat: 相关
+correspondence: 对应|通讯|信件|函件
 counterpart: 同行|副本|对方
 crappy: 蹩脚|糟糕|没价值
 credib: 可靠
@@ -280,7 +284,6 @@ epithalam: 上丘脑|颂歌
 equipment: 设备|装备|器材|装置
 especial: 特殊|特别|尤其
 essen: 本质
-clause: 条款|条纹|分句|从句
 estimat: 估计|预算|预计
 ethic: 行为准则|道德规范|伦理标准|信仰
 ethodolog: 行为学
@@ -399,6 +402,7 @@ integrity: 正直|诚实|完整|完全|职业操守|集成度
 intens: 强烈|很大|加强|加剧
 interact: 交互
 interactiv: 交互式|交互性
+intercept: 监听|截距|截听
 interdisciplinar: 跨学科
 interfer: 干扰|干涉
 interleav: 插页|插值
@@ -436,7 +440,7 @@ kin:
   options:
     - FullMatch
 ladder: 梯子
-latency: 潜伏|潜在因素
+latency: 延迟|潜伏|潜在因素
 latent: 潜在|潜伏|隐藏
 lateral: 侧
 latter: 后者
@@ -486,8 +490,8 @@ mislead: 误导
 mitigat: 缓和|减轻
 modalit: 形式|形态|程序|物理疗法|主要的感觉
 moderat: 普|适中|不偏激|调停|仲裁
-modulat: 调|电调|模数
 modular: 模块化|组合化
+modulat: 调|电调|模数
 molecul: 分子
 morpholog: 形态学
 multitude: 众多|大量
@@ -587,7 +591,7 @@ preserve: 保留|保存|保持|保护
 presum: 料想|推测|大概|想必
 presynaptic: 突触前
 primordi: 原始|原基
-princip: 原则|基本
+princip: 原则|原理|本源|重要
 prior: 先前|事先|优先
 probabilistic: 概率性的|或然说的|盖然论的
 proce: 程序|步骤
@@ -838,6 +842,7 @@ therap: 疗
 thereby: 因此|从而
 therefore: 因此|所以
 throughout: 遍及|到处|始终
+thus: 因此|这样|以这种方式
 thymin: 胸腺
 topograph: 地势|地形
 trace: 跟踪|痕迹|追踪|迹
@@ -886,5 +891,3 @@ vowel: 元音|母音
 wherein: 在其中|在何处
 whilst: 同时
 yankee: 美国佬|美国人|洋基队
-consult: 咨询|请教|商量|商讨|查询|查阅|当顾问
-correspondence: 对应|通讯|信件|函件
