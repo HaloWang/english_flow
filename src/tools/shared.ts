@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 
 /**
- * What file, if file string changed or initilization, call back
+ * Watch file, if file content as UTF-8 string changed or node process initilization, execute @param initAndChange
  */
 export function hl_watch(path: string, initAndChange: (fileString: string) => void) {
   console.log('🔃 watching:', path)

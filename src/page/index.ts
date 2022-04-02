@@ -665,7 +665,7 @@ function addkeyboardListener() {
           ev.preventDefault()
           ev.stopPropagation()
           // isAWord && GM_openInTab(`https://en.wiktionary.org/wiki/${_string}`, true)
-          isAWord && GM_openInTab(`https://www.google.com/search?q=word+root+${_string}`, true)
+          // isAWord && GM_openInTab(`https://www.google.com/search?q=word+root+${_string}`, true)
           GM_openInTab(`https://translate.google.com/?tl=zh-CN&text=${_string}`, true)
           GM_openInTab(`https://www.youdao.com/w/eng/${_string}`, true)
           isAWord && GM_setClipboard(_string)

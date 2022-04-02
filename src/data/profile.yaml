@@ -24,6 +24,7 @@ sites:
   - www.lagou.com
   - yaml.org
   - zhihu.com
+  - translate.google.com
 # 当页面 URL 包含哪些字符串时, 不执行 EF, 即使该页面已经存在于 sites 中
 sitesExcluded:
   # - google.com/search
@@ -36,6 +37,12 @@ siteSpecificConfig:
       - www.google.com/search
     rootSelector:
       - '#rcnt'
+
+  - name: Google Translate
+    applyTo:
+      - translate.google.com
+    rootSelector:
+      - .a2Icud
 
   # 规则名称
   - name: __ProfileName__

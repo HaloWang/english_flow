@@ -168,43 +168,22 @@ style.less
 
 ## TODO (or not)
 
-### 一部分页面不允许使用 audio 发声
-
-> Refused to load media from '<URL>' because it violates the following Content Security Policy directive: "media-src github.com user-images.githubusercontent.com/".
-
-比如 github, MDN
-
-考虑使用 Blob
-
-### 更高级的匹配
-
-- 不从头开始匹配单词
-- 匹配多个词根
-- 匹配短语
-
-### 立即刷新的快捷键
-
-### dictionary.yaml 重命名
-
-### dictionary.yaml 自动格式化
-
-### 监听 profile.yaml
-
+- 自己的字典应该加入 .gitignore
+- 更高级的匹配
+  - 不从头开始匹配单词
+  - 匹配多个词根
+  - 匹配短语
+- 是否可以自动为你在 dictionary.yaml 加入的生词添加上下文
+  1. 手动选择网页中你想要记忆的句子发送至 localhost (可以使用某种快捷键触发)
+  2. 如果句子中存在能匹配到(大概率为 true) dictionary.yaml 中的 keyword 的单词, 则保存该 keyword 和该 sentence 的关联
+  3. 下次再出现该 keyword 时, 在网页上展示这个句子
+- 立即刷新 EF 的快捷键
+- dictionary.yaml 重命名
+- dictionary.yaml 自动格式化
+- 一部分页面不允许使用 audio 发声
+- 监听 profile.yaml
 - 当 profile.yaml 中添加或减少页面时, 刷新页面
 - `profile.yaml` 还需要调整
-
-### 性能
-
-现在我暂时没有发现性能问题, 从 taskmgr 看性能占用约为 1%. Chrome devtool Performance 页面我暂时不太会用 😂
-
-### 是否可以自动为你在 dictionary.yaml 加入的生词添加上下文
-
-1. 手动选择网页中你想要记忆的句子发送至 localhost (可以使用某种快捷键触发)
-2. 如果句子中存在能匹配到(大概率为 true) dictionary.yaml 中的 keyword 的单词, 则保存该 keyword 和该 sentence 的关联
-3. 下次再出现该 keyword 时, 在网页上展示这个句子
-
-### Others
-
 - Add template_dict.yaml for better tutorial
 - Add YAML schema to dictionary.yaml
 - 写 TM 脚本时应该将所有函数解耦合, 不要图省事儿在函数中定义函数
@@ -218,6 +197,8 @@ style.less
   - 一些 Google Search
   - 极个别的 npmjs.com
 - 更强的匹配逻辑, 针对各种合成词汇, 匹配时不应该仅仅从前面匹配?
+- 现在我暂时没有发现性能问题, 从 taskmgr 看性能占用约为 1%. Chrome devtool Performance 页面我暂时不太会用 😂
+- 是否要添加一些 Greek/Latin 的 reference?
 
 ## Q&A
 
