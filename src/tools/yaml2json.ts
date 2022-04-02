@@ -40,13 +40,8 @@ if (options) {
 }
 
 const ProcessingDict = fileName === 'dictionary'
-const distDir = process.cwd() + `/dist/data`
-const srcDic = process.cwd() + `/src/data`
-
-if (!fs.existsSync(distDir)) {
-  fs.mkdirSync(distDir)
-}
-
+let distDir = process.cwd() + `/dist/data`
+let srcDic = process.cwd() + `/src/data`
 let sourceFilePath = srcDic + `/${fileName}.yaml`
 let targetFilePath = distDir + `/${fileName}.json`
 let targetYamlFilePath = distDir + `/DONT_USE_${fileName}.yaml`
@@ -59,9 +54,16 @@ if (process.platform !== 'darwin') {
     }
     return result
   }
+  distDir = replaceSlash(distDir)
+  srcDic = replaceSlash(srcDic)
+  targetYamlFilePath = replaceSlash(targetYamlFilePath)
   sourceFilePath = replaceSlash(sourceFilePath)
   targetFilePath = replaceSlash(targetFilePath)
   targetYamlFilePath = replaceSlash(targetYamlFilePath)
+}
+
+if (!fs.existsSync(distDir)) {
+  fs.mkdirSync(distDir)
 }
 
 let times = 0

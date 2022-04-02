@@ -24,13 +24,7 @@ function __dev() {
       less.render(lessString, { paths: ['./'] }, (err, css) => {
         err && console.error(err)
         if (css) {
-          fs.writeFile(targetPath, css.css, writeError => {
-            if (writeError) {
-              console.error(writeError)
-            } else {
-              // console.log('✅ less built success!')
-            }
-          })
+          fs.writeFileSync(targetPath, css.css)
         }
       })
     })
