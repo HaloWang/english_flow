@@ -31,7 +31,7 @@ function __dev() {
   }
 
   transfrom(sourcePath)
-  fs.watchFile(sourcePath, { interval: 1000 }, () => {
+  fs.watch(sourcePath, () => {
     transfrom(sourcePath)
   })
 }

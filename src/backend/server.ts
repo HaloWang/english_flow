@@ -10,7 +10,7 @@ let serverString = fs.readFileSync(dictJSONPath, { encoding: 'utf-8' })
 let serverDictObj: any = JSON.parse(serverString)
 let dictMark = 0
 
-fs.watchFile(dictJSONPath, { interval: 1000 }, () => {
+fs.watch(dictJSONPath, () => {
   fs.readFile(dictJSONPath, { encoding: 'utf-8' }, (err, latestString) => {
     if (serverString !== latestString) {
       serverString = latestString

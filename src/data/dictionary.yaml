@@ -12,7 +12,7 @@ acknowledge: 承认|认可|感谢
 acqui: 获得
 acyclic: 非.循环|非.周期
 adapt: 适应|适配
-addiction: 瘾|入迷|嗜好
+addict: 瘾|入迷|嗜好
 adequa: 胜任|足够|适当|恰当|令人满意|充分
 adjacen: 临近|毗邻
 adopt: 采用|通过|采取|采纳|收养
@@ -76,6 +76,7 @@ ascen: 升|攀|优|登
 aspir: 渴望|有志于
 assemb: 装配|集合|组装|拼接组装|凑合
 assum: 假定|假设
+asym: 非.对称
 atlas: 地图册|切片柱
 atrophy: 萎缩
 attitud: 态度|看法|姿势
@@ -219,6 +220,7 @@ dens:
     - NotFull
 dentat: 齿|锯齿边缘
 depict: 描述|描写
+depriv: 剥夺
 deriv:
   m: 源自|衍生|派生|获得
   d:
@@ -259,6 +261,7 @@ dorso:
   options:
     - NotFull
 dose: 服药|一记
+drainage: 排水系统|排水|排泄|排出的水|污水|引流
 drama: 剧本|戏剧
 dramatic: 巨大而突然|急剧|戏剧
 drastic: 极端|剧烈
@@ -351,8 +354,7 @@ fraction: 分数|小数|部分|微量
 fragment: 碎片|片段
 fright: 惊恐
 gain: 获得|取得|收益|赢得
-ganglia: 神经节
-ganglion: 神经节
+gangli: 神经节
 gap: 隙|裂
 gaze: 凝视|注视
 generat: 产生|引起
@@ -381,6 +383,10 @@ hair: 毛发
 hang: 悬挂|挂起|降级
 harbor: 港口|海港|窝藏
 haul: 拖|拉|艰难前行|艰难地走|步履蹒跚
+hemi:
+  m: 半
+  options:
+    - NotFull
 hermeneutic: 诠释学|解释学
 heterogene: 异质|异源
 heuristic: 启发式|探索性
@@ -539,6 +545,8 @@ minimi: 小|减小
 miserable: 痛苦|难受
 mislead: 误导
 mitigat: 缓和|减轻
+mitosis: 有丝分裂
+mitotic: 有丝分裂的
 modalit: 形式|形态|程序|物理疗法|主要的感觉
 moderat: 普|适中|不偏激|调停|仲裁
 modular: 模块化|组合化
@@ -563,7 +571,7 @@ nonetheless: 然而|尽管如此
 notabl: 显著|显要
 notable: 显要|值得注意|令人尊重|非常成功
 notion: 概念|主张
-novelty: 新奇|新颖
+novel: 小说|新颖|新奇
 nuance: 细微差别
 nucle: 核
 numerous: 众多
@@ -601,6 +609,7 @@ pallium: 大脑皮层|钯
 panic: 惶恐|恐慌
 paradigm: 范式|范例
 parahippocamp: 海马旁
+paralimbic: 边缘旁系
 paralyz: 无力|瘫痪
 paramedian: 旁正中
 parenthes: 圆括号
