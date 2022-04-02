@@ -176,6 +176,18 @@ style.less
 
 考虑使用 Blob
 
+### 更高级的匹配
+
+- 不从头开始匹配单词
+- 匹配多个词根
+- 匹配短语
+
+### 立即刷新的快捷键
+
+### dictionary.yaml 重命名
+
+### dictionary.yaml 自动格式化
+
 ### 监听 profile.yaml
 
 - 当 profile.yaml 中添加或减少页面时, 刷新页面
@@ -191,10 +203,9 @@ style.less
 2. 如果句子中存在能匹配到(大概率为 true) dictionary.yaml 中的 keyword 的单词, 则保存该 keyword 和该 sentence 的关联
 3. 下次再出现该 keyword 时, 在网页上展示这个句子
 
-### 使用 transfrom 来高亮显示单词
-
 ### Others
 
+- 写 TM 脚本时应该将所有函数解耦合, 不要图省事儿在函数中定义函数
 - 合并 yarn 脚本, 并且去除不同脚本之间的依赖, 是不是要考虑 pipeline/webpack?
 - 在 yaml 中输入的格式有错时, 脚本不应该中断. w_tools 和 serve 不应该有时间上的依赖
 - 播放声音的功能还不是太好

@@ -189,6 +189,7 @@ deductive: 演绎的|推论的
 deficit: 赤字|亏|亏空
 deflect: 偏|斜|导|转
 deleterious: 有害
+delimit: 划界|划定|限定
 delinea: 描绘
 demand: 要求|需求|需要
 demethyl: 脱甲基
@@ -440,6 +441,7 @@ isothalam: 等丘脑|上丘脑
 javelin: 标枪
 junction: 交叉
 justif: 正当|解释|辩解|对齐
+kernel: 核心|仁|核|要点|极小一部分|微量|核心句|核心程序
 kin:
   m: 亲属
   options:
@@ -565,6 +567,7 @@ pedestal: 机架|底座|台
 penaliz: 惩罚|使...处于不利地位
 percept: 感知|洞察|看法|感觉|认识
 periallocortex: 皮层周围
+perimetry: 视野测量
 peripher: 外围|次要
 permit: 允许|准许|电容
 persist: 继续存在|持续|坚持|执意|坚持说|反复说
@@ -766,6 +769,8 @@ singularity: 奇点|特异点|黑洞|非凡点|奇特点
 sino: 中国|汉人|汉|中
 skim: 撇去|浏览
 slid: 滑动|滑行|滑落
+slight: 轻微|少量|细微|怠慢|忽视
+slit: 切开|长条|裂缝
 slot: 插槽|时间段|插
 soma: 体细胞|身体|躯体
 somalia: 索马里
@@ -859,6 +864,7 @@ therefo: 因此
 throughout: 遍及|到处|始终
 thus: 因此|这样|以这种方式
 thymin: 胸腺
+tilt: 倾斜
 topograph: 地势|地形
 trace: 跟踪|痕迹|追踪|迹
 tract: 束|道|短文|传单

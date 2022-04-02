@@ -64,6 +64,7 @@ if (process.platform !== 'darwin') {
   targetYamlFilePath = replaceSlash(targetYamlFilePath)
 }
 
+let times = 0
 hl_watch(sourceFilePath, string => {
   const yamlString = string
 
@@ -73,6 +74,7 @@ hl_watch(sourceFilePath, string => {
     objectFromYaml = yaml.load(yamlString)
   } catch (e) {
     console.error(e)
+    return
   }
 
   if (Should.KeyToLowerCase) {
@@ -148,5 +150,5 @@ hl_watch(sourceFilePath, string => {
     )
   }
 
-  console.log(` ✅ ${fileName} updated`)
+  console.log(` 🤔 ${fileName} updated`, ++times)
 })
