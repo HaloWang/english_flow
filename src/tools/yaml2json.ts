@@ -68,13 +68,24 @@ let times = 0
 hl_watch(sourceFilePath, string => {
   const yamlString = string
 
-  let objectFromYaml: any
+  let objectFromYaml: { [key: string]: string | null | undefined | { [key: string]: any } }
 
   try {
-    objectFromYaml = yaml.load(yamlString)
+    objectFromYaml = yaml.load(yamlString) as any
   } catch (e) {
     console.error(e)
     return
+  }
+
+  if (!objectFromYaml) {
+    console.error(' ❌ Can not get object from yaml:', fileName)
+    return
+  }
+
+  for (const key of Object.keys(objectFromYaml)) {
+    if (objectFromYaml[key] === null || objectFromYaml[key] === undefined) {
+      objectFromYaml[key] = ''
+    }
   }
 
   if (Should.KeyToLowerCase) {
@@ -126,11 +137,16 @@ hl_watch(sourceFilePath, string => {
     console.error(error)
   }
 
+  // console.log(JSON.parse(JSON.stringify(objectFromYaml)))
+
   if (ProcessingDict) {
     // 如果只有单词释义, 则不结构化的单词信息, 仅保留单词释义
     // {foo:{m:bar}} => {foo:bar}
     for (const key of Object.keys(objectFromYaml)) {
       const value = objectFromYaml[key]
+      if (!value) {
+        continue
+      }
       if (typeof value === 'object') {
         if (Object.keys(value).length === 1) {
           objectFromYaml[key] = value.m
@@ -138,6 +154,8 @@ hl_watch(sourceFilePath, string => {
       }
     }
   }
+
+  // console.log(JSON.parse(JSON.stringify(objectFromYaml)))
 
   if (Should.OrderDictKeys && Should.GenerateYAML) {
     fs.writeFileSync(

@@ -205,6 +205,8 @@ style.less
 
 ### Others
 
+- Add template_dict.yaml for better tutorial
+- Add YAML schema to dictionary.yaml
 - 写 TM 脚本时应该将所有函数解耦合, 不要图省事儿在函数中定义函数
 - 合并 yarn 脚本, 并且去除不同脚本之间的依赖, 是不是要考虑 pipeline/webpack?
 - 在 yaml 中输入的格式有错时, 脚本不应该中断. w_tools 和 serve 不应该有时间上的依赖
