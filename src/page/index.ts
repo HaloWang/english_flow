@@ -348,14 +348,10 @@ async function main() {
   const DoNotMatchList: string[] = [
     EFStyledElementTagName,
     EFStyledElementTagName.toUpperCase(),
-    'INPUT',
     'SCRIPT',
     'SVG',
     'VIDEO',
-    'TEXTAREA',
     'STYLE',
-    'SELECT',
-    'OPTION',
   ]
 
   if (Profile.notMatchTagName) {
