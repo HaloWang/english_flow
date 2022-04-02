@@ -1,3 +1,4 @@
+abbr: 简短|缩写
 aberran: 变异|反常|脱离轨道
 abolish: 废除
 abort: 终止|中断|流产|堕胎
@@ -84,6 +85,7 @@ bias: 偏|倾|势|斜
 bila: 双
 biograph: 传记
 bloat: 胀
+boilerplate: 样板
 bouton: 小结|疖
 braille: 盲文
 breach: 裂口|决口|突破口
@@ -294,6 +296,7 @@ evaluat: 评估|评价
 eviden: 证
 evoke: 唤起|激起|勾|忆
 excit: 刺激|兴奋|激动
+exclusive: 独家|只
 exert: 运用|施加|尽力|努力
 exhibit: 展示|陈列|展品
 exogenous: 外生|外因|外成
@@ -481,6 +484,7 @@ mesio: 近中
 metaphor: 隐喻
 methodolog: 方法论
 methyl: 甲基
+migrat: 迁移|移民
 mimicry:
   m: 模仿
   s:
@@ -504,12 +508,14 @@ mytholog: 神话
 narrati: 讲(故事)|陈述
 neat: 整齐|利落|齐整|干净|齐|楚楚
 neglect: 忽略|疏忽|忘记|忽|荒废|轻忽
+nest: 嵌套|巢|窝
 neurodegenerat: 神经退行|神经变性
 neuropsycholog: 神经心理
 neurosurgeon: 神经外科医生
 neurotoxi: 神经毒
 nigra: 黑质
 nonetheless: 然而|尽管如此
+notabl: 显著|显要
 notable: 显要|值得注意|令人尊重|非常成功
 notion: 概念|主张
 novelty: 新奇|新颖
@@ -541,6 +547,7 @@ ovoid: 卵形
 ovum: 卵子
 oxidat: 氧化
 paleocortex: 古皮层
+palindrom: 回文
 pallid: 苍白
 pallium: 大脑皮层|钯
 panic: 惶恐|恐慌
@@ -548,6 +555,7 @@ paradigm: 范式|范例
 parahippocamp: 海马旁
 paralyz: 无力|瘫痪
 paramedian: 旁正中
+parenthes: 圆括号
 parietal: 顶叶
 partial: 部分
 particular: 特别|格外|特定|特殊
@@ -608,6 +616,7 @@ proper: 正确|合适|恰当|妥善|应有
 proponent: 支持者
 proportion: 比例|比重
 propos: 提出|提议
+proprietary: 拥有|所有
 propriocepti: 本体感受
 prosencephalon: 前脑
 provo:
@@ -627,6 +636,7 @@ quale: 特质|特性
 qualia: 特质|特性
 quality: 质量|品质
 quantit: 数量
+quarter: 四分之一
 quie:
   m: 静
   options:
@@ -719,6 +729,7 @@ rods:
     - FullMatch
 rosehip: 玫瑰果
 rostral: 喙部
+rumor: 谣言|传闻|传言|谣传|流言|谣|风声
 saccad: 眼跳|扫视
 salien: 显著|突出|卓越
 scale: 天平|等级|标尺|范围|比例|改变尺寸|攀登
@@ -815,6 +826,7 @@ supervis: 监督
 suppress: 抑制|镇压
 surgery: 外科手术
 surgical: 外科|外科手术|外科手术使用
+surpass: 超过|超越|赛过|胜于
 survey: 调查|测验|检测|民调
 suspense: 悬念|焦虑|终止
 sustain: 维持|持续
@@ -894,6 +906,3 @@ vowel: 元音|母音
 wherein: 在其中|在何处
 whilst: 同时
 yankee: 美国佬|美国人|洋基队
-rumor: 谣言|传闻|传言|谣传|流言|谣|风声
-exclusive: 独家|只
-abbr: 简短|缩写

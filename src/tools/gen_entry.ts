@@ -1,28 +1,23 @@
 import * as fs from 'fs'
 import * as os from 'os'
+import { hl_watch } from './shared'
 
 const Path = process.argv[2]
 const TemplateFilePath = process.cwd() + '/entry/template.js'
 const TargetFilePath = process.cwd() + '/dist/tampermonkey_entry.js'
 
-function write() {
+hl_watch(TemplateFilePath, string => {
   let replaceText = os.userInfo().username + '/' + Path
   // if (process.platform === 'win32') {
   //   replaceText = replaceText.replaceAll('/', '\\')
   // }
-  let newFileString = fs
-    .readFileSync(TemplateFilePath, { encoding: 'utf8' })
-    .replace(/🚧🚧🚧/g, replaceText)
+  let newFileString = string.replace(/🚧🚧🚧/g, replaceText)
 
   if (os.platform() === 'darwin') {
     newFileString = newFileString.replace(/C:\//g, '')
   }
 
-  fs.writeFile(TargetFilePath, newFileString, _ => {})
-}
+  fs.writeFileSync(TargetFilePath, newFileString)
 
-write()
-
-fs.watchFile(TemplateFilePath, { interval: 2000 }, (curr, prev) => {
-  write()
+  console.log(' ✅ entry updated ')
 })
