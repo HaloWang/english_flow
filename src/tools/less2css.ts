@@ -19,7 +19,7 @@ if (__DEV__) {
 
 function __dev() {
   function transfrom(path: string) {
-    fs.readFile(path, { encoding: 'utf8' }, (error, lessString) => {
+    fs.readFile(path, 'utf8', (error, lessString) => {
       error && console.error(error)
       less.render(lessString, { paths: ['./'] }, (err, css) => {
         err && console.error(err)
@@ -43,7 +43,7 @@ function __dev() {
 }
 
 async function __build() {
-  const lessString = fs.readFileSync(sourcePath, { encoding: 'utf8' })
+  const lessString = fs.readFileSync(sourcePath, 'utf8')
   const { css: cssString } = await less.render(lessString)
   console.log('✅ less built success!')
   fs.writeFileSync(targetPath, cssString)

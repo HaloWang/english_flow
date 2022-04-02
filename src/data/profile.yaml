@@ -15,13 +15,15 @@ default:
     - timeout|2 # 在 2.0 秒后从 rootSelector 遍历页面元素
     - interval|5 # 每 5.0 秒从 rootSelector 遍历页面元素
 # EF 默认执行在所有 lang="en" 的页面上
-# 当页面 URL 包含哪些字符串时, EF 执行
+# 当页面 URL 包含下面的字符串时, EF 主动执行, 无视 html.lang 属性
 sites:
-  - zhihu.com
   - chrome.google.com
-  - stackoverflow.com
+  - leetcode.com
   - mail.google.com
+  - stackoverflow.com
   - www.lagou.com
+  - yaml.org
+  - zhihu.com
 # 当页面 URL 包含哪些字符串时, 不执行 EF, 即使该页面已经存在于 sites 中
 sitesExcluded:
   # - google.com/search

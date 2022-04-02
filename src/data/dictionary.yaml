@@ -1,3 +1,4 @@
+abbr: 简短|缩写
 aberran: 变异|反常|脱离轨道
 abolish: 废除
 abort: 终止|中断|流产|堕胎
@@ -73,10 +74,12 @@ aspir: 渴望|有志于
 assemb: 装配|集合|组装|拼接组装|凑合
 assum: 假定|假设
 atlas: 地图册|切片柱
+atrophy: 萎缩
 attitud: 态度|看法|姿势
 attract: 吸引
 authority: 专家|权威|权力|权限
 axon: 轴索|轴突
+band: 带|乐队|队
 bash: 重击|拍
 beforehand: 事先|预先|事前
 begun: 开始pp
@@ -84,14 +87,19 @@ bias: 偏|倾|势|斜
 bila: 双
 biograph: 传记
 bloat: 胀
+boilerplate: 样板
 bouton: 小结|疖
 braille: 盲文
 breach: 裂口|决口|突破口
 brittle: 脆|易碎
+budget: 预算|需要考虑到预算的(廉价的)
 burst: 爆炸|炸裂|冲|涨
 bush: 灌木|蓬松
+buzzword: 行话|术语|流行语
 calbindin: 钙结合蛋白
+calcarine: 距状
 cambridge: 剑桥
+candidate: 候选人|申请者
 capital: 资本|资金|资本家|资方|首都|首府|省会
 capsul: 胶囊|小容器|压缩|简短
 cardiovascular: 心血管de
@@ -142,9 +150,11 @@ conceptual: 概念化|概念上|使概念化
 concern: 关心|担心|担忧|关注|有关|关于
 conclud: 断定|推论|结束|终止|结论
 concret: 具体|实际|结石|混凝土
+condense: 浓缩|压缩
 conduct: 实施|进行|行为|举止
 conference: 会议
 confiden: 自信|肯定|机密|秘密
+confine: 局限
 confound: 混淆|挫败讨厌|混乱|困惑
 confus: 迷惑
 conjectur: 推测
@@ -170,8 +180,10 @@ convinc: 信服|确信|说服
 coordinat: 坐标|协调|对等|配合
 cord: 索|绳|粗线
 correlat: 相关
+correspond: 对应|符合|相符|相当|通信
 correspondence: 对应|通讯|信件|函件
 counterpart: 同行|副本|对方
+crani: 颅
 crappy: 蹩脚|糟糕|没价值
 credib: 可靠
 critic: 批评
@@ -180,13 +192,16 @@ crucial: 至关重要|决定性
 crudity: 粗糙|简陋
 datum: 数据|资料
 debate: 辩论|争论|争议
+debt: 债务
 decay: 衰减|腐烂
 declaim: 慷慨陈词|演讲
 dedicat: 献身|专用|奉献
 deductive: 演绎的|推论的
 deficit: 赤字|亏|亏空
 deflect: 偏|斜|导|转
+degrad: 降级|消解
 deleterious: 有害
+delimit: 划界|划定|限定
 delinea: 描绘
 demand: 要求|需求|需要
 demethyl: 脱甲基
@@ -234,6 +249,10 @@ dominanc: 优势|支配
 dominat: 控制|统治
 dopamine: 多巴胺
 dorsal: 背侧
+dorso:
+  m: 背侧
+  options:
+    - NotFull
 dose: 服药|一记
 drama: 剧本|戏剧
 dramatic: 巨大而突然|急剧|戏剧
@@ -294,6 +313,7 @@ evaluat: 评估|评价
 eviden: 证
 evoke: 唤起|激起|勾|忆
 excit: 刺激|兴奋|激动
+exclusive: 独家|只
 exert: 运用|施加|尽力|努力
 exhibit: 展示|陈列|展品
 exogenous: 外生|外因|外成
@@ -310,6 +330,7 @@ facto:
   options:
     - FullMatch
 fetter: 束缚|限制|枷锁
+fissure: 裂
 fixation: 定影|固定术
 flaw: 缺陷|缺点
 fluency: 流利|流畅|娴熟
@@ -320,6 +341,7 @@ former: 旧|前者
 formulate: 制定|制订|臆造
 fraction: 分数|小数|部分|微量
 fragment: 碎片|片段
+fright: 惊恐
 ganglia: 神经节
 ganglion: 神经节
 gap: 隙|裂
@@ -328,6 +350,7 @@ generat: 产生|引起
 geniculate: 膝状弯曲|有膝状关节
 genome: 全部基因信息|基因组
 genus: 类|种|属
+glamorous: 有魅力的
 globu: 球状
 glutamate: 谷氨酸盐|谷氨酸酯
 gnos: 灵知|真知|直觉
@@ -339,17 +362,23 @@ grass: 草坪|坪草
 gratif: 满意|满足
 guarantee: 保证|担保|保障|确保
 gustat: 味
+gyrification:
+  m: 大脑皮层折叠过程
+  _info: gyrus-脑回-gyri-复数
 habitat: 栖息地
 habituation: 习惯|习惯化
 hair: 毛发
+hang: 悬挂|挂起|降级
 harbor: 港口|海港|窝藏
 haul: 拖|拉|艰难前行|艰难地走|步履蹒跚
 hermeneutic: 诠释学|解释学
+heterogene: 异质|异源
 heuristic: 启发式|探索性
 hierarch:
   m: 层级|等级制度
   options:
     - NotFull
+histochemi: 组织化学
 histol: 组织
 homotyp: 同形
 humanity: 人类|人性|人道|仁慈|人文学科
@@ -437,11 +466,14 @@ isothalam: 等丘脑|上丘脑
 javelin: 标枪
 junction: 交叉
 justif: 正当|解释|辩解|对齐
+kerfuffle: 混乱|吵闹
+kernel: 核心|仁|核|要点|极小一部分|微量|核心句|核心程序
 kin:
   m: 亲属
   options:
     - FullMatch
 ladder: 梯子
+laminar: 层|薄片状
 latency: 延迟|潜伏|潜在因素
 latent: 潜在|潜伏|隐藏
 lateral: 侧
@@ -457,6 +489,8 @@ literature: 文学|文献
 loath: 勉强|不情愿|嫌恶|讨厌
 lobule: 小叶|小裂片
 locomot: 移动
+logician: 逻辑学家|理论学者
+longitud: 经线|纵
 loopy: 循环|迟钝|呆头呆脑|原地转圈
 lumberjack: 伐木工
 macroscop: 宏观
@@ -464,7 +498,7 @@ magnet: 磁
 magnif: 大
 majority: 多数
 malfunction: 故障
-mammill: 乳头
+mammillary: 乳头状
 manifest: 显示|表明|清单
 manner: 方式|态度|举止|样子
 mantle: 地幔|披风|斗篷|罩
@@ -481,6 +515,7 @@ mesio: 近中
 metaphor: 隐喻
 methodolog: 方法论
 methyl: 甲基
+migrat: 迁移|移民
 mimicry:
   m: 模仿
   s:
@@ -488,6 +523,7 @@ mimicry:
       The hope is that through mimicry, which is an important mode of learning in people, the
       machine is forced to build a compact internal representation of its world and then generate
       imaginative content from it.
+minimi: 小|减小
 miserable: 痛苦|难受
 mislead: 误导
 mitigat: 缓和|减轻
@@ -504,12 +540,15 @@ mytholog: 神话
 narrati: 讲(故事)|陈述
 neat: 整齐|利落|齐整|干净|齐|楚楚
 neglect: 忽略|疏忽|忘记|忽|荒废|轻忽
+nest: 嵌套|巢|窝
+neurocranium: 神经颅|脑颅
 neurodegenerat: 神经退行|神经变性
 neuropsycholog: 神经心理
 neurosurgeon: 神经外科医生
 neurotoxi: 神经毒
 nigra: 黑质
 nonetheless: 然而|尽管如此
+notabl: 显著|显要
 notable: 显要|值得注意|令人尊重|非常成功
 notion: 概念|主张
 novelty: 新奇|新颖
@@ -524,6 +563,7 @@ occasion: 场合|机会|时机|场面|度|辰|机|致使
 occasional: 偶然
 occipit: 后|枕
 olfact: 嗅
+omit: 省略
 oppos: 对|反|竞|阻碍
 opposed: 对抗
 optic: 眼睛|视觉
@@ -541,6 +581,7 @@ ovoid: 卵形
 ovum: 卵子
 oxidat: 氧化
 paleocortex: 古皮层
+palindrom: 回文
 pallid: 苍白
 pallium: 大脑皮层|钯
 panic: 惶恐|恐慌
@@ -548,6 +589,7 @@ paradigm: 范式|范例
 parahippocamp: 海马旁
 paralyz: 无力|瘫痪
 paramedian: 旁正中
+parenthes: 圆括号
 parietal: 顶叶
 partial: 部分
 particular: 特别|格外|特定|特殊
@@ -557,6 +599,7 @@ pedestal: 机架|底座|台
 penaliz: 惩罚|使...处于不利地位
 percept: 感知|洞察|看法|感觉|认识
 periallocortex: 皮层周围
+perimetry: 视野测量
 peripher: 外围|次要
 permit: 允许|准许|电容
 persist: 继续存在|持续|坚持|执意|坚持说|反复说
@@ -593,9 +636,11 @@ present: 当前|现在|介绍|当代|现
 preserve: 保留|保存|保持|保护
 presum: 料想|推测|大概|想必
 presynaptic: 突触前
+prevent: 阻止|阻碍|预防|防御
 primordi: 原始|原基
 princip: 原则|原理|本源|重要
 prior: 先前|事先|优先
+prob: 问题(等于 problem)|可能性(等于 probability)|可能的(probable)|大概(等于 probably)
 probabilistic: 概率性的|或然说的|盖然论的
 proce: 程序|步骤
 progenito: 祖
@@ -608,6 +653,7 @@ proper: 正确|合适|恰当|妥善|应有
 proponent: 支持者
 proportion: 比例|比重
 propos: 提出|提议
+proprietary: 拥有|所有
 propriocepti: 本体感受
 prosencephalon: 前脑
 provo:
@@ -627,13 +673,16 @@ quale: 特质|特性
 qualia: 特质|特性
 quality: 质量|品质
 quantit: 数量
+quarter: 四分之一
 quie:
   m: 静
   options:
     - NotFull
 radia: 射|辐
 radical: 根本
+radiolog: 放射学|X射线学
 rationa: 合理|理性
+ravioli: 意大利小方角|混沌
 react: 反应|响应|应对
 reactivat: 重.激活
 realism: 务实作风|实事求是|现实性|逼真|现实主义|实在主义|唯实论|权力实用主义
@@ -706,6 +755,7 @@ retrograd: 逆行|倒退
 reverse: 逆转|相对|彻底改变|相反
 rhythm: 节律|节奏|节拍|规则变化|和谐|抑扬节奏|韵律|旋律
 ridge: 山脊|隆起|脊状隆起
+ringer: 顶替|替补|铃声|按铃者
 rippl: 波纹|涟漪
 robust: 强壮|强健|鲁棒
 rod:
@@ -719,6 +769,8 @@ rods:
     - FullMatch
 rosehip: 玫瑰果
 rostral: 喙部
+ruffle: 弄乱
+rumor: 谣言|传闻|传言|谣传|流言|谣|风声
 saccad: 眼跳|扫视
 salien: 显著|突出|卓越
 scale: 天平|等级|标尺|范围|比例|改变尺寸|攀登
@@ -754,11 +806,15 @@ singular: 非凡|奇特
 singularity: 奇点|特异点|黑洞|非凡点|奇特点
 sino: 中国|汉人|汉|中
 skim: 撇去|浏览
+slang: 俚语
 slid: 滑动|滑行|滑落
+slight: 轻微|少量|细微|怠慢|忽视
+slit: 切开|长条|裂缝
 slot: 插槽|时间段|插
 soma: 体细胞|身体|躯体
 somalia: 索马里
 sophisticat: 精明|老练|尖端|复杂
+spaghetti: 意大利面
 span: 跨度|广度|翼展
 spars:
   m: 稀疏|稀少
@@ -784,6 +840,7 @@ stab:
   m: 固|稳
   options:
     - NotFull
+stain: 弄脏|玷污|染色|污点|斑点
 stall: 停车|摊开|档期|档口|摊位|支支吾吾|缓|推后
 stance: 立场|观点
 stare: 凝视
@@ -794,7 +851,10 @@ stating: 说明|state-ing
 stimul: 刺激
 stochastic: 随机
 strateg: 策略|战略
+striat: 纹
 strict: 严
+strip: 条|剥夺|撕去|撤掉
+striped: 有条纹|带状
 struggl: 奋斗|努力|搏斗|扭打
 subdue: 征服|抑制|减轻
 subiculum: 菌丝层|脑下脚
@@ -815,6 +875,7 @@ supervis: 监督
 suppress: 抑制|镇压
 surgery: 外科手术
 surgical: 外科|外科手术|外科手术使用
+surpass: 超过|超越|赛过|胜于
 survey: 调查|测验|检测|民调
 suspense: 悬念|焦虑|终止
 sustain: 维持|持续
@@ -844,9 +905,11 @@ territor: 领土
 therap: 疗
 thereby: 因此|从而
 therefo: 因此
+thought: 想法|看法|主意|考虑|深思|关心|顾虑|意图|希望|念头|思想|思潮|思考|思维|心思|思想
 throughout: 遍及|到处|始终
 thus: 因此|这样|以这种方式
 thymin: 胸腺
+tilt: 倾斜
 topograph: 地势|地形
 trace: 跟踪|痕迹|追踪|迹
 tract: 束|道|短文|传单
@@ -876,6 +939,7 @@ unroll: 非.卷|展开
 unsupervis: 非.监督
 utter: 说出|发出
 utterance: 发声|发言|表达|语义|话语
+vacuous: 空虚|空洞|无意义
 vari: 变
 vegeta: 蔬|植
 ventral: 腹侧
@@ -891,9 +955,7 @@ vital: 重要|核心
 volume: 大量|体积|音量|书卷
 voluntar: 自主|自愿|随意
 vowel: 元音|母音
+vulnerabl: 脆弱|易受伤
 wherein: 在其中|在何处
 whilst: 同时
 yankee: 美国佬|美国人|洋基队
-rumor: 谣言|传闻|传言|谣传|流言|谣|风声
-exclusive: 独家|只
-abbr: 简短|缩写

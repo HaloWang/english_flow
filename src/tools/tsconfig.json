@@ -2,6 +2,7 @@
   "compilerOptions": {
     "outDir": "../../dist/tools/",
     "strict": false,
+    "strictNullChecks": true,
     "sourceMap": false,
     "removeComments": true,
     "target": "ESNext",

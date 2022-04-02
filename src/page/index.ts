@@ -640,6 +640,9 @@ function addkeyboardListener() {
           ev.stopPropagation()
           speak(EFHoverWord)
           GM_openInTab(`https://www.youdao.com/w/eng/${EFHoverWord}`, true)
+          GM_openInTab(`https://translate.google.com/?tl=zh-CN&text=${EFHoverWord}`, true)
+          // GM_openInTab(`https://www.google.com/search?q=word+root+${EFHoverWord}`, true)
+          // GM_openInTab(`https://en.wiktionary.org/wiki/${EFHoverWord}`, true)
           break
         }
         default:
@@ -661,11 +664,11 @@ function addkeyboardListener() {
         case EFQuerySelectionsKey.toLowerCase(): {
           ev.preventDefault()
           ev.stopPropagation()
-          // GM_openInTab(`https://www.deepl.com/translator#en/zh/${_string}`, true)
+          // isAWord && GM_openInTab(`https://en.wiktionary.org/wiki/${_string}`, true)
+          isAWord && GM_openInTab(`https://www.google.com/search?q=word+root+${_string}`, true)
           GM_openInTab(`https://translate.google.com/?tl=zh-CN&text=${_string}`, true)
-          // GM_openInTab(`https://www.google.com/search?q=define+${_string}`, true)
           GM_openInTab(`https://www.youdao.com/w/eng/${_string}`, true)
-          GM_setClipboard(_string)
+          isAWord && GM_setClipboard(_string)
           isAWord && speak(_string)
           break
         }
