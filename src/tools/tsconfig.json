@@ -3,7 +3,7 @@
     "outDir": "../../dist/tools/",
     "strict": false,
     "strictNullChecks": true,
-    "sourceMap": false,
+    "sourceMap": true,
     "removeComments": true,
     "target": "ESNext",
     "module": "CommonJS"

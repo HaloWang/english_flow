@@ -1,37 +1,55 @@
 import * as fs from 'fs'
 
-/**
- * Watch file, if file content as UTF-8 string changed or node process initilization, execute @param initAndChange
- */
-export function hl_watch(path: string, initAndChange: (fileString: string) => void) {
-  console.log('🔃 watching:', path.replace(process.cwd(), ''))
-  const getCurrentFileStringSync = () => fs.readFileSync(path, 'utf8')
-  let fileStringStored = getCurrentFileStringSync()
-  initAndChange(fileStringStored)
-  fs.watch(path, event => {
-    if (event !== 'change') return
-    const newFileString = getCurrentFileStringSync()
-    if (fileStringStored === newFileString) {
+export function hl_readFile(path: string, callback: (data: string) => void) {
+  fs.readFile(path, 'utf-8', (err, data) => {
+    if (err) {
+      console.log(err)
       return
     }
-    fileStringStored = newFileString
-    initAndChange(fileStringStored)
+    callback(data)
   })
 }
 
-function ng_hl_watch(path: string, invoke: (fileString: string) => string) {
-  console.log('🔃 watching:', path.replace(process.cwd(), ''))
-  fs.watch(path, 'utf-8', event => {
-    console.log(event)
-    fs.readFile(path, 'utf-8', (err, data) => {
-      if (err) {
-        console.error(err)
-        return
-      }
-      if (data === undefined || data === null) {
-        console.error(err)
-        return
-      }
+export function hl_watch(path: string, invoke: (fileString: string) => string | void) {
+  const pathLog = path.replace(process.cwd(), '').split('/').pop()
+  let fileStringStored = ''
+
+  console.log(' ⚙️  initializing:', pathLog)
+  hl_readFile(path, initResult => {
+    if (initResult === undefined || initResult === null) {
+      console.error('❌ file string is', initResult)
+      return
+    }
+
+    const invokeReult = invoke(initResult)
+    console.log(' ⚙️  initialized:', pathLog)
+    if (typeof invokeReult === 'string') {
+      fileStringStored = invokeReult
+    } else {
+      fileStringStored = initResult
+    }
+
+    console.log(' 🔃 watching:', pathLog)
+    fs.watch(path, 'utf-8', event => {
+      if (event !== 'change') return
+      hl_readFile(path, watchResult => {
+        if (watchResult === undefined || watchResult === null) {
+          console.error('❌ file string is', watchResult)
+          return
+        }
+
+        if (fileStringStored === watchResult) {
+          console.log(' ⏭  Same content, skip:', pathLog)
+          return
+        }
+
+        fileStringStored = watchResult
+
+        const invokeReult = invoke(watchResult)
+        if (typeof invokeReult === 'string') {
+          fileStringStored = invokeReult
+        }
+      })
     })
   })
 }

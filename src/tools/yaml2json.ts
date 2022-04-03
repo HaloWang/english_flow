@@ -66,7 +66,6 @@ if (!fs.existsSync(distDir)) {
   fs.mkdirSync(distDir)
 }
 
-let times = 0
 hl_watch(sourceFilePath, string => {
   const yamlString = string
 
@@ -159,16 +158,18 @@ hl_watch(sourceFilePath, string => {
 
   // console.log(JSON.parse(JSON.stringify(objectFromYaml)))
 
+  const YAMLStringToRewrite = yaml.dump(objectFromYaml, {
+    skipInvalid: true,
+    lineWidth: 100,
+  })
+
   if (Should.OrderDictKeys && Should.GenerateYAML) {
     fs.writeFileSync(
       Should.YAMLRewrite ? sourceFilePath : targetFilePath,
-      yaml.dump(objectFromYaml, {
-        skipInvalid: true,
-        lineWidth: 100,
-      }),
+      YAMLStringToRewrite,
       'utf8',
     )
   }
 
-  console.log(` 🤔 ${fileName} updated`, ++times)
+  return YAMLStringToRewrite
 })
