@@ -66,9 +66,7 @@ if (!fs.existsSync(distDir)) {
   fs.mkdirSync(distDir)
 }
 
-hl_watch(sourceFilePath, string => {
-  const yamlString = string
-
+hl_watch(sourceFilePath, yamlString => {
   let objectFromYaml: { [key: string]: string | null | undefined | { [key: string]: any } }
 
   try {
