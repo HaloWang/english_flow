@@ -35,6 +35,7 @@ function currentFocusingIsInputElement() {
 async function queryDictMark() {
   return await request<{ dictMark: number }>(`${EFLocalServerURL}/dictMark`, {
     responseType: 'json',
+    timeout: Number.MAX_SAFE_INTEGER,
   })
 }
 
@@ -45,13 +46,15 @@ async function request<T = any>(
     method?: 'GET' | 'HEAD' | 'POST' | undefined
     headers?: Tampermonkey.RequestHeaders | undefined
     data?: string | undefined
+    timeout?: number | undefined
   },
 ) {
-  const { responseType } = options
+  const { responseType, timeout } = options
   return new Promise<T>((_resolve, _reject) => {
     GM_xmlhttpRequest({
       url,
       responseType,
+      timeout,
       onerror: error => {
         _reject(error)
       },
@@ -594,23 +597,25 @@ async function main() {
     WordsInDictAndWebpage = {}
   }
 
+  async function subscribe() {
+    const info = await queryDictMark()
+    if (info.dictMark !== localDictMark) {
+      console.log('EF: Will refresh page')
+      localDictMark = info.dictMark
+
+      loadDict().then(dict => {
+        localDict = dict.dict
+        resetApp()
+        checkDOMFromSelector({ selectors: Profile.rootSelector })
+        logDOMChangeCount()
+      })
+    }
+    subscribe()
+  }
+
   //  监听本地词典变更, 并同步至网页
   setTimeout(() => {
-    setInterval(() => {
-      queryDictMark().then(info => {
-        if (info.dictMark !== localDictMark) {
-          console.log('EF: Will refresh page')
-          localDictMark = info.dictMark
-
-          loadDict().then(dict => {
-            localDict = dict.dict
-            resetApp()
-            checkDOMFromSelector({ selectors: Profile.rootSelector })
-            logDOMChangeCount()
-          })
-        }
-      })
-    }, 1000)
+    subscribe()
   }, 2000)
 }
 
