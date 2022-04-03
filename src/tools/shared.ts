@@ -8,12 +8,30 @@ export function hl_watch(path: string, initAndChange: (fileString: string) => vo
   const getCurrentFileStringSync = () => fs.readFileSync(path, 'utf8')
   let fileStringStored = getCurrentFileStringSync()
   initAndChange(fileStringStored)
-  fs.watch(path, _ => {
+  fs.watch(path, event => {
+    if (event !== 'change') return
     const newFileString = getCurrentFileStringSync()
     if (fileStringStored === newFileString) {
       return
     }
     fileStringStored = newFileString
     initAndChange(fileStringStored)
+  })
+}
+
+function ng_hl_watch(path: string, invoke: (fileString: string) => string) {
+  console.log('🔃 watching:', path.replace(process.cwd(), ''))
+  fs.watch(path, 'utf-8', event => {
+    console.log(event)
+    fs.readFile(path, 'utf-8', (err, data) => {
+      if (err) {
+        console.error(err)
+        return
+      }
+      if (data === undefined || data === null) {
+        console.error(err)
+        return
+      }
+    })
   })
 }

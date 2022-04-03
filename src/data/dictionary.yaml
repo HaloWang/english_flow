@@ -102,6 +102,7 @@ bush: 灌木|蓬松
 buzzword: 行话|术语|流行语
 calbindin: 钙结合蛋白
 calcarine: 距状
+calcium: 钙
 cambridge: 剑桥
 candidate: 候选人|申请者
 capital: 资本|资金|资本家|资方|首都|首府|省会
@@ -123,6 +124,7 @@ citation: 引文|引语|传唤|传票|表彰|嘉奖状|引用|引证
 claim: 声称|断言|索取|要求
 clause: 条款|条纹|分句|从句
 clinic: 诊所|门诊
+closure: 关闭|闭合|门襟|闭锁|闭包
 cluster: 簇|集|聚
 cochle: 耳蜗
 cocky: 自大|骄傲|自负
@@ -176,6 +178,7 @@ constant: 恒定
 constituen: 成分|选取|选民|组成
 consult: 咨询|请教|商量|商讨|查询|查阅|当顾问
 contempora: 当代|当今|同龄
+contest: 竞赛|争夺|辩论
 continu: 连续|继续
 contra: 对|反
 controver: 争议|否定
@@ -196,6 +199,7 @@ critic: 批评
 critical: 临界|严重|批评|危急|紧要|要紧|紧张|沉重|当紧
 crucial: 至关重要|决定性
 crudity: 粗糙|简陋
+cytoplasm: 细胞质
 datum: 数据|资料
 debate: 辩论|争论|争议
 debt: 债务
@@ -366,6 +370,7 @@ glia: 神经胶质
 globu: 球状
 glutamate: 谷氨酸盐|谷氨酸酯
 gnos: 灵知|真知|直觉
+grab: 抢|抓
 grace: 雅
 gradual: 缓|逐步
 granul: 粒|颗
@@ -397,6 +402,7 @@ hierarch:
 histochemi: 组织化学
 histol: 组织
 homotyp: 同形
+horror: 惊恐|恐惧
 humanity: 人类|人性|人道|仁慈|人文学科
 humor: 幽默|诙谐
 hypothalam: 下丘脑
@@ -491,6 +497,7 @@ kin:
 lack: 缺乏|减少
 ladder: 梯子
 laminar: 层|薄片状
+lapse: 失误|过失
 latency: 延迟|潜伏|潜在因素
 latent: 潜在|潜伏|隐藏
 lateral: 侧
@@ -596,6 +603,7 @@ orien: 方位
 originat: 起源
 orthogonal: 正交
 oscillat: 震荡
+outperform: 胜过|比...做得好
 overlap: 重叠
 overlook: 俯瞰|忽略|俯视|忘记|轻忽
 overstatement: 大话|夸大其词
@@ -706,6 +714,7 @@ quie:
   m: 静
   options:
     - NotFull
+rack: 架子|折磨
 radia: 射|辐
 radical: 根本
 radiolog: 放射学|X射线学
@@ -784,6 +793,7 @@ retinotop: 视网膜定位|视网膜区域定位
 retriev: 检索|取回|恢复
 retrograd: 逆行|倒退
 reverse: 逆转|相对|彻底改变|相反
+revolutionize: 使发生革命性巨变|使彻底变革|发动革命|推翻原有政府|从事革命|灌输革命信念
 rhythm: 节律|节奏|节拍|规则变化|和谐|抑扬节奏|韵律|旋律
 ridge: 山脊|隆起|脊状隆起
 ringer: 顶替|替补|铃声|按铃者
@@ -800,6 +810,7 @@ rods:
     - FullMatch
 rosehip: 玫瑰果
 rostral: 喙部
+rubber: 橡胶|胶
 rudiment: 雏形|基本
 ruffle: 弄乱
 rumor: 谣言|传闻|传言|谣传|流言|谣|风声
@@ -808,6 +819,7 @@ salien: 显著|突出|卓越
 scale: 天平|等级|标尺|范围|比例|改变尺寸|攀登
 scatter: 分散|离散
 scenario: 设想|剧情|情节
+schematic: 概要|略图|严谨
 scheme: 方案|格式|计划|系统|体系|密谋|策划
 schizophreni: 精神分裂
 scholar: 学者|学术
@@ -941,6 +953,7 @@ territor: 领土
 therap: 疗
 thereby: 因此|从而
 therefo: 因此
+though: 虽然|尽管
 thought: 想法|看法|主意|考虑|深思|关心|顾虑|意图|希望|念头|思想|思潮|思考|思维|心思|思想
 throughout: 遍及|到处|始终
 thus: 因此|这样|以这种方式
@@ -955,9 +968,11 @@ transien: 短暂|转瞬即逝|无偿
 transparen: 透明|透彻
 transplant: 移植
 transport: 运输|运送|传播
+trap: 捕获|陷阱
 trebuchet: 投石机
 tremor: 震颤|颤抖|战栗|地震
 trial: 审讯|考研|试验|诉讼
+trigger: 触发|触发器|扳机
 trim: 修剪,修整|削减,减少|修饰,点缀(尤指某物的边缘)|切除,剪掉(不规则或不需要的部分)
 trisynaptic: 三突触
 tuft: 簇|丛|绺(liǔ)
@@ -967,8 +982,7 @@ ultimat: 最终|终极
 uncorrelated: 非.相关
 underestimat: 低估|轻视|估计不足
 undergo: 正在经历
-underl: 衬底|垫起|支撑
-underlie: 底层|基础
+underl: 衬底|垫起|支撑|底层|基础
 unforeseea: 非.预见
 unif: 整合|统一
 unroll: 非.卷|展开
@@ -988,6 +1002,7 @@ vertebra: 脊椎
 vestibul: 前庭|门廊
 viscea: 内脏
 vital: 重要|核心
+vocabulary: 词汇|词汇表|全部词汇
 volume: 大量|体积|音量|书卷
 voluntar: 自主|自愿|随意
 vowel: 元音|母音
@@ -995,4 +1010,5 @@ vulnerabl: 脆弱|易受伤
 whereas: 然而
 wherein: 在其中|在何处
 whilst: 同时
+wholesome: 健康|有意
 yankee: 美国佬|美国人|洋基队

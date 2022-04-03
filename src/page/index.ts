@@ -5,10 +5,10 @@ const EFSynth = window.speechSynthesis
 const EFUseFullMatchForcedly = false
 const EFLocalServerURL = 'http://localhost:8000'
 const EFStoragePrefix = '_ef_'
-const EFQuerySelectionsKey = 'D'
-const EFSpeakSelectionsKey = 'E'
-const EFQueryHighlightKey = 'F'
-const EFSpeakHighlightKey = 'R'
+const EFQuerySelectionsKey_D = 'D'
+const EFSpeakSelectionsKey_E = 'E'
+const EFQueryHighlightKey_F = 'F'
+const EFSpeakHighlightKey_R = 'R'
 
 const efpiFontSize = 16
 const efpiLineHeight = efpiFontSize + 4
@@ -156,10 +156,9 @@ async function main() {
   let localDictMark = _initalizeInfo.dictMark
 
   // 运行时中获取的, 已知的单词, 或字典中不包含的单词
-  const WordsInWebpageButNotExistInDict: string[] = []
+  let WordsInWebpageButNotExistInDict: string[] = []
   function initWIWbNID() {
-    WordsInWebpageButNotExistInDict.length = 0
-    WordsInWebpageButNotExistInDict.push(...['constructor', '__proto__'])
+    WordsInWebpageButNotExistInDict = ['constructor', '__proto__']
   }
   initWIWbNID()
 
@@ -183,6 +182,14 @@ async function main() {
     Analysis.totalStored = Object.keys(localDict).length
   }
   initAnalysis()
+
+  if (
+    navigator.userAgent.includes('AppleWebKit') &&
+    window.location.href.includes('translate.google.com')
+  ) {
+    // @ts-ignore
+    window.trustedTypes.createPolicy('default', { createHTML: (string, sink) => string })
+  }
 
   // 查询某个单词是被手动添加入了字典
   // 进行运行时缓存操作
@@ -625,16 +632,16 @@ function addkeyboardListener() {
       }
 
       switch (ev.key) {
-        case EFSpeakHighlightKey:
-        case EFSpeakHighlightKey.toLowerCase(): {
+        case EFSpeakHighlightKey_R:
+        case EFSpeakHighlightKey_R.toLowerCase(): {
           if (!EFHoverWord) break
           ev.stopPropagation()
           ev.preventDefault()
           speak(EFHoverWord)
           break
         }
-        case EFQueryHighlightKey:
-        case EFQueryHighlightKey.toLowerCase(): {
+        case EFQueryHighlightKey_F:
+        case EFQueryHighlightKey_F.toLowerCase(): {
           if (!EFHoverWord) break
           ev.preventDefault()
           ev.stopPropagation()
@@ -660,20 +667,33 @@ function addkeyboardListener() {
         _string = _string.replaceAll(' ', '')
       }
       switch (ev.key) {
-        case EFQuerySelectionsKey:
-        case EFQuerySelectionsKey.toLowerCase(): {
+        case EFQuerySelectionsKey_D:
+        case EFQuerySelectionsKey_D.toLowerCase(): {
           ev.preventDefault()
           ev.stopPropagation()
-          // isAWord && GM_openInTab(`https://en.wiktionary.org/wiki/${_string}`, true)
-          // isAWord && GM_openInTab(`https://www.google.com/search?q=word+root+${_string}`, true)
-          GM_openInTab(`https://translate.google.com/?tl=zh-CN&text=${_string}`, true)
-          GM_openInTab(`https://www.youdao.com/w/eng/${_string}`, true)
+
+          const urlsToBeOpened: string[] = [
+            // wikitionary 词源
+            `https://en.wiktionary.org/wiki/${_string}#Etymology`,
+            `https://translate.google.com/?tl=zh-CN&text=${_string}###open_by_ef_30`,
+            `https://www.youdao.com/w/eng/${_string}###open_by_ef_30`,
+          ]
+
+          urlsToBeOpened.forEach(url => {
+            const tab = GM_openInTab(url, true)
+            setTimeout(() => {
+              if (!tab.closed) {
+                tab.close()
+              }
+            }, 30000)
+          })
+
           isAWord && GM_setClipboard(_string)
           isAWord && speak(_string)
           break
         }
-        case EFSpeakSelectionsKey:
-        case EFSpeakSelectionsKey.toLowerCase(): {
+        case EFSpeakSelectionsKey_E:
+        case EFSpeakSelectionsKey_E.toLowerCase(): {
           ev.preventDefault()
           ev.stopPropagation()
           speak(_string)
