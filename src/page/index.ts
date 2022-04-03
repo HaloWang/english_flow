@@ -149,7 +149,7 @@ async function main() {
 
   // 为什么 ts 编译器没有自动将 Profile 解包?
   const Profile: SiteProfile = __Profile!
-  console.log('EF: 🎉 Using:', Profile.name + (Profile.name === 'Default' ? '' : 'and Default'))
+  console.log('EF: 🎉 Using:', Profile.name + (Profile.name === 'Default' ? '' : ' and Default'))
 
   const _initalizeInfo = await loadDict()
   let localDict = _initalizeInfo.dict

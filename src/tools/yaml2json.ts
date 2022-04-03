@@ -77,7 +77,7 @@ hl_watch(sourceFilePath, yamlString => {
   }
 
   if (!objectFromYaml) {
-    console.error(' ❌ Can not get object from yaml:', fileName)
+    console.log(' ❌ Can not get object from yaml:', fileName)
     return
   }
 
@@ -169,5 +169,7 @@ hl_watch(sourceFilePath, yamlString => {
     )
   }
 
-  return YAMLStringToRewrite
+  if (Should.YAMLRewrite && Should.OrderDictKeys) {
+    return YAMLStringToRewrite
+  }
 })

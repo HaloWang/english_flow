@@ -6,7 +6,30 @@ export function hl_readFile(path: string, callback: (data: string) => void) {
       console.log(err)
       return
     }
-    callback(data)
+    if (data.length === 0) {
+      // That is fucking why?
+      // console.log("???", data.length)
+      // console.log("!!!", fs.readFileSync(path, 'utf8').length)
+      // setTimeout(()=>{
+      //   console.log(fs.readFileSync(path, 'utf8').length)
+      // }, 10)
+      let fuckingWhy = fs.readFileSync(path, 'utf8')
+      let fuckNumber = 10
+      while (fuckingWhy.length === 0 && fuckNumber > 0) {
+        fuckNumber -= 1
+        // Why, why I can not found this problem on Google? 
+        // Nobody faced this problem. 
+        // So It should by my own bugs.
+        // But what's the point???
+        // console.log("FUCK")
+        fuckingWhy = fs.readFileSync(path, 'utf8')
+      }
+      // console.log(fuckingWhy.length)
+      callback(fuckingWhy)
+    } else {
+      // console.log('FUCK2')
+      callback(data)
+    }
   })
 }
 
