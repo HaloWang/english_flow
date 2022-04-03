@@ -12,28 +12,13 @@ let dictMark = 0
 
 fs.watch(dictJSONPath, () => {
   fs.readFile(dictJSONPath, 'utf8', (err, latestString) => {
-    if (err) {
-      console.log(err)
-      return
-    }
     if (serverString !== latestString) {
       serverString = latestString
       serverDictObj = JSON.parse(latestString)
       dictMark += 1
-      if (dictMarkRes) {
-        dictMarkRes.setHeader('Content-Type', 'application/json')
-        dictMarkRes.writeHead(200)
-        const finalObj = {
-          dictMark,
-        }
-        dictMarkRes.end(JSON.stringify(finalObj))
-        dictMarkRes = null
-      }
     }
   })
 })
-
-let dictMarkRes: ServerResponse | null = null
 
 const listener = (req: IncomingMessage, res: ServerResponse) => {
   const option = req.url || ''
@@ -50,7 +35,12 @@ const listener = (req: IncomingMessage, res: ServerResponse) => {
     }
 
     case '/dictMark': {
-      dictMarkRes = res
+      res.setHeader('Content-Type', 'application/json')
+      res.writeHead(200)
+      const finalObj = {
+        dictMark,
+      }
+      res.end(JSON.stringify(finalObj))
       break
     }
 
