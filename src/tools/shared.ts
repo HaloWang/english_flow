@@ -42,7 +42,7 @@ export function hl_watch(path: string, invoke: (fileString: string) => string | 
           return
         }
 
-        console.log(' 🎉  Content changed', pathLog)
+        console.log(' 🎉 Content changed', pathLog)
 
         fileStringStored = watchResult
 

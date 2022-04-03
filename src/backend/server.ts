@@ -11,7 +11,7 @@ let serverDictObj: any = JSON.parse(serverString)
 let dictMark = 0
 
 fs.watch(dictJSONPath, () => {
-  fs.readFile(dictJSONPath, { encoding: 'utf-8' }, (err, latestString) => {
+  fs.readFile(dictJSONPath, 'utf8', (err, latestString) => {
     if (serverString !== latestString) {
       serverString = latestString
       serverDictObj = JSON.parse(latestString)
