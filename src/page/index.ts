@@ -220,7 +220,7 @@ async function main() {
       }
     }
 
-    let dictionaryResult: Detail | null | undefined = null
+    let dictResult: Detail | null | undefined = null
     let matchKey: string | null = null
     let pairIndex = 0
     let cIndex = 2
@@ -237,20 +237,20 @@ async function main() {
       // 也为下面的全词匹配做了准备
       const tempKey = word.substring(0, cIndex)
       if (localDict[tempKey]) {
-        dictionaryResult = localDict[tempKey]
+        dictResult = localDict[tempKey]
         pairIndex = cIndex
         matchKey = tempKey
       }
     }
 
     // 该单词没有匹配到字典中的项
-    if (!dictionaryResult) {
+    if (!dictResult) {
       WordsInWebpageButNotExistInDict.push(word)
       Analysis.runtimeEasyOrNoStored += 1
       return null
     }
 
-    // 在 dictionary.yaml 中的值是否和 webpage.word 完全匹配
+    // 在 dict.yaml 中的值是否和 webpage.word 完全匹配
     const fullMatch = word === matchKey
 
     if (EFUseFullMatchForcedly && !fullMatch) {
@@ -260,17 +260,17 @@ async function main() {
     }
 
     // 该单词匹配到了字典中的项, 但是不满足该项要求的全词匹配
-    // dictionary["kin"] = "亲属"
+    // dict["kin"] = "亲属"
     // webpage word "kind" != 亲属
-    if (dictionaryResult.options && dictionaryResult.options.length > 0) {
-      if (dictionaryResult.options.includes('FullMatch')) {
+    if (dictResult.options && dictResult.options.length > 0) {
+      if (dictResult.options.includes('FullMatch')) {
         if (!fullMatch) {
           WordsInWebpageButNotExistInDict.push(word)
           Analysis.runtimeEasyOrNoStored += 1
           return null
         }
       }
-      if (dictionaryResult.options.includes('NotFull')) {
+      if (dictResult.options.includes('NotFull')) {
         if (fullMatch) {
           WordsInWebpageButNotExistInDict.push(word)
           Analysis.runtimeEasyOrNoStored += 1
@@ -280,7 +280,7 @@ async function main() {
     }
 
     const result: WordDetailResult = {
-      detail: dictionaryResult,
+      detail: dictResult,
       fullPair: fullMatch,
       pairIndex,
       pairKey: matchKey ?? undefined,
@@ -910,6 +910,4 @@ interface SiteProfile {
   notMatchTagName?: string[]
   // 未实现/考虑中: 不应该匹配的类名
   notMatchClassName?: string[]
-  // webpage 动态更新字典
-  _dictionaryLiveReload?: boolean
 }

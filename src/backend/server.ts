@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 import { createServer, IncomingMessage, ServerResponse } from 'http'
 
-const dictJSONPath = process.cwd() + `/dist/data/dictionary.json`
+const dictJSONPath = process.cwd() + `/dist/data/dict.json`
 const profileJSONPath = process.cwd() + `/dist/data/profile.json`
 const host = 'localhost'
 const port = 8000

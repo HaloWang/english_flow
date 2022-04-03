@@ -39,7 +39,7 @@ if (options) {
   }
 }
 
-const ProcessingDict = fileName === 'dictionary'
+const ProcessingDict = fileName === 'dict'
 let distDir = process.cwd() + `/dist/data`
 let srcDic = process.cwd() + `/src/data`
 let sourceFilePath = srcDic + `/${fileName}.yaml`

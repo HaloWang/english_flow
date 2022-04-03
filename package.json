@@ -22,7 +22,7 @@
     "_ts_page_dev": "tsc -w -p ./src/page",
     "_ts_tools": "tsc -p ./src/tools",
     "_ts_tools_dev": "tsc -w -p ./src/tools",
-    "_w_dict": "node ./dist/tools/yaml2json.js dictionary ogrl",
+    "_w_dict": "node ./dist/tools/yaml2json.js dict ogrl",
     "_w_entry": "node ./dist/tools/gen_entry.js Desktop",
     "_w_profile": "node ./dist/tools/yaml2json.js profile f",
     "_w_style": "node ./dist/tools/less2css.js dev",

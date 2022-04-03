@@ -59,7 +59,7 @@
 4. `yarn ts_build`
    - 编译 index.ts / server.ts 至 dist 中
 5. `yarn w_tools`
-   - `_w_dict`: 监听 src/data/dictionary.yaml, 编译为 json
+   - `_w_dict`: 监听 src/data/dict.yaml, 编译为 json
    - `_w_profile`: 监听 src/data/profile.yaml, 编译为 json
    - `_w_style`: 监听 src/frontend/style.less, 编译为 css
    - `_w_entry`: 监听 entry/template.js, 改写其 @require/@resource
@@ -109,9 +109,9 @@
   - 可自行添加: Google search pronounce XXX
   - 可自行添加: Deepl XXX
 - EF 这时会同时查询 google translate 的发音
-- 我经常参考有道词典的联想功能来修饰(删除末尾)我在 dictionary.yaml 写入的关键字
-- `shift+R`, 当该单词已经被添加至 dictionary.yaml 忠厚, 如果鼠标悬停在该单词上, 则发音
-- `shift+F`, 当该单词已经被添加至 dictionary.yaml 忠厚, 如果鼠标悬停在该单词上, 则快捷打开如下网页, 同时发音
+- 我经常参考有道词典的联想功能来修饰(删除末尾)我在 dict.yaml 写入的关键字
+- `shift+R`, 当该单词已经被添加至 dict.yaml 忠厚, 如果鼠标悬停在该单词上, 则发音
+- `shift+F`, 当该单词已经被添加至 dict.yaml 忠厚, 如果鼠标悬停在该单词上, 则快捷打开如下网页, 同时发音
 
 #### 发音
 
@@ -128,7 +128,7 @@
 
 - _🚧 我已经在其中添加了很多单词了_
 
-- 打开 `dictionary.yaml`, 添加单词, 我选择使用 `|` 来分隔同一个单词(伪单词/伪词根)的释义
+- 打开 `dict.yaml`, 添加单词, 我选择使用 `|` 来分隔同一个单词(伪单词/伪词根)的释义
 
 #### 个人习惯
 
@@ -144,19 +144,19 @@
 
 ### 词典当然应该根据首字母
 
-我会同时编译一份根据 keyword 重新排序的 DONT_USE_dictionary.yaml 至 dist/data 中, 手动 copy 至 src/data/dictionary.yaml 即可
+我会同时编译一份根据 keyword 重新排序的 DONT_USE_dict.yaml 至 dist/data 中, 手动 copy 至 src/data/dict.yaml 即可
 
 ## 自行开发
 
 ### 核心逻辑
 
-开启网页后, EF 会以 profile.yaml 中配置的 `rootSelector` 为根节点遍历 DOM 中的 `Text`. 如果发现 `Text` 中的文本能匹配到 dictionary.yaml 中添加的 keyword, 则将其替换为名为 `eft` 的标签
+开启网页后, EF 会以 profile.yaml 中配置的 `rootSelector` 为根节点遍历 DOM 中的 `Text`. 如果发现 `Text` 中的文本能匹配到 dict.yaml 中添加的 keyword, 则将其替换为名为 `eft` 的标签
 
 在网页上创建一个 id 为 `ef-word-detail-panel` 的标签, 用于展示单词的翻译
 
 通过监听 `eft` 标签的 `mouseenter` 事件, EF 会使用 `#ef-word-detail-panel` 在网页上展示对应单词的翻译, 以此来达到助记/提醒的效果. 让我可以不脱离上下文获取英文单词的意思. 并且仅仅在有需要时"背"这个单词(伪词根)
 
-EF 会以轮询的方式请求本地在 `localhost:8000` 开启的 node.js server, 当 dictionary.yaml 变更时, EF 会刷新整个页面
+EF 会以轮询的方式请求本地在 `localhost:8000` 开启的 node.js server, 当 dict.yaml 变更时, EF 会刷新整个页面
 
 ### 网页端主要功能
 
@@ -173,19 +173,19 @@ style.less
   - 不从头开始匹配单词
   - 匹配多个词根
   - 匹配短语
-- 是否可以自动为你在 dictionary.yaml 加入的生词添加上下文
+- 是否可以自动为你在 dict.yaml 加入的生词添加上下文
   1. 手动选择网页中你想要记忆的句子发送至 localhost (可以使用某种快捷键触发)
-  2. 如果句子中存在能匹配到(大概率为 true) dictionary.yaml 中的 keyword 的单词, 则保存该 keyword 和该 sentence 的关联
+  2. 如果句子中存在能匹配到(大概率为 true) dict.yaml 中的 keyword 的单词, 则保存该 keyword 和该 sentence 的关联
   3. 下次再出现该 keyword 时, 在网页上展示这个句子
 - 立即刷新 EF 的快捷键
-- dictionary.yaml 重命名
-- dictionary.yaml 自动格式化
+- dict.yaml 重命名
+- dict.yaml 自动格式化
 - 一部分页面不允许使用 audio 发声
 - 监听 profile.yaml
 - 当 profile.yaml 中添加或减少页面时, 刷新页面
 - `profile.yaml` 还需要调整
 - Add template_dict.yaml for better tutorial
-- Add YAML schema to dictionary.yaml
+- Add YAML schema to dict.yaml
 - 写 TM 脚本时应该将所有函数解耦合, 不要图省事儿在函数中定义函数
 - 合并 yarn 脚本, 并且去除不同脚本之间的依赖, 是不是要考虑 pipeline/webpack?
 - 在 yaml 中输入的格式有错时, 脚本不应该中断. w_tools 和 serve 不应该有时间上的依赖
