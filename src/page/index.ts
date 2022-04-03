@@ -597,32 +597,26 @@ async function main() {
     WordsInDictAndWebpage = {}
   }
 
-  async function subscribeDictMark() {
-    try {
-      const info = await queryDictMark()
-      if (info.dictMark !== localDictMark) {
-        console.log('EF: Will refresh page')
-        localDictMark = info.dictMark
+  async function subscribe() {
+    const info = await queryDictMark()
+    if (info.dictMark !== localDictMark) {
+      console.log('EF: Will refresh page')
+      localDictMark = info.dictMark
 
-        loadDict().then(dict => {
-          localDict = dict.dict
-          resetApp()
-          checkDOMFromSelector({ selectors: Profile.rootSelector })
-          logDOMChangeCount()
-        })
-      }
-      subscribeDictMark()
-    } catch (e) {
-      setTimeout(() => {
-        subscribeDictMark()
-      }, 1000)
+      loadDict().then(dict => {
+        localDict = dict.dict
+        resetApp()
+        checkDOMFromSelector({ selectors: Profile.rootSelector })
+        logDOMChangeCount()
+      })
     }
+    subscribe()
   }
 
   //  监听本地词典变更, 并同步至网页
   setTimeout(() => {
-    subscribeDictMark()
-  }, 1000)
+    subscribe()
+  }, 2000)
 }
 
 main()

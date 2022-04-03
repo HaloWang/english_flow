@@ -51,7 +51,6 @@ const listener = (req: IncomingMessage, res: ServerResponse) => {
 
     case '/dictMark': {
       dictMarkRes = res
-      console.log(' 🔃 holding client request')
       break
     }
 
