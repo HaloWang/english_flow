@@ -170,7 +170,10 @@ style.less
 ## TODO (or not)
 
 - 你早晚要 `getWordDetail` 写成 async request
+  - 前端方面要大改...不能用循序遍历的方法改 Text Node 中的值了
+  - 前端同时发起的网络请求数量似乎有点限制
 - 自己的字典应该加入 .gitignore
+- [有一些 space 会被 inline-flex 忽略掉](https://stackoverflow.com/questions/39325039/css-flex-box-last-space-removed)
 - 更高级的匹配
   - 不从头开始匹配单词
   - 匹配多个词根

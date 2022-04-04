@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "../../dist/",
     "strict": true,
-    "sourceMap": false,
+    "sourceMap": true,
     "removeComments": true,
     "target": "ESNext",
     "module": "CommonJS"
