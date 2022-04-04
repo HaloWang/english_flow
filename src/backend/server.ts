@@ -1,23 +1,22 @@
 import * as fs from 'fs'
 import { createServer, IncomingMessage, ServerResponse } from 'http'
+import { hl_watch } from '../shared'
 
 const dictJSONPath = process.cwd() + `/dist/data/dict.json`
 const profileJSONPath = process.cwd() + `/dist/data/profile.json`
 const host = 'localhost'
 const port = 8000
 
-let serverString = fs.readFileSync(dictJSONPath, { encoding: 'utf-8' })
-let serverDictObj: any = JSON.parse(serverString)
+let serverDictObj: any = {}
 let dictMark = 0
 
-fs.watch(dictJSONPath, () => {
-  fs.readFile(dictJSONPath, 'utf8', (err, latestString) => {
-    if (serverString !== latestString) {
-      serverString = latestString
-      serverDictObj = JSON.parse(latestString)
-      dictMark += 1
-    }
-  })
+hl_watch(dictJSONPath, latestString => {
+  try {
+    serverDictObj = JSON.parse(latestString)
+    dictMark += 1
+  } catch (error) {
+    console.log('EF: JSON parse error! check your json file!')
+  }
 })
 
 const listener = (req: IncomingMessage, res: ServerResponse) => {

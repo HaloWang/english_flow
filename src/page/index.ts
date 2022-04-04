@@ -389,7 +389,9 @@ async function main() {
             continue
           }
 
-          const allWordsInTextNode = (parent.childNodes[i] as Text).textContent?.matchAll(/\w+/g)
+          const regex = /[A-z]+/g
+
+          const allWordsInTextNode = (parent.childNodes[i] as Text).textContent?.matchAll(regex)
           if (!allWordsInTextNode) {
             continue
           }
@@ -512,7 +514,7 @@ async function main() {
         AnalysisInitialization.domChangeCount = Analysis.domChangeCount
         console.log('EF:', Analysis.domChangeCount, 'words translated')
       }
-    }, 200)
+    }, 1000)
   }
 
   let usingProfileStrategies = false
@@ -685,7 +687,7 @@ function addkeyboardListener() {
               if (!tab.closed) {
                 tab.close()
               }
-            }, 30000)
+            }, 60 * 1000)
           })
 
           isAWord && GM_setClipboard(_string)

@@ -1,8 +1,8 @@
-/.git
-/node_modules
-/store
-/dist
-.prettierignore
-.gitignore
 *.lock
 *.log
+.gitignore
+.prettierignore
+/.git
+/dist
+/node_modules
+/store

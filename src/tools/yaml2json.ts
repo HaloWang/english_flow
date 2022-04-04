@@ -1,6 +1,6 @@
 import * as yaml from 'js-yaml'
 import * as fs from 'fs'
-import { hl_watch } from './shared'
+import { hl_watch } from '../shared'
 
 const fileName = process.argv[2]
 if (!fileName) {
@@ -19,6 +19,8 @@ const Should = {
   GenerateYAML: false,
   /** 将生成的 yaml 重写至原始位置 */
   YAMLRewrite: false,
+  /** 格式化有道词典的释义 */
+  ReplaceYoudaoChar: false,
 }
 
 if (options) {
@@ -36,6 +38,9 @@ if (options) {
   }
   if (options.includes('r')) {
     Should.YAMLRewrite = true
+  }
+  if (options.includes('y')) {
+    Should.ReplaceYoudaoChar = true
   }
 }
 
@@ -66,8 +71,19 @@ if (!fs.existsSync(distDir)) {
   fs.mkdirSync(distDir)
 }
 
-hl_watch(sourceFilePath, yamlString => {
+hl_watch(sourceFilePath, _yamlString => {
   let objectFromYaml: { [key: string]: string | null | undefined | { [key: string]: any } }
+
+  let yamlString = _yamlString
+
+  if (Should.ReplaceYoudaoChar) {
+    if (yamlString.includes('；')) {
+      yamlString = yamlString.replaceAll('；', '|')
+    }
+    if (yamlString.includes('，')) {
+      yamlString = yamlString.replaceAll('，', '|')
+    }
+  }
 
   try {
     objectFromYaml = yaml.load(yamlString) as any
