@@ -675,11 +675,11 @@ function addkeyboardListener() {
           ev.stopPropagation()
 
           const urlsToBeOpened: string[] = [
-            // wikitionary 词源
-            `https://en.wiktionary.org/wiki/${_string}#Etymology`,
             `https://translate.google.com/?tl=zh-CN&text=${_string}###open_by_ef_30`,
             `https://www.youdao.com/w/eng/${_string}###open_by_ef_30`,
           ]
+          // wikitionary 词源
+          isAWord && urlsToBeOpened.unshift(`https://en.wiktionary.org/wiki/${_string}#Etymology`)
 
           urlsToBeOpened.forEach(url => {
             const tab = GM_openInTab(url, true)

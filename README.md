@@ -129,6 +129,7 @@
 - _🚧 我已经在其中添加了很多单词了_
 
 - 打开 `dict.yaml`, 添加单词, 我选择使用 `|` 来分隔同一个单词(伪单词/伪词根)的释义
+- 这种伪词根的概念有点像 Greek/Latin
 
 #### 个人习惯
 
@@ -183,7 +184,8 @@ style.less
 - 一部分页面不允许使用 audio 发声
 - 监听 profile.yaml
 - 当 profile.yaml 中添加或减少页面时, 刷新页面
-- `profile.yaml` 还需要调整
+- profile.yaml 还需要调整
+- 当前 profile 根据 `html.lang==en*` 来区分英文网页, 是不是可以让脚本猜测一下当前是否需要启用 EF? 检查 dict 中有多少个 distinct key?
 - Add template_dict.yaml for better tutorial
 - Add YAML schema to dict.yaml
 - 写 TM 脚本时应该将所有函数解耦合, 不要图省事儿在函数中定义函数

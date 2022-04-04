@@ -91,6 +91,7 @@ begun: 开始pp
 bias: 偏|倾|势|斜
 bila: 双
 biograph: 传记
+blasphem: 亵渎
 bloat: 胀
 boilerplate: 样板
 bouton: 小结|疖
@@ -131,6 +132,7 @@ cochle: 耳蜗
 cocky: 自大|骄傲|自负
 coerc: 强制|强迫|迫使
 coevolution: 共同进化
+cognate: 同源
 coheren: 条理|连贯|条理清晰|易于理解
 coherence: 凝聚|伦次|逻辑性
 coin: 硬币|生造
@@ -141,6 +143,7 @@ collectivis: 集体|集体主义
 colliculus: 丘
 coloni: 殖民
 coma: 昏迷
+commission: 佣金|佣|委托
 compact: 压紧|小型|压实|袖珍|带镜小粉盒|合约|协定
 comparison: 对比|比拟
 compass: 指南针|绕行|圆规|范围
@@ -189,10 +192,12 @@ conversation: 对话
 conversely: 相反
 convinc: 信服|确信|说服
 coordinat: 坐标|协调|对等|配合
+copypasta: 复制粘贴(just like chinese)
 cord: 索|绳|粗线
 correlat: 相关
 correspond: 对应|符合|相符|相当|通信
 correspondence: 对应|通讯|信件|函件
+corrupt: 腐败|腐坏|贪污|贪
 counterpart: 同行|副本|对方
 crani: 颅
 crappy: 蹩脚|糟糕|没价值
@@ -201,6 +206,7 @@ critic: 批评
 critical: 临界|严重|批评|危急|紧要|要紧|紧张|沉重|当紧
 crucial: 至关重要|决定性
 crudity: 粗糙|简陋
+cull: 剔除
 cytoplasm: 细胞质
 datum: 数据|资料
 debate: 辩论|争论|争议
@@ -235,6 +241,7 @@ deriv:
 descen: 降|下|后裔|出身
 desire: 渴望|想要|情欲|性欲
 destin: 命运|指定|终点|目标
+detriment: 损害|伤害
 diagno: 诊断
 diencephal: 间脑
 dilat: 扩张|膨胀|散漫
@@ -331,6 +338,7 @@ eviden: 证
 evoke: 唤起|激起|勾|忆
 excit: 刺激|兴奋|激动
 exclusive: 独家|只
+execut: 执行|实施|完成|处决
 exert: 运用|施加|尽力|努力
 exhibit: 展示|陈列|展品
 exogenous: 外生|外因|外成
@@ -341,6 +349,7 @@ expos: 露|暴|揭
 extensi: 广阔|延展|延伸
 extent: 程度|范围|长度
 extinguish: 熄灭|消灭|破灭
+extract: 浸膏|提取|摘录|提
 extrem: 极|过|末
 facto:
   m: 事实上
@@ -389,6 +398,7 @@ habituation: 习惯|习惯化
 hair: 毛发
 hang: 悬挂|挂起|降级
 harbor: 港口|海港|窝藏
+hash: 搞糟|弄乱|剁碎|混杂|哈希(我当然知道)
 haul: 拖|拉|艰难前行|艰难地走|步履蹒跚
 hemi:
   m: 半
@@ -422,6 +432,7 @@ impli: 暗示|含蓄|隐含|内隐
 implicat: 卷入|涉及|牵连|累及
 imply: 暗示|含蓄|隐含|内隐
 impose: 强加|强制推行
+imposter: 骗子|冒名顶替者
 impuls: 脉冲
 incapacitat: 使无能为力|使不能
 inclusiv: 广泛|包容
@@ -488,6 +499,7 @@ irrita: 急躁|易怒|过敏
 isolat: 隔离|分离|孤立
 isothalam: 等丘脑|上丘脑
 javelin: 标枪
+jerusalem: 耶路撒冷
 junction: 交叉
 justif: 正当|解释|辩解|对齐
 kerfuffle: 混乱|吵闹
@@ -518,6 +530,7 @@ locomot: 移动
 logician: 逻辑学家|理论学者
 longitud: 经线|纵
 loopy: 循环|迟钝|呆头呆脑|原地转圈
+lossy: 有损
 lumberjack: 伐木工
 macroscop: 宏观
 magnet: 磁
@@ -571,6 +584,7 @@ mytholog: 神话
 narrati: 讲(故事)|陈述
 neat: 整齐|利落|齐整|干净|齐|楚楚
 neglect: 忽略|疏忽|忘记|忽|荒废|轻忽
+nerd: 呆子|书呆子|码农
 nest: 嵌套|巢|窝
 neurocranium: 神经颅|脑颅
 neurodegenerat: 神经退行|神经变性
@@ -579,6 +593,7 @@ neurosurgeon: 神经外科医生
 neurotoxi: 神经毒
 nigra: 黑质
 nonetheless: 然而|尽管如此
+nostalg: 怀念|思念
 notabl: 显著|显要
 notable: 显要|值得注意|令人尊重|非常成功
 notion: 概念|主张
@@ -823,6 +838,7 @@ ruffle: 弄乱
 rumor: 谣言|传闻|传言|谣传|流言|谣|风声
 saccad: 眼跳|扫视
 salien: 显著|突出|卓越
+sarcasm: 讽刺|挖苦
 scale: 天平|等级|标尺|范围|比例|改变尺寸|攀登
 scatter: 分散|离散
 scenario: 设想|剧情|情节
@@ -919,7 +935,7 @@ substant: 大量|实|me:低熵
 substrat: 基质|培养基
 subthalam: 底丘脑
 succinct: 简洁|言简意赅
-suck: 吮吸
+suck: 差|糟|吮吸
 sufficient: 足够|充足
 sulcu: 沟|槽|裂隙
 summa: 总|合
@@ -1017,5 +1033,5 @@ vulnerabl: 脆弱|易受伤
 whereas: 然而
 wherein: 在其中|在何处
 whilst: 同时
-wholesome: 健康|有意
+wholesome: 健康|有益
 yankee: 美国佬|美国人|洋基队
