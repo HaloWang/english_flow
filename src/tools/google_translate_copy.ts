@@ -1,3 +1,5 @@
+// Just like a web crawler~
+
 document.addEventListener('keypress', ev => {
   if (ev.shiftKey && !ev.altKey && !ev.ctrlKey) {
     if (ev.key === 'W') {

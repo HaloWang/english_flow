@@ -82,6 +82,7 @@ assum: 假定|假设
 asym: 非.对称
 atlas: 地图册|切片柱
 atrophy: 萎缩
+attest: 表明|认证
 attitud: 态度|看法|姿势
 attract: 吸引
 authority: 专家|权威|权力|权限
@@ -117,6 +118,7 @@ causa: 因果
 cautio: 慎重|警告
 censor: 审查|删掉
 centrolateral: 中.外[部]
+cerebellum: 小脑
 cerebr: 大脑|telencephal|endbrain
 cholinergic: 类胆碱
 chronic: 慢性|长期
@@ -196,6 +198,7 @@ convinc: 信服|确信|说服
 coordinat: 坐标|协调|对等|配合
 copypasta: 复制粘贴(just like chinese)
 cord: 索|绳|粗线
+cornea: 角膜
 correlat: 相关
 correspond: 对应|符合|相符|相当|通信
 correspondence: 对应|通讯|信件|函件
@@ -203,6 +206,7 @@ corrupt: 腐败|腐坏|贪污|贪
 counterpart: 同行|副本|对方
 crani: 颅
 crappy: 蹩脚|糟糕|没价值
+crawler: 爬行动物|爬行者|爬虫
 credib: 可靠
 critic: 批评
 critical: 临界|严重|批评|危急|紧要|要紧|紧张|沉重|当紧
@@ -252,6 +256,7 @@ diffuse: 扩散|弥漫的|扩散|漫射|散发|播散|摅
 dilat: 扩张|膨胀|散漫
 dilemma: 窘境|困境
 diminish: 减弱|减少
+diminutive: diminutive
 disambigu: 消歧义|澄清
 disciplin: 纪律|风纪|惩罚|处分|训导|管教|训练|锻炼|自制力|自律能力|科目|学科|学术
 discr: 鉴|区|分
@@ -341,6 +346,7 @@ etymology: 词源|语源
 evaluat: 评估|评价
 eviden: 证
 evoke: 唤起|激起|勾|忆
+examin: 检查|审查|检验|查看|考核|查验|检|审|查|查考|验|察|考|问|校验|考究|省视|伺|剖|盘|迹察
 excit: 刺激|兴奋|激动
 exclusive: 独家|只
 execut: 执行|实施|完成|处决
@@ -356,6 +362,7 @@ extent: 程度|范围|长度
 extinguish: 熄灭|消灭|破灭
 extract: 浸膏|提取|摘录|提
 extrem: 极|过|末
+eyelid: 眼睑|眼皮
 facto:
   m: 事实上
   options:
@@ -383,6 +390,7 @@ genome: 全部基因信息|基因组
 genus: 类|种|属
 glamorous: 有魅力的
 glia: 神经胶质
+globose: 球状|球形
 globu: 球状
 glutamate: 谷氨酸盐|谷氨酸酯
 gnos: 灵知|真知|直觉
@@ -480,6 +488,7 @@ interfer: 干扰|干涉
 interleav: 插页|插值
 interlock: 连锁|互锁|扣紧
 interop: 交互+操作
+interpos: 插入|介入
 interpret: 解释|说明|口译|把...理解为|演绎|翻译|译|阐释|解|想象
 interven: 接入|干预
 intra: 内
@@ -553,6 +562,7 @@ marginal: 边缘的|小的|微不足道的
 materiali: 唯物|物质化|实现
 mechanism: 机理|机制|机构
 medial: 中间
+mediat: 调解|调停|斡旋|排解|调和|调处|劝解|说|间接的|居间的
 mediocr: 平庸
 medul: 髓
 mellow: 芳醇|甘美|柔和|轻飘飘|飘飘然
@@ -639,6 +649,7 @@ overwhelm: 压倒|淹没|镇压
 ovoid: 卵形
 ovum: 卵子
 oxidat: 氧化
+pair: 对|双|副|偶|耦|遏|俪|一对|配对|媲|遏
 paleocortex: 古皮层
 palindrom: 回文
 pallid: 苍白
@@ -686,6 +697,7 @@ pose: 提出|摆|拍照姿势
 posing:
   m: 提出|摆|拍照姿势
   _root: pose
+possess: 具有|具备|拥有|占有|有着|拥|抱有|吞
 posterior: 后
 postulat: 假定|要求|臆测|公设
 potent: 强大|有力|强效|有性功能
@@ -730,6 +742,7 @@ pseudo: 伪
 psychiatr: 精神病
 psycho: 心理|精神|神经
 psychoneuroendocrinology: 神经内分泌学
+puff: 噗|吹|喷|喷气|喷出|歕|喷云吐雾|生烟|阵风|一吹
 pupil: 门童|瞳孔|小学生
 purport: 声称|打算
 purpos: 意图|有意|打算
@@ -889,9 +902,11 @@ slid: 滑动|滑行|滑落
 slight: 轻微|少量|细微|怠慢|忽视
 slit: 切开|长条|裂缝
 slot: 插槽|时间段|插
+sole: 唯一|单一|独|觭|独身的
 soma: 体细胞|身体|躯体
 somalia: 索马里
 sophisticat: 精明|老练|尖端|复杂
+sought: seek[pt&pp]
 spaghetti: 意大利面
 span: 跨度|广度|翼展
 spars:
@@ -993,6 +1008,7 @@ throughout: 遍及|到处|始终
 thus: 因此|这样|以这种方式|从而|因而|由此|于是|所以|便
 thymin: 胸腺
 tilt: 倾斜
+tone: 音|调|色调|音调|声调|调子|声
 topograph: 地势|地形
 trace: 跟踪|痕迹|追踪|迹
 tract: 束|道|短文|传单
@@ -1036,6 +1052,7 @@ verbal: 口头|非书面|用语言文字表达
 verbalize: 用语言表达
 vertebra: 脊椎
 vestibul: 前庭|门廊
+virtual: 几乎...的|so nearly true|虚拟|实质上|简直|https://www.zhihu.com/question/19903523
 viscea: 内脏
 vital: 重要|核心
 vocabulary: 词汇|词汇表|全部词汇

@@ -138,6 +138,21 @@ async function loadDict() {
   })
 }
 
+async function _getWordDetail(word: string) {
+  return new Promise<any>((_resolve, _reject) => {
+    // 1. memory cache
+    // 2. localstorage cache
+    // 3. http request
+    // 4. server -> DB
+    // 5. server -> http request
+    //   5.1 google translate?
+    //   5.2 youdao
+    //   5.3 google define?
+    //   5.4 deepl?
+    //   ...
+  })
+}
+
 async function main() {
   console.log('EF: ✅ invoking main')
 

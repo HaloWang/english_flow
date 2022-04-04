@@ -169,6 +169,7 @@ style.less
 
 ## TODO (or not)
 
+- 你早晚要 `getWordDetail` 写成 async request
 - 自己的字典应该加入 .gitignore
 - 更高级的匹配
   - 不从头开始匹配单词
