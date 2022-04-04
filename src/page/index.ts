@@ -583,6 +583,7 @@ async function main() {
 
   // 重置页面变更
   function resetApp() {
+    let parentElementHolder: HTMLElement | null = null
     document.querySelectorAll(EFStyledElementTagName).forEach(e => {
       const t = new Text(
         e.innerHTML
@@ -590,6 +591,17 @@ async function main() {
           .replaceAll(`</${EFStyledElementHighlightTagName}>`, ``),
       )
       e.replaceWith(t)
+      // https://en.wikipedia.org/wiki/Engram_(neuropsychology)
+      // 发现这个页面的 History 第一段的 "thus" 这个单词不会在刷新后被遍历到
+      // 似乎是 useEFTToReplaceWords 的 bug (遍历 bug)
+      // 这里加入了一个 holder, 在重置 DOM 时, normalize 一下父元素
+      // 为了减少 normalize 的调用次数, 加了一个 reference: parentElementHolder
+      // https://developer.mozilla.org/en-US/docs/Web/API/Node/normalize
+      // 暂时没发现非期望的副作用
+      if (parentElementHolder !== t.parentElement) {
+        parentElementHolder?.normalize()
+      }
+      parentElementHolder = t.parentElement
     })
     initAnalysis()
     initWIWbNID()

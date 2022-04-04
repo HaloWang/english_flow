@@ -23,10 +23,12 @@ aerospace: 航空航天
 affect: 影响|作用
 affection: 喜爱|关爱|爱意|情感
 afferen: 传入
+aggregat: 总计|总数|合计|集合|骨料
 agranular: 无颗粒的
 aid: 助
 akin: 类似|相似
 alertness: 清醒|警觉|警惕
+allegation: 说法|指控|断言
 alleviat: 缓解|减轻
 allocortex: 旧皮层
 almond: 杏仁
@@ -214,6 +216,7 @@ debt: 债务
 decay: 衰减|腐烂
 declaim: 慷慨陈词|演讲
 dedicat: 献身|专用|奉献
+deduce: 推断|推|减掉|论断|意|臆测
 deductive: 演绎的|推论的
 deficit: 赤字|亏|亏空
 deflect: 偏|斜|导|转
@@ -224,6 +227,7 @@ delinea: 描绘
 demand: 要求|需求|需要
 demethyl: 脱甲基
 democrac: 民主
+demonstrat: 演示|表明|示范|显示|论证|示威|表演|指明|示例
 dendri: 树状
 denial: 否认|拒绝接受|拒不承认|剥夺|拒绝给予
 dens:
@@ -244,6 +248,7 @@ destin: 命运|指定|终点|目标
 detriment: 损害|伤害
 diagno: 诊断
 diencephal: 间脑
+diffuse: 扩散|弥漫的|扩散|漫射|散发|播散|摅
 dilat: 扩张|膨胀|散漫
 dilemma: 窘境|困境
 diminish: 减弱|减少
@@ -433,6 +438,7 @@ implicat: 卷入|涉及|牵连|累及
 imply: 暗示|含蓄|隐含|内隐
 impose: 强加|强制推行
 imposter: 骗子|冒名顶替者
+imprint: 印记|铭刻
 impuls: 脉冲
 incapacitat: 使无能为力|使不能
 inclusiv: 广泛|包容
@@ -574,6 +580,7 @@ moderat: 普|适中|不偏激|调停|仲裁
 modular: 模块化|组合化
 modulat: 调|电调|模数
 molecul: 分子
+monopoly: 垄断|专卖|独占事业|垄断贩卖
 morpholog: 形态学
 motivat: 促进|激励|动机
 multipl: 增|扩|倍|乘|多
@@ -624,6 +631,7 @@ originat: 起源
 orthogonal: 正交
 oscillat: 震荡
 outperform: 胜过|比...做得好
+overestimat: 高估
 overlap: 重叠
 overlook: 俯瞰|忽略|俯视|忘记|轻忽
 overstatement: 大话|夸大其词
@@ -747,6 +755,7 @@ reactivat: 重.激活
 realism: 务实作风|实事求是|现实性|逼真|现实主义|实在主义|唯实论|权力实用主义
 realize: 实现|明白|认识
 rebut: 反驳
+recept: 生^感受|接受|招待
 recipoc: 相互|相互作用|报答|回报
 reciproca: 报答|回报|回应|对应
 reconstruct: '[重.再]造'
@@ -774,6 +783,7 @@ relevant: 相应|可用|对应
 reliable: 可靠
 reliance: 依赖|信赖|信任
 relies: 依赖
+remarkabl: 卓越|出色|杰出|异常|精彩|异乎寻常|不简单|漂亮|异|殊|盛大|炳|异样|不平常
 reorganiz: 重.组
 replicat:
   m: 复制
@@ -931,6 +941,7 @@ subiculum: 菌丝层|脑下脚
 subordinate: 下属|从属|次要|管辖
 subplate: 底板|垫板
 subsequen: 随后|接着
+substance: 物质|实质|物|体|内容|质|实体|意义|意味|恉
 substant: 大量|实|me:低熵
 substrat: 基质|培养基
 subthalam: 底丘脑
@@ -979,7 +990,7 @@ therefo: 因此
 though: 虽然|尽管
 thought: 想法|看法|主意|考虑|深思|关心|顾虑|意图|希望|念头|思想|思潮|思考|思维|心思|思想
 throughout: 遍及|到处|始终
-thus: 因此|这样|以这种方式
+thus: 因此|这样|以这种方式|从而|因而|由此|于是|所以|便
 thymin: 胸腺
 tilt: 倾斜
 topograph: 地势|地形
@@ -988,6 +999,7 @@ tract: 束|道|短文|传单
 tradition: 传统|惯例|传说|信仰
 transcriptom: 转录组
 transien: 短暂|转瞬即逝|无偿
+transmission: 传输|传动|变速器|透射
 transparen: 透明|透彻
 transplant: 移植
 transport: 运输|运送|传播
@@ -1019,6 +1031,7 @@ ventral: 腹侧
 ventric: 心室|脑室|腹腔
 ventrobasal: 腹.底[部]
 ventrolateral: 腹.外[部]
+venture: 敢于|不揣冒昧|敢尝试|冒险者
 verbal: 口头|非书面|用语言文字表达
 verbalize: 用语言表达
 vertebra: 脊椎
@@ -1031,6 +1044,7 @@ voluntar: 自主|自愿|随意
 vowel: 元音|母音
 vulnerabl: 脆弱|易受伤
 whereas: 然而
+whereby: 凭此|借此|借以
 wherein: 在其中|在何处
 whilst: 同时
 wholesome: 健康|有益

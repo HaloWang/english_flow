@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 import { createServer, IncomingMessage, ServerResponse } from 'http'
-import { hl_watch } from '../shared'
+import { hl_watch } from './shared'
 
 const dictJSONPath = process.cwd() + `/dist/data/dict.json`
 const profileJSONPath = process.cwd() + `/dist/data/profile.json`

@@ -1,6 +1,6 @@
 import * as yaml from 'js-yaml'
 import * as fs from 'fs'
-import { hl_watch } from '../shared'
+import { hl_watch } from '../backend/shared'
 
 const fileName = process.argv[2]
 if (!fileName) {
@@ -88,7 +88,6 @@ hl_watch(sourceFilePath, _yamlString => {
   try {
     objectFromYaml = yaml.load(yamlString) as any
   } catch (e) {
-    console.error(e)
     return
   }
 
