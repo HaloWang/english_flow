@@ -16,6 +16,7 @@ addict: 瘾|入迷|嗜好
 adequa: 胜任|足够|适当|恰当|令人满意|充分
 adjacen: 临近|毗邻
 adopt: 采用|通过|采取|采纳|收养
+advance: 提前|推进|前进|促进|发展|进|提出|向前|先进|行进|推|进行|进军|晋|发达|发|餤|演变|慉|烝|陟|预先|预|豫|前进|促进|进步|丰富|陟
 advent: 来临|来到|降临
 advers: 逆|害|敌|抗|不利
 advoca: 拥护|提倡
@@ -120,6 +121,7 @@ censor: 审查|删掉
 centrolateral: 中.外[部]
 cerebellum: 小脑
 cerebr: 大脑|telencephal|endbrain
+chemogenetics: 化学遗传学
 cholinergic: 类胆碱
 chronic: 慢性|长期
 cingul: 扣带
@@ -213,6 +215,7 @@ critical: 临界|严重|批评|危急|紧要|要紧|紧张|沉重|当紧
 crucial: 至关重要|决定性
 crudity: 粗糙|简陋
 cull: 剔除
+cytogenetics: 细胞遗传学
 cytoplasm: 细胞质
 datum: 数据|资料
 debate: 辩论|争论|争议
@@ -249,6 +252,7 @@ deriv:
 descen: 降|下|后裔|出身
 desire: 渴望|想要|情欲|性欲
 destin: 命运|指定|终点|目标
+determin: 确定|决定|判断|测定|判定|鉴定|决|下决心|铁|论
 detriment: 损害|伤害
 diagno: 诊断
 diencephal: 间脑
@@ -308,6 +312,7 @@ electromyogra: 肌电图
 electrooculogra: 眼动电图
 electrophysiologi: 电生理
 elevat: 提升|鼓舞
+elicit: 引出|抽出
 eliminat: 剔除|根除
 elsewhere: 别处
 embod: 体现
@@ -318,7 +323,7 @@ emerg: 浮现|显露|呈现|诞生|产生
 emergen: 紧急|突发|显现
 eminen: 卓越|著名|明显|特别
 emphasi: 强调|重点
-empiri: 经验主义
+empiri: 经验的|经验主义的
 employ: 雇佣|使用|利用
 emulat: 仿真|看齐|竞争
 encapsulat: 密封|压缩|包装
@@ -371,15 +376,17 @@ fetter: 束缚|限制|枷锁
 fissure: 裂
 fixation: 定影|固定术
 flaw: 缺陷|缺点
+flexib: 灵活
 fluency: 流利|流畅|娴熟
 forebrain: 前脑
 foresee: 预见
 forest: 森林
 former: 旧|前者
-formulate: 制定|制订|臆造
+formulat: 制定|制订|臆造
 fraction: 分数|小数|部分|微量
 fragment: 碎片|片段
 fright: 惊恐
+further: 进一步|促进|更
 gain: 获得|取得|收益|赢得
 gangli: 神经节
 gap: 隙|裂
@@ -634,6 +641,7 @@ opposed: 对抗
 optic: 眼睛|视觉
 optimal: 最佳
 optimis: 乐观
+optogenetics: 光遗传学
 orchestrate: 编排
 organ: 组织
 orien: 方位
@@ -697,6 +705,7 @@ pose: 提出|摆|拍照姿势
 posing:
   m: 提出|摆|拍照姿势
   _root: pose
+posit: 断定|假设|认定\
 possess: 具有|具备|拥有|占有|有着|拥|抱有|吞
 posterior: 后
 postulat: 假定|要求|臆测|公设
@@ -714,6 +723,7 @@ preserve: 保留|保存|保持|保护
 presum: 料想|推测|大概|想必
 presynaptic: 突触前
 prevent: 阻止|阻碍|预防|防御
+primitive: 原始|原始人
 primordi: 原始|原基
 princip: 原则|原理|本源|重要
 prior: 先前|事先|优先
@@ -771,7 +781,8 @@ rebut: 反驳
 recept: 生^感受|接受|招待
 recipoc: 相互|相互作用|报答|回报
 reciproca: 报答|回报|回应|对应
-reconstruct: '[重.再]造'
+recogni: 重.认知=|认识|承认|认|认清|辨认|意识|辨|赏|认出
+reconstruct: 重.造
 recruit: 招|招募|新兵
 recurren:
   m: 复发|经常
@@ -905,6 +916,7 @@ slot: 插槽|时间段|插
 sole: 唯一|单一|独|觭|独身的
 soma: 体细胞|身体|躯体
 somalia: 索马里
+somatostatin: 生长激素抑制素|生长抑素|"statin:他汀,抑制素"
 sophisticat: 精明|老练|尖端|复杂
 sought: seek[pt&pp]
 spaghetti: 意大利面
@@ -946,6 +958,7 @@ stem: 干|茎|梗|阻止
 stimul: 刺激
 stochastic: 随机
 strateg: 策略|战略
+strength: 强度|实力|力量|力|强|力气|浓度|劲|劲头|抵抗力|膂|冲劲儿|气力|续航力
 striat: 纹
 strict: 严
 strip: 条|剥夺|撕去|撤掉
@@ -955,6 +968,7 @@ subdue: 征服|抑制|减轻
 subiculum: 菌丝层|脑下脚
 subordinate: 下属|从属|次要|管辖
 subplate: 底板|垫板
+subpopulation: 亚群|分组
 subsequen: 随后|接着
 substance: 物质|实质|物|体|内容|质|实体|意义|意味|恉
 substant: 大量|实|me:低熵
@@ -1010,7 +1024,7 @@ thymin: 胸腺
 tilt: 倾斜
 tone: 音|调|色调|音调|声调|调子|声
 topograph: 地势|地形
-trace: 跟踪|痕迹|追踪|迹
+trace: 跟踪|痕迹|追踪|迹|痕迹|踪迹|踪|遗迹
 tract: 束|道|短文|传单
 tradition: 传统|惯例|传说|信仰
 transcriptom: 转录组
@@ -1065,4 +1079,5 @@ whereby: 凭此|借此|借以
 wherein: 在其中|在何处
 whilst: 同时
 wholesome: 健康|有益
+within: 内|中|里
 yankee: 美国佬|美国人|洋基队

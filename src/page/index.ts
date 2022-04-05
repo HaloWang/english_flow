@@ -775,6 +775,7 @@ function isSingleWord(text: string) {
 const EFPossibleURLPrefix = '//ssl.gstatic.com/dictionary/static/sounds/20200429/'
 
 const EFPossibleURLDict = {
+  '_🌟--1_us_1.mp3': 1,
   '🌟--_us_1.mp3': 1,
   '🌟--_us_1_rr.mp3': 1,
   '🌟--_us_2.mp3': 1,
@@ -784,7 +785,6 @@ const EFPossibleURLDict = {
   '🌟--_us_8.mp3': 1,
   '🌟--_us_9.mp3': 1,
   '🌟_--1_us_1.mp3': 1,
-  '_🌟--1_us_1.mp3': 1,
   // 'https://dict.youdao.com/dictvoice?audio=🌟&type=2': true,
 }
 
