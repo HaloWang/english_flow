@@ -17,11 +17,13 @@ adapt: 适应|适配
 addict: 瘾|入迷|嗜好
 adequa: 胜任|足够|适当|恰当|令人满意|充分
 adjacen: 临近|毗邻
+adolescen: 青少年|青春的|青春期的|青年的
 adopt: 采用|通过|采取|采纳|收养
 advance: 前进|促进|提前|推进|预先|发展|进|提出|向前|先进|进步
 advent: 来临|来到|降临
 advers: 逆|害|敌|抗|不利
 advoca: 拥护|提倡
+aerobic: 需氧的|有氧(健身)的
 aerospace: 航空航天
 affect: 影响|作用
 affection: 喜爱|关爱|爱意|情感
@@ -79,17 +81,21 @@ arithmetic: 算数|算法
 arter: 动脉|干线|干流
 articulat: 说出|挂钩|咬|雄辩|发音清楚
 ascen: 升|攀|优|登
+aspect: 方面|特色|朝向|方位|外表|外观
 aspir: 渴望|有志于
 assemb: 装配|集合|组装|拼接组装|凑合
+assess: 评估|评价|评定|考核
 assum: 假定|假设
 astrocyt: 星形胶质细胞
 asym: 非.对称
 atlas: 地图册|切片柱
 atrophy: 萎缩
+attainment: 素养|造就|发迹|诣
 attest: 表明|认证
 attitud: 态度|看法|姿势
 attract: 吸引
 authority: 专家|权威|权力|权限
+autism: 自闭症|孤独症|臆想
 autops: 尸检
 axon: 轴索|轴突
 band: 带|乐队|队
@@ -121,6 +127,7 @@ capital: 资本|资金|资本家|资方|首都|首府|省会
 capsul: 胶囊|小容器|压缩|简短
 cardiovascular: 心血管de
 catastroph: 灾难|浩劫
+caudate: (剖)有尾核的|(动物)有尾的|有尾状附属物的
 causa: 因果
 cautio: 慎重|警告
 cavity: 空穴|孔穴|凹洞|窟窿|窿|坳|阬
@@ -185,6 +192,7 @@ confiden: 自信|肯定|机密|秘密
 confine: 局限
 confound: 混淆|挫败讨厌|混乱|困惑
 confus: 迷惑
+congruent: 相合的|一致的|(图形)全等的|叠合的
 conjectur: 推测
 conjunct: 结合|连接|合
 conscious:
@@ -220,6 +228,9 @@ corrupt: 腐败|腐坏|贪污|贪
 counterpart: 同行|副本|对方
 crani: 颅
 crappy: 蹩脚|糟糕|没价值
+crav: 渴望
+cravat: 领带|领巾|领结
+craven: 懦夫|怯懦
 crawler: 爬行动物|爬行者|爬虫
 credib: 可靠
 critic: 批评
@@ -235,6 +246,7 @@ debate: 辩论|争论|争议
 debt: 债务
 decay: 衰减|腐烂
 declaim: 慷慨陈词|演讲
+declin: 拒绝|下降|衰|衰退|谢绝|没落|落
 dedicat: 献身|专用|奉献
 deduce: 推断|推|减掉|论断|意|臆测
 deductive: 演绎的|推论的
@@ -269,6 +281,7 @@ determin: 确定|决定|判断|测定|判定|鉴定|决|下决心|铁|论
 detriment: 损害|伤害
 diagno: 诊断
 diencephal: 间脑
+diet: 节食|日常饮食|规定饮食|低脂的|低糖的
 differentiat: 区分|鉴别|划分|辨别|分别
 diffuse: 扩散|弥漫的|扩散|漫射|散发|播散|摅
 dilat: 扩张|膨胀|散漫
@@ -324,7 +337,7 @@ electrode: 电极
 electroencephalogra: 脑电图
 electromyogra: 肌电图
 electrooculogra: 眼动电图
-electrophysiologi: 电生理
+electrophysiolog: 电生理
 elevat: 提升|鼓舞
 elicit: 引出|抽出
 eliminat: 剔除|根除
@@ -337,6 +350,7 @@ embry: 胚胎|胚
 emerg: 浮现|显露|呈现|诞生|产生
 emergen: 紧急|突发|显现
 eminen: 卓越|著名|明显|特别
+empathy: 共鸣|同情|感同身受|产生共鸣(的能力)
 emphasi: 强调|重点
 empiri: 经验的|经验主义的
 employ: 雇佣|使用|利用
@@ -385,6 +399,7 @@ extinguish: 熄灭|消灭|破灭
 extract: 浸膏|提取|摘录|提
 extrem: 极|过|末
 eyelid: 眼睑|眼皮
+facilitat: 促进|便利|促成
 facto:
   m: 事实上
   options:
@@ -481,12 +496,15 @@ imposter: 骗子|冒名顶替者
 impracticality: 非.实用
 imprint: 印记|铭刻
 impuls: 脉冲
+inappropriat: 非.合适|非.适当|非.挪用
 incapacitat: 使无能为力|使不能
 inclusiv: 广泛|包容
 incomplet: 不完整
+incongruent: 非.相合的|非.一致的|非.(图形)全等的|非.叠合的
 inconsisten: 非.一致|非.不变
 incorporat: 合并|包含|公司|团体
 indecision: 优柔寡断|犹豫不决
+indicat: 表明|标示|象征|暗示|间接提及|示意|指示|指出|有必要|被建议
 indistinguishable: 非.区分.可...的
 individualis: 利己主义|个人主义
 inductive: 归纳的
@@ -536,6 +554,7 @@ intuit: 直觉
 invad: 武力入侵|侵略|大量涌入|蜂拥而入|侵扰|干扰|扩散|渗入
 invari: 非.变
 invasive: 入侵|侵犯
+inventory: 库存|清单|盘点|清点
 inver: 相反
 investigat: 侦察|调查|研究
 investigate: 调查|探讨
@@ -565,6 +584,7 @@ lack: 缺乏|减少
 ladder: 梯子
 laminar: 层|薄片状
 lapse: 失误|过失
+late: 晚|迟|晚点
 latency: 延迟|潜伏|潜在因素
 latent: 潜在|潜伏|隐藏
 lateral: 侧
@@ -599,7 +619,8 @@ manual: 手工|手册
 manufactur: (机械化)制造
 marginal: 边缘的|小的|微不足道的
 materiali: 唯物|物质化|实现
-mature: 成熟|熟|发达|到期
+matur: 成熟|熟|发达|到期
+measure: 措施|办法|适量|适度|判断|衡量|度量单位|计量标准|测量|(指尺寸、长短、数量等)量度为|估量|判定(重要性、价值或影响等)|走过|显示|记录|用作...的量器
 mechanism: 机理|机制|机构
 medial: 中间
 mediat: 调解|调停|斡旋|排解|调和|调处|劝解|说|间接的|居间的
@@ -641,6 +662,7 @@ multipl: 增|扩|倍|乘|多
 multitude: 众多|大量
 mutual: 相互|彼此|共有
 mydriasis: 瞳孔放大|散瞳
+myelination: 髓鞘形成
 mytholog: 神话
 narrati: 讲(故事)|陈述
 neat: 整齐|利落|齐整|干净|齐|楚楚
@@ -655,11 +677,12 @@ neuroepithelial: 神经上皮的
 neuropsycholog: 神经心理
 neurosurgeon: 神经外科医生
 neurotoxi: 神经毒
+nevertheless: 然而|不过|尽管如此
 nigra: 黑质
 nonetheless: 然而|尽管如此
 nostalg: 怀念|思念
-notabl: 显著|显要
-notable: 显要|值得注意|令人尊重|非常成功
+notabl: 显要|值得注意|令人尊重|非常成功
+note: 注意|注|注释|记|笔记|音符|纸币|票据|便条|注解|帖
 notion: 概念|主张
 novel: 小说|新颖|新奇
 nuance: 细微差别
@@ -676,6 +699,8 @@ occipit: 后|枕
 oculorhombin: 眼红蛋白
 olfact: 嗅
 omit: 省略
+onset: 进攻|发端|猛攻
+operant: 操作的|有效的|自发反应|操作性制约|发生作用之人或物
 oppos: 对|反|竞|阻碍
 opposed: 对抗
 optic: 眼睛|视觉
@@ -695,6 +720,8 @@ overestimat: 高估
 overheat: 过.热
 overlap: 重叠
 overlook: 俯瞰|忽略|俯视|忘记|轻忽
+overrid: >-
+  (以权力)否决|推翻|凌驾于|比...更重要|对(自动机器)改用手控|超驰控制|(尤指为改变运作方式而)操控|制服|伸展在...上面|重叠|从...上走过|从...上面驶过|(乘公共交通工具)超程乘车(实际距离超出车票允许的距离)
 overstatement: 大话|夸大其词
 overwhelm: 压倒|淹没|镇压
 ovoid: 卵形
@@ -761,11 +788,14 @@ potent: 强大|有力|强效|有性功能
 potentia: 力|能力|潜能
 potential: 潜力|电势|电位
 potentiate: 加强|赋与力量|统治者
+preadolescen: 前.青少年|前.青春的|前.青春期的|前.青年的
 precess: 进动|岁差|选进
 precise: 精确|准确|确切
 precursor: 前体|先导|前导
+predict: 预测|预计|预言|预报
 predominant: 统治|优势
 preemptive: 优先|抢占式
+preliminary: 初步|初步措施|初步行动
 presence: 存在|光临
 present: 当前|现在|介绍|当代|现
 preserve: 保留|保存|保持|保护
@@ -813,6 +843,7 @@ qualia: 特质|特性
 quality: 质量|品质
 quantit: 数量
 quarter: 四分之一
+questionnaire: 调查问卷
 quie:
   m: 静
   options:
@@ -825,6 +856,7 @@ rationa: 合理|理性
 ravioli: 意大利小方角|混沌
 react: 反应|响应|应对
 reactivat: 重.激活
+readily: 容易|爽快
 realism: 务实作风|实事求是|现实性|逼真|现实主义|实在主义|唯实论|权力实用主义
 realize: 实现|明白|认识
 rebut: 反驳
@@ -855,7 +887,7 @@ rehearsal: 复述|排演
 reitera: 重|反复
 relay: 传递|传达|中继|接力
 relevant: 相应|可用|对应
-reliable: 可靠
+reliabl: 可靠
 reliance: 依赖|信赖|信任
 relies: 依赖
 remarkabl: 卓越|出色|杰出|异常|精彩|异乎寻常|不简单|漂亮|异|殊|盛大|炳|异样|不平常
@@ -996,6 +1028,7 @@ spite:
   addition: in spite of 尽管
 spot: 点|现场|斑|斑点|处|污点|点子|瑕|所|皰|识别|弄脏|沾污
 spouse: 配偶|和...结婚
+spurt: 喷射|喷出|冲刺|迸发|涌出的液体|喷出的火舌|短时激增|迸发
 squirrel: 松鼠
 stab:
   m: 固|稳
@@ -1120,6 +1153,7 @@ unsupervis: 非.监督
 utter: 说出|发出
 utterance: 发声|发言|表达|语义|话语
 vacuous: 空虚|空洞|无意义
+valid: 有效的|正当的|合理的|合法有效的|计算机系统接受的|被计算机系统认为有效的
 vari: 变
 vegeta: 蔬|植
 ventral: 腹侧
@@ -1129,6 +1163,7 @@ ventrolateral: 腹.外[部]
 venture: 敢于|不揣冒昧|敢尝试|冒险者
 verbal: 口头|非书面|用语言文字表达
 verbalize: 用语言表达
+versa: 反之亦然(等于 vice versa)
 vertebra: 脊椎
 vestibul: 前庭|门廊
 virtual: 几乎...的|so nearly true|虚拟|实质上|简直|https://www.zhihu.com/question/19903523

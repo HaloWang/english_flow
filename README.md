@@ -170,6 +170,11 @@ style.less
 ## TODO (or not)
 
 - **BUG**: 在 github 写 issue 时, 会导致存在于 issue 和 dict.yaml 中的单词消失掉, 未确认复现方式
+- 更高级的匹配, 能省去很多事情, 去冗余, 感觉有点像学习英语的"偏旁部首"
+  - 所以是不是应该考虑下处理 string 的算法(题)
+  - 不仅仅*从头*开始匹配单词, 还要从*中间*, 从*末尾*
+  - "-te, -tion, -tive, -able, -ably, -ability...-e, -ed, -y, -ies, over-, un-, in-, ir-, dis-, con-, com-, em-, pre-, pro-, re-..., trans-, sub-..., a-"
+  - 匹配短语?
 - 你早晚要 `getWordDetail` 写成 async request
   - 前端方面要大改...不能用循序遍历的方法改 Text Node 中的值了
   - 前端同时发起的网络请求数量似乎有点限制
@@ -177,10 +182,6 @@ style.less
   - 或许可以为所有的单词添加 `<eft>`, 因为我当前还没发现有什么性能问题
 - 自己的字典应该加入 .gitignore
 - [有一些 space 会被 inline-flex 忽略掉](https://stackoverflow.com/questions/39325039/css-flex-box-last-space-removed)
-- 更高级的匹配
-  - 不从头开始匹配单词
-  - 匹配多个词根
-  - 匹配短语
 - 爬虫?
   - google translate
   - youdao

@@ -238,8 +238,9 @@ async function main() {
     let dictResult: Detail | null | undefined = null
     let matchKey: string | null = null
     let pairIndex = 0
-    let cIndex = 2
-    for (; cIndex < word.length + 1; cIndex++) {
+    let endIndex = 2
+    let startIndex = 0
+    for (; endIndex < word.length + 1; endIndex++) {
       // 从 cIndex 开始依次遍历字典
       // e.g. indecision
       // ind
@@ -250,10 +251,10 @@ async function main() {
       // ...
       // 字典中的项可以有相同的开头, 但是最终只会匹配到最长的值
       // 也为下面的全词匹配做了准备
-      const tempKey = word.substring(0, cIndex)
+      const tempKey = word.substring(startIndex, endIndex)
       if (localDict[tempKey]) {
         dictResult = localDict[tempKey]
-        pairIndex = cIndex
+        pairIndex = endIndex
         matchKey = tempKey
       }
     }
@@ -775,16 +776,17 @@ function isSingleWord(text: string) {
 const EFPossibleURLPrefix = '//ssl.gstatic.com/dictionary/static/sounds/20200429/'
 
 const EFPossibleURLDict = {
-  '_🌟--1_us_1.mp3': 1,
   '🌟--_us_1.mp3': 1,
-  '🌟--_us_1_rr.mp3': 1,
   '🌟--_us_2.mp3': 1,
+  '🌟--_us_1_rr.mp3': 1,
+  '_🌟--1_us_1.mp3': 1,
   '🌟--_us_2_rr.mp3': 1,
   '🌟--_us_3.mp3': 1,
   '🌟--_us_4.mp3': 1,
   '🌟--_us_8.mp3': 1,
   '🌟--_us_9.mp3': 1,
   '🌟_--1_us_1.mp3': 1,
+  'x🌟--_us_1.mp3': 1,
   // 'https://dict.youdao.com/dictvoice?audio=🌟&type=2': true,
 }
 
@@ -875,9 +877,7 @@ async function queryGoogleDefineAudios(text: string) {
           onerror: err => {
             console.log('EF:', err)
           },
-          onabort: () => {
-            console.log('EF:', 'abort')
-          },
+          onabort: () => {},
         })
         handles.push(abortHandle)
       }

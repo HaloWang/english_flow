@@ -89,6 +89,9 @@ hl_watch(sourceFilePath, _yamlString => {
     if (yamlString.includes('）')) {
       yamlString = yamlString.replace(/）/g, ')')
     }
+    if (yamlString.includes('……')) {
+      yamlString = yamlString.replace(/\…\…/g, '...')
+    }
   }
 
   try {
