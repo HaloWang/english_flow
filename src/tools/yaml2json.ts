@@ -78,10 +78,16 @@ hl_watch(sourceFilePath, _yamlString => {
 
   if (Should.ReplaceYoudaoChar) {
     if (yamlString.includes('；')) {
-      yamlString = yamlString.replaceAll('；', '|')
+      yamlString = yamlString.replace(/；/g, '|')
     }
     if (yamlString.includes('，')) {
-      yamlString = yamlString.replaceAll('，', '|')
+      yamlString = yamlString.replace(/，/g, '|')
+    }
+    if (yamlString.includes('（')) {
+      yamlString = yamlString.replace(/（/g, '(')
+    }
+    if (yamlString.includes('）')) {
+      yamlString = yamlString.replace(/）/g, ')')
     }
   }
 

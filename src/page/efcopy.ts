@@ -50,6 +50,9 @@ document.addEventListener('keypress', ev => {
       })
 
       const cuttedMap = orderedKeyValue.filter(v => {
+        if (orderedKeyValue.length < 5) {
+          return true
+        }
         if (exist_3) {
           if (v[1] === 1) {
             return false
@@ -57,6 +60,7 @@ document.addEventListener('keypress', ev => {
         }
         return true
       })
+
       console.log(cuttedMap)
       const cuttedKeys = cuttedMap.map(v => v[0])
       GM_setClipboard(cuttedKeys.join('|'))

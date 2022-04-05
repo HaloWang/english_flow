@@ -169,9 +169,12 @@ style.less
 
 ## TODO (or not)
 
+- **BUG**: 在 github 写 issue 时, 会导致存在于 issue 和 dict.yaml 中的单词消失掉, 未确认复现方式
 - 你早晚要 `getWordDetail` 写成 async request
   - 前端方面要大改...不能用循序遍历的方法改 Text Node 中的值了
   - 前端同时发起的网络请求数量似乎有点限制
+  - 或许可以在前端筛选单词, 一起发给服务器, 然后服务器集中式地返回对应网页的字典
+  - 或许可以为所有的单词添加 `<eft>`, 因为我当前还没发现有什么性能问题
 - 自己的字典应该加入 .gitignore
 - [有一些 space 会被 inline-flex 忽略掉](https://stackoverflow.com/questions/39325039/css-flex-box-last-space-removed)
 - 更高级的匹配
@@ -262,3 +265,7 @@ EF 的效果大致效果:
 ### 有道字典用户单词本可以导入吗?
 
 没开发, 但是技术上有道导出的词库文件转化成任意的数据格式都是可行的
+
+## 零碎的想法
+
+一些词, 比如 `hash`, 一个程序员对它的感觉是非常特化的, 我可以以这些词为锚点去窥测某些单词的释义

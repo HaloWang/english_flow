@@ -4,10 +4,12 @@ abolish: 废除
 abort: 终止|中断|流产|堕胎
 abrupt: 突兀|唐突
 absen: 缺席
+abut: 邻接|拱座
 accord: 根据|按照|相应|依据
 account: 账户|占|账
 accura: 准确|精确|精密|准|不爽|过分周到|过分注意
 accusat: 指控|控告|指责
+acid: 酸|酸溜溜
 acknowledge: 承认|认可|感谢
 acqui: 获得
 acyclic: 非.循环|非.周期
@@ -64,7 +66,7 @@ apical: 顶点
 appreciat: 欣赏|鉴赏|理解|明白|感激
 appropriat: 合适|适当|挪用
 arbitrar:
-  m: 任意|专横|武断
+  m: 随意|独断|肆意|随便|肆
   d:
     'y': 任意的|随心所欲的|专横的|武断的
     ily: 任意地|随心所欲地|信口雌黄|肆意地
@@ -80,6 +82,7 @@ ascen: 升|攀|优|登
 aspir: 渴望|有志于
 assemb: 装配|集合|组装|拼接组装|凑合
 assum: 假定|假设
+astrocyt: 星形胶质细胞
 asym: 非.对称
 atlas: 地图册|切片柱
 atrophy: 萎缩
@@ -87,6 +90,7 @@ attest: 表明|认证
 attitud: 态度|看法|姿势
 attract: 吸引
 authority: 专家|权威|权力|权限
+autops: 尸检
 axon: 轴索|轴突
 band: 带|乐队|队
 bash: 重击|拍
@@ -104,6 +108,7 @@ breach: 裂口|决口|突破口
 breadth: 宽度|宽|幅
 brittle: 脆|易碎
 budget: 预算|需要考虑到预算的(廉价的)
+bulb: 灯泡|球茎
 burst: 爆炸|炸裂|冲|涨
 bush: 灌木|蓬松
 buzzword: 行话|术语|流行语
@@ -118,6 +123,7 @@ cardiovascular: 心血管de
 catastroph: 灾难|浩劫
 causa: 因果
 cautio: 慎重|警告
+cavity: 空穴|孔穴|凹洞|窟窿|窿|坳|阬
 censor: 审查|删掉
 centrolateral: 中.外[部]
 cerebellum: 小脑
@@ -125,6 +131,7 @@ cerebr: 大脑|telencephal|endbrain
 chemogenetics: 化学遗传学
 cholinergic: 类胆碱
 chronic: 慢性|长期
+cilia: 纤毛|眼睫毛
 cingul: 扣带
 circuit: 回路|环路
 circumstance: 环境|情况
@@ -157,7 +164,7 @@ comparison: 对比|比拟
 compass: 指南针|绕行|圆规|范围
 compatib: 兼容
 compet: 赛|竞
-complain: 诉说|诉苦|抱怨
+complain: 抱怨|诉|诉状|意见|诉苦|牢骚|原告|怨气|诼|怪话
 complement: 相互补充|相互补足
 complet: 完成|完整|完全|完毕|毕|齐全|全|完备|完善|全部|彻底|完
 compos: 组成|构成
@@ -219,6 +226,7 @@ critic: 批评
 critical: 临界|严重|批评|危急|紧要|要紧|紧张|沉重|当紧
 crucial: 至关重要|决定性
 crudity: 粗糙|简陋
+crypt: 密|隐|秘|藏
 cull: 剔除
 cytogenetics: 细胞遗传学
 cytoplasm: 细胞质
@@ -261,6 +269,7 @@ determin: 确定|决定|判断|测定|判定|鉴定|决|下决心|铁|论
 detriment: 损害|伤害
 diagno: 诊断
 diencephal: 间脑
+differentiat: 区分|鉴别|划分|辨别|分别
 diffuse: 扩散|弥漫的|扩散|漫射|散发|播散|摅
 dilat: 扩张|膨胀|散漫
 dilemma: 窘境|困境
@@ -319,6 +328,7 @@ electrophysiologi: 电生理
 elevat: 提升|鼓舞
 elicit: 引出|抽出
 eliminat: 剔除|根除
+elongat: 拉长|延伸
 elsewhere: 别处
 embod: 体现
 emboss: 浮雕|凸点|浮雕效果|压花
@@ -342,6 +352,7 @@ enlighten: 阐明|启发|启示|启迪|教导
 enormous: 巨大的
 entailment: 蕴含|需要|必要
 entorhinal: 内嗅
+ependyma: 室管膜
 epigenetic: 表观遗传
 epilep: 癫痫
 epistemolog: 认识论
@@ -363,6 +374,7 @@ execut: 执行|实施|完成|处决
 exert: 运用|施加|尽力|努力
 exhibit: 展示|陈列|展品
 exogenous: 外生|外因|外成
+expansion: 扩张|扩充|展开|发展
 expens: 代价|费用
 experien: 经验
 expla: 解释
@@ -377,12 +389,15 @@ facto:
   m: 事实上
   options:
     - FullMatch
+fetal: 胎儿的|胎的|胚胎的
 fetter: 束缚|限制|枷锁
+fibrillary: 纤维状
 fissure: 裂
 fixation: 定影|固定术
 flaw: 缺陷|缺点
 flexib: 灵活
 fluency: 流利|流畅|娴熟
+fluid: 流体|液
 forebrain: 前脑
 foresee: 预见
 forest: 森林
@@ -440,6 +455,7 @@ hierarch:
     - NotFull
 histochemi: 组织化学
 histol: 组织
+homeostasis: 内平衡
 homotyp: 同形
 horror: 惊恐|恐惧
 humanity: 人类|人性|人道|仁慈|人文学科
@@ -450,6 +466,7 @@ ignoran: 无知|愚昧
 illuminat: 照亮|阐明|启蒙
 illustrat: 插图|插画|图解|说明
 imitat: 模拟|模仿|仿|仿效|仿照|学|照搬
+immature: 非.成熟|非.熟|非.发达|非.到期
 immigrant: 移民
 immobil: 不动|固定
 immun: 免疫
@@ -474,6 +491,8 @@ indistinguishable: 非.区分.可...的
 individualis: 利己主义|个人主义
 inductive: 归纳的
 inert: 惯性|惰性|不活泼
+infancy: 初期|孩提|婴儿期
+infant: 婴儿
 infer: 推断|臆测|推论|暗示|暗指
 inferior: 下|低|次|弱
 inform: 通知|告诉|报告|告知
@@ -508,6 +527,7 @@ interop: 交互+操作
 interpos: 插入|介入
 interpret: 解释|说明|口译|把...理解为|演绎|翻译|译|阐释|解|想象
 interven: 接入|干预
+intimate: 亲密|贴心|亲热|亲切|密切|亲昵
 intra: 内
 intract: 棘手|难题|难治|倔强
 intrica: 错综复杂
@@ -553,6 +573,7 @@ legacy: 遗产|软件.屎坑
 legitima: 合法|正当|合法化
 lesion: 损害
 lick: 舔
+lie: 谎言|谎|说谎|位于|撒谎|趴|躺|卧|妄语|谎话|假话
 liken: 比作
 likewise: 同样地|类似地
 limbic: 缘|边
@@ -578,6 +599,7 @@ manual: 手工|手册
 manufactur: (机械化)制造
 marginal: 边缘的|小的|微不足道的
 materiali: 唯物|物质化|实现
+mature: 成熟|熟|发达|到期
 mechanism: 机理|机制|机构
 medial: 中间
 mediat: 调解|调停|斡旋|排解|调和|调处|劝解|说|间接的|居间的
@@ -586,6 +608,7 @@ medul: 髓
 mellow: 芳醇|甘美|柔和|轻飘飘|飘飘然
 membran: 膜
 mesio: 近中
+metabol: 新陈代谢
 metaphor: 隐喻
 methodolog: 方法论
 methyl: 甲基
@@ -609,6 +632,7 @@ moderat: 普|适中|不偏激|调停|仲裁
 modular: 模块化|组合化
 modulat: 调|电调|模数
 molecul: 分子
+monolayer: 单层
 monopoly: 垄断|专卖|独占事业|垄断贩卖
 moral: 道德|义|合乎道德
 morpholog: 形态学
@@ -623,9 +647,11 @@ neat: 整齐|利落|齐整|干净|齐|楚楚
 neglect: 忽略|疏忽|忘记|忽|荒废|轻忽
 nerd: 呆子|书呆子|码农
 nest: 嵌套|巢|窝
+neuroblast: 神经母细胞
 neurocranium: 神经颅|脑颅
 neurodegenerat: 神经退行|神经变性
 neuroendocrinolog: 神经内分泌
+neuroepithelial: 神经上皮的
 neuropsycholog: 神经心理
 neurosurgeon: 神经外科医生
 neurotoxi: 神经毒
@@ -693,6 +719,7 @@ particular: 特别|格外|特定|特殊
 passive: 被动|消极
 patholog: 病理学
 pedestal: 机架|底座|台
+peduncle: 花梗|肉茎
 peer: 同行|同辈|窥视|同等的
 penaliz: 惩罚|使...处于不利地位
 percept: 感知|洞察|看法|感觉|认识
@@ -703,6 +730,7 @@ permit: 允许|准许|电容
 perpendicular: 垂直|垂线
 persist: 继续存在|持续|坚持|执意|坚持说|反复说
 perspect: 视角|观点|透视
+pharmaceutical: 制药|药方
 phase: 阶段|时期|相位
 phenome: 现象|表现
 philosoph: 哲学
@@ -727,6 +755,7 @@ posing:
 posit: 断定|假设|认定\
 possess: 具有|具备|拥有|占有|有着|拥|抱有|吞
 posterior: 后
+postnatal: 产后|后天|出生后的
 postulat: 假定|要求|臆测|公设
 potent: 强大|有力|强效|有性功能
 potentia: 力|能力|潜能
@@ -734,6 +763,7 @@ potential: 潜力|电势|电位
 potentiate: 加强|赋与力量|统治者
 precess: 进动|岁差|选进
 precise: 精确|准确|确切
+precursor: 前体|先导|前导
 predominant: 统治|优势
 preemptive: 优先|抢占式
 presence: 存在|光临
@@ -751,6 +781,7 @@ probabilistic: 概率性的|或然说的|盖然论的
 proce: 程序|步骤
 progenito: 祖
 projection: 投影|投射|发射
+proliferat: 增生|扩散
 prominen: 主要|重要|显著
 prompt: 促使|导致|迅速|题词
 prone: 易发|倾向于|俯卧撑
@@ -758,7 +789,7 @@ propagat: 传播|繁殖
 proper: 正确|合适|恰当|妥善|应有
 proponent: 支持者
 proportion: 比例|比重
-propos: 提出|提议
+propos: 提议|建议|提出(理论或解释)|提名|推荐|计划|打算|求婚|(向立法机构或委员会)提交(动议)|提议祝(酒)
 proprietary: 拥有|所有
 propriocepti: 本体感受
 prosencephalon: 前脑
@@ -812,6 +843,7 @@ recurren:
     - ces
 reelin: 络丝蛋白
 refer: 提到|谈及|描述|涉及|查阅|参考
+refine: 精炼|提炼|炼|提纯|醇化|湔|澣|加细
 reflect: 反射|反映|照出|显示|表明|深思|反省|深思后认为|深思后说|引起看法|带来影响
 refrain: 克制|避免
 regard: 看待|视
@@ -927,6 +959,7 @@ simultaneous: 同时|同步
 singular: 非凡|奇特
 singularity: 奇点|特异点|黑洞|非凡点|奇特点
 sino: 中国|汉人|汉|中
+situate: 位于
 skim: 撇去|浏览
 slang: 俚语
 slid: 滑动|滑行|滑落
@@ -988,7 +1021,9 @@ strip: 条|剥夺|撕去|撤掉
 striped: 有条纹|带状
 struggl: 奋斗|努力|搏斗|扭打
 subdue: 征服|抑制|减轻
+subgranular: 亚.粒.的
 subiculum: 菌丝层|脑下脚
+subject: 主题|科目|主体|学科|标题|题目|议题|主语
 subordinate: 下属|从属|次要|管辖
 subplate: 底板|垫板
 subpopulation: 亚群|分组
@@ -997,6 +1032,7 @@ substance: 物质|实质|物|体|内容|质|实体|意义|意味|恉
 substant: 大量|实|me:低熵
 substrat: 基质|培养基
 subthalam: 底丘脑
+subventricular: 下.室.的
 succinct: 简洁|言简意赅
 suck: 差|糟|吮吸
 sufficient: 足够|充足

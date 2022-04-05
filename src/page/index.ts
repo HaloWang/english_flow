@@ -702,8 +702,8 @@ function addkeyboardListener() {
           ev.stopPropagation()
 
           const urlsToBeOpened: string[] = [
-            `https://translate.google.com/?tl=zh-CN&text=${_string}###open_by_ef_30`,
-            `https://www.youdao.com/w/eng/${_string}###open_by_ef_30`,
+            `https://translate.google.com/?tl=zh-CN&text=${_string}`,
+            `https://www.youdao.com/w/eng/${_string}`,
           ]
           // wikitionary 词源
           isAWord && urlsToBeOpened.unshift(`https://en.wiktionary.org/wiki/${_string}#Etymology`)
