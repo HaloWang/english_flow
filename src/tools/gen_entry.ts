@@ -6,11 +6,11 @@ const Path = process.argv[2]
 
 // Main script of EnglishFlow
 const EFTamplatePath = process.cwd() + '/entry/ef.js'
-const EFTargetPath = process.cwd() + '/dist/tampermonkey_ef_entry.js'
+const EFTargetPath = process.cwd() + '/dist/TM_ef_entry.js'
 
 // Assist script for quick copy
 const EFCopyTemplatePath = process.cwd() + '/entry/efcopy.js'
-const EFCopyTargetPath = process.cwd() + '/dist/tampermonkey_efcopy_entry.js'
+const EFCopyTargetPath = process.cwd() + '/dist/TM_efcopy_entry.js'
 
 hl_watch(EFTamplatePath, string => {
   let replaceText = os.userInfo().username + '/' + Path
@@ -23,9 +23,9 @@ hl_watch(EFTamplatePath, string => {
     newFileString = newFileString.replace(/C:\//g, '')
   }
 
-  fs.writeFileSync(EFTargetPath, newFileString)
-
-  console.log(' ✅ ef entry updated ')
+  fs.writeFile(EFTargetPath, newFileString, err => {
+    err && console.log(err)
+  })
 })
 
 hl_watch(EFCopyTemplatePath, string => {
@@ -39,7 +39,7 @@ hl_watch(EFCopyTemplatePath, string => {
     newFileString = newFileString.replace(/C:\//g, '')
   }
 
-  fs.writeFileSync(EFCopyTargetPath, newFileString)
-
-  console.log(' ✅ efcopy entry updated ')
+  fs.writeFile(EFCopyTargetPath, newFileString, err => {
+    err && console.log(err)
+  })
 })

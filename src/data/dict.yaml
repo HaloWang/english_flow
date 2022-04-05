@@ -16,7 +16,7 @@ addict: 瘾|入迷|嗜好
 adequa: 胜任|足够|适当|恰当|令人满意|充分
 adjacen: 临近|毗邻
 adopt: 采用|通过|采取|采纳|收养
-advance: 前进|促进|提前|推进|预先|发展|进|提出|向前|先进|陟|预|进步
+advance: 前进|促进|提前|推进|预先|发展|进|提出|向前|先进|进步
 advent: 来临|来到|降临
 advers: 逆|害|敌|抗|不利
 advoca: 拥护|提倡
@@ -101,6 +101,7 @@ boilerplate: 样板
 bouton: 小结|疖
 braille: 盲文
 breach: 裂口|决口|突破口
+breadth: 宽度|宽|幅
 brittle: 脆|易碎
 budget: 预算|需要考虑到预算的(廉价的)
 burst: 爆炸|炸裂|冲|涨
@@ -149,6 +150,7 @@ collectivis: 集体|集体主义
 colliculus: 丘
 coloni: 殖民
 coma: 昏迷
+commerc: 商业
 commission: 佣金|佣|委托
 compact: 压紧|小型|压实|袖珍|带镜小粉盒|合约|协定
 comparison: 对比|比拟
@@ -279,7 +281,7 @@ distanc: 离|远
 distinct: 不同|有区别|清楚|明确|明显|确切
 distinguish: 使有别于|看清|认出|区别|分清
 distort: 扭曲
-distraction: 分心
+distract: 转移
 distribute: 分发|分配|配送|分销|散布|使分布
 disturbance: 干扰|扰乱|失调
 dominanc: 优势|支配
@@ -351,7 +353,7 @@ estimat: 估计|预算|预计
 ethic: 行为准则|道德规范|伦理标准|信仰
 ethodolog: 行为学
 etymology: 词源|语源
-evaluat: 评估|评价
+evaluat: 评估|评价|评定
 eviden: 证
 evoke: 唤起|激起|勾|忆
 examin: 检查|审查|检验|查看|考核|查验|检
@@ -389,6 +391,7 @@ formulat: 制定|制订|臆造
 fraction: 分数|小数|部分|微量
 fragment: 碎片|片段
 fright: 惊恐
+fruitful: 卓有成效
 further: 进一步|促进|更
 gain: 获得|取得|收益|赢得
 gangli: 神经节
@@ -446,6 +449,7 @@ hypothe: 假设
 ignoran: 无知|愚昧
 illuminat: 照亮|阐明|启蒙
 illustrat: 插图|插画|图解|说明
+imitat: 模拟|模仿|仿|仿效|仿照|学|照搬
 immigrant: 移民
 immobil: 不动|固定
 immun: 免疫
@@ -457,6 +461,7 @@ implicat: 卷入|涉及|牵连|累及
 imply: 暗示|含蓄|隐含|内隐
 impose: 强加|强制推行
 imposter: 骗子|冒名顶替者
+impracticality: 非.实用
 imprint: 印记|铭刻
 impuls: 脉冲
 incapacitat: 使无能为力|使不能
@@ -465,6 +470,7 @@ incomplet: 不完整
 inconsisten: 非.一致|非.不变
 incorporat: 合并|包含|公司|团体
 indecision: 优柔寡断|犹豫不决
+indistinguishable: 非.区分.可...的
 individualis: 利己主义|个人主义
 inductive: 归纳的
 inert: 惯性|惰性|不活泼
@@ -519,6 +525,7 @@ ipsilateral: 同侧
 irrationa: 非.合理|非.理性
 irreducib: 非.可约|非.可简化|非.能消减
 irregular: 非.平整|非.规律|非.正常
+irrelevance: 非.关
 irrelevant: 非.相关|非.着边际
 irrevers: 非.逆
 irrita: 急躁|易怒|过敏
@@ -659,6 +666,7 @@ ought: 应该
 outline: 轮廓|提纲|概述|概要|廓|领
 outperform: 胜过|比...做得好
 overestimat: 高估
+overheat: 过.热
 overlap: 重叠
 overlook: 俯瞰|忽略|俯视|忘记|轻忽
 overstatement: 大话|夸大其词
@@ -680,6 +688,7 @@ paramedian: 旁正中
 parenthes: 圆括号
 parietal: 顶叶
 partial: 部分
+participa: 参加|参与|加入|参
 particular: 特别|格外|特定|特殊
 passive: 被动|消极
 patholog: 病理学
@@ -972,7 +981,7 @@ stem: 干|茎|梗|阻止
 stimul: 刺激
 stochastic: 随机
 strateg: 策略|战略
-strength: 强度|实力|力量|力|强|力气|浓度|劲|劲头|抵抗力|膂|冲劲儿|气力|续航力
+strength: 强度|实力|力量|力|强|力气
 striat: 纹
 strict: 严
 strip: 条|剥夺|撕去|撤掉

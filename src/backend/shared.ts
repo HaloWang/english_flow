@@ -37,7 +37,7 @@ export function hl_watch(path: string, invoke: (fileString: string) => string | 
   const pathLog = path.replace(process.cwd(), '').split('/').pop()
   let fileStringStored = ''
 
-  console.log(' ⚙️  initializing:', pathLog)
+  // console.log(' ⚙️  initializing:', pathLog)
   hl_readFile(path, initResult => {
     if (initResult === undefined || initResult === null) {
       console.error('❌ file string is', initResult)
@@ -45,14 +45,14 @@ export function hl_watch(path: string, invoke: (fileString: string) => string | 
     }
 
     const invokeReult = invoke(initResult)
-    console.log(' ⚙️  initialized:', pathLog)
+    // console.log(' ⚙️  initialized:', pathLog)
     if (typeof invokeReult === 'string') {
       fileStringStored = invokeReult
     } else {
       fileStringStored = initResult
     }
 
-    console.log(' 🔃 watching:', pathLog)
+    // console.log(' 🔃 watching:', pathLog)
     fs.watch(path, 'utf-8', event => {
       if (event !== 'change') return
       hl_readFile(path, watchResult => {

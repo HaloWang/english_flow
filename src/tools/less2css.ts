@@ -1,5 +1,6 @@
 import * as fs from 'fs'
 import * as less from 'less'
+import { hl_watch } from './shared'
 
 let __DEV__ = process.argv.includes('dev')
 const sourceFileName = 'style.less'
@@ -11,34 +12,18 @@ if (!fs.existsSync('./dist')) {
 }
 
 if (__DEV__) {
-  console.log('Watching less file')
-  __dev()
-} else {
-  __build()
-}
-
-function __dev() {
-  function transfrom(path: string) {
-    fs.readFile(path, 'utf8', (error, lessString) => {
-      error && console.error(error)
-      less.render(lessString, { paths: ['./'] }, (err, css) => {
-        err && console.error(err)
-        if (css) {
-          fs.writeFileSync(targetPath, css.css)
-        }
-      })
+  hl_watch(sourcePath, fileString => {
+    less.render(fileString, { paths: ['./'] }, (err, css) => {
+      err && console.error(err)
+      if (css) {
+        fs.writeFileSync(targetPath, css.css)
+      }
     })
-  }
-
-  transfrom(sourcePath)
-  fs.watch(sourcePath, () => {
-    transfrom(sourcePath)
   })
-}
-
-async function __build() {
+} else {
   const lessString = fs.readFileSync(sourcePath, 'utf8')
-  const { css: cssString } = await less.render(lessString)
-  console.log('✅ less built success!')
-  fs.writeFileSync(targetPath, cssString)
+  less.render(lessString).then(output => {
+    console.log('✅ less built success!')
+    fs.writeFileSync(targetPath, output.css)
+  })
 }

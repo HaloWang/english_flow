@@ -20,7 +20,7 @@ hl_watch(dictJSONPath, latestString => {
   }
 })
 
-const listener = (req: IncomingMessage, res: ServerResponse) => {
+const eventDispatcher = (req: IncomingMessage, res: ServerResponse) => {
   const option = req.url || ''
   switch (option) {
     case '/all': {
@@ -64,8 +64,5 @@ const listener = (req: IncomingMessage, res: ServerResponse) => {
   }
 }
 
-const server = createServer(listener)
-
-server.listen(port, host, () => {
-  console.log(`EFServer is running on http://${host}:${port}`)
-})
+const server = createServer(eventDispatcher)
+server.listen(port, host)
