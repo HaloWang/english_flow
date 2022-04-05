@@ -238,24 +238,20 @@ async function main() {
     let dictResult: Detail | null | undefined = null
     let matchKey: string | null = null
     let pairIndex = 0
-    let endIndex = 2
     let startIndex = 0
-    for (; endIndex < word.length + 1; endIndex++) {
-      // 从 cIndex 开始依次遍历字典
-      // e.g. indecision
-      // ind
-      // inde
-      // indec
-      // indeci
-      // indecis
-      // ...
-      // 字典中的项可以有相同的开头, 但是最终只会匹配到最长的值
-      // 也为下面的全词匹配做了准备
-      const tempKey = word.substring(startIndex, endIndex)
+    // pseudocode
+    // pseudoco
+    // pseudoc
+    // pseudo
+    // pseudo matched in dict.yaml
+    // break
+    for (let end = word.length; end > 1; end--) {
+      const tempKey = word.substring(startIndex, end)
       if (localDict[tempKey]) {
         dictResult = localDict[tempKey]
-        pairIndex = endIndex
+        pairIndex = end
         matchKey = tempKey
+        break
       }
     }
 
