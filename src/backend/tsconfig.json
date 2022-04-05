@@ -5,6 +5,7 @@
     "sourceMap": true,
     "removeComments": true,
     "target": "ESNext",
-    "module": "CommonJS"
+    "module": "CommonJS",
+    "types": ["node"]
   }
 }

@@ -16,7 +16,7 @@ addict: 瘾|入迷|嗜好
 adequa: 胜任|足够|适当|恰当|令人满意|充分
 adjacen: 临近|毗邻
 adopt: 采用|通过|采取|采纳|收养
-advance: 提前|推进|前进|促进|发展|进|提出|向前|先进|行进|推|进行|进军|晋|发达|发|餤|演变|慉|烝|陟|预先|预|豫|前进|促进|进步|丰富|陟
+advance: 前进|促进|提前|推进|预先|发展|进|提出|向前|先进|陟|预|进步
 advent: 来临|来到|降临
 advers: 逆|害|敌|抗|不利
 advoca: 拥护|提倡
@@ -157,9 +157,9 @@ compatib: 兼容
 compet: 赛|竞
 complain: 诉说|诉苦|抱怨
 complement: 相互补充|相互补足
-complet: 完成|完毕|毕|成|竣|赅|觏|罢|办到|蒇|竟|完整|完全|齐全|全|完备|完善|全部|彻底|完|整|齐备|毕|全副|周详|详|通通|俱|齐截
+complet: 完成|完整|完全|完毕|毕|齐全|全|完备|完善|全部|彻底|完
 compos: 组成|构成
-comprehensive: 全面|全方位|周全|详尽|全盘|通盘|周详|详|缜密|缜|广博的|广大的|广泛的
+comprehensive: 全面|全方位|周全
 compress: 压紧|压缩
 compris: 括|包|成|构
 concave: 凹
@@ -265,7 +265,7 @@ dilemma: 窘境|困境
 diminish: 减弱|减少
 diminutive: diminutive
 disambigu: 消歧义|澄清
-disciplin: 纪律|风纪|惩罚|处分|训导|管教|训练|锻炼|自制力|自律能力|科目|学科|学术
+disciplin: 学科|纪律|纪|专业|规律|惩戒|训练
 discr: 鉴|区|分
 discrete: 离散|分离
 disingenu: 不坦率|虚伪|不诚实
@@ -354,7 +354,7 @@ etymology: 词源|语源
 evaluat: 评估|评价
 eviden: 证
 evoke: 唤起|激起|勾|忆
-examin: 检查|审查|检验|查看|考核|查验|检|审|查|查考|验|察|考|问|校验|考究|省视|伺|剖|盘|迹察
+examin: 检查|审查|检验|查看|考核|查验|检
 excit: 刺激|兴奋|激动
 exclusive: 独家|只
 execut: 执行|实施|完成|处决
@@ -656,7 +656,7 @@ originat: 起源
 orthogonal: 正交
 oscillat: 震荡
 ought: 应该
-outline: 轮廓|概述|概要|提纲|廓|略|草稿|要略|剪影|议程|领|画略图|轮廓|提纲|领
+outline: 轮廓|提纲|概述|概要|廓|领
 outperform: 胜过|比...做得好
 overestimat: 高估
 overlap: 重叠

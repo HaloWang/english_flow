@@ -20,12 +20,6 @@ hl_watch(dictJSONPath, latestString => {
   }
 })
 
-const guessEnglishByPersonalDict = (url: string) => {
-  for (const key of Object.keys(serverDictObj)) {
-  }
-  return false
-}
-
 const listener = (req: IncomingMessage, res: ServerResponse) => {
   const option = req.url || ''
   switch (option) {
