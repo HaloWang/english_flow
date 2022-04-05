@@ -91,7 +91,7 @@ const getWordDetail = (word: string, serverDictObj: any) => {
     detail: dictResult,
     fullPair: fullMatch,
     pairIndex,
-    pairKey: matchKey ?? undefined,
+    pairKey: matchKey === null ? undefined : matchKey,
   }
 
   return result

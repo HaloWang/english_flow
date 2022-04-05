@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 import * as os from 'os'
-import { hl_watch } from '../backend/shared'
+import { hl_watch } from './shared'
 
 const Path = process.argv[2]
 const TemplateFilePath = process.cwd() + '/entry/template.js'

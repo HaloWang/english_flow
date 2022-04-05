@@ -1,6 +1,6 @@
 import * as yaml from 'js-yaml'
 import * as fs from 'fs'
-import { hl_watch } from '../backend/shared'
+import { hl_watch } from './shared'
 
 const fileName = process.argv[2]
 if (!fileName) {
