@@ -62,7 +62,7 @@
    - `_w_dict`: 监听 src/data/dict.yaml, 编译为 json
    - `_w_profile`: 监听 src/data/profile.yaml, 编译为 json
    - `_w_style`: 监听 src/frontend/style.less, 编译为 css
-   - `_w_entry`: 监听 entry/template.js, 改写其 @require/@resource
+   - `_w_entry`: 监听 entry/ef.js, 改写其 @require/@resource
 6. `yarn serve`
    - 开启 node.js 服务器, 作为运行在 TM 中 EF 的数据源
      - EF 当前使用轮询的方式和服务器交互
@@ -178,6 +178,10 @@ style.less
   - 不从头开始匹配单词
   - 匹配多个词根
   - 匹配短语
+- 爬虫?
+  - google translate
+  - youdao
+  - word start with
 - 是否可以自动为你在 dict.yaml 加入的生词添加上下文
   1. 手动选择网页中你想要记忆的句子发送至 localhost (可以使用某种快捷键触发)
   2. 如果句子中存在能匹配到(大概率为 true) dict.yaml 中的 keyword 的单词, 则保存该 keyword 和该 sentence 的关联
@@ -185,12 +189,14 @@ style.less
 - 立即刷新 EF 的快捷键
 - dict.yaml 重命名
 - dict.yaml 自动格式化
+- 直接在 `<p>` 上覆盖你的 `<eft>` 要比现在这样修改 Text Node 好上不少
+  - 页面重新布局不就有点麻烦了?
 - 一部分页面不允许使用 audio 发声
 - 监听 profile.yaml
 - 当 profile.yaml 中添加或减少页面时, 刷新页面
 - profile.yaml 还需要调整
 - 当前 profile 根据 `html.lang==en*` 来区分英文网页, 是不是可以让脚本猜测一下当前是否需要启用 EF? 检查 dict 中有多少个 distinct key?
-- Add template_dict.yaml for better tutorial
+- Add ef_dict.yaml for better tutorial
 - Add YAML schema to dict.yaml
 - 写 TM 脚本时应该将所有函数解耦合, 不要图省事儿在函数中定义函数
 - 合并 yarn 脚本, 并且去除不同脚本之间的依赖, 是不是要考虑 pipeline/webpack?

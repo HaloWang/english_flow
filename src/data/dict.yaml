@@ -157,10 +157,12 @@ compatib: 兼容
 compet: 赛|竞
 complain: 诉说|诉苦|抱怨
 complement: 相互补充|相互补足
+complet: 完成|完毕|毕|成|竣|赅|觏|罢|办到|蒇|竟|完整|完全|齐全|全|完备|完善|全部|彻底|完|整|齐备|毕|全副|周详|详|通通|俱|齐截
 compos: 组成|构成
 comprehensive: 全面|全方位|周全|详尽|全盘|通盘|周详|详|缜密|缜|广博的|广大的|广泛的
 compress: 压紧|压缩
 compris: 括|包|成|构
+concave: 凹
 conceal: 藏匿|隐藏
 concentrat: 浓度|浓缩|专心|精选|意兴|意思
 conceptual: 概念化|概念上|使概念化
@@ -196,6 +198,7 @@ controver: 争议|否定
 converge: 汇聚|集中|趋同|收敛
 conversation: 对话
 conversely: 相反
+convex: 凸
 convinc: 信服|确信|说服
 coordinat: 坐标|协调|对等|配合
 copypasta: 复制粘贴(just like chinese)
@@ -424,6 +427,7 @@ hemi:
   m: 半
   options:
     - NotFull
+hereafter: 此后|随后|后(文简称)
 hermeneutic: 诠释学|解释学
 heterogene: 异质|异源
 heuristic: 启发式|探索性
@@ -592,12 +596,14 @@ mislead: 误导
 mitigat: 缓和|减轻
 mitosis: 有丝分裂
 mitotic: 有丝分裂的
+moan: 呻吟
 modalit: 形式|形态|程序|物理疗法|主要的感觉
 moderat: 普|适中|不偏激|调停|仲裁
 modular: 模块化|组合化
 modulat: 调|电调|模数
 molecul: 分子
 monopoly: 垄断|专卖|独占事业|垄断贩卖
+moral: 道德|义|合乎道德
 morpholog: 形态学
 motivat: 促进|激励|动机
 multipl: 增|扩|倍|乘|多
@@ -649,6 +655,7 @@ orien: 方位
 originat: 起源
 orthogonal: 正交
 oscillat: 震荡
+ought: 应该
 outline: 轮廓|概述|概要|提纲|廓|略|草稿|要略|剪影|议程|领|画略图|轮廓|提纲|领
 outperform: 胜过|比...做得好
 overestimat: 高估
@@ -677,6 +684,7 @@ particular: 特别|格外|特定|特殊
 passive: 被动|消极
 patholog: 病理学
 pedestal: 机架|底座|台
+peer: 同行|同辈|窥视|同等的
 penaliz: 惩罚|使...处于不利地位
 percept: 感知|洞察|看法|感觉|认识
 periallocortex: 皮层周围
@@ -885,6 +893,7 @@ scholar: 学者|学术
 schopenhauer: 叔本华
 scissors: 剪刀
 scope: 范围|规模|评估|眼界
+screengrab: 抓屏
 segregat: 分割|分开|隔离|(种族.性别.宗教)隔离
 seizure: 夺取|控制|突然发作
 semantic: 语义
@@ -929,8 +938,10 @@ spars:
     - NotFull
 spatial: 空间
 special: 特殊|特别|格外看重|特别要好|专门|特设|特有|独具特色|格外|分外
+spectra: 光谱|范围|波谱
 spectrum: 范围|幅度|光谱|波谱|频谱|余象
 speculat: 推测|猜想|投机
+sphere: 领域|球|球面|范围
 spik:
   m: 猛增|提升|掺入|尖状物|刺入|尖钉
   options:
@@ -941,6 +952,7 @@ spindle: 轴|纺锤|细长|变细长|装锭子于
 spite:
   m: 恨|烦|悔
   addition: in spite of 尽管
+spot: 点|现场|斑|斑点|处|污点|点子|瑕|所|皰|识别|弄脏|沾污
 spouse: 配偶|和...结婚
 squirrel: 松鼠
 stab:
@@ -1018,6 +1030,11 @@ territor: 领土
 therap: 疗
 thereby: 因此|从而
 therefo: 因此
+thes:
+  m: 论文|论点|论断|论题|正题
+  options:
+    - FullMatch
+thesis: 论文|论点|论断|论题|正题
 though: 虽然|尽管
 thought: 想法|看法|主意|考虑|深思|关心|顾虑|意图|希望|念头|思想|思潮|思考|思维|心思|思想
 throughout: 遍及|到处|始终
@@ -1026,6 +1043,7 @@ thymin: 胸腺
 tilt: 倾斜
 tone: 音|调|色调|音调|声调|调子|声
 topograph: 地势|地形
+topolog: 拓扑
 trace: 跟踪|痕迹|追踪|迹|痕迹|踪迹|踪|遗迹
 tract: 束|道|短文|传单
 tradition: 传统|惯例|传说|信仰

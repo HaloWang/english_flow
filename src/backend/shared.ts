@@ -17,8 +17,8 @@ export function hl_readFile(path: string, callback: (data: string) => void) {
       let fuckNumber = 10
       while (fuckingWhy.length === 0 && fuckNumber > 0) {
         fuckNumber -= 1
-        // Why, why I can not found this problem on Google? 
-        // Nobody faced this problem. 
+        // Why, why I can not found this problem on Google?
+        // Nobody faced this problem.
         // So It should by my own bugs.
         // But what's the point???
         // console.log("FUCK")
@@ -64,8 +64,6 @@ export function hl_watch(path: string, invoke: (fileString: string) => string | 
         if (fileStringStored === watchResult) {
           return
         }
-
-        console.log(' 🎉 Content changed', pathLog)
 
         fileStringStored = watchResult
 
