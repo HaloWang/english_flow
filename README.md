@@ -4,7 +4,7 @@
 
 1. 我需要经常 StackOverflow, 英文文章, 英文文档, 但其中有不少英语单词我不知道什么意思
 2. 英文社区也有很多有趣的东西(比如 reddit.ProgrammerHumor)
-3. 我希望能逐渐提升自己的英语水平
+3. 我希望能逐渐提升自己的英语水平, 理解英文使用者的"脑回路"
 
 但是
 
@@ -174,13 +174,19 @@ style.less
   - 所以是不是应该考虑下处理 string 的算法(题)
   - 不仅仅*从头*开始匹配单词, 还要从*中间*, 从*末尾*
   - "-te, -tion, -tive, -able, -ably, -ability...-e, -ed, -y, -ies, over-, un-, in-, ir-, dis-, con-, com-, em-, pre-, pro-, re-..., trans-, sub-..., a-"
-  - 匹配短语?
+  - 有些单词确实会造成困扰, 比如 `hang` 匹配到了 `change`, 我也许可以通过一些规则来处理这个问题, 匹配单词中间的某个词意味着, 前面的部分也是有意义的, 不能是 `c.hang.e`, 这样的无意义前缀/后缀, 注意, async/sync, asy/sy
 - 你早晚要 `getWordDetail` 写成 async request
-  - 前端方面要大改...不能用循序遍历的方法改 Text Node 中的值了
-  - 前端同时发起的网络请求数量似乎有点限制
-  - 或许可以在前端筛选单词, 一起发给服务器, 然后服务器集中式地返回对应网页的字典
+  - 前端方面要大改...不能用循序遍历的方法改 Text Node 中的值了, 使用某种 boundingrect 一样的方法?
+  - 前端同时发起的网络请求数量似乎有点限制, 合并网络请求?
+    - 或许可以在前端筛选单词, 一起发给服务器, 然后服务器集中式地返回对应网页的字典
   - 或许可以为所有的单词添加 `<eft>`, 因为我当前还没发现有什么性能问题
 - 自己的字典应该加入 .gitignore
+  - my.yaml
+    - 哪些词汇应该根据我自己的个人情况做特别的解析
+  - not.yaml
+    - 哪些词汇不应该被解析
+  - all.yaml
+    - [ecditc](https://github.com/skywind3000/ECDICT)
 - [有一些 space 会被 inline-flex 忽略掉](https://stackoverflow.com/questions/39325039/css-flex-box-last-space-removed)
 - 爬虫?
   - google translate

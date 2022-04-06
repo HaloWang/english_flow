@@ -9,6 +9,7 @@ const EFQuerySelectionsKey_D = 'D'
 const EFSpeakSelectionsKey_E = 'E'
 const EFQueryHighlightKey_F = 'F'
 const EFSpeakHighlightKey_R = 'R'
+const EFAutoCloseTab = false
 
 const efpiFontSize = 16
 const efpiLineHeight = efpiFontSize + 4
@@ -654,6 +655,34 @@ async function main() {
 
 main()
 
+function searchWord(wordOrSentence: string) {
+  const isAWord = isSingleWord(wordOrSentence)
+  let string = wordOrSentence
+  if (isAWord) {
+    string = wordOrSentence.replaceAll(' ', '')
+  }
+  const urlsToBeOpened: string[] = [
+    `https://translate.google.com/?tl=zh-CN&text=${string}`,
+    `https://www.youdao.com/w/eng/${string}`,
+  ]
+  // wikitionary 词源
+  isAWord && urlsToBeOpened.unshift(`https://en.wiktionary.org/wiki/${string}#Etymology`)
+
+  urlsToBeOpened.forEach(url => {
+    const tab = GM_openInTab(url, true)
+    if (EFAutoCloseTab) {
+      setTimeout(() => {
+        if (!tab.closed) {
+          tab.close()
+        }
+      }, 60 * 1000)
+    }
+  })
+
+  isAWord && GM_setClipboard(string)
+  isAWord && speak(string)
+}
+
 function addkeyboardListener() {
   const startLength = localStorage.length
   for (let i = 0; i < startLength; i++) {
@@ -683,11 +712,7 @@ function addkeyboardListener() {
           if (!EFHoverWord) break
           ev.preventDefault()
           ev.stopPropagation()
-          speak(EFHoverWord)
-          GM_openInTab(`https://www.youdao.com/w/eng/${EFHoverWord}`, true)
-          GM_openInTab(`https://translate.google.com/?tl=zh-CN&text=${EFHoverWord}`, true)
-          // GM_openInTab(`https://www.google.com/search?q=word+root+${EFHoverWord}`, true)
-          // GM_openInTab(`https://en.wiktionary.org/wiki/${EFHoverWord}`, true)
+          searchWord(EFHoverWord)
           break
         }
         default:
@@ -709,25 +734,7 @@ function addkeyboardListener() {
         case EFQuerySelectionsKey_D.toLowerCase(): {
           ev.preventDefault()
           ev.stopPropagation()
-
-          const urlsToBeOpened: string[] = [
-            `https://translate.google.com/?tl=zh-CN&text=${_string}`,
-            `https://www.youdao.com/w/eng/${_string}`,
-          ]
-          // wikitionary 词源
-          isAWord && urlsToBeOpened.unshift(`https://en.wiktionary.org/wiki/${_string}#Etymology`)
-
-          urlsToBeOpened.forEach(url => {
-            const tab = GM_openInTab(url, true)
-            setTimeout(() => {
-              if (!tab.closed) {
-                tab.close()
-              }
-            }, 60 * 1000)
-          })
-
-          isAWord && GM_setClipboard(_string)
-          isAWord && speak(_string)
+          searchWord(selection.toString())
           break
         }
         case EFSpeakSelectionsKey_E:
@@ -834,7 +841,7 @@ async function queryGoogleDefineAudios(text: string) {
       plurable.push(_text.substring(0, _text.length - 1))
     }
 
-    const handles: Tampermonkey.AbortHandle<void>[] = []
+    const handles: { [key: string]: Tampermonkey.AbortHandle<void> } = {}
 
     let possibleURL = Object.keys(EFPossibleURLDict)
 
@@ -857,8 +864,11 @@ async function queryGoogleDefineAudios(text: string) {
           responseType: 'blob',
           onload: response => {
             if (response.status === 200) {
-              for (const handle of handles) {
-                handle.abort()
+              for (const url in handles) {
+                if (url !== finalUrl) {
+                  handles[url].abort()
+                }
+                delete handles[url]
               }
               resolve(finalUrl)
               localStorage.setItem(
@@ -887,7 +897,7 @@ async function queryGoogleDefineAudios(text: string) {
           },
           onabort: () => {},
         })
-        handles.push(abortHandle)
+        handles[finalUrl] = abortHandle
       }
     }
   })

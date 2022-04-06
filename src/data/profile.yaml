@@ -18,6 +18,7 @@ default:
 # 当页面 URL 包含下面的字符串时, EF 主动执行, 无视 html.lang 属性
 sites:
   - chrome.google.com
+  - docs.swift.org
   - leetcode.com
   - mail.google.com
   - stackoverflow.com
@@ -25,6 +26,7 @@ sites:
   - yaml.org
   - zhihu.com
   - translate.google.com
+  - www.zhipin.com
 # 当页面 URL 包含哪些字符串时, 不执行 EF, 即使该页面已经存在于 sites 中
 sitesExcluded:
   # - google.com/search

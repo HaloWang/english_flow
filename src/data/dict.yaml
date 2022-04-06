@@ -144,6 +144,7 @@ cholinergic: 类胆碱
 chronic: 慢性|长期
 cilia: 纤毛|眼睫毛
 cingul: 扣带
+circadian: 生理节奏的(指与地球二十四小时运转联系的新陈代谢,内分泌作用及睡眠等节奏有关的)|以24小时为周期的
 circuit: 回路|环路
 circumstance: 环境|情况
 circumvent: 回避|绕过
@@ -182,6 +183,7 @@ compos: 组成|构成
 comprehensive: 全面|全方位|周全
 compress: 压紧|压缩
 compris: 括|包|成|构
+compromis: 妥协|让步|com-('together')
 concave: 凹
 conceal: 藏匿|隐藏
 concentrat: 浓度|浓缩|专心|精选|意兴|意思
@@ -209,8 +211,11 @@ conserv: 保护|保存|保守
 consisten: 一贯|连贯|如一
 conspir: 阴谋|密谋|共同导致|反叛
 constant: 恒定
+constat: 确定|证实|断言
 constituen: 成分|选取|选民|组成
+constitut: 构成|组成|占|组合|组成|是|被视为|成立|设立|任命
 consult: 咨询|请教|商量|商讨|查询|查阅|当顾问
+contagio: 传染
 contempora: 当代|当今|同龄
 contest: 竞赛|争夺|辩论
 continu: 连续|继续
@@ -242,6 +247,7 @@ critical: 临界|严重|批评|危急|紧要|要紧|紧张|沉重|当紧
 crucial: 至关重要|决定性
 crudity: 粗糙|简陋
 crypt: 密|隐|秘|藏
+crystallograph: 晶体学
 cull: 剔除
 cytogenetics: 细胞遗传学
 cytoplasm: 细胞质
@@ -425,11 +431,13 @@ foresee: 预见
 forest: 森林
 former: 旧|前者
 formulat: 制定|制订|臆造
+fortune: 幸运|运气|时运|运|阄
 fraction: 分数|小数|部分|微量
 fragment: 碎片|片段
 fright: 惊恐
 fruitful: 卓有成效
 further: 进一步|促进|更
+fusiform: 梭形的|纺锭状的|两端渐细的
 gain: 获得|取得|收益|赢得
 gangli: 神经节
 gap: 隙|裂
@@ -485,6 +493,7 @@ humanity: 人类|人性|人道|仁慈|人文学科
 humor: 幽默|诙谐
 hypothalam: 下丘脑
 hypothe: 假设
+ignite: 点燃|燃烧|引发|激起
 ignoran: 无知|愚昧
 illuminat: 照亮|阐明|启蒙
 illustrat: 插图|插画|图解|说明
@@ -521,6 +530,7 @@ infancy: 初期|孩提|婴儿期
 infant: 婴儿
 infer: 推断|臆测|推论|暗示|暗指
 inferior: 下|低|次|弱
+infiltrat: (尤指为获取秘密情报而)渗透|渗入(组织,场所等)|(肿瘤,细胞等)浸润(组织,器官)|(液体)渗入|(某种特性缓慢地)透入|渗透
 inform: 通知|告诉|报告|告知
 informal: 非.正式
 inhere: 固有|内在|与生俱来
@@ -599,6 +609,7 @@ lateral: 侧
 latter: 后者
 legacy: 遗产|软件.屎坑
 legitima: 合法|正当|合法化
+lemma: 引理|论点
 lesion: 损害
 lick: 舔
 lie: 谎言|谎|说谎|位于|撒谎|趴|躺|卧|妄语|谎话|假话
@@ -630,7 +641,7 @@ marginal: 边缘的|小的|微不足道的
 marked: 显著|明显
 materiali: 唯物|物质化|实现
 matur: 成熟|熟|发达|到期
-measure: 措施|办法|适量|适度|判断|衡量|度量单位|计量标准|测量|(指尺寸、长短、数量等)量度为|估量|判定(重要性、价值或影响等)|走过|显示|记录|用作...的量器
+measure: 测量|措施|办法|适量|适度|判断|衡量|度量单位|计量标准
 mechanism: 机理|机制|机构
 medial: 中间
 mediat: 调解|调停|斡旋|排解|调和|调处|劝解|说|间接的|居间的
@@ -685,6 +696,7 @@ neurocranium: 神经颅|脑颅
 neurodegenerat: 神经退行|神经变性
 neuroendocrinolog: 神经内分泌
 neuroepithelial: 神经上皮的
+neuromorphic: 神经形态的
 neuropsycholog: 神经心理
 neurosurgeon: 神经外科医生
 neurotoxi: 神经毒
@@ -793,7 +805,7 @@ pose: 提出|摆|拍照姿势
 posing:
   m: 提出|摆|拍照姿势
   _root: pose
-posit: 断定|假设|认定\
+posit: 断定|假设|认定
 possess: 具有|具备|拥有|占有|有着|拥|抱有|吞
 posterior: 后
 postnatal: 产后|后天|出生后的
@@ -879,7 +891,7 @@ rebut: 反驳
 recept: 生^感受|接受|招待
 recipoc: 相互|相互作用|报答|回报
 reciproca: 报答|回报|回应|对应
-recogni: 重.认知=|认识|承认|认|认清|辨认|意识|辨|赏|认出
+recogni: 重.认知=认识|承认|认|认清|辨认|意识|辨|赏|认出
 reconstruct: 重.造
 recruit: 招|招募|新兵
 recurren:
@@ -1065,6 +1077,7 @@ stellate: 星形
 stem: 干|茎|梗|阻止
 stimul: 刺激
 stochastic: 随机
+straight: 直|直接|直行|正
 strateg: 策略|战略
 strength: 强度|实力|力量|力|强|力气
 striat: 纹
@@ -1202,5 +1215,7 @@ whereby: 凭此|借此|借以
 wherein: 在其中|在何处
 whilst: 同时
 wholesome: 健康|有益
+widget: 装饰物|小机械|小部件|未定名的主要新产品
 within: 内|中|里
 yankee: 美国佬|美国人|洋基队
+zircon: 锆石

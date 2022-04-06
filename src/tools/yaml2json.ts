@@ -81,7 +81,14 @@ hl_watch(sourceFilePath, _yamlString => {
       yamlString = yamlString.replace(/；/g, '|')
     }
     if (yamlString.includes('，')) {
-      yamlString = yamlString.replace(/，/g, '|')
+      // regex: 不在(中文)括号中的逗号
+      // https://stackoverflow.com/questions/24197423/replace-a-comma-that-is-not-in-parentheses-using-regex
+      const _regex = /，(?![^（)]*\）)/gm
+      yamlString = yamlString.replace(_regex, '|')
+      yamlString = yamlString.replace(/，/g, ',')
+    }
+    if (yamlString.includes('、')) {
+      yamlString = yamlString.replace(/、/g, ',')
     }
     if (yamlString.includes('（')) {
       yamlString = yamlString.replace(/（/g, '(')
