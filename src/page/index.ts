@@ -335,13 +335,25 @@ async function main() {
 
     const panelHeight = items.length * efpiLineHeight
 
-    const up = (rect.height + rect.top) / window.innerHeight >= 0.75
-    const top = up ? rect.top - panelHeight : rect.top + rect.height + 3
+    const shouldDisplayPanelAtTheTopOfEFT = (rect.height + rect.top) / window.innerHeight >= 0.75
+    const top = shouldDisplayPanelAtTheTopOfEFT
+      ? rect.top - panelHeight
+      : rect.top + rect.height + 3
+
+    const shouldDisplayPanelAtTheLeftOfEFT = (rect.width + rect.left) / window.innerWidth >= 0.95
 
     const panel = document.querySelector('#' + EFPanelID)!
     let finalValue = panelBasicStyle()
     finalValue += `top:${top}px;`
-    finalValue += `left:${rect.left}px;`
+    if (shouldDisplayPanelAtTheLeftOfEFT) {
+      // 这样做也不是太好, 我需要知道 panel 不折行所需的 width
+      // https://stackoverflow.com/questions/118241/calculate-text-width-with-javascript
+      const widthDoNotNeedToBreakLine = 0
+      const right = window.innerWidth - rect.left - rect.width
+      finalValue += `right:${right}px;`
+    } else {
+      finalValue += `left:${rect.left}px;`
+    }
     finalValue += `opacity: 1;`
     panel.setAttribute('style', finalValue)
 
