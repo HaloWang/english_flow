@@ -174,7 +174,7 @@ async function main() {
   // 运行时中获取的, 已知的单词, 或字典中不包含的单词
   let WordsInWebpageButNotExistInDict: string[] = []
   function initWIWbNID() {
-    WordsInWebpageButNotExistInDict = ['constructor', '__proto__']
+    WordsInWebpageButNotExistInDict = ['constructor', 'constructors', '__proto__']
   }
   initWIWbNID()
 
@@ -422,7 +422,7 @@ async function main() {
           }
 
           const display = window.getComputedStyle(parent as HTMLElement).display
-          if (display === 'flex') {
+          if (display === 'flex' || display === 'inline-flex') {
             continue
           }
 
@@ -520,6 +520,27 @@ async function main() {
       return
     }
 
+    setTimeout(() => {
+      let parentElementHolder: HTMLElement | null = null
+      document.querySelectorAll(EFStyledElementTagName).forEach(e => {
+        if (e.parentElement) {
+          // console.log(e.innerHTML)
+          // if (e.innerHTML.includes('ssess')) {
+          // console.log('🚧')
+          // console.log(e.parentElement)
+          // }
+          const { display } = window.getComputedStyle(e.parentElement)
+          if (display === 'flex' || display === 'inline-flex') {
+            const t = removeAnEFStyledElementWith(e)
+            if (parentElementHolder !== t.parentElement) {
+              parentElementHolder?.normalize()
+            }
+            parentElementHolder = t.parentElement
+          }
+        }
+      })
+    }, 1000)
+
     if (selectors.includes('body')) {
       useEFTToReplaceWords({ parent: document.body })
       return
@@ -606,16 +627,21 @@ async function main() {
     mouseLeaveFunction()
   })
 
+  function removeAnEFStyledElementWith(e: Element): Text {
+    const t = new Text(
+      e.innerHTML
+        .replaceAll(`<${EFStyledElementHighlightTagName}>`, ``)
+        .replaceAll(`</${EFStyledElementHighlightTagName}>`, ``),
+    )
+    e.replaceWith(t)
+    return t
+  }
+
   // 重置页面变更
   function resetApp() {
     let parentElementHolder: HTMLElement | null = null
     document.querySelectorAll(EFStyledElementTagName).forEach(e => {
-      const t = new Text(
-        e.innerHTML
-          .replaceAll(`<${EFStyledElementHighlightTagName}>`, ``)
-          .replaceAll(`</${EFStyledElementHighlightTagName}>`, ``),
-      )
-      e.replaceWith(t)
+      const t = removeAnEFStyledElementWith(e)
       // https://en.wikipedia.org/wiki/Engram_(neuropsychology)
       // 发现这个页面的 History 第一段的 "thus" 这个单词不会在刷新后被遍历到
       // 似乎是 useEFTToReplaceWords 的 bug (遍历 bug)

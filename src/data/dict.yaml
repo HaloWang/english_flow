@@ -56,6 +56,7 @@ amygdal:
     - almond:杏仁
 analog: 模拟|类比|相似
 analys: 分析
+anchor: 锚|抛锚
 anecdote: 轶事|趣闻|传闻
 anesthe: 麻醉|麻木
 aniridia: 无虹膜
@@ -170,6 +171,7 @@ collectivis: 集体|集体主义
 colliculus: 丘
 coloni: 殖民
 coma: 昏迷
+comma: 逗号|","
 commerc: 商业
 commission: 佣金|佣|委托
 compact: 压紧|小型|压实|袖珍|带镜小粉盒|合约|协定
@@ -336,6 +338,8 @@ drear: 阴郁|凄凉|悲伤|枯燥
 drip: 滴
 dude: 家伙|小子|老铁
 due: 到期|预期|应有|应得|应付|应给|适当的
+dump: >-
+  丢弃|扔掉|乱堆|乱放|丢下|抛弃|分手|甩掉|倾销|抛售|转储|转存(计算机数据)|(尤指系统发生故障后内存的)打印输出|卸出|垃圾场|废料堆场|(金矿开采作业堆积而成的)矿山废石堆|<非正式>脏地方|军需品临时存放处|转存|<美|非正式>拉屎
 dysfunction: 功能紊乱
 dysgranular: 弱+病+坏.颗粒.的
 dysrhythmia: 节律障碍
@@ -392,7 +396,7 @@ essen: 本质
 estimat: 估计|预算|预计
 ethic: 行为准则|道德规范|伦理标准|信仰
 ethodolog: 行为学
-etymology: 词源|语源
+etym: 词源|语源
 evaluat: 评估|评价|评定
 eviden: 证
 evoke: 唤起|激起|勾|忆
@@ -440,6 +444,7 @@ fraction: 分数|小数|部分|微量
 fragment: 碎片|片段
 fright: 惊恐
 fruitful: 卓有成效
+frustrat: 沮丧|阻挠|挫败|挫
 further: 进一步|促进|更
 fusiform: 梭形的|纺锭状的|两端渐细的
 gain: 获得|取得|收益|赢得
@@ -660,6 +665,7 @@ metabol: 新陈代谢
 metaphor: 隐喻
 methodolog: 方法论
 methyl: 甲基
+metric: 公|测量的|韵律的|韵律学
 migrat: 迁移|移民
 mimicry:
   m: 模仿
@@ -685,6 +691,8 @@ monopoly: 垄断|专卖|独占事业|垄断贩卖
 moral: 道德|义|合乎道德
 morpholog: 形态学
 motivat: 促进|激励|动机
+mount: >-
+  组织|开展|爬上|登上|骑上|增多|增加|上升|增强|加剧|镶嵌|裱贴|安置|上演|展出|爬上(雌性动物的背)进行交配|设置(岗哨)|担任(警卫)|把(观察对象)固定于显微镜的载玻片|山|山峰|坐骑|马|登|骑|(相片)框|(艺术品)装帧|衬托纸|底座|底架|(贴邮票用的)透明胶纸|(显微镜观察的)封片|掌丘
 multipl: 增|扩|倍|乘|多
 multitude: 众多|大量
 mutism: 缄默症|哑
@@ -839,6 +847,7 @@ primitive: 原始|原始人
 primordi: 原始|原基
 princip: 原则|原理|本源|重要
 prior: 先前|事先|优先
+privilege: 特权|基本人权|给与...特权
 prob: 问题(等于 problem)|可能性(等于 probability)|可能的(probable)|大概(等于 probably)
 probabilistic: 概率性的|或然说的|盖然论的
 proce: 程序|步骤
@@ -867,6 +876,7 @@ psychiatr: 精神病
 psycho: 心理|精神|神经
 psychoneuroendocrinology: 神经内分泌学
 puff: 噗|吹|喷|喷气|喷出|歕|喷云吐雾|生烟|阵风|一吹
+puny: 弱小的|微不足道的|微小的
 pupil: 门童|瞳孔|小学生
 purport: 声称|打算
 purpos: 意图|有意|打算
@@ -1012,6 +1022,7 @@ screengrab: 抓屏
 segregat: 分割|分开|隔离|(种族.性别.宗教)隔离
 seizure: 夺取|控制|突然发作
 semantic: 语义
+semicolon: 分号|";"
 seminal: 开创性|揭示性|有创造力|重大|精液|生殖
 sentience: 感觉性|感知性|感觉能力|知性
 septa: 隔
@@ -1084,6 +1095,7 @@ starvation: 饥饿
 state: 声明|状况|州|陈述
 statement: 声明|报告|说明|说法|表态|结算单|报表|
 stating: 说明|state-ing
+stellar: 星的|星球的|主要的|一流的
 stellate: 星形
 stem: 干|茎|梗|阻止
 stimul: 刺激
