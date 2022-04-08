@@ -221,6 +221,8 @@ style.less
 - 更强的匹配逻辑, 针对各种合成词汇, 匹配时不应该仅仅从前面匹配?
 - 现在我暂时没有发现性能问题, 从 taskmgr 看性能占用约为 1%. Chrome devtool Performance 页面我暂时不太会用 😂
 - 是否要添加一些 Greek/Latin 的 reference?
+- EF 也可以针对不同的语言
+  - EF 也可以反向"翻译"(当然和 Google Translate 做的事情不一样), 把汉语变成英语
 
 ## Q&A
 

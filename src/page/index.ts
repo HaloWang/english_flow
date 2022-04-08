@@ -23,6 +23,7 @@ function webpageDeclareItselfAsEn() {
   return false
 }
 
+// TODO: has bug, what I really want is check if current `:focus` element is responsible for keyboard input
 function currentFocusingIsInputElement() {
   for (const tagName of ['INPUT', 'TEXTAREA']) {
     if (tagName === document.querySelector(':focus')?.tagName) {

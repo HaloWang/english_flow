@@ -13,5 +13,7 @@
       "strings": false,
     },
     "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.glyphMargin": false,
+    "editor.lineNumbers": "off",
   },
 }

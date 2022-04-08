@@ -17,6 +17,9 @@ default:
 # EF 默认执行在所有 lang="en" 的页面上
 # 当页面 URL 包含下面的字符串时, EF 主动执行, 无视 html.lang 属性
 sites:
+  - tutsplus.com
+  - zh.wikipedia.org
+  - cyberdefinitions.com
   - chrome.google.com
   - superuser.com
   - docs.swift.org
