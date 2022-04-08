@@ -44,7 +44,8 @@ almond: 杏仁
 alter: 改变|更改|修改|变更|改动|改
 alternative: 其他|替代|备选|异|二中择一|二中择一|选择余地
 amateur: 业余|爱好者|非专业
-ambig: 歧义
+ambig: 歧义|漫步|摇曳|怀疑
+ambitio: 雄心|野心|抱负
 amnesi: 遗忘|健忘
 among: 在当中
 ample: 充足|充裕
@@ -57,6 +58,7 @@ amygdal:
     - almond:杏仁
 analog: 模拟|类比|相似
 analys: 分析
+anbitio: 志向|抱负|志气|意愿
 anchor: 锚|抛锚
 anecdote: 轶事|趣闻|传闻
 anesthe: 麻醉|麻木
@@ -71,6 +73,7 @@ apart: 隔开|分别
 apathy: 冷淡|无兴趣
 aphasi: 失语|语言障碍
 apical: 顶点
+appendix: 附录|附件|阑尾|盲肠
 appreciat: 欣赏|鉴赏|理解|明白|感激
 appropriat: 合适|适当|挪用
 arbitrar:
@@ -118,6 +121,7 @@ blasphem: 亵渎
 blend: 混合|混合物|交融|调配|拌|拌和
 bloat: 胀
 boilerplate: 样板
+borrow: 借|借入|(向...)借贷|采用|借用|(演算减法时)借(位)
 bottleneck: 瓶.颈
 bouton: 小结|疖
 braille: 盲文
@@ -148,6 +152,7 @@ censor: 审查|删掉
 centrolateral: 中.外[部]
 cerebellum: 小脑
 cerebr: 大脑|telencephal|endbrain
+challeng: 挑战|难题|挑战书|比赛邀请|质疑|质询|喝停盘查
 characteri: 描述|刻画|特征|典型
 chemogenetics: 化学遗传学
 cholinergic: 类胆碱
@@ -264,6 +269,7 @@ cravat: 领带|领巾|领结
 craven: 懦夫|怯懦
 crawler: 爬行动物|爬行者|爬虫
 credib: 可靠
+credit: 信用|信贷|赊购|赞扬|信誉|声望|存款金额|余额|把(钱)记入总账|把钱存入(账户)|相信|信任|认为是...的功劳|给予承认
 critic: 批评
 critical: 临界|严重|批评|危急|紧要|要紧|紧张|沉重|当紧
 crucial: 至关重要|决定性
@@ -322,7 +328,7 @@ dilat: 扩张|膨胀|散漫
 dilemma: 窘境|困境
 diminish: 减弱|减少
 diminutive: diminutive
-disambigu: 消歧义|澄清
+disambigu: 非.歧义|消歧义|非.分不清|澄清
 discern: (艰难地或努力地)看出|觉察出|了解|认识
 disciplin: 学科|纪律|纪|专业|规律|惩戒|训练
 discr: 鉴|区|分|Latin:dis- (“asunder, in pieces, apart, in two”) + cernō (“see, discern”)
@@ -360,8 +366,7 @@ drear: 阴郁|凄凉|悲伤|枯燥
 drip: 滴
 dude: 家伙|小子|老铁
 due: 到期|预期|应有|应得|应付|应给|适当的
-dump: >-
-  丢弃|扔掉|乱堆|乱放|丢下|抛弃|分手|甩掉|倾销|抛售|转储|转存(计算机数据)|(尤指系统发生故障后内存的)打印输出|卸出|垃圾场|废料堆场|(金矿开采作业堆积而成的)矿山废石堆|<非正式>脏地方|军需品临时存放处|转存|<美|非正式>拉屎
+dump: 丢弃|扔掉|乱堆|乱放|丢下|抛弃|分手|甩掉|倾销|抛售|转储|转存(计算机数据)|(尤指系统发生故障后内存的)打印输出|卸出|垃圾场|废料堆场|(金矿开采作业堆积而成的)矿山废石堆|<非正式>脏地方|军需品临时存放处|转存|<美|非正式>拉屎
 dysfunction: 功能紊乱
 dysgranular: 弱+病+坏.颗粒.的
 dysrhythmia: 节律障碍
@@ -393,6 +398,7 @@ empathy: 共鸣|同情|感同身受|产生共鸣(的能力)
 emphasi: 强调|重点
 empiri: 经验的|经验主义的
 employ: 雇佣|使用|利用
+empower: 赋.power|授权|给予(某人)权力|使自主|em-/en-,intensive prefix
 emulat: 仿真|看齐|竞争
 encapsulat: 密封|压缩|包装
 encephalit: 脑炎
@@ -527,6 +533,7 @@ horror: 惊恐|恐惧
 housed: 封装的(被“房子”了)|house is a v.|house is a adj.
 humanity: 人类|人性|人道|仁慈|人文学科
 humor: 幽默|诙谐
+hunt: 猎|獠|打猎|狩猎|搜寻
 hypothalam: 下丘脑
 hypothe: 假设
 ignite: 点燃|燃烧|引发|激起
@@ -560,6 +567,7 @@ inconsisten: 非.一致|非.不变
 incorporat: 合并|包含|公司|团体
 increas: 增长|增强|增大
 increasingly: 正在.increase.的
+incredibl: Latin(in不+credo信+bilis的)|难以置信
 indecision: 优柔寡断|犹豫不决
 indicat: 表明|标示|象征|暗示|间接提及|示意|指示|指出|有必要|被建议
 indistinguishable: 非.区分.可...的
@@ -666,6 +674,7 @@ liken: 比作
 likewise: 同样地|类似地
 limbic: 缘|边
 lingu: 言|语
+literal: 字面上的|逐字的|缺乏想象力的|刻板的|确切的|不夸张的|(图像)写实的|(用)字母(表示)的
 literary: 文学的|文学上的|书面的|爱好文学的|从事文学研究(或写作)的
 literature: 文学|文献
 loath: 勉强|不情愿|嫌恶|讨厌
@@ -711,10 +720,7 @@ migrat: 迁移|移民
 mimicry:
   m: 模仿
   s:
-    - >-
-      The hope is that through mimicry, which is an important mode of learning in people, the
-      machine is forced to build a compact internal representation of its world and then generate
-      imaginative content from it.
+    - The hope is that through mimicry, which is an important mode of learning in people, the machine is forced to build a compact internal representation of its world and then generate imaginative content from it.
 minimi: 小|减小
 miserable: 痛苦|难受
 mislead: 误导
@@ -732,8 +738,7 @@ monopoly: 垄断|专卖|独占事业|垄断贩卖
 moral: 道德|义|合乎道德
 morpholog: 形态学
 motivat: 促进|激励|动机
-mount: >-
-  组织|开展|爬上|登上|骑上|增多|增加|上升|增强|加剧|镶嵌|裱贴|安置|上演|展出|爬上(雌性动物的背)进行交配|设置(岗哨)|担任(警卫)|把(观察对象)固定于显微镜的载玻片|山|山峰|坐骑|马|登|骑|(相片)框|(艺术品)装帧|衬托纸|底座|底架|(贴邮票用的)透明胶纸|(显微镜观察的)封片|掌丘
+mount: 组织|开展|爬上|登上|骑上|增多|增加|上升|增强|加剧|镶嵌|裱贴|安置|上演|展出|爬上(雌性动物的背)进行交配|设置(岗哨)|担任(警卫)|把(观察对象)固定于显微镜的载玻片|山|山峰|坐骑|马|登|骑|(相片)框|(艺术品)装帧|衬托纸|底座|底架|(贴邮票用的)透明胶纸|(显微镜观察的)封片|掌丘
 multidisciplinary: 多.学科.的
 multipl: 增|扩|倍|乘|多
 multitude: 众多|大量
@@ -804,8 +809,7 @@ overestimat: 高估
 overheat: 过.热
 overlap: 重叠
 overlook: 俯瞰|忽略|俯视|忘记|轻忽
-overrid: >-
-  (以权力)否决|推翻|凌驾于|比...更重要|对(自动机器)改用手控|超驰控制|(尤指为改变运作方式而)操控|制服|伸展在...上面|重叠|从...上走过|从...上面驶过|(乘公共交通工具)超程乘车(实际距离超出车票允许的距离)
+overrid: (以权力)否决|推翻|凌驾于|比...更重要|对(自动机器)改用手控|超驰控制|(尤指为改变运作方式而)操控|制服|伸展在...上面|重叠|从...上走过|从...上面驶过|(乘公共交通工具)超程乘车(实际距离超出车票允许的距离)
 overstatement: 大话|夸大其词
 overwhelm: 压倒|淹没|镇压
 ovoid: 卵形
@@ -1066,6 +1070,7 @@ scenario: 设想|剧情|情节
 schema: (计划或理论的)纲要|图解|(逻)(三段论法的)格|(康德哲学的)先验图式
 schematic: 概要|略图|严谨
 scheme: 方案|格式|计划|系统|体系|密谋|策划
+scheme7: '012345678912345678901234567890'
 schizophreni: 精神分裂
 scholar: 学者|学术
 schopenhauer: 叔本华
@@ -1074,9 +1079,7 @@ scope: 范围|规模|评估|眼界
 scrabble: 乱涂|争夺|爬|拼凑|辗转
 screengrab: 抓屏
 segregat: 分割|分开|隔离|(种族.性别.宗教)隔离
-seize: >-
-  抓住|捉住|(用武力)夺取|占领|逮捕|捉拿|没收|扣押|把握(机会等)|(感觉,疼痛)侵袭|控制|吸引(注意力)|唤起(想象力)|<正式>理解|掌握|意识到|得知(be seized
-  of)|(有活动部件的机器,机器的活动部件)咬住|卡住|<英|法律>依法占有(be seized of)|<史>具有(财产)的终身保有权(be seized of)
+seize: 抓住|捉住|(用武力)夺取|占领|逮捕|捉拿|没收|扣押|把握(机会等)|(感觉,疼痛)侵袭|控制|吸引(注意力)|唤起(想象力)|<正式>理解|掌握|意识到|得知(be seized of)|(有活动部件的机器,机器的活动部件)咬住|卡住|<英|法律>依法占有(be seized of)|<史>具有(财产)的终身保有权(be seized of)
 seizure: 夺取|控制|突然发作
 semantic: 语义
 semicolon: 分号|";"
@@ -1172,6 +1175,7 @@ strict: 严
 strik: 打击|罢工|击|撞击|走向|打|触击
 strip: 条|剥夺|撕去|撤掉
 striped: 有条纹|带状
+striv: 努力|力争|斗争|反抗
 struggl: 奋斗|努力|搏斗|扭打|挣扎脱身|难事|争夺|争抢|奋力前进|艰难行进
 subdue: 征服|抑制|减轻
 subgranular: 亚.粒.的
@@ -1206,6 +1210,7 @@ syllabic: 音节
 symmetr: 对称
 symptom: 症状
 synap: 突触|触电
+synchronous: Borrowed from Late Latin synchronus,|from Ancient Greek σύγχρονος (súnkhronos, “contemporaneous”),|from σῠν- (sun-, “with, together”) + χρόνος (khrónos, “time”).
 syndrome: 综合征|并发症
 synonym: 同义
 synthesi: 综合|合成|生成
@@ -1265,6 +1270,7 @@ trisynaptic: 三突触
 tuft: 簇|丛|绺(liǔ)
 tune: 调
 twist: 拧|捻|绞|搓|歪曲
+typograph: 印刷|-graphy, γραφία (graphía, “mark, impression, image”)
 ubiquit: 无处不在|泛|普遍
 ultimat: 最终|终极
 uncorrelated: 非.相关
@@ -1301,6 +1307,7 @@ volume: 大量|体积|音量|书卷
 voluntar: 自主|自愿|随意
 vowel: 元音|母音
 vulnerabl: 脆弱|易受伤
+wander: 漫游|游荡|漫步|流浪|走神|开小差|偏离|走偏(道路,航线等)|(目光)游移|往别处看|(河流,道路等)蜿蜒曲折|离题|(因年老而)神志恍惚|精神错乱|(男人的手)在女人的身上摸来摸去(尤指女人不情愿时)|(对固定的性伴侣)不忠
 whereas: 然而
 whereby: 凭此|借此|借以
 wherein: 在其中|在何处

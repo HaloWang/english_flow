@@ -785,7 +785,7 @@ function speak(text: string) {
   let matched = false
   let timeoutToSynthesis = false
 
-  queryGoogleDefineAudios(text)
+  queryAudioFileURL(text)
     .then(finalUrl => {
       matched = true
       playURL(finalUrl)
@@ -829,7 +829,7 @@ const EFPossibleURLDict = {
   // 'https://dict.youdao.com/dictvoice?audio=🌟&type=2': true,
 }
 
-async function queryGoogleDefineAudios(text: string) {
+async function queryAudioFileURL(text: string) {
   return new Promise<string>((resolve, reject) => {
     if (text.length < 3) {
       reject('EF: too short')
