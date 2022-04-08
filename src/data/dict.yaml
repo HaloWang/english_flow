@@ -8,6 +8,7 @@ abulia: 意志力丧失
 abut: 邻接|拱座
 accord: 根据|按照|相应|依据
 account: 账户|占|账
+accountab: 负有责任|应作解释|可理解
 accura: 准确|精确|精密|准|不爽|过分周到|过分注意
 accusat: 指控|控告|指责
 acid: 酸|酸溜溜
@@ -108,9 +109,11 @@ bash: 重击|拍
 beforehand: 事先|预先|事前
 begun: 开始pp
 bias: 偏|倾|势|斜
+bibliograph: 参考书目|文献目录|目录学|文献学
 bilat: 双侧|双边
 biograph: 传记
 blasphem: 亵渎
+blend: 混合|混合物|交融|调配|拌|拌和
 bloat: 胀
 boilerplate: 样板
 bouton: 小结|疖
@@ -118,6 +121,7 @@ braille: 盲文
 breach: 裂口|决口|突破口
 breadth: 宽度|宽|幅
 brittle: 脆|易碎
+broaden: '-en(verbal)|增长(经验,知识等)|变宽|变阔|(使)扩大影响'
 budget: 预算|需要考虑到预算的(廉价的)
 bulb: 灯泡|球茎
 burst: 爆炸|炸裂|冲|涨
@@ -182,6 +186,8 @@ compet: 赛|竞
 complain: 抱怨|诉|诉状|意见|诉苦|牢骚|原告|怨气|诼|怪话
 complement: 相互补充|相互补足
 complet: 完成|完整|完全|完毕|毕|齐全|全|完备|完善|全部|彻底|完
+compliment: 赞扬|赞美|称赞|问候
+complimentary: 赞美的|表示钦佩的|免费赠送的
 compos: 组成|构成
 comprehensive: 全面|全方位|周全
 compress: 压紧|压缩
@@ -254,6 +260,7 @@ crystallograph: 晶体学
 cull: 剔除
 cytogenetics: 细胞遗传学
 cytoplasm: 细胞质
+dart: 飞镖|猛冲
 datum: 数据|资料
 debate: 辩论|争论|争议
 debt: 债务
@@ -269,6 +276,7 @@ degrad: 降级|消解
 deleterious: 有害
 delimit: 划界|划定|限定
 delinea: 描绘
+deliver: 投递|运送|履行|兑现|交付|移交|发表|宣布|接生|分娩|解救|拯救|投掷|击打|(法官或法庭)宣布(判决)|拉(选票)|发行|发布(计算机程序)|处理
 demand: 要求|需求|需要
 demethyl: 脱甲基
 democrac: 民主
@@ -386,6 +394,7 @@ entailment: 蕴含|需要|必要
 enthusias: 狂热|发烧
 entorhinal: 内嗅
 ependyma: 室管膜
+epic: 史诗|诗篇|史诗的|叙事诗的
 epigenetic: 表观遗传
 epilep: 癫痫
 epistemolog: 认识论
@@ -506,6 +515,7 @@ hypothe: 假设
 ignite: 点燃|燃烧|引发|激起
 ignoran: 无知|愚昧
 illuminat: 照亮|阐明|启蒙
+illusion: 错觉|幻觉|幻想|错误的观念
 illustrat: 插图|插画|图解|说明
 imitat: 模拟|模仿|仿|仿效|仿照|学|照搬
 immature: 非.成熟|非.熟|非.发达|非.到期
@@ -513,6 +523,7 @@ immigrant: 移民
 immobil: 不动|固定
 immun: 免疫
 immunohistochemi: 免疫组织化学
+impact: 碰撞|弹着|揕|对...发生影响
 impair: 损失|妨碍|削弱
 imped: 阻
 impli: 暗示|含蓄|隐含|内隐
@@ -530,6 +541,8 @@ incomplet: 不完整
 incongruent: 非.相合的|非.一致的|非.(图形)全等的|非.叠合的
 inconsisten: 非.一致|非.不变
 incorporat: 合并|包含|公司|团体
+increas: 增长|增强|增大
+increasingly: 正在.increase.的
 indecision: 优柔寡断|犹豫不决
 indicat: 表明|标示|象征|暗示|间接提及|示意|指示|指出|有必要|被建议
 indistinguishable: 非.区分.可...的
@@ -541,14 +554,17 @@ infant: 婴儿
 infer: 推断|臆测|推论|暗示|暗指
 inferior: 下|低|次|弱
 infiltrat: (尤指为获取秘密情报而)渗透|渗入(组织,场所等)|(肿瘤,细胞等)浸润(组织,器官)|(液体)渗入|(某种特性缓慢地)透入|渗透
+influen: 影响|作用|势力|影响力|有影响的人(或事物)
 inform: 通知|告诉|报告|告知
 informal: 非.正式
+ingredient: (食品的)成分|原料|要素|因素|构成组成部分的
 inhere: 固有|内在|与生俱来
 inherit: 继承(遗产)|经遗传获得(品质,身体特征等)|接手|承担|接收(前所有者的事物)
 inhibit: 抑制
 injur: 伤
 innervat: 神经支配|神经分布
 insan: 疯癫|疯狂
+insight: in.sight|洞悉|了解|洞察力
 instantiat: 实例|举例
 institut: 机构|团体|学院|协会
 instruct: 指示|吩咐|指令
@@ -565,7 +581,7 @@ intens: 强烈|很大|加强|加剧
 interact: 交互
 interactiv: 交互式|交互性
 intercept: 监听|截距|截听
-interdisciplinar: 跨学科
+interdisciplinar: 跨.学科
 interfer: 干扰|干涉
 interleav: 插页|插值
 interlock: 连锁|互锁|扣紧
@@ -609,6 +625,10 @@ kin:
   m: 亲属
   options:
     - FullMatch
+koi:
+  m: 锦鲤|观赏鱼
+  options:
+    - FullMatch
 lack: 缺乏|减少
 ladder: 梯子
 laminar: 层|薄片状
@@ -650,6 +670,7 @@ manual: 手工|手册
 manufactur: (机械化)制造
 marginal: 边缘的|小的|微不足道的
 marked: 显著|明显
+masturbat: 手淫
 materiali: 唯物|物质化|实现
 matur: 成熟|熟|发达|到期
 measure: 测量|措施|办法|适量|适度|判断|衡量|度量单位|计量标准
@@ -693,6 +714,7 @@ morpholog: 形态学
 motivat: 促进|激励|动机
 mount: >-
   组织|开展|爬上|登上|骑上|增多|增加|上升|增强|加剧|镶嵌|裱贴|安置|上演|展出|爬上(雌性动物的背)进行交配|设置(岗哨)|担任(警卫)|把(观察对象)固定于显微镜的载玻片|山|山峰|坐骑|马|登|骑|(相片)框|(艺术品)装帧|衬托纸|底座|底架|(贴邮票用的)透明胶纸|(显微镜观察的)封片|掌丘
+multidisciplinary: 多.学科.的
 multipl: 增|扩|倍|乘|多
 multitude: 众多|大量
 mutism: 缄默症|哑
@@ -726,6 +748,7 @@ nuance: 细微差别
 nucle: 核
 numerous: 众多
 obfuscat: 模糊|混淆
+objective: 客观|目的|目标
 obligat: 义务|责任|承担
 oblivio: 遗忘
 oblongata: 延髓
@@ -829,6 +852,7 @@ potentia: 力|能力|潜能
 potential: 潜力|电势|电位
 potentiate: 加强|赋与力量|统治者
 preadolescen: 前.青少年|前.青春的|前.青春期的|前.青年的
+precedent: 先例|前例|例|前述的
 precess: 进动|岁差|选进
 precise: 精确|准确|确切
 precursor: 前体|先导|前导
@@ -860,6 +884,7 @@ prompt: 促使|导致|迅速|题词
 prone: 易发|倾向于|俯卧撑
 propagat: 传播|繁殖
 proper: 正确|合适|恰当|妥善|应有
+propert: 属性|性能|财产|特性|产权|性质|资产|财物|产业|财产权|产|所有权|财|业|家当|所有物
 proponent: 支持者
 proportion: 比例|比重
 propos: 提议|建议|提出(理论或解释)|提名|推荐|计划|打算|求婚|(向立法机构或委员会)提交(动议)|提议祝(酒)
@@ -896,6 +921,7 @@ rack: 架子|折磨
 radia: 射|辐
 radical: 根本
 radiolog: 放射学|X射线学
+rapid: 快速
 rationa: 合理|理性
 ravioli: 意大利小方角|混沌
 react: 反应|响应|应对
@@ -1034,8 +1060,11 @@ shaft: 轴|杆
 shak: 震动|抖动|摇动|颤抖
 shakespeare: 莎士比亚
 sharp: 锋利|急剧
+shed: 去除|摆脱|(植物)落(叶)|(动物)蜕(皮)|脱(毛)|棚屋|脱掉(所穿衣物)|掉落(货物)|挡水|防水|射出|发出(光)|流|洒|落(泪)|
 shift: 移动|转移
 shrinkage: 收缩|减低
+shrug: 耸肩
+sight: 视力|视觉|看见|见到|视野|视域|景物|景象|
 signature: 签名|署名|签字
 significance: 意义|重要性
 significant: 重大|重要|意义|有意思
@@ -1198,6 +1227,7 @@ trim: 修剪,修整|削减,减少|修饰,点缀(尤指某物的边缘)|切除,�
 trisynaptic: 三突触
 tuft: 簇|丛|绺(liǔ)
 tune: 调
+twist: 拧|捻|绞|搓|歪曲
 ubiquit: 无处不在|泛|普遍
 ultimat: 最终|终极
 uncorrelated: 非.相关
@@ -1206,6 +1236,7 @@ undergo: 正在经历
 underl: 衬底|垫起|支撑|底层|基础
 unforeseea: 非.预见
 unif: 整合|统一
+unprecedented: 非.先例.的|空前的
 unroll: 非.卷|展开
 unsupervis: 非.监督
 utter: 说出|发出
@@ -1219,7 +1250,7 @@ ventric: 心室|脑室|腹腔
 ventrobasal: 腹.底[部]
 ventrolateral: 腹.外[部]
 venture: 敢于|不揣冒昧|敢尝试|冒险者
-verbal: 口头|非书面|用语言文字表达
+verbal: 口头|非书面|语法.动词的|用语言文字表达
 verbalize: 用语言表达
 versa: 反之亦然(等于 vice versa)
 vertebra: 脊椎

@@ -12,7 +12,7 @@ const options = process.argv[3]
 const Should = {
   KeyToLowerCase: false,
   /** 是否生成格式化的 json */
-  FormatGeneratedJSONFile: false,
+  GenerateFormatedJSON: false,
   /** 将 object 的 key 根据排序 */
   OrderDictKeys: false,
   /** 重新生成经过 OrderDictKeys 的 yaml */
@@ -20,7 +20,7 @@ const Should = {
   /** 将生成的 yaml 重写至原始位置 */
   YAMLRewrite: false,
   /** 格式化有道词典的释义 */
-  ReplaceYoudaoChar: false,
+  FormatOriginalYAML: false,
 }
 
 if (options) {
@@ -28,7 +28,7 @@ if (options) {
     Should.KeyToLowerCase = true
   }
   if (options.includes('f')) {
-    Should.FormatGeneratedJSONFile = true
+    Should.GenerateFormatedJSON = true
   }
   if (options.includes('o')) {
     Should.OrderDictKeys = true
@@ -40,7 +40,7 @@ if (options) {
     Should.YAMLRewrite = true
   }
   if (options.includes('y')) {
-    Should.ReplaceYoudaoChar = true
+    Should.FormatOriginalYAML = true
   }
 }
 
@@ -76,7 +76,7 @@ hl_watch(sourceFilePath, _yamlString => {
 
   let yamlString = _yamlString
 
-  if (Should.ReplaceYoudaoChar) {
+  if (Should.FormatOriginalYAML) {
     if (yamlString.includes('；')) {
       yamlString = yamlString.replace(/；/g, '|')
     }
@@ -98,6 +98,9 @@ hl_watch(sourceFilePath, _yamlString => {
     }
     if (yamlString.includes('……')) {
       yamlString = yamlString.replace(/\…\…/g, '...')
+    }
+    if (yamlString.includes(' ... ')) {
+      yamlString = yamlString.replace(/ \.\.\. /g, '...')
     }
   }
 
@@ -155,7 +158,7 @@ hl_watch(sourceFilePath, _yamlString => {
 
   let finalJSONString = ''
 
-  if (Should.FormatGeneratedJSONFile) {
+  if (Should.GenerateFormatedJSON) {
     finalJSONString = JSON.stringify(objectFromYaml, null, 2)
   } else {
     finalJSONString = JSON.stringify(objectFromYaml)

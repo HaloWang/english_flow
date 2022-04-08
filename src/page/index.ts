@@ -410,9 +410,6 @@ async function main() {
         if (parent.childNodes[i].nodeName === '#text') {
           // containTextNode = true
           let indexFlag = 0
-          if ((parent.childNodes[i] as Text).length <= 5) {
-            continue
-          }
 
           const regex = /[A-z]+/g
 
