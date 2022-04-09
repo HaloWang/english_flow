@@ -7,6 +7,15 @@ const url_ms_map: { [key: string]: number } = {
   google_translate: 0,
 }
 
+// var QQQ = 单词释义组
+// open word explain webpage sets
+// 不需要手动关闭 QQQ
+// 打开 QQQ 时, 关闭已经打开超过一分钟的其他 QQQ
+// QQQ 不随时间自动关闭, QQQ 关闭的时机应该是我选择再打开新的一组 QQQ, 且这组 QQQ 已经开启了一段时间了
+// 最好能做成长轮询(其实不是轮询, 而是单词等待...)
+// 我不想一个一个的写网络请求的解析了
+// express.js? nest.js?
+
 export const setAutoClose = (req: IncomingMessage, res: ServerResponse) => {
   let buffer = ''
   req.on('data', chunk => {
