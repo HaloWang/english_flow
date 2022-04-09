@@ -185,7 +185,7 @@ hl_watch(sourceFilePath, _yamlString => {
 
   const YAMLStringToRewrite = yaml.dump(objectFromYaml, {
     skipInvalid: true,
-    lineWidth: 1000,
+    lineWidth: 500,
   })
 
   if (Should.OrderDictKeys && Should.GenerateYAML) {

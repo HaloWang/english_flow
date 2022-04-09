@@ -6,9 +6,9 @@ const EFUseFullMatchForcedly = false
 const EFLocalServerURL = 'http://localhost:8000'
 const EFStoragePrefix = '_ef_'
 const EFQuerySelectionsKey_D = 'D'
-const EFSpeakSelectionsKey_E = 'E'
+const EFSpeakSelectionsKey_E = 'R'
 const EFQueryHighlightKey_F = 'F'
-const EFSpeakHighlightKey_R = 'R'
+const EFSpeakHighlightKey_R = 'E'
 const EFAutoCloseTab = false
 
 const efpiFontSize = 16
@@ -719,6 +719,8 @@ function addkeyboardListener() {
         return
       }
 
+      console.log('???')
+
       switch (ev.key) {
         case EFSpeakHighlightKey_R:
         case EFSpeakHighlightKey_R.toLowerCase(): {
@@ -740,12 +742,18 @@ function addkeyboardListener() {
           break
       }
 
-      if (!document.getSelection()) {
+      const selection = document.getSelection()
+      let _string = selection?.toString() as string
+
+      if (
+        !selection ||
+        !_string ||
+        _string === '' ||
+        _string.length === _string.match(/ /g)?.length
+      ) {
         return
       }
 
-      const selection = document.getSelection()!
-      let _string = selection.toString()
       const isAWord = isSingleWord(_string)
       if (isAWord) {
         _string = _string.replaceAll(' ', '')
@@ -755,7 +763,7 @@ function addkeyboardListener() {
         case EFQuerySelectionsKey_D.toLowerCase(): {
           ev.preventDefault()
           ev.stopPropagation()
-          searchWord(selection.toString())
+          searchWord(_string)
           break
         }
         case EFSpeakSelectionsKey_E:

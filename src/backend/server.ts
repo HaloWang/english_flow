@@ -1,5 +1,6 @@
 import * as fs from 'fs'
 import { createServer, IncomingMessage, ServerResponse } from 'http'
+import { getAutoClose, setAutoClose } from './requests/auto_close'
 import { hl_watch } from './shared'
 import { getWordDetailHandler } from './word_request'
 
@@ -48,6 +49,16 @@ const eventDispatcher = (req: IncomingMessage, res: ServerResponse) => {
       res.setHeader('Content-Type', 'application/json')
       res.writeHead(200)
       res.end(fs.readFileSync(profileJSONPath, { encoding: 'utf-8' }))
+      break
+    }
+
+    case '/setAutoClose': {
+      setAutoClose(req, res)
+      break
+    }
+
+    case '/getAutoClose': {
+      getAutoClose(req, res)
       break
     }
 
