@@ -3,7 +3,8 @@ import * as fs from 'fs'
 export function hl_readFile(path: string, callback: (data: string) => void) {
   fs.readFile(path, 'utf-8', (err, data) => {
     if (err) {
-      console.log(err)
+      console.log('💥 EF:')
+      console.log('err')
       return
     }
     if (data.length === 0) {

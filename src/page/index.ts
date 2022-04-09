@@ -20,6 +20,9 @@ function webpageDeclareItselfAsEn() {
   if (document.documentElement.lang.startsWith('en')) {
     return true
   }
+  if (document.body.lang.startsWith('en')) {
+    return true
+  }
   return false
 }
 
@@ -311,15 +314,13 @@ async function main() {
     return result
   }
 
-  function panelBasicStyle(): string {
-    return ''
-  }
-
   function addWordDetailPanelToPage() {
-    const panel = document.createElement('div')
-    panel.id = EFPanelID
-    document.body.appendChild(panel)
-    GM_addStyle(`efpi {font-size:${efpiFontSize}px; line-height:${efpiLineHeight}px}`)
+    setTimeout(() => {
+      const panel = document.createElement('div')
+      panel.id = EFPanelID
+      document.body.appendChild(panel)
+      GM_addStyle(`efpi {font-size:${efpiFontSize}px; line-height:${efpiLineHeight}px}`)
+    })
   }
 
   function drawPanel(
@@ -344,20 +345,18 @@ async function main() {
 
     const shouldDisplayPanelAtTheLeftOfEFT = (rect.width + rect.left) / window.innerWidth >= 0.95
 
-    const panel = document.querySelector('#' + EFPanelID)!
-    let finalValue = panelBasicStyle()
-    finalValue += `top:${top}px;`
+    const panel = document.querySelector('#' + EFPanelID) as HTMLElement
+    panel.style.top = `${top}px`
     if (shouldDisplayPanelAtTheLeftOfEFT) {
       // 这样做也不是太好, 我需要知道 panel 不折行所需的 width
       // https://stackoverflow.com/questions/118241/calculate-text-width-with-javascript
       const widthDoNotNeedToBreakLine = 0
       const right = window.innerWidth - rect.left - rect.width
-      finalValue += `right:${right}px;`
+      panel.style.right = `${right}px`
     } else {
-      finalValue += `left:${rect.left}px;`
+      panel.style.left = `${rect.left}px`
     }
-    finalValue += `opacity: 1;`
-    panel.setAttribute('style', finalValue)
+    panel.style.opacity = '1'
 
     let innerHTML = ''
     for (const _item of items) {
@@ -372,10 +371,8 @@ async function main() {
   }
 
   function mouseLeaveFunction(element?: HTMLElement, event?: MouseEvent) {
-    const panel = document.querySelector('#' + EFPanelID)!
-    let finalValue = ''
-    finalValue += `opacity: 0.5;`
-    panel.setAttribute('style', finalValue)
+    const panel = document.querySelector('#' + EFPanelID) as HTMLElement
+    panel.style.opacity = '0'
   }
 
   const DoNotMatchList: string[] = [

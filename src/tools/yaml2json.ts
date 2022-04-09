@@ -92,6 +92,9 @@ hl_watch(sourceFilePath, _yamlString => {
       .replace(/…/g, '...')
       .replace(/\.\.\.\.\.\./g, '...')
       .replace(/ \.\.\. /g, '...')
+      .replace(/\|\n/g, '\n')
+    // .replace(/Latin/g, '<L>')
+    // .replace(/Greek/g, '<G>')
   }
 
   try {
