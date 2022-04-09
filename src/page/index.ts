@@ -353,8 +353,10 @@ async function main() {
       const widthDoNotNeedToBreakLine = 0
       const right = window.innerWidth - rect.left - rect.width
       panel.style.right = `${right}px`
+      panel.style.left = 'unset'
     } else {
       panel.style.left = `${rect.left}px`
+      panel.style.right = 'unset'
     }
     panel.style.opacity = '1'
 
@@ -373,6 +375,10 @@ async function main() {
   function mouseLeaveFunction(element?: HTMLElement, event?: MouseEvent) {
     const panel = document.querySelector('#' + EFPanelID) as HTMLElement
     panel.style.opacity = '0'
+    panel.style.left = 'unset'
+    panel.style.right = 'unset'
+    panel.style.top = 'unset'
+    panel.style.bottom = 'unset'
   }
 
   const DoNotMatchList: string[] = [

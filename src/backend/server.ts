@@ -2,7 +2,7 @@ import * as fs from 'fs'
 import { createServer, IncomingMessage, ServerResponse } from 'http'
 import { getAutoClose, setAutoClose } from './requests/auto_close'
 import { hl_watch } from './shared'
-import { getWordDetailHandler } from './word_request'
+import { getWordDetailHandler } from './requests/word_request'
 
 const dictJSONPath = process.cwd() + `/dist/data/dict.json`
 const profileJSONPath = process.cwd() + `/dist/data/profile.json`
