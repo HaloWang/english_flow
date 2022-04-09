@@ -175,6 +175,7 @@ style.less
   - 不仅仅*从头*开始匹配单词, 还要从*中间*, 从*末尾*
   - "-te, -tion, -tive, -able, -ably, -ability...-e, -ed, -y, -ies, over-, un-, in-, ir-, dis-, con-, com-, em-, pre-, pro-, re-..., trans-, sub-..., a-"
   - 有些单词确实会造成困扰, 比如 `hang` 匹配到了 `change`, 我也许可以通过一些规则来处理这个问题, 匹配单词中间的某个词意味着, 前面的部分也是有意义的, 不能是 `c.hang.e`, 这样的无意义前缀/后缀, 注意, async/sync, asy/sy
+  - 感觉真的有必要把计算工作放到服务端, 这样我看网页也舒服了, multi-thread/multi-core 也利用起来了
 - 你早晚要 `getWordDetail` 写成 async request
   - 前端方面要大改...不能用循序遍历的方法改 Text Node 中的值了, 使用某种 boundingrect 一样的方法?
   - 前端同时发起的网络请求数量似乎有点限制, 合并网络请求?

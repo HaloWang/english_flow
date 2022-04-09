@@ -1,8 +1,8 @@
 import * as fs from 'fs'
 import { createServer, IncomingMessage, ServerResponse } from 'http'
-import { getAutoClose, setAutoClose } from './requests/auto_close'
+import { getAutoClose, setAutoClose } from './service/auto_close'
 import { hl_watch } from './shared'
-import { getWordDetailHandler } from './requests/word_request'
+import { getWordDetailHandler } from './service/word_request'
 
 const dictJSONPath = process.cwd() + `/dist/data/dict.json`
 const profileJSONPath = process.cwd() + `/dist/data/profile.json`

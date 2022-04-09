@@ -125,3 +125,25 @@ interface IPairedWords {
     pairKey?: string
   }
 }
+
+// pseudopseudo
+//  seudopseudo
+//   eudopseudo
+//    udopseudo
+//     dopseudo
+//      opseudo
+//       pseudo
+//        seudo
+//          udo
+// pseudopseu
+// pseudopse
+// pseudops
+// pseudop
+// pseudo
+// pseud
+// pseu
+// pse
+// ps
+function analyseWord(word: string): unknown[] {
+  return []
+}

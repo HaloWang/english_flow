@@ -3,7 +3,7 @@ aberran: 变异|反常|脱离轨道
 abolish: 废除
 abort: 终止|中断|流产|堕胎
 abrupt: 突兀|唐突
-absen: 缺席
+absen: 缺席|缺勤|不在|缺乏|没有|缺席期间|休假期间|不注意
 abulia: 意志力丧失
 abut: 邻接|拱座
 accord: 根据|按照|相应|依据
@@ -41,6 +41,7 @@ alertness: 清醒|警觉|警惕
 allegation: 说法|指控|断言
 alleviat: 缓解|减轻
 allocortex: 旧皮层
+allomorph: 同质异晶
 almond: 杏仁
 alter: 改变|更改|修改|变更|改动|改
 alternative: 其他|替代|备选|异|二中择一|二中择一|选择余地
@@ -135,6 +136,7 @@ brittle: 脆|易碎
 broaden: '-en(verbal)|增长(经验,知识等)|变宽|变阔|(使)扩大影响'
 budget: 预算|需要考虑到预算的(廉价的)
 bulb: 灯泡|球茎
+bulk: 体积|大批|膨胀|显得大|合计的
 burst: 爆炸|炸裂|冲|涨
 bush: 灌木|蓬松
 buzzword: 行话|术语|流行语
@@ -262,7 +264,7 @@ coordinat: 坐标|协调|对等|配合
 copypasta: 复制粘贴(just like chinese)
 cord: 索|绳|粗线
 cornea: 角膜
-correlat: 相关
+correlat: 相关|co- + relate
 correspond: 对应|符合|相符|相当|通信
 correspondence: 对应|通讯|信件|函件
 corrupt: 腐败|腐坏|贪污|贪
@@ -306,7 +308,7 @@ demand: 要求|需求|需要
 demethyl: 脱甲基
 democrac: 民主
 demonstrat: 演示|表明|示范|显示|论证|示威|表演|指明|示例
-dendri: 树状
+dendr: tree
 denial: 否认|拒绝接受|拒不承认|剥夺|拒绝给予
 dens:
   m: 稠密
@@ -314,6 +316,7 @@ dens:
     - NotFull
 dentat: 齿|锯齿边缘
 depict: 描述|描写
+depolariz: 去.极
 depriv: 剥夺
 deriv:
   m: 源自|衍生|派生|获得
@@ -325,6 +328,7 @@ desire: 渴望|想要|情欲|性欲
 destin: 命运|指定|终点|目标
 determin: 确定|决定|判断|测定|判定|鉴定|决|下决心|铁|论
 detriment: 损害|伤害
+deviat: 偏离|异常|反常|违背
 diagno: 诊断
 dial: 拨号|仪表盘|钟面|拨号盘
 dialect: 方言|土话
@@ -551,6 +555,7 @@ housed: 封装的(被“房子”了)|house is a v.|house is a adj.
 humanity: 人类|人性|人道|仁慈|人文学科
 humor: 幽默|诙谐
 hunt: 猎|獠|打猎|狩猎|搜寻
+hyperpolariz: 超.极化
 hypothalam: 下丘脑
 hypothe: 假设
 ignite: 点燃|燃烧|引发|激起
@@ -590,6 +595,7 @@ indecision: 优柔寡断|犹豫不决
 indicat: 表明|标示|象征|暗示|间接提及|示意|指示|指出|有必要|被建议
 indistinguishable: 非.区分.可...的
 individualis: 利己主义|个人主义
+induc: 引诱|诱使|引起|导致|给(孕妇)引产|(用药物)催生|归纳出
 inductive: 归纳的
 inert: 惯性|惰性|不活泼
 infancy: 初期|孩提|婴儿期
@@ -600,6 +606,7 @@ infiltrat: (尤指为获取秘密情报而)渗透|渗入(组织,场所等)|(肿�
 influen: 影响|作用|势力|影响力|有影响的人(或事物)
 inform: 通知|告诉|报告|告知
 informal: 非.正式
+infrequent: 非.频繁|罕见
 ingredient: (食品的)成分|原料|要素|因素|构成组成部分的
 inhere: 固有|内在|与生俱来
 inherit: 继承(遗产)|经遗传获得(品质,身体特征等)|接手|承担|接收(前所有者的事物)
@@ -641,6 +648,8 @@ intra: 内
 intract: 棘手|难题|难治|倔强
 intrica: 错综复杂
 intrigu: 兴趣|好奇
+intrinsic: 内在|固有
+introduc: 介绍|引见|使初次了解|使尝试|为(电视或广播节目)做开场白|主持|实施|推行|首次引入(某物)|使传入|使开始|创始|将(法案)提交讨论|将...放进|添入
 intuit: 直觉
 invad: 武力入侵|侵略|大量涌入|蜂拥而入|侵扰|干扰|扩散|渗入
 invari: 非.变
@@ -709,7 +718,8 @@ lossy: 有损
 lumberjack: 伐木工
 macroscop: 宏观
 magnet: 磁
-magnif: 大
+magni: 巨大
+magnitude: 巨大|重要性|震级|规模|大小|数量|数值|(恒星的)亮度|星等
 majority: 多数
 malfunction: 故障
 mammillary: 乳头状
@@ -831,6 +841,7 @@ ought: 应该
 outburst: 突发|发作|暴乱|发病|发端
 outline: 轮廓|提纲|概述|概要|廓|领
 outperform: 胜过|比...做得好
+overall: 全|总
 overcome: over+come, 几乎所有欧洲那一片的语言都是|克服|解决|征服|战胜|使受不了|使无法行动(或思考)
 overestimat: 高估
 overheat: 过.热
@@ -895,6 +906,7 @@ pituitar: 垂体
 plate: 盘子|镀
 plausible: 合理|有道理|似是而非
 plur: 复|多
+polariz: 极化
 polymorph: 多态|多型|Greek roots "poly" (many) and "morphe" (form)
 portfolio: 公文包|画夹|作品集
 portion: 部分|局部|分配
@@ -983,6 +995,7 @@ rack: 架子|折磨
 radia: 射|辐
 radical: 根本
 radiolog: 放射学|X射线学
+ramificat: 衍生物|分枝|分叉|支流|(衍生的)结果,影响
 rapid: 快速
 rationa: 合理|理性
 ravioli: 意大利小方角|混沌
@@ -1145,6 +1158,7 @@ situate: 位于
 skim: 撇去|浏览
 slack: 懈怠|偷懒|使(绳索等)松弛|不紧的|松弛的|(生意)萧条的|清淡的|减缓|放慢
 slang: 俚语
+slice: 片|切片|切|薄片|一片
 slid: 滑动|滑行|滑落
 slight: 轻微|少量|细微|怠慢|忽视
 slit: 切开|长条|裂缝
@@ -1178,6 +1192,7 @@ spindle: 轴|纺锤|细长|变细长|装锭子于
 spite:
   m: 恨|烦|悔
   addition: in spite of 尽管
+spontane: 自发性|自然
 spot: 点|现场|斑|斑点|处|污点|点子|瑕|所|皰|识别|弄脏|沾污
 spouse: 配偶|和...结婚
 spurt: 喷射|喷出|冲刺|迸发|涌出的液体|喷出的火舌|短时激增|迸发
