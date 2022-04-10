@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        color: #fffc;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Hello World</div>
+    <div>adolescen</div>
+    <script>
+      fetch('/im_waiting_for_your_close_command', {
+        method: 'POST',
+        body: JSON.stringify({
+          url: window.location.href,
+        }),
+        headers: { 'Content-Type': 'application/json; charset=UTF-8' },
+      })
+        .then(res => res.text())
+        .then(v => {
+          // console.log(v)
+          console.log('autoOpenStackIn', JSON.parse(v))
+        })
+
+      setInterval(() => {
+        fetch('/this_url_opened_by_english_flow', {
+          method: 'POST',
+          body: JSON.stringify({
+            url: window.location.href,
+          }),
+          headers: { 'Content-Type': 'application/json; charset=UTF-8' },
+        })
+          .then(res => res.text())
+          .then(v => {
+            // console.log(v)
+            console.log('autoOpenStackPulse', JSON.parse(v))
+          })
+      }, 2000)
+    </script>
+  </body>
+</html>

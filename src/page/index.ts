@@ -4,6 +4,7 @@ const EFStyledElementHighlightTagName = 'efth'
 const EFSynth = window.speechSynthesis
 const EFUseFullMatchForcedly = false
 const EFLocalServerURL = 'http://localhost:8000'
+const EFAutoCloseServerURL = 'http://localhost:4000'
 const EFStoragePrefix = '_ef_'
 const EFQuerySelectionsKey_D = 'D'
 const EFSpeakSelectionsKey_R = 'R'
@@ -50,14 +51,15 @@ async function request<T = any>(
     method?: 'GET' | 'HEAD' | 'POST' | undefined
     headers?: Tampermonkey.RequestHeaders | undefined
     data?: string | undefined
+    timeout?: number | undefined
   },
 ) {
-  const { responseType } = options
   return new Promise<T>((_resolve, _reject) => {
     GM_xmlhttpRequest({
       url,
-      responseType,
+      ...options,
       onerror: error => {
+        console.log(error)
         _reject(error)
       },
       onabort: () => {
@@ -160,6 +162,41 @@ async function _getWordDetail(word: string) {
 
 async function main() {
   console.log('EF: ✅ invoking main')
+
+  // GM_xmlhttpRequest({
+  //   url: `${EFAutoCloseServerURL}/im_waiting_for_your_close_command`,
+  //   data: JSON.stringify({ url: window.location.href }),
+  //   method: 'POST',
+  //   timeout: 1000 * 3600,
+  //   headers: {
+  //     'content-type': 'application/json',
+  //   },
+  //   onerror:error=>{
+  //     console.log(error)
+  //   },
+  //   onload:res=>{
+  //     console.log(res.response)
+  //   }
+  // })
+
+  // request(`${EFAutoCloseServerURL}/im_waiting_for_your_close_command`, {
+  //   data: JSON.stringify({ url: window.location.href }),
+  //   method: 'POST',
+  //   timeout: 1000 * 3600,
+  //   headers: {
+  //     'content-type': 'application/json',
+  //   },
+  //   responseType: 'json',
+  // })
+  //   .then(data => {
+  //     console.log(data, data.close, data.close === true)
+  //     if (data.close === true) {
+  //       window.close()
+  //     }
+  //   })
+  //   .catch(e => {
+  //     console.log(e)
+  //   })
 
   const __Profile = await loadProfile()
   if (!__Profile) {
@@ -697,14 +734,16 @@ function searchWord(wordOrSentence: string) {
 
   urlsToBeOpened.forEach(url => {
     const tab = GM_openInTab(url, true)
-    if (EFAutoCloseTab) {
-      setTimeout(() => {
-        if (!tab.closed) {
-          tab.close()
-        }
-      }, 60 * 1000)
-    }
+    // request(`${EFAutoCloseServerURL}/this_url_opened_by_english_flow`, {
+    //   data: JSON.stringify({ url }),
+    //   method: 'POST',
+    //   timeout: 1000 * 3600,
+    //   headers: {
+    //     'content-type': 'application/json',
+    //   },
+    // })
   })
+  // request(`${EFAutoCloseServerURL}/tell_outdated_webpages_to_close_themself`, { method: 'POST' })
 
   isAWord && GM_setClipboard(string)
   isAWord && speak(string)
