@@ -56,14 +56,14 @@
 2. 将本项目移动至**桌面(Desktop)**
 3. `yarn`
    - 添加依赖
-4. `yarn ts_build`
+4. `yarn t`
    - 编译 index.ts / server.ts 至 dist 中
-5. `yarn w_tools`
+5. `yarn w`
    - `_w_dict`: 监听 src/data/dict.yaml, 编译为 json
    - `_w_profile`: 监听 src/data/profile.yaml, 编译为 json
    - `_w_style`: 监听 src/frontend/style.less, 编译为 css
    - `_w_entry`: 监听 entry/ef.js, 改写其 @require/@resource
-6. `yarn serve`
+6. `yarn s`
    - 开启 node.js 服务器, 作为运行在 TM 中 EF 的数据源
      - EF 当前使用轮询的方式和服务器交互
 

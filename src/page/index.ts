@@ -851,11 +851,13 @@ async function queryAudioFileURL(text: string) {
     }
 
     // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+    // Content-Security-Policy
     const { href } = window.location
     if (
       href.includes('developer.mozilla.org') ||
       href.includes('github.com') ||
-      href.includes('datatracker.ietf.org')
+      href.includes('datatracker.ietf.org') ||
+      href.includes('nih.gov')
     ) {
       reject('CSP error')
       return

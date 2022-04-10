@@ -33,6 +33,7 @@ afferen: 传入
 agen: 代理
 aggregat: 总计|总数|合计|集合|骨料
 aggressive: 好斗的|挑衅的|积极进取的|非常严重的|强烈的
+agnostic: 不可知论
 agranular: 无颗粒的
 aid: 助
 akin: 类似|相似
@@ -119,6 +120,7 @@ bash: 重击|拍
 beforehand: 事先|预先|事前
 begun: 开始pp
 bias: 偏|倾|势|斜
+biblio: 文献
 bibliograph: 参考书目|文献目录|目录学|文献学
 bilat: 双侧|双边
 biograph: 传记
@@ -193,7 +195,14 @@ collectivis: 集体|集体主义
 colliculus: 丘
 coloni: 殖民
 coma: 昏迷
-comma: 逗号|","
+comma:
+  m: 逗号|","
+  options:
+    - FullMatch
+commas:
+  m: 逗号|","
+  options:
+    - FullMatch
 commerc: 商业
 commission: 佣金|佣|委托
 compact: 压紧|小型|压实|袖珍|带镜小粉盒|合约|协定
@@ -522,6 +531,7 @@ grace: 雅
 gradual: 缓|逐步
 granul: 粒|颗
 graphesthesia: 图形感觉|皮肤图形感
+grasp: 抓牢|握紧|理解|领会|抓住(机会)
 grass: 草坪|坪草
 gratif: 满意|满足
 grim: 严峻|严酷
@@ -573,7 +583,7 @@ immigrant: 移民
 immobil: 不动|固定
 immun: 免疫
 immunohistochemi: 免疫组织化学
-impact: 碰撞|弹着|揕|对...发生影响
+impact: 撞击|冲击|巨大影响|强大作用|碰撞|弹着|揕|对...发生影响|n. or v.
 impair: 损失|妨碍|削弱
 imped: 阻
 impervious: 非.影响.的|不受影响|无动于衷|不能渗透
@@ -790,7 +800,7 @@ mydriasis: 瞳孔放大|散瞳
 myelination: 髓鞘形成
 mytholog: 神话
 narrati: 讲(故事)|陈述
-neat: 整齐|利落|齐整|干净|齐|楚楚
+neat: 整齐的|爱整洁的|巧妙的|简洁的|灵巧的|利落的|精致的|小巧的|<美|非正式>很棒的|令人愉快的|(酒)纯的|不加冰的|光洁的|光滑的
 neglect: 忽略|疏忽|忘记|忽|荒废|轻忽
 nerd: 呆子|书呆子|码农
 nest: 嵌套|巢|窝
@@ -846,6 +856,7 @@ organ: 组织
 orien: 方位
 originat: 起源
 orthogonal: 正交
+orthograph: 正确拼字|正字法|正字学
 oscillat: 振荡|摆动|犹豫
 ought: 应该
 outburst: 突发|发作|暴乱|发病|发端
@@ -963,6 +974,7 @@ projection: 投影|投射|发射
 proliferat: 增生|扩散
 prominen: 主要|重要|显著
 promiscu: 淫乱|胡搞|遝|胡乱
+promot: 促进|提倡|升职|晋升|促销|推广| 将(运动队)晋级|使(学生)升年级|负责筹办|主办(大型活动,如音乐会或体育比赛)|促使(议会私法议案)通过|使(卒)升格为(尤指后等)|<英>(先打大牌)使(小牌)赢得一墩|使(催化剂)更活泼
 prompt: 促使|导致|迅速|题词
 prone: 易发|倾向于|俯卧撑
 propagat: 传播|繁殖
@@ -1039,6 +1051,7 @@ refrain: 克制|避免
 regard: 看待|视
 regarding: 关于|对于
 regardless: 不管|不顾
+regret: 懊悔|惋惜|(用于正式书面语)对...感到抱歉|对...感到遗憾|<古>对(损失或缺乏)感到痛惜
 regular: 定期|正常|规则|正规|固定|通常
 regulat: 调节|调整
 rehearsal: 复述|排演
@@ -1136,6 +1149,7 @@ scholar: 学者|学术
 schopenhauer: 叔本华
 scissors: 剪刀
 scope: 范围|规模|评估|眼界
+scopus: 斯高帕斯(公司名)|当今世界最大的文摘和引文数据库
 scrabble: 乱涂|争夺|爬|拼凑|辗转
 screengrab: 抓屏
 segregat: 分割|分开|隔离|(种族.性别.宗教)隔离
@@ -1315,6 +1329,7 @@ thought: 想法|看法|主意|考虑|深思|关心|顾虑|意图|希望|念头|�
 throughout: 遍及|到处|始终
 thus: 因此|这样|以这种方式|从而|因而|由此|于是|所以|便
 thymin: 胸腺
+tie: 领带|领结|(绑扎东西用的)带子|绳子|纽带|联系|束缚|平局|<英>淘汰赛|<美>枕木|轨枕|延音连接线|系带鞋|系梁
 tilt: 倾斜
 tone: 音|调|色调|音调|声调|调子|声
 topograph: 地势|地形
@@ -1338,6 +1353,7 @@ trisynaptic: 三突触
 tuft: 簇|丛|绺(liǔ)
 tune: 调
 twist: 拧|捻|绞|搓|歪曲
+typical: 典型的|有代表性的|一贯的|平常的|不出所料|特有的|象征性的
 typograph: 印刷|-graphy, γραφία (graphía, “mark, impression, image”)
 ubiquit: 无处不在|泛|普遍
 ultimat: 最终|终极
@@ -1347,6 +1363,8 @@ undergo: 下.go|正在经历
 underl: 下.置|衬底|垫起|支撑|底层|基础
 unforeseea: 非.预见
 unif: 整合|统一
+unintelligible: 莫名其妙的|无法了解的
+unorthodox: 非正统的|非传统的
 unprecedented: 非.先例.的|空前的
 unroll: 非.卷|展开
 unsupervis: 非.监督
