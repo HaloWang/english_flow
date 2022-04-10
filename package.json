@@ -16,13 +16,8 @@
     "typescript": "*"
   },
   "scripts": {
-    "_serve_dev": "nodemon ./dist/server/server.js -q",
-    "_ts_backend": "tsc -p ./src/backend",
     "_ts_backend_dev": "tsc -w -p ./src/backend",
-    "_ts_build": "run-p _ts_backend _ts_page _ts_tools",
-    "_ts_page": "tsc -p ./src/page",
     "_ts_page_dev": "tsc -w -p ./src/page",
-    "_ts_tools": "tsc -p ./src/tools",
     "_ts_tools_dev": "tsc -w -p ./src/tools",
     "_w_dict": "node ./dist/tools/yaml2json.js dict ogrly",
     "_w_entry": "node ./dist/tools/gen_entry.js Desktop",
