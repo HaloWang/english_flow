@@ -265,10 +265,11 @@ conserv: 保护|保存|保守
 consisten: 一贯|连贯|如一
 consortium: 联合企业|财团|<法律>配偶的相互权利|联合
 conspir: 阴谋|密谋|共同导致|反叛
-constant: 恒定
+constant: source_of_const|adj.|持续不断的|经常发生的|恒定的|不变的|忠诚的|忠实的|n.常数|恒量|不变的事物
 constat: 确定|证实|断言
 constituen: 成分|选取|选民|组成
 constitut: 构成|组成|占|组合|组成|是|被视为|成立|设立|任命
+constrain: 限制|约束|强迫|迫使
 constru: 分析|解释|翻译
 consult: 咨询|请教|商量|商讨|查询|查阅|当顾问
 contagio: 传染
@@ -310,6 +311,7 @@ crudity: 粗糙|简陋
 crypt: 密|隐|秘|藏
 crystallograph: 晶体学
 cull: 剔除
+cumbersome: 笨重的|繁琐的|复杂的|(话语或措词)冗长的
 cytogenetics: 细胞遗传学
 cytoplasm: 细胞质
 dart: 飞镖|猛冲
@@ -318,7 +320,9 @@ debate: 辩论|争论|争议|v. or n.
 debt: 债务
 decay: 衰减|腐烂
 declaim: 慷慨陈词|演讲
+declarative: '锚点:|Think about it: React/Flutter is declarative, ObjC/Swift using MVC is not|ReactiveCocoa and RxSwift are some approaches but not elegant|声明式|公告的|宣言的|陈述的|叙述的'
 declin: 拒绝|下降|衰|衰退|谢绝|没落|落
+decorat: 装饰|装点|粉刷|装修|授予(某人)勋章
 dedicat: 献身|专用|奉献
 deduce: 推断|推|减掉|论断|意|臆测
 deductive: 演绎的|推论的
@@ -357,6 +361,7 @@ determin: 确定|决定|判断|测定|判定|鉴定|决|下决心|铁|论
 detriment: 损害|伤害
 deviat: 偏离|异常|反常|违背
 diagno: 诊断
+diagram: 图表|图解|几何图形|以图表示(结合上下文就能猜到是动词)
 dial: 拨号|仪表盘|钟面|拨号盘
 dialect: 方言|土话
 dialectic: 辩证法|逻辑论证|辩证的|辩证法的|方言的
@@ -435,6 +440,7 @@ elicit: 引出|抽出
 eliminat: 剔除|根除
 elongat: 拉长|延伸
 elsewhere: 别处
+embed: 嵌入
 embod: 体现
 emboss: 浮雕|凸点|浮雕效果|压花
 embrac: 包含|拥抱|接受
@@ -465,6 +471,7 @@ entailment: 蕴含|需要|必要
 enthusias: 狂热|发烧
 entorhinal: 内嗅
 ependyma: 室管膜
+ephemeral: 短暂|(主指植物)短生|短命
 epic: 史诗|诗篇|史诗的|叙事诗的
 epigenetic: 表观遗传
 epilep: 癫痫
@@ -510,6 +517,7 @@ facto:
 fetal: 胎儿的|胎的|胚胎的
 fetter: 束缚|限制|枷锁
 fibrillary: 纤维状
+fidelity: (对配偶或伴侣的)忠贞|(对人,组织或信仰的)忠诚|精确性|(CD播放器,收音机,电视机等设备的)保真度
 financ: 财政|金融|资金|财源|财务事务|经济情况|提供资金|贷款购买|赊购
 finest: 最优质|最健康|最可接受|最满意|最好看|最精巧|最晴朗|最纤细|最难以看出|(颗粒)最细微|最杰出|最虚饰|最纯|最气势宏伟|保存得最好|最锋利|最精细复杂|最高尚
 fissure: 裂
@@ -600,6 +608,7 @@ hunt: 猎|獠|打猎|狩猎|搜寻
 hyperpolariz: 超.极化
 hypothalam: 下丘脑
 hypothe: 假设
+idiomatic: (语言)自然地道的|与(某时期,人或团体的艺术或音乐风格)相合的|特点一致的
 ignite: 点燃|燃烧|引发|激起
 ignoran: 无知|愚昧
 illuminat: 照亮|阐明|启蒙
@@ -614,6 +623,7 @@ immunohistochemi: 免疫组织化学
 impact: 撞击|冲击|巨大影响|强大作用|碰撞|弹着|揕|对...发生影响|n. or v.
 impair: 损失|妨碍|削弱
 imped: 阻
+imperative: adj.|极重要的|必要的|命令的|强制的|祈使的|n.|重要紧急的事|必要的事|祈使语气|祈使语气动词|命令
 impervious: 非.影响.的|不受影响|无动于衷|不能渗透
 impli: 暗示|含蓄|隐含|内隐
 implicat: 卷入|涉及|牵连|累及
@@ -635,6 +645,7 @@ increas: 增长|增强|增大
 increasingly: 正在.increase.的
 incredibl: Latin(in不+credo信+bilis的)|难以置信
 indecision: 优柔寡断|犹豫不决
+indeed: adv.|确实|的确|实际上|真正地|<非正式> 真的吗(表示惊讶或觉得某事物荒谬)
 indicat: 表明|标示|象征|暗示|间接提及|示意|指示|指出|有必要|被建议
 indistinguishable: 非.区分.可...的
 individualis: 利己主义|个人主义
@@ -681,6 +692,7 @@ interdisciplinar: 跨.学科
 interfer: 干扰|干涉
 interleav: 插页|插值
 interlock: 连锁|互锁|扣紧
+intermediary: 中间|过渡|调解
 interop: 交互+操作
 interpos: 插入|介入
 interpret: 解释|说明|口译|把...理解为|演绎|翻译|译|阐释|解|想象
@@ -747,6 +759,7 @@ lesion: 损害
 leverage: 影响力|手段|杠杆力|杠杆作用|<美>杠杆比率|<英>举债经营|充分利用(资源,观点等)
 lick: 舔
 lie: 谎言|谎|说谎|位于|撒谎|趴|躺|卧|妄语|谎话|假话
+lift: 提起|举起|抬起(身体某一部位)|空运|解除|撤销|高兴起来|使更愉快|消散|消失|偷盗|盗窃|剽窃|抄袭|挖出|拔起(蔬菜或植物)|提高(嗓音)|提高|增加|使更有趣|(个人,运动队的)晋级|赢得(奖品或比赛)|n.|电梯|升降机|免费搭车|搭便车|鼓舞|振奋|抬|提|(空气的)升力|提升力|(飞机的)最大提升重量|高飞(投出的球触地反弹时急速上升)|后跟垫|插跟
 liken: 比作
 likewise: 同样地|类似地
 limbic: 缘|边
@@ -885,6 +898,7 @@ orbitofrontal: 眼眶
 orchestrate: 编排
 organ: 组织
 orien: 方位
+origami: 折纸工艺
 originat: 起源
 orthogonal: 正交
 orthograph: 正确拼字|正字法|正字学
@@ -939,6 +953,7 @@ percept: 感知|洞察|看法|感觉|认识
 periallocortex: 皮层周围
 perimetry: 视野测量
 peripher: 外围|次要
+permissive: 放任的|纵容的|<法律>允许而非强制的|可选择的|(生)允许的|许可的|(道路)公众获准可使用的
 permit: 允许|准许|电容
 perpendicular: 垂直|垂线
 persist: 继续存在|持续|坚持|执意|坚持说|反复说
@@ -985,6 +1000,7 @@ precursor: 前体|先导|前导
 predict: 预测|预计|预言|预报
 predominant: 统治|优势
 preemptive: 优先|抢占式
+preliminar: 初步|预备|准备工作
 preliminary: 初步|初步措施|初步行动
 prepotent: 优势的|占上风的|具有优势的|遗传优势的|pre- + potent
 presbyopi: 老花眼|远视眼
@@ -1034,12 +1050,14 @@ pupil: 门童|瞳孔|小学生
 purport: 声称|打算
 purpos: 意图|有意|打算
 pursu: 追求
+puzzle: 使困惑|使迷惑|拼图游戏
 pyramid: 锥|金字塔|锥体
 quale: 特质|特性
 qualia: 特质|特性
 quality: 质量|品质
 quantit: 数量
 quarter: 四分之一
+quartz: 石英
 questionnaire: 调查问卷
 quie:
   m: 静
@@ -1054,6 +1072,7 @@ ramificat: 衍生物|分枝|分叉|支流|(衍生的)结果,影响
 rapid: 快速
 rare: 少见的|不常发生的|稀罕的|珍贵的|半熟的|半生的|(品质)极好的|杰出的|(空气)稀薄的|缺氧的|<英|非正式>非常的|极度的
 rarit: 罕见的人(或物)|珍品|稀有|罕见|稀薄
+rasteriz: 光栅
 rationa: 合理|理性
 ravioli: 意大利小方角|混沌
 react: 反应|响应|应对
@@ -1069,6 +1088,7 @@ reciproca: 报答|回报|回应|对应
 recogni: 重.认知=认识|承认|认|认清|辨认|意识|辨|赏|认出
 reconstruct: 重.造
 recruit: 招|招募|新兵
+rectang: 矩形|长方形
 recurren:
   m: 复发|经常
   _ref:
@@ -1252,6 +1272,7 @@ spik:
   options:
     - NotFull
 spill: 洒|倒|溢
+spin: 高速旋转|转动|纺|拉长|抛硬币
 spinal: 脊髓|脊柱
 spindle: 轴|纺锤|细长|变细长|装锭子于
 spite:
@@ -1369,6 +1390,7 @@ thes:
 thesis: 论文|论点|论断|论题|正题
 though: 虽然|尽管
 thought: 想法|看法|主意|考虑|深思|关心|顾虑|意图|希望|念头|思想|思潮|思考|思维|心思|思想
+thriv: 茁壮成长|兴旺|繁荣|(尤指在别人觉得困难的时候)以...为乐|可以出色应对
 throughout: 遍及|到处|始终
 thus: 因此|这样|以这种方式|从而|因而|由此|于是|所以|便
 thymin: 胸腺
@@ -1426,6 +1448,7 @@ venture: 敢于|不揣冒昧|敢尝试|冒险者
 verbal: 口头|非书面|语法.动词的|用语言文字表达
 verbalize: 用语言表达
 versa: 反之亦然(等于 vice versa)
+versus: 对|对抗
 vertebra: 脊椎
 vestibul: 前庭|门廊
 violat: 违反|违背|侵犯|打扰|亵渎|损毁(神圣之地等)|<文>强奸
@@ -1444,6 +1467,7 @@ whereas: 然而
 whereby: 凭此|借此|借以
 wherein: 在其中|在何处
 whilst: 同时
+whit: 一点点|些微
 wholesome: 健康|有益
 widget: 装饰物|小机械|小部件|未定名的主要新产品
 within: 内|中|里

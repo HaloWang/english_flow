@@ -1,0 +1,14 @@
+# Auto detect text files and perform LF normalization
+*        text=auto
+
+# Always perform LF normalization on these files
+*.css    text
+*.html   text
+*.js     text
+*.json   text
+*.less   text
+*.md     text
+*.ts     text
+*.txt    text
+*.xml    text
+*.yaml   text
