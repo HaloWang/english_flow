@@ -452,7 +452,7 @@ async function main() {
           // containTextNode = true
           let indexFlag = 0
 
-          const regex = /[A-z]+/g
+          const regex = /[A-Za-z]+/g
 
           const allWordsInTextNode = (parent.childNodes[i] as Text).textContent?.matchAll(regex)
           if (!allWordsInTextNode) {
@@ -719,6 +719,18 @@ async function main() {
 
 main()
 
+let latestTabs: Tampermonkey.OpenTabObject[] = []
+
+closeWhenUnload()
+function closeWhenUnload() {
+  //
+  window.addEventListener('unload', () => {
+    latestTabs.forEach(tab => {
+      tab.close()
+    })
+  })
+}
+
 function searchWord(wordOrSentence: string) {
   const isAWord = isSingleWord(wordOrSentence)
   let string = wordOrSentence
@@ -726,14 +738,22 @@ function searchWord(wordOrSentence: string) {
     string = wordOrSentence.replaceAll(' ', '')
   }
   const urlsToBeOpened: string[] = [
+    `https://www.google.com/search?q=${string}`,
     `https://translate.google.com/?tl=zh-CN&text=${string}`,
     `https://www.youdao.com/w/eng/${string}`,
   ]
   // wikitionary 词源
   isAWord && urlsToBeOpened.unshift(`https://en.wiktionary.org/wiki/${string}#Etymology`)
+  isAWord && urlsToBeOpened.unshift(`https://www.google.com/search?q=define+${string}`)
+
+  latestTabs.forEach(tab => {
+    tab.close()
+  })
+  latestTabs = []
 
   urlsToBeOpened.forEach(url => {
     const tab = GM_openInTab(url, true)
+    latestTabs.push(tab)
     // request(`${EFAutoCloseServerURL}/this_url_opened_by_english_flow`, {
     //   data: JSON.stringify({ url }),
     //   method: 'POST',

@@ -54,6 +54,7 @@ among: 在当中
 ample: 充足|充裕
 amplif: 放大
 amplitu: 振幅
+amus: 逗乐|逗笑|(提供)消遣|(使)娱乐
 amygdal:
   m: 杏仁核
   options:
@@ -112,8 +113,10 @@ attest: 表明|认证
 attitud: 态度|看法|姿势
 attract: 吸引
 authority: 专家|权威|权力|权限
+authoriz: 批准|许可|授权
 autism: 自闭症|孤独症|臆想
 autops: 尸检
+avers: 反对|厌恶|嫌恶
 axon: 轴索|轴突
 band: 带|乐队|队
 bash: 重击|拍
@@ -131,9 +134,14 @@ blend: 混合|混合物|交融|调配|拌|拌和
 bloat: 胀
 boilerplate: 样板
 bonus: 奖金|津贴|红利|意外收获|额外好处
+boost: 增长|推动|宣扬|促进
 borrow: 借|借入|(向...)借贷|采用|借用|(演算减法时)借(位)
 bottleneck: 瓶.颈
 bouton: 小结|疖
+bow:
+  m: 弓|鞠躬|躬
+  option:
+    - FullMatch
 braille: 盲文
 breach: 裂口|决口|突破口
 breadth: 宽度|宽|幅
@@ -142,6 +150,7 @@ broaden: '-en(verbal)|增长(经验,知识等)|变宽|变阔|(使)扩大影响'
 budget: 预算|需要考虑到预算的(廉价的)
 bulb: 灯泡|球茎
 bulk: 体积|大批|膨胀|显得大|合计的
+bunch: 捆|束|簇
 burst: 爆炸|炸裂|冲|涨
 bush: 灌木|蓬松
 buzzword: 行话|术语|流行语
@@ -260,6 +269,7 @@ constant: 恒定
 constat: 确定|证实|断言
 constituen: 成分|选取|选民|组成
 constitut: 构成|组成|占|组合|组成|是|被视为|成立|设立|任命
+constru: 分析|解释|翻译
 consult: 咨询|请教|商量|商讨|查询|查阅|当顾问
 contagio: 传染
 contempora: 当代|当今|同龄
@@ -280,8 +290,11 @@ correlat: 相关|co- + relate
 correspond: 对应|符合|相符|相当|通信
 correspondence: 对应|通讯|信件|函件
 corrupt: 腐败|腐坏|贪污|贪
+counter: n. 柜台|对立面|计数器|计算器|(棋盘游戏的)筹码|记分冰壶|v. 反驳|驳斥|抵制|抵消|(拳击)还击|逆向移动|adv. 相反地|对立地|逆向地|adj. 反面的|对立的
+counteract: 抵制|抵消|中和
 counterpart: 同行|副本|对方
 crani: 颅
+crap: n.|胡扯|废话|蹩脚货|废物|v.|拉屎|(长时间地)胡扯|adj.|质量差的|蹩脚的|不熟练的
 crappy: 蹩脚|糟糕|没价值
 crav: 渴望
 cravat: 领带|领巾|领结
@@ -291,6 +304,7 @@ credib: 可靠
 credit: 信用|信贷|赊购|赞扬|信誉|声望|存款金额|余额|把(钱)记入总账|把钱存入(账户)|相信|信任|认为是...的功劳|给予承认
 critic: 批评
 critical: 临界|严重|批评|危急|紧要|要紧|紧张|沉重|当紧
+crowd: 人群|一群|群|拥挤|挤
 crucial: 至关重要|决定性
 crudity: 粗糙|简陋
 crypt: 密|隐|秘|藏
@@ -328,6 +342,7 @@ dens:
     - NotFull
 dentat: 齿|锯齿边缘
 depict: 描述|描写
+deplet: 大量减少|耗尽
 depolariz: 去.极
 depriv: 剥夺
 deriv:
@@ -345,8 +360,10 @@ diagno: 诊断
 dial: 拨号|仪表盘|钟面|拨号盘
 dialect: 方言|土话
 dialectic: 辩证法|逻辑论证|辩证的|辩证法的|方言的
+diamet: 直径|正相反
 diencephal: 间脑
 diet: 节食|日常饮食|规定饮食|低脂的|低糖的
+differential: 微分|差别
 differentiat: 区分|鉴别|划分|辨别|分别
 diffuse: 扩散|弥漫的|扩散|漫射|散发|播散|摅
 dilat: 扩张|膨胀|散漫
@@ -375,6 +392,7 @@ distract: 转移
 distribute: 分发|分配|配送|分销|散布|使分布
 disturbance: 干扰|扰乱|失调
 divers: 多种|异|繁杂|各色各样
+domestic: 国内的|本国的|家用的|家庭的|家庭纠纷|家庭矛盾|佣人|家仆
 dominanc: 优势|支配
 dominat: 控制|统治
 dopamine: 多巴胺
@@ -401,6 +419,7 @@ eager: 热切的|渴望的|渴求的
 edify: 熏陶|启发|教诲
 efferent: 传出
 efficien: 效率|有效
+ego: 自负|自尊|自我意识|(心理学)自我
 einstein: 爱因斯坦
 elaborat: 阐述|详尽|复杂|缜密
 elast: 弹|柔
@@ -410,6 +429,7 @@ electroencephalogra: 脑电图
 electromyogra: 肌电图
 electrooculogra: 眼动电图
 electrophysiolog: 电生理
+elegant: 高雅的|举止优雅的|精美的|雅致的|简练的|巧妙的
 elevat: 提升|鼓舞
 elicit: 引出|抽出
 eliminat: 剔除|根除
@@ -431,8 +451,10 @@ emulat: 仿真|看齐|竞争
 encapsulat: 密封|压缩|包装
 encephalit: 脑炎
 encephalo: 脑|脑髓
+enchant: <正式>使陶醉|使入迷|对...施魔法
 encompass: 包围|包含
 encounter: 遭遇|遇
+encrypt: 加密
 encyclopedi: 百科全书|渊博
 endbrain: 终脑|telencephal|cerebr
 endow: 向(人,机构)捐赠|资助|赋予
@@ -457,6 +479,7 @@ ethodolog: 行为学
 etym: 词源|语源|原型|真身
 evaluat: 评估|评价|评定
 eviden: 证
+evocati: 唤起|唤出
 evoke: 唤起|激起|勾|忆
 exact: 精确|确切|准确|索取
 examin: 检查|审查|检验|查看|考核|查验|检
@@ -491,6 +514,8 @@ financ: 财政|金融|资金|财源|财务事务|经济情况|提供资金|贷�
 finest: 最优质|最健康|最可接受|最满意|最好看|最精巧|最晴朗|最纤细|最难以看出|(颗粒)最细微|最杰出|最虚饰|最纯|最气势宏伟|保存得最好|最锋利|最精细复杂|最高尚
 fissure: 裂
 fixation: 定影|固定术
+flat: 平|平面|平坦|平板|扁|平底
+flattery: 奉承|讨好
 flavor: 味道|味|香料|气息|气味|调味
 flaw: 缺陷|缺点
 flexib: 灵活
@@ -544,6 +569,7 @@ habitat: 栖息地
 habituation: 习惯|习惯化
 hair: 毛发
 hang: 悬挂|挂起|降级
+hangover: 宿醉|残留物|遗物
 harbor: 港口|海港|窝藏
 hash: 搞糟|弄乱|剁碎|混杂|哈希(我当然知道)
 haul: 拖|拉|艰难前行|艰难地走|步履蹒跚
@@ -567,6 +593,7 @@ homunculus: 矮人|侏儒
 hooray: 好耶!
 horror: 惊恐|恐惧
 housed: 封装的(被“房子”了)|house is a v.|house is a adj.
+hulk: 浩克|大块头|庞然大物|(车,船等的)残骸|(被毁建筑物的)空壳架|庞然大物般出现|赫然显现
 humanity: 人类|人性|人道|仁慈|人文学科
 humor: 幽默|诙谐
 hunt: 猎|獠|打猎|狩猎|搜寻
@@ -597,6 +624,7 @@ impracticality: 非.实用
 imprint: 印记|铭刻
 impuls: 冲动|脉冲|推动力|一时兴起的|随兴的|推动
 inappropriat: 非.合适|非.适当|非.挪用
+incandescen: 辉耀|炽热|发白热光
 incapacitat: 使无能为力|使不能
 inclusiv: 广泛|包容
 incomplet: 不完整
@@ -756,6 +784,7 @@ measure: 测量|措施|办法|适量|适度|判断|衡量|度量单位|计量标
 mechanism: 机理|机制|机构
 medial: 中间
 mediat: 调解|调停|斡旋|排解|调和|调处|劝解|说|间接的|居间的
+medicat: 药
 medieval: 中世纪的|<非正式>非常老派的|极其过时的
 mediocr: 平庸
 medul: 髓
@@ -819,6 +848,7 @@ nevertheless: 然而|不过|尽管如此
 nigra: 黑质
 nonetheless: 然而|尽管如此
 nonfinte: 非.限定|非.定式
+nonverbal: 不使用语言的|非言语的|不能说话的
 nostalg: 怀念|思念
 notabl: 显要|值得注意|令人尊重|非常成功
 note: 注意|注|注释|记|笔记|音符|纸币|票据|便条|注解|帖
@@ -899,6 +929,7 @@ particular: 特别|格外|特定|特殊
 passive: 被动|消极
 pasta: 意大利面
 patholog: 病理学
+patriot: 爱国
 pav: pave|铺|创造条件
 pedestal: 机架|底座|台
 peduncle: 花梗|肉茎
@@ -925,6 +956,7 @@ physiolog: 生理
 pillar: 柱子|支柱|主心骨|陈梁|核心
 pipe: 管|v. 用🤔输送|如果"朵蜜"是一个名词-"让我来'朵蜜'你"
 pituitar: 垂体
+plagiari: 剽窃|抄袭
 plate: 盘子|镀
 plausible: 合理|有道理|似是而非
 plur: 复|多
@@ -1001,7 +1033,7 @@ puny: 弱小的|微不足道的|微小的
 pupil: 门童|瞳孔|小学生
 purport: 声称|打算
 purpos: 意图|有意|打算
-pursue: 追求
+pursu: 追求
 pyramid: 锥|金字塔|锥体
 quale: 特质|特性
 qualia: 特质|特性
@@ -1101,6 +1133,7 @@ resist: 阻挡|反对|抵抗|抵挡
 resonan: 共振|洪亮|共鸣
 respective: 分别|各自
 respir: 呼吸
+restrain: 制止|阻止|克制|抑制|控制(某事物)|剥夺...的行动自由(或人身自由)|管押|(安全带)缚住(人或其身体部位)
 restrict: 限制|制约
 retent:
   m: 保持|保留|滞留
@@ -1137,6 +1170,7 @@ rumor: 谣言|传闻|传言|谣传|流言|谣|风声
 saccad: 眼跳|扫视
 salien: 显著|突出|卓越
 sarcasm: 讽刺|挖苦
+satiat: 饱满|饱食|满足|厌腻
 scalar: 标量|数量|梯状|分等级
 scale: 天平|等级|标尺|范围|比例|改变尺寸|攀登
 scatter: 分散|离散
@@ -1153,11 +1187,13 @@ scope: 范围|规模|评估|眼界
 scopus: 斯高帕斯(公司名)|当今世界最大的文摘和引文数据库
 scrabble: 乱涂|争夺|爬|拼凑|辗转
 screengrab: 抓屏
+scrum: 扭打|混乱|并列争球
 segregat: 分割|分开|隔离|(种族.性别.宗教)隔离
 seize: 抓住|捉住|(用武力)夺取|占领|逮捕|捉拿|没收|扣押|把握(机会等)|(感觉,疼痛)侵袭|控制|吸引(注意力)|唤起(想象力)|<正式>理解|掌握|意识到|得知(be seized of)|(有活动部件的机器,机器的活动部件)咬住|卡住|<英|法律>依法占有(be seized of)|<史>具有(财产)的终身保有权(be seized of)
 seizure: 夺取|控制|突然发作
 semantic: 语义
 semicolon: 分号|";"
+semiconductor: 半.导体
 seminal: 开创性|揭示性|有创造力|重大|精液|生殖
 sentience: 感觉性|感知性|感觉能力|知性
 septa: 隔
@@ -1165,6 +1201,7 @@ septum: 膜|隔
 seriali: 序列|连载|串行
 serotonin: 血清素|5-羟色胺
 severe: 严重
+shady: 阴凉|荫|背阴
 shaft: 轴|杆
 shak: 震动|抖动|摇动|颤抖
 shakespeare: 莎士比亚
@@ -1260,6 +1297,7 @@ strip: 条|剥夺|撕去|撤掉
 striped: 有条纹|带状
 striv: 努力|力争|斗争|反抗
 struggl: 奋斗|努力|搏斗|扭打|挣扎脱身|难事|争夺|争抢|奋力前进|艰难行进
+stuff: 东西|材料|填塞|货色|料|填充
 subdue: 征服|抑制|减轻
 subgranular: 亚.粒.的
 subiculum: 菌丝层|脑下脚
@@ -1275,7 +1313,9 @@ subthalam: 底丘脑
 subventricular: 下.室.的
 succinct: 简洁|言简意赅
 suck: 差|糟|吮吸
+sue: 控告|对...提起诉讼(尤指要求赔偿)|<正式>(尤指在法庭上)提出请求
 sufficient: 足够|充足
+suing: 控告|对...提起诉讼(尤指要求赔偿)|<正式>(尤指在法庭上)提出请求
 sulcu: 沟|槽|裂隙
 summa: 总|合
 superficial: 浅|表
@@ -1283,6 +1323,7 @@ superimpos: 叠加
 superior: 上|高|大|强
 supervis: 监督
 suppress: 抑制|镇压
+surgeon: 外科医生
 surgery: 外科手术
 surgical: 外科|外科手术|外科手术使用
 surpass: 超过|超越|赛过|胜于
@@ -1317,6 +1358,7 @@ term: 术语|项|表示|表明
 termina: 终止|结束
 terminolog: 术语|术语学|用辞
 territor: 领土
+textile: 纺织物|织物|纺织业(textiles)|<非正式>着衣者|非自然主义者
 therap: 疗
 thereby: 因此|从而
 therefo: 因此
@@ -1372,6 +1414,7 @@ unsupervis: 非.监督
 utter: 说出|发出
 utterance: 发声|发言|表达|语义|话语
 vacuous: 空虚|空洞|无意义
+vacuum: 真空
 valid: 有效的|正当的|合理的|合法有效的|计算机系统接受的|被计算机系统认为有效的
 vari: 变
 vegeta: 蔬|植
@@ -1396,6 +1439,7 @@ voluntar: 自主|自愿|随意
 vowel: 元音|母音
 vulnerabl: 脆弱|易受伤
 wander: 漫游|游荡|漫步|流浪|走神|开小差|偏离|走偏(道路,航线等)|(目光)游移|往别处看|(河流,道路等)蜿蜒曲折|离题|(因年老而)神志恍惚|精神错乱|(男人的手)在女人的身上摸来摸去(尤指女人不情愿时)|(对固定的性伴侣)不忠
+weird: 奇怪|不寻常|命运
 whereas: 然而
 whereby: 凭此|借此|借以
 wherein: 在其中|在何处
