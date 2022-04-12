@@ -738,32 +738,30 @@ function searchWord(wordOrSentence: string) {
     string = wordOrSentence.replaceAll(' ', '')
   }
   const urlsToBeOpened: string[] = [
-    `https://www.google.com/search?q=${string}`,
     `https://translate.google.com/?tl=zh-CN&text=${string}`,
     `https://www.youdao.com/w/eng/${string}`,
   ]
   // wikitionary 词源
   isAWord && urlsToBeOpened.unshift(`https://en.wiktionary.org/wiki/${string}#Etymology`)
+  // Google Define
   isAWord && urlsToBeOpened.unshift(`https://www.google.com/search?q=define+${string}`)
+  // Google Search
+  urlsToBeOpened.unshift(`https://www.google.com/search?q=${string}`)
 
   latestTabs.forEach(tab => {
     tab.close()
   })
   latestTabs = []
 
-  urlsToBeOpened.forEach(url => {
-    const tab = GM_openInTab(url, true)
-    latestTabs.push(tab)
-    // request(`${EFAutoCloseServerURL}/this_url_opened_by_english_flow`, {
-    //   data: JSON.stringify({ url }),
-    //   method: 'POST',
-    //   timeout: 1000 * 3600,
-    //   headers: {
-    //     'content-type': 'application/json',
-    //   },
-    // })
-  })
-  // request(`${EFAutoCloseServerURL}/tell_outdated_webpages_to_close_themself`, { method: 'POST' })
+  for (let i = 0; i < urlsToBeOpened.length; i++) {
+    const url = urlsToBeOpened[i]
+    // 按照思维顺序延迟打开页面
+    const ms = Math.pow(urlsToBeOpened.length - i - 1, 3)
+    setTimeout(() => {
+      const tab = GM_openInTab(url, { insert: false, active: false })
+      latestTabs.push(tab)
+    }, ms * 100)
+  }
 
   isAWord && GM_setClipboard(string)
   isAWord && speak(string)
