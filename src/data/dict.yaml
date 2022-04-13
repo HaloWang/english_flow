@@ -1,4 +1,5 @@
 abbr: 简短|缩写
+abduct: 绑架|诱拐|使外展|诱导
 aberran: 变异|反常|脱离轨道
 abolish: 废除
 abort: 终止|中断|流产|堕胎
@@ -11,6 +12,7 @@ account: 账户|占|账
 accountab: 负有责任|应作解释|可理解
 accura: 准确|精确|精密|准|不爽|过分周到|过分注意
 accusat: 指控|控告|指责
+acetylcholine: 乙酰胆碱
 acid: 酸|酸溜溜
 acknowledge: 承认|认可|感谢
 acqui: 获得
@@ -75,6 +77,7 @@ anterograd: 顺行
 anthem: 国歌|(团体组织的)颂歌|赞歌|(尤指圣公会或新教教会的)圣歌|(对某一群体很重要的)歌曲
 anticipat: 预料|料|预知|意料|抢先|逆料|恇|意|意图|意想|虞|预卜|预段|from ante (“before”), + capere (“take”).
 anticonvuls: 抗.痉挛|抗.惊厥|anti- convulsant
+anxiet: 焦虑|忧虑|令人焦虑的事|渴望|焦虑症
 anxious: 焦虑的|担心的|渴望的|急切的|(时间或局势)紧张的|令人焦虑的
 apart: 隔开|分别
 apathy: 冷淡|无兴趣
@@ -118,6 +121,7 @@ authoriz: 批准|许可|授权
 autism: 自闭症|孤独症|臆想
 autops: 尸检
 avers: 反对|厌恶|嫌恶
+axiom: <数>公理|格言|自明之理
 axon: 轴索|轴突
 band: 带|乐队|队
 bash: 重击|拍
@@ -188,6 +192,7 @@ circumstance: 环境|情况
 circumvent: 回避|绕过
 citation: 引文|引语|传唤|传票|表彰|嘉奖状|引用|引证
 claim: 声称|断言|索取|要求
+clarity: 和clear同源|清晰易懂|思路清晰|(画面或声音的)清晰|清楚|清澈|明净
 clause: 条款|条纹|分句|从句
 clinic: 诊所|门诊
 closure: 关闭|闭合|门襟|闭锁|闭包
@@ -220,6 +225,7 @@ compact: 压紧|小型|压实|袖珍|带镜小粉盒|合约|协定
 comparison: 对比|比拟
 compass: 指南针|绕行|圆规|范围
 compatib: 兼容
+compensat: 赔偿|偿付|弥补|补偿|抵消|酬报(某人)
 compet: 赛|竞
 complain: 抱怨|诉|诉状|意见|诉苦|牢骚|原告|怨气|诼|怪话
 complement: 相互补充|相互补足
@@ -321,13 +327,13 @@ datum: 数据|资料
 debate: 辩论|争论|争议|v. or n.
 debt: 债务
 decay: 衰减|腐烂
+decepti: 骗
 declaim: 慷慨陈词|演讲
 declarative: '锚点:|Think about it: React/Flutter is declarative, ObjC/Swift using MVC is not|ReactiveCocoa and RxSwift are some approaches but not elegant|声明式|公告的|宣言的|陈述的|叙述的'
 declin: 拒绝|下降|衰|衰退|谢绝|没落|落
 decorat: 装饰|装点|粉刷|装修|授予(某人)勋章
 dedicat: 献身|专用|奉献
-deduce: 推断|推|减掉|论断|意|臆测
-deductive: 演绎的|推论的
+deduc: 推断|推|减掉|论断|意|臆测|演绎|推论
 deficit: 赤字|亏|亏空
 deflect: 偏|斜|导|转
 deform: 改变...的外形|损毁...的形状
@@ -350,6 +356,7 @@ dentat: 齿|锯齿边缘
 depict: 描述|描写
 deplet: 大量减少|耗尽
 depolariz: 去.极
+depress: 使抑郁|使沮丧|降低|抑制|使萧条|使不景气|按下|压下
 depriv: 剥夺
 deriv:
   m: 源自|衍生|派生|获得
@@ -465,6 +472,7 @@ encounter: 遭遇|遇
 encrypt: 加密
 encyclopedi: 百科全书|渊博
 endbrain: 终脑|telencephal|cerebr
+endeavo: 努力|尽力
 endow: 向(人,机构)捐赠|资助|赋予
 engag: 参加|从事|聘用|交战|交互
 enlighten: 阐明|启发|启示|启迪|教导
@@ -480,6 +488,7 @@ epilep: 癫痫
 epistemolog: 认识论
 epithalam: 上丘脑|颂歌
 equipment: 设备|装备|器材|装置
+equitable: 公平合理的|公正的|衡平法上有效的
 especial: 特殊|特别|尤其
 essen: 本质
 estimat: 估计|预算|预计
@@ -555,6 +564,7 @@ geniculate: 膝状弯曲|有膝状关节
 genome: 全部基因信息|基因组
 genuine: 真正的|非伪造的|真诚的|真心的
 genus: 类|种|属
+geometr: 几何
 glamorous: 有魅力的
 glia: 神经胶质
 globose: 球状|球形
@@ -717,6 +727,7 @@ invent: 发明
 inventories: 库存|清单|盘点|清点
 inventory: 库存|清单|盘点|清点
 inver: 相反
+invest: 投资|投入(时间或精力)|赋予|授予|<旧>给...穿衣|<旧>包围|围攻
 investigat: 侦察|调查|研究
 investigate: 调查|探讨
 involv: 牵涉|涉及|包含|需要|使陷入|使卷入
@@ -756,7 +767,9 @@ late: 晚|迟|晚点
 latency: 延迟|潜伏|潜在因素
 latent: 潜在|潜伏|隐藏
 lateral: 侧
+lateralisation: 偏侧优势|偏侧性
 latter: 后者
+least: adj.|adv.|pron.|n.|一点|最少|最小|微辣
 legacy: 遗产|软件.屎坑
 legitima: 合法|正当|合法化
 lemma: 引理|论点
@@ -780,6 +793,7 @@ longitud: 经线|纵
 loopy: 循环|迟钝|呆头呆脑|原地转圈
 lossy: 有损
 lumberjack: 伐木工
+macaque: 猕猴|恒河猴|短尾猿
 macroscop: 宏观
 magnet: 磁
 magni: 巨大
@@ -836,6 +850,7 @@ monolayer: 单层
 monolith: 整块石料|庞然大物
 monopoly: 垄断|专卖|独占事业|垄断贩卖
 moral: 道德|义|合乎道德
+moreover: 此外|而且
 morpholog: 形态学
 motif: 主题|主旨|图形|意念|基序|模体
 motivat: 促进|激励|动机
@@ -848,6 +863,7 @@ mutual: 相互|彼此|共有
 mydriasis: 瞳孔放大|散瞳
 myelination: 髓鞘形成
 mytholog: 神话
+namely: 即|也就是
 narrati: 讲(故事)|陈述
 neat: 整齐的|爱整洁的|巧妙的|简洁的|灵巧的|利落的|精致的|小巧的|<美|非正式>很棒的|令人愉快的|(酒)纯的|不加冰的|光洁的|光滑的
 neglect: 忽略|疏忽|忘记|忽|荒废|轻忽
@@ -960,9 +976,11 @@ percept: 感知|洞察|看法|感觉|认识
 periallocortex: 皮层周围
 perimetry: 视野测量
 peripher: 外围|次要
+permanence: 持久|持续
 permissive: 放任的|纵容的|<法律>允许而非强制的|可选择的|(生)允许的|许可的|(道路)公众获准可使用的
 permit: 允许|准许|电容
 perpendicular: 垂直|垂线
+persever: 契而不舍|坚持己见
 persist: 继续存在|持续|坚持|执意|坚持说|反复说
 perspect: 视角|观点|透视
 pertain: 适合|关于|适用|<法律>从属|归属|<正式>(在特定的时间或地点)生效|存在
@@ -989,9 +1007,7 @@ portfolio: 公文包|画夹|作品集
 portion: 部分|局部|分配
 portray: 描绘|描写|(在艺术或文学作品中)描述|刻画|(在电影,戏剧等中)扮演
 pose: 提出|摆|拍照姿势
-posing:
-  m: 提出|摆|拍照姿势
-  _root: pose
+posing: 提出|摆|拍照姿势
 posit: 断定|假设|认定
 possess: 具有|具备|拥有|占有|有着|拥|抱有|吞
 posterior: 后
@@ -1010,11 +1026,12 @@ predominant: 统治|优势
 preemptive: 优先|抢占式
 preliminar: 初步|预备|准备工作
 preliminary: 初步|初步措施|初步行动
+premise: 前提|假设|以...为基础|以...为前提|预先提出
 prepotent: 优势的|占上风的|具有优势的|遗传优势的|pre- + potent
 presbyopi: 老花眼|远视眼
 presence: 存在|光临
 present: 当前|现在|介绍|当代|现
-preserve: 保留|保存|保持|保护
+preserv: 保留|保存|保持|保护
 presum: 料想|推测|大概|想必
 presynaptic: 突触前
 prevent: 阻止|阻碍|预防|防御
@@ -1026,9 +1043,11 @@ privilege: 特权|基本人权|给与...特权
 prob: 问题(等于 problem)|可能性(等于 probability)|可能的(probable)|大概(等于 probably)
 probabilistic: 概率性的|或然说的|盖然论的
 proce: 程序|步骤
+proclaim: (正式)宣告|(公开)声明|强调|声称|(标志或通知)宣传|告知|清楚表明|显示
 progenito: 祖
 projection: 投影|投射|发射
 proliferat: 增生|扩散
+prolong: 拉长|拖长(感觉或活动)|<罕>延长
 prominen: 主要|重要|显著
 promiscu: 淫乱|胡搞|遝|胡乱
 promot: 促进|提倡|升职|晋升|促销|推广| 将(运动队)晋级|使(学生)升年级|负责筹办|主办(大型活动,如音乐会或体育比赛)|促使(议会私法议案)通过|使(卒)升格为(尤指后等)|<英>(先打大牌)使(小牌)赢得一墩|使(催化剂)更活泼
@@ -1098,13 +1117,7 @@ recogni: 重.认知=认识|承认|认|认清|辨认|意识|辨|赏|认出
 reconstruct: 重.造
 recruit: 招|招募|新兵
 rectang: 矩形|长方形
-recurren:
-  m: 复发|经常
-  _ref:
-    - ce
-    - t
-    - tly
-    - ces
+recurren: 复发|经常
 reelin: 络丝蛋白
 refer: 提到|谈及|描述|涉及|查阅|参考
 refine: 精炼|提炼|炼|提纯|醇化|湔|澣|加细
@@ -1154,6 +1167,7 @@ replicat:
     '-t+bility': 'n'
 represent: 代表|表示|表现|意味着
 repress: 压抑(痛苦的情感,回忆等)|抑制|克制(行为)|(尤指用武力)镇压|压制|实施镇压|使(基因)转录受阻遏
+repudiat: 拒绝|否定|批判|与...断绝关系|拒付
 resect: 切除
 resembl: 似|像
 reserve: 保留|后备|储量|预定|储备
@@ -1179,6 +1193,7 @@ rhythm: 节律|节奏|节拍|规则变化|和谐|抑扬节奏|韵律|旋律
 ridge: 山脊|隆起|脊状隆起
 ringer: 顶替|替补|铃声|按铃者
 rippl: 波纹|涟漪
+risk: 危险|风险|使...冒险
 robust: 强壮|强健|鲁棒
 rod:
   m: 竿|棍|杆
@@ -1249,6 +1264,7 @@ singular: 非凡|奇特
 singularity: 奇点|特异点|黑洞|非凡点|奇特点
 sino: 中国|汉人|汉|中
 situate: 位于
+skeptic: 持怀疑态度|不可知论的|不相信的人
 skim: 撇去|浏览
 slack: 懈怠|偷懒|使(绳索等)松弛|不紧的|松弛的|(生意)萧条的|清淡的|减缓|放慢
 slang: 俚语
@@ -1358,9 +1374,11 @@ surgery: 外科手术
 surgical: 外科|外科手术|外科手术使用
 surpass: 超过|超越|赛过|胜于
 survey: 调查|测验|检测|民调
+suscepti: 敏感的|感受性强的|易接受的
 suspense: 悬念|焦虑|终止
 sustain: 维持|持续
 syllabic: 音节
+syllogis: 直言三段论
 symmetr: 对称
 symptom: 症状
 synap: 突触|触电
@@ -1407,6 +1425,7 @@ thymin: 胸腺
 tie: 领带|领结|(绑扎东西用的)带子|绳子|纽带|联系|束缚|平局|<英>淘汰赛|<美>枕木|轨枕|延音连接线|系带鞋|系梁
 tilt: 倾斜
 tone: 音|调|色调|音调|声调|调子|声
+tonic: 补药|滋补的
 topograph: 地势|地形
 topolog: 拓扑
 trace: 跟踪|痕迹|追踪|迹|痕迹|踪迹|踪|遗迹
@@ -1414,6 +1433,7 @@ tract: 束|道|短文|传单
 tradition: 传统|惯例|传说|信仰
 transcriptom: 转录组
 transien: 短暂|转瞬即逝|无偿
+transitory: 短暂的|暂时的|瞬息的
 transmission: 传输|传动|变速器|透射
 transparen: 透明|透彻
 transplant: 移植
@@ -1432,6 +1452,7 @@ typical: 典型的|有代表性的|一贯的|平常的|不出所料|特有的|�
 typograph: 印刷|-graphy, γραφία (graphía, “mark, impression, image”)
 ubiquit: 无处不在|泛|普遍
 ultimat: 最终|终极
+umbrella: 伞|(大的组织)包括许多小团体的|(词汇)总称的|总括的|雨伞|阳伞|综合体|总体|保护伞|庇护|(有众多附属小机构或小群体的)伞形组织|(战斗机或高射炮构成的)掩护幕|防空火网|(动)(水母)伞膜
 uncorrelated: 非.相关
 underestimat: 下.估|低估|轻视|估计不足
 undergo: 下.go|正在经历
@@ -1461,6 +1482,7 @@ versa: 反之亦然(等于 vice versa)
 versus: 对|对抗
 vertebra: 脊椎
 vestibul: 前庭|门廊
+vigilan: 警觉|警惕
 violat: 违反|违背|侵犯|打扰|亵渎|损毁(神圣之地等)|<文>强奸
 virtual: 几乎...的|so nearly true|虚拟|实质上|简直|https://www.zhihu.com/question/19903523
 viscea: 内脏
