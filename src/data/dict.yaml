@@ -16,6 +16,7 @@ acetylcholine: 乙酰胆碱
 acid: 酸|酸溜溜
 acknowledge: 承认|认可|感谢
 acqui: 获得
+acronym: 首字母缩略词
 acyclic: 非.循环|非.周期
 adapt: 适应|调整|使适合|改编|改造|改装
 addict: 瘾|入迷|嗜好
@@ -115,6 +116,7 @@ attainment: 素养|造就|发迹|诣
 attest: 表明|认证
 attitud: 态度|看法|姿势
 attract: 吸引
+attribute: 把...归因于|认为是...所作|认为...具有某种特质|属性|特质|标志|象征|定语|programming anchor
 augment: 增加|增大|加强|补充
 authority: 专家|权威|权力|权限
 authoriz: 批准|许可|授权
@@ -150,6 +152,7 @@ bow:
 braille: 盲文
 breach: 裂口|决口|突破口
 breadth: 宽度|宽|幅
+brick: 砖|n. + v. + adj.
 brittle: 脆|易碎
 broaden: '-en(verbal)|增长(经验,知识等)|变宽|变阔|(使)扩大影响'
 budget: 预算|需要考虑到预算的(廉价的)
@@ -280,6 +283,7 @@ constitut: 构成|组成|占|组合|组成|是|被视为|成立|设立|任命
 constrain: 限制|约束|强迫|迫使
 constru: 分析|解释|翻译
 consult: 咨询|请教|商量|商讨|查询|查阅|当顾问
+consum: 消耗|消费|吃|喝|吞噬|烧毁|使...着迷|充满
 contagio: 传染
 contempora: 当代|当今|同龄
 contest: 竞赛|争夺|辩论
@@ -513,6 +517,7 @@ expens: 代价|费用
 experien: 经验
 expert: 专|专家|行家
 expla: 解释
+explod: (使)爆炸|(使)爆破|急剧扩大|激增|(情感)迸发|爆发|推翻|破除|爆响|发出巨响|迅速移动
 expos: 露|暴|揭
 extensi: 广阔|延展|延伸
 extent: 程度|范围|长度
@@ -671,6 +676,7 @@ infant: 婴儿
 infer: 推断|臆测|推论|暗示|暗指
 inferior: 下|低|次|弱
 infiltrat: (尤指为获取秘密情报而)渗透|渗入(组织,场所等)|(肿瘤,细胞等)浸润(组织,器官)|(液体)渗入|(某种特性缓慢地)透入|渗透
+inflat: (使)充气|(使)膨胀|使(价格,成本等)上涨|夸大|吹嘘
 influen: 影响|作用|势力|影响力|有影响的人(或事物)
 inform: 通知|告诉|报告|告知
 informal: 非.正式
@@ -1143,6 +1149,7 @@ reliance: 依赖|信赖|信任
 relies: 依赖
 remarkabl: 卓越|出色|杰出|异常|精彩|异乎寻常|不简单|漂亮|异|殊|盛大|炳|异样|不平常
 reorganiz: 重.组
+reorient: 重.方向|使适应|再调整
 repetiti: 重复
 replicat:
   m: 复制
@@ -1217,6 +1224,7 @@ sarcasm: 讽刺|挖苦
 satiat: 饱满|饱食|满足|厌腻
 scalar: 标量|数量|梯状|分等级
 scale: 天平|等级|标尺|范围|比例|改变尺寸|攀登
+scary: 骇人的|恐怖的|<非正式>异乎寻常的|令人惊奇的|胆小的|易受惊吓的
 scatter: 分散|离散
 scenario: 设想|剧情|情节
 schema: (计划或理论的)纲要|图解|(逻)(三段论法的)格|(康德哲学的)先验图式
@@ -1292,6 +1300,7 @@ spectra: 光谱|范围|波谱
 spectrum: 范围|幅度|光谱|波谱|频谱|余象
 speculat: 推测|猜想|投机
 sphere: 领域|球|球面|范围
+spice: 香料|调味品|情趣|趣味|给...增添趣味|在...中加香料
 spik:
   m: 猛增|提升|掺入|尖状物|刺入|尖钉
   options:
@@ -1503,6 +1512,7 @@ whit: 一点点|些微
 wholesome: 健康|有益
 widget: 装饰物|小机械|小部件|未定名的主要新产品
 within: 内|中|里
+wizard: 巫师
 workload: 工作.负载|(人或组织的)工作量|工作负荷
 worthless: 价值.无|无价值的|没用处的|不中用的|品质差的
 yankee: 美国佬|美国人|洋基队
