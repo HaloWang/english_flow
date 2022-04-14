@@ -84,6 +84,7 @@ apart: 隔开|分别
 apathy: 冷淡|无兴趣
 aphasi: 失语|语言障碍
 apical: 顶点
+apparently: 据说|显然|似乎|好像
 appendix: 附录|附件|阑尾|盲肠
 appreciat: 欣赏|鉴赏|理解|明白|感激
 appropriat: 合适|适当|挪用
@@ -122,9 +123,11 @@ authority: 专家|权威|权力|权限
 authoriz: 批准|许可|授权
 autism: 自闭症|孤独症|臆想
 autops: 尸检
+auxiliary: 辅助|备用|后备
 avers: 反对|厌恶|嫌恶
 axiom: <数>公理|格言|自明之理
 axon: 轴索|轴突
+backfire: 产生事与愿违的不良(或危险)后果|适得其反|(发动机或车辆)回火|逆火|(车辆或发动机的)回火|<北美>(为形成防火隔离带而有意点燃的)迎面火
 band: 带|乐队|队
 bash: 重击|拍
 beforehand: 事先|预先|事前
@@ -286,6 +289,7 @@ consult: 咨询|请教|商量|商讨|查询|查阅|当顾问
 consum: 消耗|消费|吃|喝|吞噬|烧毁|使...着迷|充满
 contagio: 传染
 contempora: 当代|当今|同龄
+contention: 看法|观点|争论|争吵|争夺|竞争
 contest: 竞赛|争夺|辩论
 continu: 连续|继续
 contra: 对|反
@@ -313,6 +317,7 @@ crav: 渴望
 cravat: 领带|领巾|领结
 craven: 懦夫|怯懦
 crawler: 爬行动物|爬行者|爬虫
+credential: 资格|证明|文凭|资格证书|(政府为新任大使提供的)国书
 credib: 可靠
 credit: 信用|信贷|赊购|赞扬|信誉|声望|存款金额|余额|把(钱)记入总账|把钱存入(账户)|相信|信任|认为是...的功劳|给予承认
 critic: 批评
@@ -343,6 +348,7 @@ deflect: 偏|斜|导|转
 deform: 改变...的外形|损毁...的形状
 degrad: 降级|消解
 deleterious: 有害
+deliberate: 故意的|蓄意的|从容的|小心翼翼的|深思熟虑的|仔细考虑|认真商讨
 delimit: 划界|划定|限定
 delinea: 描绘
 deliver: 投递|运送|履行|兑现|交付|移交|发表|宣布|接生|分娩|解救|拯救|投掷|击打|(法官或法庭)宣布(判决)|拉(选票)|发行|发布(计算机程序)|处理
@@ -484,6 +490,7 @@ enormous: 巨大的
 entailment: 蕴含|需要|必要
 enthusias: 狂热|发烧
 entorhinal: 内嗅
+enumerat: 枚举|列举|罗列|历数
 ependyma: 室管膜
 ephemeral: 短暂|(主指植物)短生|短命
 epic: 史诗|诗篇|史诗的|叙事诗的
@@ -491,8 +498,11 @@ epigenetic: 表观遗传
 epilep: 癫痫
 epistemolog: 认识论
 epithalam: 上丘脑|颂歌
+eponymous: (书,戏剧等中的人物)与作品同名的|以...的名字命名的
 equipment: 设备|装备|器材|装置
 equitable: 公平合理的|公正的|衡平法上有效的
+erstwhile: 以前|从前
+escalat: 迅速增加|上涨|升级|恶化
 especial: 特殊|特别|尤其
 essen: 本质
 estimat: 估计|预算|预计
@@ -603,6 +613,7 @@ hemi:
   m: 半
   options:
     - NotFull
+hence: 因此|之后
 hereafter: 此后|随后|后(文简称)
 hermeneutic: 诠释学|解释学
 heterogene: 异质|异源
@@ -665,6 +676,7 @@ increasingly: 正在.increase.的
 incredibl: Latin(in不+credo信+bilis的)|难以置信
 indecision: 优柔寡断|犹豫不决
 indeed: adv.|确实|的确|实际上|真正地|<非正式> 真的吗(表示惊讶或觉得某事物荒谬)
+independen: 非.依赖|自治的|独立的|自立的|自力更生的
 indicat: 表明|标示|象征|暗示|间接提及|示意|指示|指出|有必要|被建议
 indistinguishable: 非.区分.可...的
 individualis: 利己主义|个人主义
@@ -680,6 +692,7 @@ inflat: (使)充气|(使)膨胀|使(价格,成本等)上涨|夸大|吹嘘
 influen: 影响|作用|势力|影响力|有影响的人(或事物)
 inform: 通知|告诉|报告|告知
 informal: 非.正式
+infrastructure: 下面结构|永久性军事设施|基础设施|基础建设
 infrequent: 非.频繁|罕见
 ingredient: (食品的)成分|原料|要素|因素|构成组成部分的
 inhere: 固有|内在|与生俱来
@@ -705,9 +718,11 @@ intact: 完整|完好
 integrat: 整合|结合|综合|统一
 integrity: 正直|诚实|完整|完全|职业操守|集成度
 intens: 强烈|很大|加强|加剧
+intention: 意图|目的|打算|愈合|意念
 interact: 交互
 interactiv: 交互式|交互性
 intercept: 监听|截距|截听
+interdependent: 相互.依赖
 interdisciplinar: 跨.学科
 interfer: 干扰|干涉
 interleav: 插页|插值
@@ -716,6 +731,8 @@ intermediary: 中间|过渡|调解
 interop: 交互+操作
 interpos: 插入|介入
 interpret: 解释|说明|口译|把...理解为|演绎|翻译|译|阐释|解|想象
+interrelat: 相互.关联
+interrupt: 打断|打扰|使暂停|使中断|阻断|遮挡
 interven: 接入|干预
 intimate: 亲密|贴心|亲热|亲切|密切|亲昵
 intimidat: 恐吓|恫吓
@@ -864,6 +881,7 @@ mount: 组织|开展|爬上|登上|骑上|增多|增加|上升|增强|加剧|镶
 multidisciplinary: 多.学科.的
 multipl: 增|扩|倍|乘|多
 multitude: 众多|大量
+mutex: mutually(相互) exclusive(独家,只)|互斥
 mutism: 缄默症|哑
 mutual: 相互|彼此|共有
 mydriasis: 瞳孔放大|散瞳
@@ -1041,7 +1059,7 @@ preserv: 保留|保存|保持|保护
 presum: 料想|推测|大概|想必
 presynaptic: 突触前
 prevent: 阻止|阻碍|预防|防御
-primitive: 原始|原始人
+primitive: <旧>原始人|未开化的土人|原始派艺术家(或其作品)|文艺复兴前的艺术家(或作品)|模仿文艺复兴前艺术风格的现代画家|早期风格物品|词根|原(词)素|(数)基本式|初基|(计算机)图元|原语|原始的|远古的|(器物等)粗糙的|简陋的|(人,动物或植物发展)早期的|(行为,思想,情感)本能的|自然的|(艺术风格)朴实无华的|原来的|原有的|(语言学)根词的|非派生的|(数)(代数或几何表达式)本原的|(生)原生的
 primordi: 原始|原基
 princip: 原则|原理|本源|重要
 prior: 先前|事先|优先
@@ -1185,6 +1203,7 @@ respective: 分别|各自
 respir: 呼吸
 restrain: 制止|阻止|克制|抑制|控制(某事物)|剥夺...的行动自由(或人身自由)|管押|(安全带)缚住(人或其身体部位)
 restrict: 限制|制约
+resume: 恢复(职位)|回到(座位)|继续说|接着说|概述|(中断后)重新开始|继续|n.|梗概|摘要(résumé或resumé)|<美>简历|履历(résumé或resumé)
 retent:
   m: 保持|保留|滞留
   _ref:
@@ -1195,6 +1214,8 @@ retriev: 检索|取回|恢复
 retrograd: 逆行|倒退
 reuptake: 重.摄取|再.吸收|uptake is not v.
 reverse: 逆转|相对|彻底改变|相反
+revival: 复兴|复苏|再流行|(旧剧的)重新上演|(复兴基督教信仰的)奋兴布道会|(体力或活力的)重振
+revive: (使)复原|(使)复苏|重新唤起|重新记起|重新使用|使复兴|重新上演
 revolutionize: 使发生革命性巨变|使彻底变革|发动革命|推翻原有政府|从事革命|灌输革命信念
 rhythm: 节律|节奏|节拍|规则变化|和谐|抑扬节奏|韵律|旋律
 ridge: 山脊|隆起|脊状隆起
@@ -1213,6 +1234,7 @@ rods:
     - FullMatch
 rosehip: 玫瑰果
 rostral: 喙部
+roulette: 轮盘赌
 routine: 例行|常规|惯例
 rubber: 橡胶|胶
 rudiment: 雏形|基本
@@ -1252,6 +1274,7 @@ septa: 隔
 septum: 膜|隔
 seriali: 序列|连载|串行
 serotonin: 血清素|5-羟色胺
+session: (某项活动的)一段时间|一场|(议会等的)会议|(法庭的)开庭|学年|上课时间|(酒吧中)演奏会(尤指演奏爱尔兰音乐)|(尤指录音师的)灌录音乐时间|<非正式>酗酒期|基督教长老会的管理机构
 severe: 严重
 shady: 阴凉|荫|背阴
 shaft: 轴|杆
@@ -1365,6 +1388,7 @@ substance: 物质|实质|物|体|内容|质|实体|意义|意味|恉
 substant: 大量|实|me:低熵
 substrat: 基质|培养基
 subthalam: 底丘脑
+subtle: 不易察觉的|微妙的|敏锐的|有洞察力的|灵活的|巧妙的|含蓄的|隐晦的|<古>狡猾的
 subventricular: 下.室.的
 succinct: 简洁|言简意赅
 suck: 差|糟|吮吸
@@ -1376,6 +1400,7 @@ summa: 总|合
 superficial: 浅|表
 superimpos: 叠加
 superior: 上|高|大|强
+supersonic: 超.音
 supervis: 监督
 suppress: 抑制|镇压
 surgeon: 外科医生

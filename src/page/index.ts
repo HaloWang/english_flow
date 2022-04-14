@@ -739,14 +739,14 @@ function searchWord(wordOrSentence: string) {
   }
   const urlsToBeOpened: string[] = [
     `https://translate.google.com/?tl=zh-CN&text=${string}`,
-    `https://www.youdao.com/w/eng/${string}`,
+    `https://youdao.com/result?word=${string}&lang=en`,
   ]
   // wikitionary 词源
   isAWord && urlsToBeOpened.unshift(`https://en.wiktionary.org/wiki/${string}#Etymology`)
   // Google Define
-  isAWord && urlsToBeOpened.unshift(`https://www.google.com/search?q=define+${string}`)
+  // isAWord && urlsToBeOpened.unshift(`https://www.google.com/search?q=define+${string}`)
   // Google Search
-  urlsToBeOpened.unshift(`https://www.google.com/search?q=${string}`)
+  // urlsToBeOpened.unshift(`https://www.google.com/search?q=${string}`)
 
   latestTabs.forEach(tab => {
     tab.close()
@@ -756,9 +756,10 @@ function searchWord(wordOrSentence: string) {
   for (let i = 0; i < urlsToBeOpened.length; i++) {
     const url = urlsToBeOpened[i]
     // 按照思维顺序延迟打开页面
-    const ms = Math.pow(urlsToBeOpened.length - i - 1, 3)
+    // const ms = Math.pow(urlsToBeOpened.length - i - 1, 3)
+    const ms = 0
     setTimeout(() => {
-      const tab = GM_openInTab(url, { insert: false, active: false })
+      const tab = GM_openInTab(url, { insert: true, active: false, setParent: true })
       latestTabs.push(tab)
     }, ms * 100)
   }
