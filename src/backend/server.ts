@@ -3,6 +3,7 @@ import { createServer, IncomingMessage, ServerResponse } from 'http'
 import { getAutoClose, setAutoClose } from './service/auto_close'
 import { hl_watch } from './shared'
 import { getWordDetailHandler } from './service/word_request'
+import { guessEnglishByPersonalDict } from './service/guess_webpage_is_english'
 
 const dictJSONPath = process.cwd() + `/dist/data/dict.json`
 const profileJSONPath = process.cwd() + `/dist/data/profile.json`
@@ -53,6 +54,7 @@ const eventDispatcher = (req: IncomingMessage, res: ServerResponse) => {
     }
 
     case '/guessIsEnglish': {
+      guessEnglishByPersonalDict(req, res, serverDictObj)
       break
     }
 

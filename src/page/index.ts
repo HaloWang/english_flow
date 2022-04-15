@@ -95,23 +95,8 @@ async function loadProfile(): Promise<SiteProfile | null> {
     }
   }
 
-  for (const site of response.sites) {
-    if (href.includes(site)) {
-      profile = response.default
-      for (const specific of response.siteSpecificConfig) {
-        for (const apply of specific.applyTo) {
-          if (href.includes(apply)) {
-            profile = { ...profile, ...specific }
-          }
-        }
-      }
-      return profile
-    }
-  }
-
-  if (webpageDeclareItselfAsEn()) {
+  const merge = () => {
     profile = response.default
-
     for (const specific of response.siteSpecificConfig) {
       for (const apply of specific.applyTo) {
         if (href.includes(apply)) {
@@ -119,6 +104,30 @@ async function loadProfile(): Promise<SiteProfile | null> {
         }
       }
     }
+  }
+
+  for (const site of response.sites) {
+    if (href.includes(site)) {
+      merge()
+      return profile
+    }
+  }
+
+  if (webpageDeclareItselfAsEn()) {
+    console.log('EF: 🎉 find "lang=en" mark in html')
+    merge()
+    return profile
+  }
+
+  const guessResponse = await request(`${EFLocalServerURL}/guessIsEnglish`, {
+    method: 'POST',
+    data: JSON.stringify({ url: window.location.href }),
+    responseType: 'json',
+  })
+
+  if (guessResponse.is) {
+    console.log('EF: 🎉 server guess webpage is english')
+    merge()
     return profile
   }
 
