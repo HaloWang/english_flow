@@ -126,9 +126,11 @@ async function loadProfile(): Promise<SiteProfile | null> {
   })
 
   if (guessResponse.is) {
-    console.log('EF: 🎉 server guess webpage is english')
+    console.log('EF: 🎉 server guess this webpage needs to be translated')
     merge()
     return profile
+  } else {
+    console.log("EF: 🤔 server guess this webpage doesn't need to be translated")
   }
 
   return null
