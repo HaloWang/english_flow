@@ -176,6 +176,7 @@ candidate: 候选人|申请者
 capital: 资本|资金|资本家|资方|首都|首府|省会
 capsul: 胶囊|小容器|压缩|简短
 cardiovascular: 心血管de
+carthage: 迦太基
 catastroph: 灾难|浩劫
 cauda: '[解剖][动]尾|尾状物'
 caudate: (剖)有尾核的|(动物)有尾的|有尾状附属物的
@@ -191,6 +192,7 @@ characteri: 描述|刻画|特征|典型
 chemogenetics: 化学遗传学
 cholinergic: 类胆碱
 chop: (羊或猪)排|剁|砍|劈|掌劈
+chromate: 铬酸
 chronic: 慢性|长期
 chronolog: 年表|年代学
 cilia: 纤毛|眼睫毛
@@ -262,6 +264,7 @@ concentrat: 浓度|浓缩|专心|精选|意兴|意思
 conceptual: 概念化|概念上|使概念化
 concern: 关心|担心|担忧|关注|有关|关于
 conclud: 断定|推论|结束|终止|结论
+concord: 和谐|和睦|一致|协调
 concret: 具体|实际|结石|混凝土
 condense: 浓缩|压缩
 conduct: 实施|进行|行为|举止
@@ -488,6 +491,7 @@ encyclopedi: 百科全书|渊博
 endbrain: 终脑|telencephal|cerebr
 endeavo: 努力|尽力
 endow: 向(人,机构)捐赠|资助|赋予
+endur: 持续|持久|存在
 engag: 参加|从事|聘用|交战|交互
 enlighten: 阐明|启发|启示|启迪|教导
 enormous: 巨大的
@@ -535,15 +539,18 @@ explod: (使)爆炸|(使)爆破|急剧扩大|激增|(情感)迸发|爆发|推翻
 expos: 露|暴|揭
 extensi: 广阔|延展|延伸
 extent: 程度|范围|长度
+exter: 外
 extinguish: 熄灭|消灭|破灭
 extract: 浸膏|提取|摘录|提
 extrem: 极|过|末
+exulta: 狂喜
 eyelid: 眼睑|眼皮
 facilitat: 促进|便利|促成
 facto:
   m: 事实上
   options:
     - FullMatch
+faithful: 忠实的|忠诚的|如实的|忠于原事(物)的
 fetal: 胎儿的|胎的|胚胎的
 fetter: 束缚|限制|枷锁
 fibrillary: 纤维状
@@ -634,6 +641,7 @@ homeostasis: 内平衡
 homotyp: 同形
 homunculus: 矮人|侏儒
 hooray: 好耶!
+hormone: 激素|荷尔蒙
 horror: 惊恐|恐惧
 housed: 封装的(被“房子”了)|house is a v.|house is a adj.
 hulk: 浩克|大块头|庞然大物|(车,船等的)残骸|(被毁建筑物的)空壳架|庞然大物般出现|赫然显现
@@ -776,6 +784,7 @@ isothalam: 等丘脑|上丘脑
 javelin: 标枪
 jerusalem: 耶路撒冷
 joint: 联合的|共同的
+joyous: 高兴的|令人愉快的
 junction: 交叉
 junior: 年龄较小的|地位(或级别)低的|资历较浅的|(体育运动)青少年的|较年幼者|年少者|地位(或级别)较低者|下属
 justif: 正当|解释|辩解|对齐
@@ -1026,6 +1035,7 @@ phylogen: 系统发生
 physicalis: 物理主义
 physiolog: 生理
 pillar: 柱子|支柱|主心骨|陈梁|核心
+pioneer: 开拓|先锋
 pipe: 管|v. 用🤔输送|如果"朵蜜"是一个名词-"让我来'朵蜜'你"
 pituitar: 垂体
 plagiari: 剽窃|抄袭
@@ -1107,6 +1117,7 @@ puff: 噗|吹|喷|喷气|喷出|歕|喷云吐雾|生烟|阵风|一吹
 pulvinar: 丘脑后结节|枕
 puny: 弱小的|微不足道的|微小的
 pupil: 门童|瞳孔|小学生
+puppet: 木偶|傀儡|受他人操纵的人
 purport: 声称|打算
 purpos: 意图|有意|打算
 pursu: 追求
@@ -1533,6 +1544,7 @@ violat: 违反|违背|侵犯|打扰|亵渎|损毁(神圣之地等)|<文>强奸
 virtual: 几乎...的|so nearly true|虚拟|实质上|简直|https://www.zhihu.com/question/19903523
 viscea: 内脏
 vital: 重要|核心
+vivo: 生动|活泼|活跃
 vocabulary: 词汇|词汇表|全部词汇
 vocation: (认为某种职业适合自己的)使命感|(认为特别适合自己的)工作|职业|生活方式|神召|天命|(宗教)使命感
 volume: 大量|体积|音量|书卷

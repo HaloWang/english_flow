@@ -16,4 +16,7 @@
     "editor.glyphMargin": false,
     "editor.lineNumbers": "off",
   },
+  "[log]": {
+    "editor.wordWrap": "on",
+  },
 }

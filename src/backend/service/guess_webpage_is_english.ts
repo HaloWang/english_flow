@@ -34,6 +34,9 @@ export const guessEnglishByPersonalDict = async (
   })
 }
 
+// 其实这个功能也不是太需要, 毕竟我在前端把所有的英语单词都匹配到就行了
+// 又不是什么远程请求而是 localhost request
+
 async function guess(url: string, serverDictObj: { [key: string]: any }) {
   return new Promise<boolean>((_resolve, _reject) => {
     const style = /<style[\S\s]+?style>/gm
@@ -54,20 +57,26 @@ async function guess(url: string, serverDictObj: { [key: string]: any }) {
             .replaceAll(comment, '')
             .replaceAll(script, '')
             .replaceAll(element, '')
+          while (htmlString.includes('\n')) {
+            htmlString = htmlString.replaceAll('\n', '')
+          }
+          while (htmlString.includes('\r')) {
+            htmlString = htmlString.replaceAll('\r', '')
+          }
           while (htmlString.includes('  ')) {
             htmlString = htmlString.replaceAll('  ', ' ')
           }
           while (htmlString.includes('> <')) {
             htmlString = htmlString.replaceAll('> <', '><')
           }
-          writeFile('./q.html', htmlString)
+          writeFile(`${process.cwd()}/logs/${Date.now()}.log`, htmlString)
           const words = htmlString.matchAll(/[A-Za-z]+/g)
           let has = false
           for (const wordRes of words!) {
             let word = wordRes[0]
             if (word.length >= 3) {
               word = word.substring(0, word.length - 1)
-              console.log(word)
+              // console.log(word)
               if (serverDictObj[word] !== undefined) {
                 has = true
                 // console.log(word)
@@ -80,6 +89,7 @@ async function guess(url: string, serverDictObj: { [key: string]: any }) {
       })
 
       request_2.on('error', function (e) {
+        // TODO: fuck, I need a proxy, or even a chromium in node.js
         console.log(__filename, e.message)
         _resolve(false)
       })
