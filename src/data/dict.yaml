@@ -20,6 +20,7 @@ acronym: 首字母缩略词
 acyclic: 非.循环|非.周期
 adapt: 适应|调整|使适合|改编|改造|改装
 addict: 瘾|入迷|嗜好
+adenohypophysis: 腺垂体|垂体腺体叶
 adequa: 胜任|足够|适当|恰当|令人满意|充分
 adjacen: 临近|毗邻
 adolescen: 青少年|青春的|青春期的|青年的
@@ -67,6 +68,7 @@ analog: 模拟|类比|相似
 analys: 分析
 anbitio: 志向|抱负|志气|意愿
 anchor: 锚|抛锚
+androgen: 雄性激素|男性荷尔蒙
 anecdote: 轶事|趣闻|传闻
 anesthe: 麻醉|麻木
 aniridia: 无虹膜
@@ -97,6 +99,7 @@ arbitrar:
 arbor: 乔木|轴
 arboriz: 树枝状
 archicortex: 拱皮层|原脑皮质
+arcuat: 弓形|弯曲
 argu: 争论|争辩|辩|说理|主张
 arithmetic: 算数|算法
 arter: 动脉|干线|干流
@@ -139,6 +142,7 @@ biblio: 文献
 bibliograph: 参考书目|文献目录|目录学|文献学
 bilat: 双侧|双边
 biograph: 传记
+biometric: 生物统计的|生物特征识别的
 blame: 怪|责备|怨|咎|归咎|诃|数说|责任|责难|过失|罪
 blasphem: 亵渎
 blaz: 熊熊燃烧|闪耀|发亮光|<正式>怒视|(怒火)燃烧|醒目地刊登在报纸等上|大肆宣扬|大火|烈火|火焰|(光或色彩等的)展现|灿烂
@@ -401,6 +405,7 @@ dilat: 扩张|膨胀|散漫
 dilemma: 窘境|困境
 diminish: 减弱|减少
 diminutive: diminutive
+dimorphic: di-二/双|[动][植] 二态的|[晶体] 双晶的
 disambigu: 非.歧义|消歧义|非.分不清|澄清
 discern: (艰难地或努力地)看出|觉察出|了解|认识
 disciplin: 学科|纪律|纪|专业|规律|惩戒|训练
@@ -466,6 +471,7 @@ elicit: 引出|抽出
 eliminat: 剔除|根除
 elongat: 拉长|延伸
 elsewhere: 别处
+embarrass: (使)尴尬|窘迫|使难堪|使为难|<古>妨碍(人,移动,行动)|<古>使困难重重|使复杂化
 embed: 嵌入
 embod: 体现
 emboss: 浮雕|凸点|浮雕效果|压花
@@ -568,6 +574,7 @@ flexib: 灵活
 fluency: 流利|流畅|娴熟
 fluff: 绒毛|错误|无价值的东西|出错|抖松|n.+vi.+vt.
 fluid: 流体|液
+foetal: 胎儿的|似胎儿的
 forebrain: 前脑
 foresee: 预见
 forest: 森林
@@ -588,6 +595,7 @@ gap: 隙|裂
 gaze: 凝视|注视
 generat: 产生|引起
 geniculate: 膝状弯曲|有膝状关节
+genital: 生殖的|外生殖器
 genome: 全部基因信息|基因组
 genuine: 真正的|非伪造的|真诚的|真心的
 genus: 类|种|属
@@ -600,6 +608,7 @@ globu: 球状
 glutamate: 谷氨酸盐|谷氨酸酯
 glyph: 字形|图象字符|纵沟纹
 gnos: 灵知|真知|直觉
+gonadotropic: 促性腺|刺激生殖腺
 grab: 抢|抓
 grace: 雅
 gradual: 缓|逐步
@@ -638,6 +647,7 @@ hierarch:
 histochemi: 组织化学
 histol: 组织
 homeostasis: 内平衡
+homo: 同
 homotyp: 同形
 homunculus: 矮人|侏儒
 hooray: 好耶!
@@ -832,6 +842,7 @@ longitud: 经线|纵
 loopy: 循环|迟钝|呆头呆脑|原地转圈
 lossy: 有损
 lumberjack: 伐木工
+luscious: 甘美的|满足感官的
 macaque: 猕猴|恒河猴|短尾猿
 macroscop: 宏观
 magnet: 磁
@@ -848,7 +859,9 @@ manual: 手工|手册
 manufactur: (机械化)制造
 marginal: 边缘的|小的|微不足道的
 marked: 显著|明显
+masculin: 男|雄
 masturbat: 手淫
+mater: 母
 materiali: 唯物|物质化|实现
 matur: 成熟|熟|发达|到期
 measure: 测量|措施|办法|适量|适度|判断|衡量|度量单位|计量标准
@@ -912,6 +925,7 @@ nest: 嵌套|巢|窝
 neuroblast: 神经母细胞
 neurocranium: 神经颅|脑颅
 neurodegenerat: 神经退行|神经变性
+neuroendocrin: 神经.内分泌
 neuroendocrinolog: 神经内分泌
 neuroepithelial: 神经上皮的
 neuromorphic: 神经形态的
@@ -1069,6 +1083,8 @@ preemptive: 优先|抢占式
 preliminar: 初步|预备|准备工作
 preliminary: 初步|初步措施|初步行动
 premise: 前提|假设|以...为基础|以...为前提|预先提出
+prenatal: 产前的|胎儿期的|出生以前的
+preoptic: 前.视觉
 prepotent: 优势的|占上风的|具有优势的|遗传优势的|pre- + potent
 presbyopi: 老花眼|远视眼
 presence: 存在|光临
@@ -1265,6 +1281,7 @@ saccad: 眼跳|扫视
 salien: 显著|突出|卓越
 sarcasm: 讽刺|挖苦
 satiat: 饱满|饱食|满足|厌腻
+satiety: 满足|饱足|过多
 scalar: 标量|数量|梯状|分等级
 scale: 天平|等级|标尺|范围|比例|改变尺寸|攀登
 scary: 骇人的|恐怖的|<非正式>异乎寻常的|令人惊奇的|胆小的|易受惊吓的
@@ -1326,6 +1343,9 @@ slid: 滑动|滑行|滑落
 slight: 轻微|少量|细微|怠慢|忽视
 slit: 切开|长条|裂缝
 slot: 插槽|时间段|插
+sociable: 好交际的|合群的|友善的
+socialisation: 社会化
+socialize: 交往|交际|使合群|使适应社会生活|使社会主义化|按社会主义原则行事
 sole: 唯一|单一|独|觭|独身的
 soma: 体细胞|身体|躯体
 somalia: 索马里
@@ -1345,6 +1365,7 @@ spectra: 光谱|范围|波谱
 spectrum: 范围|幅度|光谱|波谱|频谱|余象
 speculat: 推测|猜想|投机
 sphere: 领域|球|球面|范围
+spheric: 球|球状|球形
 spice: 香料|调味品|情趣|趣味|给...增添趣味|在...中加香料
 spik:
   m: 猛增|提升|掺入|尖状物|刺入|尖钉
@@ -1464,10 +1485,12 @@ term: 术语|项|表示|表明
 termina: 终止|结束
 terminolog: 术语|术语学|用辞
 territor: 领土
+testosterone: '[生化] 睾酮|睾丸素(男性荷尔蒙的一种)'
 textile: 纺织物|织物|纺织业(textiles)|<非正式>着衣者|非自然主义者
 therap: 疗
 thereby: 因此|从而
 therefo: 因此
+thermo: 热的|热量的|温度的|热电的
 thes:
   m: 论文|论点|论断|论题|正题
   options:
@@ -1477,6 +1500,7 @@ though: 虽然|尽管
 thought: 想法|看法|主意|考虑|深思|关心|顾虑|意图|希望|念头|思想|思潮|思考|思维|心思|思想
 thriv: 茁壮成长|兴旺|繁荣|(尤指在别人觉得困难的时候)以...为乐|可以出色应对
 throughout: 遍及|到处|始终
+thunk: 形实转换程序
 thus: 因此|这样|以这种方式|从而|因而|由此|于是|所以|便
 thymin: 胸腺
 tie: 领带|领结|(绑扎东西用的)带子|绳子|纽带|联系|束缚|平局|<英>淘汰赛|<美>枕木|轨枕|延音连接线|系带鞋|系梁
@@ -1521,6 +1545,7 @@ unorthodox: 非正统的|非传统的
 unprecedented: 非.先例.的|空前的
 unroll: 非.卷|展开
 unsupervis: 非.监督
+utero: 子宫
 utter: 说出|发出
 utterance: 发声|发言|表达|语义|话语
 vacuous: 空虚|空洞|无意义

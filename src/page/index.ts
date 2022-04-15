@@ -119,35 +119,8 @@ async function loadProfile(): Promise<SiteProfile | null> {
     return profile
   }
 
-  const guessResponse = await request(`${EFLocalServerURL}/guessIsEnglish`, {
-    method: 'POST',
-    data: JSON.stringify({ url: window.location.href }),
-    responseType: 'json',
-  })
-
-  if (guessResponse.is) {
-    console.log('EF: 🎉 server guess this webpage needs to be translated')
-    merge()
-    return profile
-  } else {
-    console.log("EF: 🤔 server guess this webpage doesn't need to be translated")
-  }
-
-  return null
-
-  // const profiles: SiteProfile[] = response
-
-  // let profile: SiteProfile | null = null
-  // const href = location.href
-  // for (const _profile of profiles) {
-  //   for (const _match of _profile.contain) {
-  //     if (href.includes(_match)) {
-  //       profile = _profile
-  //       break
-  //     }
-  //   }
-  // }
-  // return profile
+  merge()
+  return profile
 }
 
 async function loadDict() {
@@ -233,24 +206,6 @@ async function main() {
   // 运行时中获取, 在网页中存在, 在字典中存在
   let WordsInDictAndWebpage: IPairedWords = {}
 
-  // 分析网页翻译状态
-  const Analysis = {
-    runtimePaired: 0,
-    runtimeCachePaired: 0,
-    runtimeEasyOrNoStored: WordsInWebpageButNotExistInDict.length,
-    domChangeCount: 0,
-    totalStored: Object.keys(localDict).length,
-  }
-
-  function initAnalysis() {
-    Analysis.runtimePaired = 0
-    Analysis.runtimeCachePaired = 0
-    Analysis.runtimeEasyOrNoStored = WordsInWebpageButNotExistInDict.length
-    Analysis.domChangeCount = 0
-    Analysis.totalStored = Object.keys(localDict).length
-  }
-  initAnalysis()
-
   if (
     navigator.userAgent.includes('AppleWebKit') &&
     window.location.href.includes('translate.google.com')
@@ -278,7 +233,6 @@ async function main() {
     // 若之前已经查询该单词, 则直接返回结果
     // 🤔🚧使用这种方法会返回 "constructor"
     if (WordsInDictAndWebpage[word]) {
-      Analysis.runtimeCachePaired += 1
       const cachedRuntimeInfo = WordsInDictAndWebpage[word]
       return {
         pairKey: cachedRuntimeInfo.key,
@@ -311,7 +265,6 @@ async function main() {
     // 该单词没有匹配到字典中的项
     if (!dictResult) {
       WordsInWebpageButNotExistInDict.push(word)
-      Analysis.runtimeEasyOrNoStored += 1
       return null
     }
 
@@ -320,7 +273,6 @@ async function main() {
 
     if (EFUseFullMatchForcedly && !fullMatch) {
       WordsInWebpageButNotExistInDict.push(word)
-      Analysis.runtimeEasyOrNoStored += 1
       return null
     }
 
@@ -331,14 +283,12 @@ async function main() {
       if (dictResult.options.includes('FullMatch')) {
         if (!fullMatch) {
           WordsInWebpageButNotExistInDict.push(word)
-          Analysis.runtimeEasyOrNoStored += 1
           return null
         }
       }
       if (dictResult.options.includes('NotFull')) {
         if (fullMatch) {
           WordsInWebpageButNotExistInDict.push(word)
-          Analysis.runtimeEasyOrNoStored += 1
           return null
         }
       }
@@ -356,8 +306,6 @@ async function main() {
       fullPair: fullMatch,
       pairIndex,
     }
-
-    Analysis.runtimePaired += 1
 
     return result
   }
@@ -530,8 +478,6 @@ async function main() {
               mouseLeaveFunction(this, e)
               EFHoverWord = null
             })
-
-            Analysis.domChangeCount += 1
           }
         } else {
           const notTextNode = parent.childNodes[i] as HTMLElement
@@ -602,16 +548,6 @@ async function main() {
     }
   }
 
-  const AnalysisInitialization = JSON.parse(JSON.stringify(Analysis))
-  function logDOMChangeCount() {
-    setTimeout(() => {
-      if (AnalysisInitialization.domChangeCount != Analysis.domChangeCount) {
-        AnalysisInitialization.domChangeCount = Analysis.domChangeCount
-        console.log('EF:', Analysis.domChangeCount, 'words translated')
-      }
-    }, 1000)
-  }
-
   let usingProfileStrategies = false
 
   if (Profile.strategies && Profile.strategies.length > 0) {
@@ -619,14 +555,12 @@ async function main() {
       if (strategy === 'immediately') {
         usingProfileStrategies = true
         checkDOMFromSelector({ selectors: Profile.rootSelector })
-        logDOMChangeCount()
       } else if (strategy.startsWith('timeout|')) {
         usingProfileStrategies = true
         const options = strategy.split('|')
         const ms = parseFloat(options[1]) * 1000
         setTimeout(() => {
           checkDOMFromSelector({ selectors: Profile.rootSelector })
-          logDOMChangeCount()
         }, ms)
         console.log('EF: ⏰ timeout:', ms)
       } else if (strategy.startsWith('interval|')) {
@@ -635,7 +569,6 @@ async function main() {
         const ms = parseFloat(options[1]) * 1000
         setInterval(() => {
           checkDOMFromSelector({ selectors: Profile.rootSelector })
-          logDOMChangeCount()
         }, ms)
         console.log('EF: ⏰ interval:', ms)
       } else {
@@ -646,7 +579,6 @@ async function main() {
 
   if (!usingProfileStrategies) {
     checkDOMFromSelector({ selectors: Profile.rootSelector })
-    logDOMChangeCount()
   }
 
   if (Profile.selectorSpecificStrategy) {
@@ -703,7 +635,6 @@ async function main() {
       }
       parentElementHolder = t.parentElement
     })
-    initAnalysis()
     initWIWbNID()
     WordsInDictAndWebpage = {}
   }
@@ -720,7 +651,6 @@ async function main() {
             localDict = dict.dict
             resetApp()
             checkDOMFromSelector({ selectors: Profile.rootSelector })
-            logDOMChangeCount()
           })
         }
       })
