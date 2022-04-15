@@ -1,6 +1,6 @@
-const guessEnglishByPersonalDict = (url: string, dict: { [key: string]: any }) => {
+const guessEnglishByPersonalDict = (url: string, serverDictObj: { [key: string]: any }) => {
   const distinctArray: string[] = []
-  for (const key of Object.keys(dict)) {
+  for (const key of Object.keys(serverDictObj)) {
   }
   return false
 }

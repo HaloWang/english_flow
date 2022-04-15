@@ -52,6 +52,10 @@ const eventDispatcher = (req: IncomingMessage, res: ServerResponse) => {
       break
     }
 
+    case '/guessIsEnglish': {
+      break
+    }
+
     case '/setAutoClose': {
       setAutoClose(req, res)
       break
