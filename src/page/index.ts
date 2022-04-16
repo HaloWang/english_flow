@@ -856,6 +856,7 @@ async function queryAudioFileURL(text: string) {
       href.includes('developer.mozilla.org') ||
       href.includes('github.com') ||
       href.includes('datatracker.ietf.org') ||
+      href.includes('npmjs.com') ||
       href.includes('nih.gov')
     ) {
       reject('CSP error')

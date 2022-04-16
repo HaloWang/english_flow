@@ -80,12 +80,25 @@ hl_watch(sourceFilePath, _yamlString => {
   if (Should.FormatOriginalYAML) {
     // regex: 不在(中文)括号中的逗号
     // https://stackoverflow.com/questions/24197423/replace-a-comma-that-is-not-in-parentheses-using-regex
-    const _regex = /，(?![^（)]*\）)/gm
+    // const _regex = /，(?![^（)]*\）)/gm
+
+    // Regex: Positive and Negative Lookahead
+    const _r2 = /，(?=[^\<)]*\>)/gm
+    const _r3 = /，(?=[^（)]*）)/gm
+    //  TODO: 不在 "<>" 中的 "，"
+    //  const _regex = ???
+
+    // 换行, 维度
 
     yamlString = yamlString
+      // 中文分号换行
       .replace(/；/g, '|')
-      .replace(_regex, '|')
-      .replace(/，/g, ',')
+      // 剔除不用换行的中文逗号
+      .replace(_r2, ',')
+      .replace(_r3, ',')
+      // 中文逗号换行
+      .replace(/，/g, '|')
+      // 顿号换行
       .replace(/、/g, ',')
       .replace(/（/g, '(')
       .replace(/）/g, ')')
