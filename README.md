@@ -169,6 +169,7 @@ style.less
 
 ## TODO (or not)
 
+- 不是不可以在 vscode 中部署
 - **BUG**: 在 github 写 issue 时, 会导致存在于 issue 和 dict.yaml 中的单词消失掉, 未确认复现方式
 - 更高级的匹配, 能省去很多事情, 去冗余, 感觉有点像学习英语的"偏旁部首"
   - 所以是不是应该考虑下处理 string 的算法(题)
@@ -196,17 +197,18 @@ style.less
 - 是否可以自动为你在 dict.yaml 加入的生词添加上下文
   1. 手动选择网页中你想要记忆的句子发送至 localhost (可以使用某种快捷键触发)
   2. 如果句子中存在能匹配到(大概率为 true) dict.yaml 中的 keyword 的单词, 则保存该 keyword 和该 sentence 的关联
-  3. 下次再出现该 keyword 时, 在网页上展示这个句子
+  3. 下次再 mouseover this keyword 时, 在网页上展示这个 keyword 关联的 sentences
 - 立即刷新 EF 的快捷键
 - dict.yaml 重命名
 - dict.yaml 自动格式化
 - 直接在 `<p>` 上覆盖你的 `<eft>` 要比现在这样修改 Text Node 好上不少
   - 页面重新布局不就有点麻烦了?
+  - 要计算文本最终的展示位置
+  - 可以更好地兼容 PDF.js? 当前还不是要紧的需求
 - 一部分页面不允许使用 audio 发声
 - 监听 profile.yaml
 - 当 profile.yaml 中添加或减少页面时, 刷新页面
 - profile.yaml 还需要调整
-- 当前 profile 根据 `html.lang==en*` 来区分英文网页, 是不是可以让脚本猜测一下当前是否需要启用 EF? 检查 dict 中有多少个 distinct key?
 - Add ef_dict.yaml for better tutorial
 - Add YAML schema to dict.yaml
 - 写 TM 脚本时应该将所有函数解耦合, 不要图省事儿在函数中定义函数
@@ -214,13 +216,12 @@ style.less
 - 在 yaml 中输入的格式有错时, 脚本不应该中断. w_tools 和 serve 不应该有时间上的依赖
 - node 也能播放声音, 某些网站不让播其他 domain 的 mp3, 我可以使用 node 播放声音. 顺带把音频 URL 移动到后端来
 - 播放声音的功能还不是太好
+  - 初次播放声音时头部声音丢失
 - 代码还需要优化
   - 还没分文件
-    - 我无法使用 tsc 将多个 ts 文件编译为一个 js 文件, 并且让该 js 可以在 TM 中使用. 非要这样做的话需要使用 webpack
-- 替换并添加 `eft` 这个操作, 在一小部分页面会导致样式错误, 但是我难以排查问题所在
-  - 一些 Google Search
-  - 极个别的 npmjs.com
-- 更强的匹配逻辑, 针对各种合成词汇, 匹配时不应该仅仅从前面匹配?
+    - 我无法使用 tsc 将多个 ts 文件编译为一个 js 文件, 并且让该 js 可以在 TM 中使用
+      - https://stackoverflow.com/questions/34474651/typescript-compile-to-single-file
+      - 非要这样做的话需要使用 webpack
 - 现在我暂时没有发现性能问题, 从 taskmgr 看性能占用约为 1%. Chrome devtool Performance 页面我暂时不太会用 😂
 - 是否要添加一些 Greek/Latin 的 reference?
 - EF 也可以针对不同的语言
@@ -228,7 +229,7 @@ style.less
 
 ## Q&A
 
-### 为啥不用各种字典 API?
+### 为啥不用各种字典 API? chrome extensions
 
 我看了看没有啥我想用的
 
@@ -276,7 +277,3 @@ EF 的效果大致效果:
 ### 有道字典用户单词本可以导入吗?
 
 没开发, 但是技术上有道导出的词库文件转化成任意的数据格式都是可行的
-
-## 零碎的想法
-
-一些词, 比如 `hash`, 一个程序员对它的感觉是非常特化的, 我可以以这些词为锚点去窥测某些单词的释义

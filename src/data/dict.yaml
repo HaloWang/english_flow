@@ -25,6 +25,7 @@ adequa: 胜任|足够|适当|恰当|令人满意|充分
 adjacen: 临近|毗邻
 adolescen: 青少年|青春的|青春期的|青年的
 adopt: 采用|通过|采取|采纳|收养
+ador: 非常喜欢|热爱|爱慕|疼爱|崇拜|崇敬
 advance: 前进|促进|提前|推进|预先|发展|进|提出|向前|先进|进步
 advent: 来临|来到|降临
 advers: 逆|害|敌|抗|不利
@@ -42,7 +43,9 @@ agranular: 无颗粒的
 aid: 助
 akin: 类似|相似
 akinetic: 运动不能的|无着丝粒的
+alacrity: 敏捷|轻快|乐意
 alertness: 清醒|警觉|警惕
+algebra: 代数|代数学
 allegation: 说法|指控|断言
 alleviat: 缓解|减轻
 allocortex: 旧皮层
@@ -53,6 +56,7 @@ alternative: 其他|替代|备选|异|二中择一|二中择一|选择余地
 amateur: 业余|爱好者|非专业
 ambig: 歧义|漫步|摇曳|怀疑
 ambitio: 雄心|野心|抱负
+amino: 氨基
 amnesi: 遗忘|健忘
 among: 在当中
 ample: 充足|充裕
@@ -131,6 +135,7 @@ auxiliary: 辅助|备用|后备
 avers: 反对|厌恶|嫌恶
 axiom: <数>公理|格言|自明之理
 axon: 轴索|轴突
+babbl: 嘈杂的人声|含糊不清的话|胡言乱语|行话|(水流的)潺潺声|(幼儿)咿呀学语声|电信(集扰)|牙牙学语
 backfire: 产生事与愿违的不良(或危险)后果|适得其反|(发动机或车辆)回火|逆火|(车辆或发动机的)回火|<北美>(为形成防火隔离带而有意点燃的)迎面火
 band: 带|乐队|队
 bash: 重击|拍
@@ -200,6 +205,7 @@ chemogenetics: 化学遗传学
 cholinergic: 类胆碱
 chop: (羊或猪)排|剁|砍|劈|掌劈
 chromate: 铬酸
+chromosome: 染色体|Ancient Greek<khrôma(color)+sôma(body)>
 chronic: 慢性|长期
 chronolog: 年表|年代学
 cilia: 纤毛|眼睫毛
@@ -224,6 +230,7 @@ cognate: 同源
 coheren: 连贯|条理|凝聚|凝聚力
 coin: 硬币|生造
 coinciden: 巧合
+collaborat: 合作|协作|勾结|通敌
 collateral: 旁系|附属|次要|抵押|担保
 colleague: 同事|同僚
 collectivis: 集体|集体主义
@@ -241,6 +248,7 @@ commas:
 commerc: 商业
 commission: 佣金|佣|委托
 compact: 压紧|小型|压实|袖珍|带镜小粉盒|合约|协定
+companion: n.v.|同伴|伴侣|(受雇照料老人或病人的)陪护|成对的物品之一|同甘共苦的伙伴|(用于书名)指南|手册|伴星|最低级爵士
 comparison: 对比|比拟
 compass: 指南针|绕行|圆规|范围
 compatib: 兼容
@@ -361,6 +369,7 @@ deficit: 赤字|亏|亏空
 deflect: 偏|斜|导|转
 deform: 改变...的外形|损毁...的形状
 degrad: 降级|消解
+dehydrat: 脱水
 deleterious: 有害
 deliberate: 故意的|蓄意的|从容的|小心翼翼的|深思熟虑的|仔细考虑|认真商讨
 delimit: 划界|划定|限定
@@ -579,6 +588,7 @@ fluency: 流利|流畅|娴熟
 fluff: 绒毛|错误|无价值的东西|出错|抖松|n.+vi.+vt.
 fluid: 流体|液
 flux: 不断变化|波动|(血等体液的)流出|溢出|(物理)通量|能流|辐射(或粒子)通量|电通量|磁通量|焊剂|(助)熔剂|造渣|用焊(或熔)剂处理|使熔融
+foam: 泡沫|气泡|泡沫橡胶|海绵橡胶|泡沫剂|泡沫产品|唾液|汗沫
 foetal: 胎儿的|似胎儿的
 forebrain: 前脑
 foresee: 预见
@@ -598,6 +608,8 @@ fusiform: 梭形的|纺锭状的|两端渐细的
 gain: 获得|取得|收益|赢得
 gangli: 神经节
 gap: 隙|裂
+garble: n.v.|断章取义|篡改|歪曲|让(话或信息)变得含混不清|易引起误解
+garden: n.v.|花园|菜园|果园|庭园|公园|(用于街名)街|广场
 gaze: 凝视|注视
 generat: 产生|引起
 geniculate: 膝状弯曲|有膝状关节
@@ -733,6 +745,7 @@ inherit: 继承(遗产)|经遗传获得(品质,身体特征等)|接手|承担|�
 inhibit: 抑制
 injur: 伤
 innervat: 神经支配|神经分布
+innoculat: 接种|嫁接|灌输
 innovat: Latin innovare (“renew”)|革新|创新
 insan: 疯癫|疯狂
 insight: in.sight|洞悉|了解|洞察力
@@ -833,6 +846,7 @@ legitima: 合法|正当|合法化
 lemma: 引理|论点
 lesion: 损害
 leverage: 影响力|手段|杠杆力|杠杆作用|<美>杠杆比率|<英>举债经营|充分利用(资源,观点等)
+lexical: 词汇的|(与)词典(有关)的|词典编纂的
 lick: 舔
 lie: 谎言|谎|说谎|位于|撒谎|趴|躺|卧|妄语|谎话|假话
 lift: 提起|举起|抬起(身体某一部位)|空运|解除|撤销|高兴起来|使更愉快|消散|消失|偷盗|盗窃|剽窃|抄袭|挖出|拔起(蔬菜或植物)|提高(嗓音)|提高|增加|使更有趣|(个人,运动队的)晋级|赢得(奖品或比赛)|n.|电梯|升降机|免费搭车|搭便车|鼓舞|振奋|抬|提|(空气的)升力|提升力|(飞机的)最大提升重量|高飞(投出的球触地反弹时急速上升)|后跟垫|插跟
@@ -911,15 +925,18 @@ molecul: 分子
 monolayer: 单层
 monolith: 整块石料|庞然大物
 monopoly: 垄断|专卖|独占事业|垄断贩卖
+mood: 心境|情绪|气氛|情感基调|心情不好|坏脾气|想(做某事)|有兴致(做某事)|(尤指音乐)激发...情感的|暗示...心境的|(群体的)态度|意愿|表达语气的动词屈折变化|(语法的)式|语气| 想(做某事)|有兴致(做某事)
 moral: 道德|义|合乎道德
 moreover: 此外|而且
 morpholog: 形态学
+mosaic: 马赛克|镶嵌图案|摩西的
 motif: 主题|主旨|图形|意念|基序|模体
 motivat: 促进|激励|动机
 mount: 组织|开展|爬上|登上|骑上|增多|增加|上升|增强|加剧|镶嵌|裱贴|安置|上演|展出|爬上(雌性动物的背)进行交配|设置(岗哨)|担任(警卫)|把(观察对象)固定于显微镜的载玻片|山|山峰|坐骑|马|登|骑|(相片)框|(艺术品)装帧|衬托纸|底座|底架|(贴邮票用的)透明胶纸|(显微镜观察的)封片|掌丘
 multidisciplinary: 多.学科.的
 multipl: 增|扩|倍|乘|多
 multitude: 众多|大量
+muscular: 肌肉的|影响肌肉的|肌肉发达的|强壮的|强劲有力的
 mutex: mutually(相互) exclusive(独家,只)|互斥
 mutism: 缄默症|哑
 mutual: 相互|彼此|共有
@@ -1048,6 +1065,7 @@ permit: 允许|准许|电容
 perpendicular: 垂直|垂线
 persever: 契而不舍|坚持己见
 persist: 继续存在|持续|坚持|执意|坚持说|反复说
+personnel: 人员|与人员有关的
 perspect: 视角|观点|透视
 pertain: 适合|关于|适用|<法律>从属|归属|<正式>(在特定的时间或地点)生效|存在
 pharmaceutical: 制药|药方
@@ -1213,6 +1231,7 @@ reitera: 重|反复
 rejuvenat: re- (“again”) + Latin iuvenis (“young”) + -ate|变年轻|回复精神|复原|更新
 relay: 传递|传达|中继|接力
 relevant: 相应|可用|对应
+reliability: rely(靠v.) + able(可adj.) + ity(性n.)|可靠性
 reliabl: 可靠
 reliance: 依赖|信赖|信任
 relies: 依赖
@@ -1248,6 +1267,7 @@ resect: 切除
 resembl: 似|像
 reserve: 保留|后备|储量|预定|储备
 reside: 居住|定居
+residu: 剩余物|残留物|(扣除应付款项,债款,遗赠后的)剩余遗产|余产
 resist: 阻挡|反对|抵抗|抵挡
 resonan: 共振|洪亮|共鸣
 respective: 分别|各自
@@ -1299,6 +1319,7 @@ satiat: 饱满|饱食|满足|厌腻
 satiety: 满足|饱足|过多
 scalar: 标量|数量|梯状|分等级
 scale: 天平|等级|标尺|范围|比例|改变尺寸|攀登
+scarce: 缺乏的|不足的|稀有的|少见的
 scary: 骇人的|恐怖的|<非正式>异乎寻常的|令人惊奇的|胆小的|易受惊吓的
 scatter: 分散|离散
 scenario: 设想|剧情|情节
@@ -1376,6 +1397,7 @@ spars:
   options:
     - NotFull
 spatial: 空间
+spawn: 卵|产卵|产物|孽种
 special: 特殊|特别|格外看重|特别要好|专门|特设|特有|独具特色|格外|分外
 spectra: 光谱|范围|波谱
 spectrum: 范围|幅度|光谱|波谱|频谱|余象
@@ -1416,6 +1438,7 @@ steak: 肉排|(尤指)牛排|鱼排|鱼块|(常指切成块出售,供炖焖用�
 stellar: 星的|星球的|主要的|一流的
 stellate: 星形
 stem: 干|茎|梗|阻止
+stiff: <美,非正式>诈骗|不还钱|(尤指)不给小费|<非正式>(新产品,电影,节目等)不畅销|彻底失败|<美,非正式>冷落|怠慢|<非正式>杀害某人
 stimul: 刺激
 stochastic: 随机
 straight: 直|直接|直行|正
@@ -1473,6 +1496,8 @@ survey: 调查|测验|检测|民调
 suscepti: 敏感的|感受性强的|易接受的
 suspense: 悬念|焦虑|终止
 sustain: 维持|持续
+sweetie: 想想和sweet的关系|爱人|情人|甜的糕饼糖果
+sweetness: 想想和sweet的关系|愉快|美妙|甜|芬芳|亲爱的人
 syllabic: 音节
 syllogis: 直言三段论
 symmetr: 对称
@@ -1523,6 +1548,7 @@ thus: 因此|这样|以这种方式|从而|因而|由此|于是|所以|便
 thymin: 胸腺
 tie: 领带|领结|(绑扎东西用的)带子|绳子|纽带|联系|束缚|平局|<英>淘汰赛|<美>枕木|轨枕|延音连接线|系带鞋|系梁
 tilt: 倾斜
+tinder: 火绒|易燃物
 tone: 音|调|色调|音调|声调|调子|声
 tonic: 补药|滋补的
 topograph: 地势|地形
@@ -1547,6 +1573,7 @@ trim: 修剪,修整|削减,减少|修饰,点缀(尤指某物的边缘)|切除,�
 trisynaptic: 三突触
 tuft: 簇|丛|绺(liǔ)
 tune: 调
+twee: 矫饰的|故作多情的|过分俗丽的
 twist: 拧|捻|绞|搓|歪曲
 typical: 典型的|有代表性的|一贯的|平常的|不出所料|特有的|象征性的
 typograph: 印刷|-graphy, γραφία (graphía, “mark, impression, image”)
@@ -1599,6 +1626,7 @@ vulnerabl: 脆弱|易受伤
 wander: 漫游|游荡|漫步|流浪|走神|开小差|偏离|走偏(道路,航线等)|(目光)游移|往别处看|(河流,道路等)蜿蜒曲折|离题|(因年老而)神志恍惚|精神错乱|(男人的手)在女人的身上摸来摸去(尤指女人不情愿时)|(对固定的性伴侣)不忠
 weird: 奇怪|不寻常|命运
 wernicke: language input
+whatcha: what are you
 whereas: 然而
 whereby: 凭此|借此|借以
 wherein: 在其中|在何处
