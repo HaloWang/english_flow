@@ -7,6 +7,7 @@ abrupt: 突兀|唐突
 absen: 缺席|缺勤|不在|缺乏|没有|缺席期间|休假期间|不注意
 abulia: 意志力丧失
 abut: 邻接|拱座
+accommodat: 为...提供住宿|容纳|提供空间|考虑到|顾及|顺应|适应|帮助(某人)|向...施以援手|迎合|迁就|调解
 accord: 根据|按照|相应|依据
 account: 账户|占|账
 accountab: 负有责任|应作解释|可理解
@@ -216,6 +217,7 @@ circuit: 回路|环路
 circumstance: 环境|情况
 circumvent: 回避|绕过
 citation: 引文|引语|传唤|传票|表彰|嘉奖状|引用|引证
+civic: 城镇的|市政的|公民的|市民的
 claim: 声称|断言|索取|要求
 clarity: 和clear同源|清晰易懂|思路清晰|(画面或声音的)清晰|清楚|清澈|明净
 clause: 条款|条纹|分句|从句
@@ -351,6 +353,8 @@ crypt: 密|隐|秘|藏
 crystallograph: 晶体学
 cull: 剔除
 cumbersome: 笨重的|繁琐的|复杂的|(话语或措词)冗长的
+curat: 操持|组织
+curriculum: 课表|课程
 cytogenetics: 细胞遗传学
 cytoplasm: 细胞质
 dart: 飞镖|猛冲
@@ -438,6 +442,7 @@ distinguish: 使有别于|看清|认出|区别|分清
 distort: 扭曲
 distract: 转移
 distribute: 分发|分配|配送|分销|散布|使分布
+district: 地区|选区
 disturbance: 干扰|扰乱|失调
 divers: 多种|异|繁杂|各色各样
 domestic: 国内的|本国的|家用的|家庭的|家庭纠纷|家庭矛盾|佣人|家仆
@@ -514,9 +519,11 @@ engag: 参加|从事|聘用|交战|交互
 enlighten: 阐明|启发|启示|启迪|教导
 enormous: 巨大的
 enqueue: 排队|入队|队列
+enroll: 登记|参加|注册|入伍
 entailment: 蕴含|需要|必要
 enthusias: 狂热|发烧
 entorhinal: 内嗅
+entrepreneurship: 企业家精神
 enumerat: 枚举|列举|罗列|历数
 ependyma: 室管膜
 ephemeral: 短暂|(主指植物)短生|短命
@@ -549,6 +556,7 @@ execut: 执行|实施|完成|处决
 exert: 运用|施加|尽力|努力
 exhibit: 展示|陈列|展品
 exogenous: 外生|外因|外成
+expand: 扩大|增加|扩展|发展|细谈|详述|变得更自信(善谈)|(宇宙)膨胀
 expansion: 扩张|扩充|展开|发展
 expens: 代价|费用
 experien: 经验
@@ -921,6 +929,7 @@ modalit: 形式|形态|程序|物理疗法|主要的感觉
 moderat: 普|适中|不偏激|调停|仲裁
 modular: 模块化|组合化
 modulat: 调|电调|模数
+mojo: 巫术|符咒
 molecul: 分子
 monolayer: 单层
 monolith: 整块石料|庞然大物
@@ -1011,6 +1020,7 @@ ought: 应该
 outburst: 突发|发作|暴乱|发病|发端
 outline: 轮廓|提纲|概述|概要|廓|领
 outperform: 胜过|比...做得好
+outstand: 突出|离港|超过
 overall: 全|总
 overcome: over+come, 几乎所有欧洲那一片的语言都是|克服|解决|征服|战胜|使受不了|使无法行动(或思考)
 overestimat: 高估
@@ -1184,7 +1194,7 @@ quie:
 race: 种族|竞赛|族|赛马|种|赛跑
 rack: 架子|折磨
 radia: 射|辐
-radical: 根本
+radical: 根本的|彻底的|激进的|极端的
 radiolog: 放射学|X射线学
 ramificat: 衍生物|分枝|分叉|支流|(衍生的)结果,影响
 rapid: 快速
@@ -1341,6 +1351,7 @@ segregat: 分割|分开|隔离|(种族.性别.宗教)隔离
 seize: 抓住|捉住|(用武力)夺取|占领|逮捕|捉拿|没收|扣押|把握(机会等)|(感觉,疼痛)侵袭|控制|吸引(注意力)|唤起(想象力)|<正式>理解|掌握|意识到|得知(be seized of)|(有活动部件的机器,机器的活动部件)咬住|卡住|<英,法律>依法占有(be seized of)|<史>具有(财产)的终身保有权(be seized of)
 seizure: 夺取|控制|突然发作
 semantic: 语义
+semester: 学期|半学年
 semicolon: 分号|";"
 semiconductor: 半.导体
 seminal: 开创性|揭示性|有创造力|重大|精液|生殖
@@ -1399,6 +1410,7 @@ spars:
 spatial: 空间
 spawn: 卵|产卵|产物|孽种
 special: 特殊|特别|格外看重|特别要好|专门|特设|特有|独具特色|格外|分外
+specification: 规格|规范|明细单|说明书|明确说明|详述|(申请专利用的)发明物说明书
 spectra: 光谱|范围|波谱
 spectrum: 范围|幅度|光谱|波谱|频谱|余象
 speculat: 推测|猜想|投机
@@ -1437,7 +1449,7 @@ stating: 说明|state-ing
 steak: 肉排|(尤指)牛排|鱼排|鱼块|(常指切成块出售,供炖焖用的)牛肉
 stellar: 星的|星球的|主要的|一流的
 stellate: 星形
-stem: 干|茎|梗|阻止
+stem: 干|茎|梗|阻止|Science, technology, engineering, and mathematics
 stiff: <美,非正式>诈骗|不还钱|(尤指)不给小费|<非正式>(新产品,电影,节目等)不畅销|彻底失败|<美,非正式>冷落|怠慢|<非正式>杀害某人
 stimul: 刺激
 stochastic: 随机
@@ -1570,6 +1582,7 @@ tremor: 震颤|颤抖|战栗|地震
 trial: 审讯|考研|试验|诉讼
 trigger: 触发|触发器|扳机
 trim: 修剪,修整|削减,减少|修饰,点缀(尤指某物的边缘)|切除,剪掉(不规则或不需要的部分)
+trimester: 三个月|一学期
 trisynaptic: 三突触
 tuft: 簇|丛|绺(liǔ)
 tune: 调
@@ -1611,6 +1624,7 @@ versa: 反之亦然(等于 vice versa)
 versus: 对|对抗
 vertebra: 脊椎
 vestibul: 前庭|门廊
+vet: 仔细检查|彻底检查|兽医
 vigilan: 警觉|警惕
 violat: 违反|违背|侵犯|打扰|亵渎|损毁(神圣之地等)|<文>强奸
 virtual: 几乎...的|so nearly true|虚拟|实质上|简直|https://www.zhihu.com/question/19903523
