@@ -50,6 +50,13 @@ siteSpecificConfig:
     rootSelector:
       - .a2Icud
 
+  - name: Flutter Dev
+    applyTo:
+      - docs.flutter.dev
+      - api.flutter.dev
+    notMatchClassName:
+      - IFRAME
+
   # 规则名称
   - name: __ProfileName__
     # 规则应用页面
