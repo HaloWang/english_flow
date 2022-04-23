@@ -939,6 +939,9 @@ async function queryAudioFileURL(text: string) {
 }
 
 function playURL(src: string) {
+  // TODO: 为什么总是出现丢失约 350ms 的音频?
+  // TODO: 为什么我在 stackoverflow 上查不到?
+  // TODO: 应该如何通过搜索引擎搜索? 输入什么关键字?
   const player = new Audio()
   document.body.appendChild(player)
   player.src = src
