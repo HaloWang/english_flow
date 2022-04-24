@@ -33,7 +33,7 @@ sites:
   - www.zhipin.com
 # 当页面 URL 包含哪些字符串时, 不执行 EF, 即使该页面已经存在于 sites 中
 sitesExcluded:
-  # - google.com/search
+  - zhipin.com/web/geek/chat
 
 # 哪些页面有自己的特殊规则
 # 特殊规则会和 default 进行合并操作

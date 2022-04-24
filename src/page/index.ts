@@ -676,7 +676,7 @@ function searchWord(wordOrSentence: string) {
   const isAWord = isSingleWord(wordOrSentence)
   let string = wordOrSentence
   if (isAWord) {
-    string = wordOrSentence.replaceAll(' ', '')
+    string = wordOrSentence.replaceAll(' ', '').toLowerCase()
   }
   const urlsToBeOpened: string[] = [
     `https://translate.google.com/?tl=zh-CN&text=${string}`,
