@@ -77,50 +77,59 @@ async function request<T = any>(
 }
 
 async function loadProfile(): Promise<SiteProfile | null> {
-  const response = await request(`${EFLocalServerURL}/profile`, {
-    responseType: 'json',
-  })
+  let response: { [key: string]: any } = {}
 
-  // return null
+  const sleep = (ms: number) => new Promise(r => setTimeout(r, ms))
 
-  const href = window.location.href
+  try {
+    response = await request(`${EFLocalServerURL}/profile`, {
+      responseType: 'json',
+      timeout: 100000,
+    })
 
-  let profile: SiteProfile | null = null
+    const href = window.location.href
 
-  if (response.sitesExcluded) {
-    for (const exclude of response.sitesExcluded) {
-      if (href.includes(exclude)) {
-        return null
-      }
-    }
-  }
+    let profile: SiteProfile | null = null
 
-  const merge = () => {
-    profile = response.default
-    for (const specific of response.siteSpecificConfig) {
-      for (const apply of specific.applyTo) {
-        if (href.includes(apply)) {
-          profile = { ...profile, ...specific }
+    if (response.sitesExcluded) {
+      for (const exclude of response.sitesExcluded) {
+        if (href.includes(exclude)) {
+          return null
         }
       }
     }
-  }
 
-  for (const site of response.sites) {
-    if (href.includes(site)) {
+    const merge = () => {
+      profile = response.default
+      for (const specific of response.siteSpecificConfig) {
+        for (const apply of specific.applyTo) {
+          if (href.includes(apply)) {
+            profile = { ...profile, ...specific }
+          }
+        }
+      }
+    }
+
+    for (const site of response.sites) {
+      if (href.includes(site)) {
+        merge()
+        return profile
+      }
+    }
+
+    if (webpageDeclareItselfAsEn()) {
+      console.log('EF: 🎉 find "lang=en" mark in html')
       merge()
       return profile
     }
-  }
 
-  if (webpageDeclareItselfAsEn()) {
-    console.log('EF: 🎉 find "lang=en" mark in html')
     merge()
     return profile
+  } catch (e) {
+    // polling while server not started
+    await sleep(2000)
+    return await loadProfile()
   }
-
-  merge()
-  return profile
 }
 
 async function loadDict() {
