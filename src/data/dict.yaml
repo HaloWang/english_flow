@@ -19,6 +19,7 @@ acid: 酸|酸溜溜
 acknowledge: 承认|认可|感谢
 acqui: 获得
 acronym: 首字母缩略词
+acrylic: 丙烯酸|亚克力
 acyclic: 非.循环|非.周期
 adapt: 适应|调整|使适合|改编|改造|改装
 addict: 瘾|入迷|嗜好
@@ -73,6 +74,7 @@ amygdal:
   options:
     - NotFull
     - almond:杏仁
+anaconda: 水蟒|蟒蛇
 analog: 模拟|类比|相似
 analys: 分析
 anbitio: 志向|抱负|志气|意愿
@@ -395,6 +397,7 @@ declin: 拒绝|下降|衰|衰退|谢绝|没落|落
 decorat: 装饰|装点|粉刷|装修|授予(某人)勋章
 dedicat: 献身|专用|奉献
 deduc: 推断|推|减掉|论断|意|臆测|演绎|推论
+deed: 行为|行动|契约|证书|功绩|英勇事迹
 deficit: 赤字|亏|亏空
 deflect: 偏|斜|导|转
 deform: 改变...的外形|损毁...的形状
@@ -492,6 +495,7 @@ drama: 剧本|戏剧
 dramatic: 巨大而突然|急剧|戏剧
 drastic: 极端|剧烈
 drear: 阴郁|凄凉|悲伤|枯燥
+drift: v.n.|飘移|漂流|任其自然地(或不知不觉地)进入(某种状态)|流浪|漂泊|缓慢移动|传出|吹积
 drip: 滴
 drows: 困|睡|呆|寐
 dude: 家伙|小子|老铁
@@ -506,6 +510,7 @@ earthling: 世人|俗人|凡人|居住在地球上的人
 edify: 熏陶|启发|教诲
 efferent: 传出
 efficien: 效率|有效
+effort: n. |努力|艰难的尝试|力气|精力|有组织的活动|努力的结果|成就|努力的结果|成就
 ego: 自负|自尊|自我意识|(心理学)自我
 einstein: 爱因斯坦
 elaborat: 阐述|详尽|复杂|缜密
@@ -635,6 +640,7 @@ flattery: 奉承|讨好
 flavor: 味道|味|香料|气息|气味|调味
 flaw: 缺陷|缺点
 flexib: 灵活
+flicker: v.n.|闪烁|摇曳|闪现|一闪而过|(表情)掠过|(眼睛)瞟过|颤动|快速抖动|扑动翅膀|使...突然动一下
 fluency: 流利|流畅|娴熟
 fluff: 绒毛|错误|无价值的东西|出错|抖松|n.+vi.+vt.
 fluid: 流体|液
@@ -673,6 +679,7 @@ genital: 生殖的|外生殖器
 genome: 全部基因信息|基因组
 genuine: 真正的|非伪造的|真诚的|真心的
 genus: 类|种|属
+geolocat: 地理.位置
 geometr: 几何
 giggle: 傻笑|轻笑|咯咯地笑
 glamorous: 有魅力的
@@ -684,6 +691,7 @@ glossar: 词汇表|术语表|专门词典
 glutamate: 谷氨酸盐|谷氨酸酯
 glyph: 字形|图象字符|纵沟纹
 gnos: 灵知|真知|直觉
+goggle: 护目镜|瞪大眼睛看
 gonadotropic: 促性腺|刺激生殖腺
 grab: 抢|抓
 grace: 雅
@@ -914,6 +922,7 @@ lemma: 引理|论点
 lesion: 损害
 leverage: 影响力|手段|杠杆力|杠杆作用|<美>杠杆比率|<英>举债经营|充分利用(资源,观点等)
 lexical: 词汇的|(与)词典(有关)的|词典编纂的
+liab: 责任
 lick: 舔
 lie: 谎言|谎|说谎|位于|撒谎|趴|躺|卧|妄语|谎话|假话
 lift: 提起|举起|抬起(身体某一部位)|空运|解除|撤销|高兴起来|使更愉快|消散|消失|偷盗|盗窃|剽窃|抄袭|挖出|拔起(蔬菜或植物)|提高(嗓音)|提高|增加|使更有趣|(个人,运动队的)晋级|赢得(奖品或比赛)|n.|电梯|升降机|免费搭车|搭便车|鼓舞|振奋|抬|提|(空气的)升力|提升力|(飞机的)最大提升重量|高飞(投出的球触地反弹时急速上升)|后跟垫|插跟
@@ -932,6 +941,7 @@ logician: 逻辑学家|理论学者
 longitud: 经线|纵
 loopy: 循环|迟钝|呆头呆脑|原地转圈
 lossy: 有损
+lubricat: 润滑|给...加润滑油|促进|使顺畅|<非正式>灌...酒|以酒为...增兴
 lumberjack: 伐木工
 luscious: 甘美的|满足感官的
 macaque: 猕猴|恒河猴|短尾猿
@@ -942,6 +952,7 @@ magnitude: 巨大|重要性|震级|规模|大小|数量|数值|(恒星的)亮度
 majority: 多数
 malfunction: 故障
 mammillary: 乳头状
+mandatory: 强制性的|义务的|受(前国际联盟)委任统治的|受托人|代理人(=mandatary)
 manifest: 显示|表明|清单
 manipulat: 操纵|摆布|操作|使用|正骨|推拿|篡改|巧妙地移动(某物)|巧妙地处理(某事)|校正|转移(储存在计算机上的信息)
 manner: 方式|态度|举止|样子
@@ -1402,6 +1413,7 @@ rods:
 rosehip: 玫瑰果
 rostral: 喙部
 roulette: 轮盘赌
+route: v.n.|路线|航线|道路|路途|常规路线|固定路线|<美>(尤指作为送货工作的)例行拜访|递送路线|途径|方法|(用于美国城市间干线公路编号前)公路(Route)
 routine: 例行|常规|惯例
 rubber: 橡胶|胶
 rudiment: 雏形|基本
@@ -1618,6 +1630,7 @@ synap: 突触|触电
 synchronous: Borrowed from Late Latin synchronus,|from Ancient Greek σύγχρονος (súnkhronos, "contemporaneous"),|from σῠν- (sun-, "with, together") + χρόνος (khrónos, "time").
 syndrome: 综合征|并发症
 synonym: 同义
+synops: (书,剧本或电影等的)概要|摘要|梗概|提要|概要
 syntactic: 句法的|语法的|依据造句法的
 synthesi: 综合|合成|生成
 tabular: 扁平的|列成表格的
@@ -1687,6 +1700,7 @@ travers: 横穿|穿过|横越岩石面的攀爬|(滑雪时)横线下(坡)|<喻>�
 trebuchet: 投石机
 tremor: 震颤|颤抖|战栗|地震
 trial: 审讯|考研|试验|诉讼
+trick: n.v.|花招|诡计|骗局|窍门|技巧|戏法|把戏|恶作剧|戏弄|引起错觉(或记忆紊乱)的事物|(纸牌的)一圈|一墩|(特别的)习惯|方式|舵手的一班(一般为二或四小时)|<非正式>嫖客
 trigger: 触发|触发器|扳机
 trim: 修剪,修整|削减,减少|修饰,点缀(尤指某物的边缘)|切除,剪掉(不规则或不需要的部分)
 trimester: 三个月|一学期
@@ -1755,6 +1769,7 @@ vowel: 元音|母音
 vulnerabl: 脆弱|易受伤
 walkthrough: 预排|预排工作|演练
 wander: 漫游|游荡|漫步|流浪|走神|开小差|偏离|走偏(道路,航线等)|(目光)游移|往别处看|(河流,道路等)蜿蜒曲折|离题|(因年老而)神志恍惚|精神错乱|(男人的手)在女人的身上摸来摸去(尤指女人不情愿时)|(对固定的性伴侣)不忠
+warranty: (商品的)保修单|保用卡|(保险合同用语)(被保险人对某些陈述所作的)保证|担保|<古>正当理由|依据
 weird: 奇怪|不寻常|命运
 wernicke: language input
 whatcha: what are you

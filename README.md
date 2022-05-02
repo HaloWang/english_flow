@@ -169,7 +169,8 @@ style.less
 ## TODO (or not)
 
 - 不是不可以在 vscode 中部署
-- **BUG**: 在 github 写 issue 时, 会导致存在于 issue 和 dict.yaml 中的单词消失掉, 未确认复现方式
+- **BUG**: 在 github 写 issue 时, 会导致存在于 issue 和 dict.yaml 中的单词消失掉
+  - 编辑 commits 时也会出现, 应该是 github 会直接拿 DOM 中的内容作为(改写) input 的 initial value, 导致被 `eft` 括起来的内容消失了, 这非常不好, 很侵入性
 - 更高级的匹配, 能省去很多事情, 去冗余, 感觉有点像学习英语的"偏旁部首"
   - 所以是不是应该考虑下处理 string 的算法(题)
   - 不仅仅*从头*开始匹配单词, 还要从*中间*, 从*末尾*

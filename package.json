@@ -29,6 +29,7 @@
     "s": "node ./dist/server/server.js -q",
     "sa": "node ./dist/server/autoclose.js -q",
     "t": "run-p _ts_backend_dev _ts_page_dev _ts_tools_dev",
-    "w": "run-p _w_dict _w_profile _w_style _w_entry"
+    "w": "run-p _w_dict _w_profile _w_style _w_entry",
+    "tws": "run-p t w s"
   }
 }
