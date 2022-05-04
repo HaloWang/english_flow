@@ -406,9 +406,13 @@ async function main() {
   /**
    * 核心方法, 查询并替换 Text Node
    */
-  function useEFTToReplaceWords(options: { parent: ChildNode }) {
+  function useEFTToReplaceWords(options: { parent: HTMLElement }) {
     const { parent } = options
     setTimeout(() => {
+      const { display } = window.getComputedStyle(parent)
+      if (display === 'none') {
+        return
+      }
       // foreach all childNodes
       for (let i = 0; i < parent.childNodes.length; i++) {
         if (!parent.childNodes[i]) {
