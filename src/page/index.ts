@@ -409,6 +409,9 @@ async function main() {
   function useEFTToReplaceWords(options: { parent: HTMLElement }) {
     const { parent } = options
     setTimeout(() => {
+      if (parent instanceof Comment) {
+        return
+      }
       const { display } = window.getComputedStyle(parent)
       if (display === 'none') {
         return
