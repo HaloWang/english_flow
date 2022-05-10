@@ -115,6 +115,7 @@ hl_watch(sourceFilePath, _yamlString => {
   try {
     objectFromYaml = yaml.load(yamlString) as any
   } catch (e) {
+    console.log('❌', e)
     return
   }
 
