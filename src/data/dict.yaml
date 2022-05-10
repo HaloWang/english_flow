@@ -17,6 +17,7 @@ accusat: 指控|控告|指责
 acetylcholine: 乙酰胆碱
 acid: 酸|酸溜溜|ACID (atomicity, consistency, isolation, durability)
 acknowledge: 承认|认可|感谢
+acquaint: 使熟悉|使了解
 acqui: 获得
 acronym: 首字母缩略词
 acrylic: 丙烯酸|亚克力
@@ -132,6 +133,7 @@ astrocyt: 星形胶质细胞
 asunder: 碎|分
 asym: 非.对称
 atlas: 地图册|切片柱
+atop: prep.adv|在...顶上|在...上面
 atrophy: 萎缩
 attainment: 素养|造就|发迹|诣
 attest: 表明|认证
@@ -139,6 +141,7 @@ attitud: 态度|看法|姿势
 attract: 吸引
 attribute: 把...归因于|认为是...所作|认为...具有某种特质|属性|特质|标志|象征|定语|programming anchor
 augment: 增加|增大|加强|补充
+authenticat: 鉴定|证明...是真实的|(用户,程序)验证身份
 authenticity: 真实性|可靠性
 authority: 专家|权威|权力|权限
 authoriz: 批准|许可|授权
@@ -359,7 +362,7 @@ correlat: 相关|co- + relate
 correspond: 对应|符合|相符|相当|通信
 correspondence: 对应|通讯|信件|函件
 corrupt: 腐败|腐坏|贪污|贪
-counter: n. 柜台|对立面|计数器|计算器|(棋盘游戏的)筹码|记分冰壶|v. 反驳|驳斥|抵制|抵消|(拳击)还击|逆向移动|adv. 相反地|对立地|逆向地|adj. 反面的|对立的
+counter: n. |计数器|计算器|柜台|对立面|(棋盘游戏的)筹码|记分冰壶|v. 反驳|驳斥|抵制|抵消|(拳击)还击|逆向移动|adv. 相反地|对立地|逆向地|adj. 反面的|对立的
 counteract: 抵制|抵消|中和
 counterpart: 同行|副本|对方
 crani: 颅
@@ -610,6 +613,7 @@ expla: 解释
 explicit: 清楚明白的|明确的|详述的|直截了当的|坦率的|赤裸裸表现性爱(或暴力)的|露骨的
 explod: (使)爆炸|(使)爆破|急剧扩大|激增|(情感)迸发|爆发|推翻|破除|爆响|发出巨响|迅速移动
 expo: 展览会
+exponential: (增长)越来越快的|指数的|含有指数的
 expos: 露|暴|揭
 expung: 擦去|删掉
 extensi: 广阔|延展|延伸
@@ -643,6 +647,7 @@ flat: 平|平面|平坦|平板|扁|平底
 flattery: 奉承|讨好
 flavor: 味道|味|香料|气息|气味|调味
 flaw: 缺陷|缺点
+fledge: 长羽毛|装羽毛
 flexib: 灵活
 flicker: v.n.|闪烁|摇曳|闪现|一闪而过|(表情)掠过|(眼睛)瞟过|颤动|快速抖动|扑动翅膀|使...突然动一下
 fluency: 流利|流畅|娴熟
@@ -932,6 +937,7 @@ lesion: 损害
 leverage: 影响力|手段|杠杆力|杠杆作用|<美>杠杆比率|<英>举债经营|充分利用(资源,观点等)
 lexical: 词汇的|(与)词典(有关)的|词典编纂的
 liab: 责任
+liberal: adj.n.|思想开明的|自由主义的|支持变革的|(加拿大,英国等国)自由党的|慷慨的|大量给予的|通识(教育)的|文科的|不确切的|不拘泥字面的|自由主义神学的
 lick: 舔
 lie: 谎言|谎|说谎|位于|撒谎|趴|躺|卧|妄语|谎话|假话
 lift: 提起|举起|抬起(身体某一部位)|空运|解除|撤销|高兴起来|使更愉快|消散|消失|偷盗|盗窃|剽窃|抄袭|挖出|拔起(蔬菜或植物)|提高(嗓音)|提高|增加|使更有趣|(个人,运动队的)晋级|赢得(奖品或比赛)|n.|电梯|升降机|免费搭车|搭便车|鼓舞|振奋|抬|提|(空气的)升力|提升力|(飞机的)最大提升重量|高飞(投出的球触地反弹时急速上升)|后跟垫|插跟
@@ -1073,6 +1079,7 @@ objective: 客观|目的|目标
 obligat: 义务|责任|承担
 oblivio: 遗忘
 oblongata: 延髓
+obscur: v.n.adj.|遮掩|遮蔽|模糊
 obsess: 迷住|着迷|扰乱
 obsolete: 淘汰的|废弃的|(生物特征的一部分)退化的
 obstacle: 障碍|阻碍|障碍物
@@ -1405,6 +1412,7 @@ retent:
     - retain:v
 reticu: 网
 retinotop: 视网膜定位|视网膜区域定位
+retract: 缩回|缩进|取消
 retriev: 检索|取回|恢复
 retrograd: 逆行|倒退
 reuptake: 重.摄取|再.吸收|uptake is not v.
@@ -1519,6 +1527,7 @@ slim: adj.v.|苗条的|纤细的|单薄的|(物)狭长的|(衣服)修长的|紧�
 slit: 切开|长条|裂缝
 sliver: n.v.|裂片|碎片|少量|一点
 slot: 插槽|时间段|插
+snack: v.n.|零食|点心|小吃|快餐|<澳,非正式>易办到的事|小菜一碟
 sociable: 好交际的|合群的|友善的
 socialisation: 社会化
 socialize: 交往|交际|使合群|使适应社会生活|使社会主义化|按社会主义原则行事

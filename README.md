@@ -168,6 +168,7 @@ style.less
 
 ## TODO (or not)
 
+- 在 pub.dev 中直接 macOS 双指侧滑返回时, 脚本报错
 - 不是不可以在 vscode 中部署
 - **BUG**: 在 github 写 issue 时, 会导致存在于 issue 和 dict.yaml 中的单词消失掉
   - 编辑 commits 时也会出现, 应该是 github 会直接拿 DOM 中的内容作为(改写) input 的 initial value, 导致被 `eft` 括起来的内容消失了, 这非常不好, 很侵入性
