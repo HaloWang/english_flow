@@ -36,6 +36,7 @@ advers: 逆|害|敌|抗|不利
 advoca: 拥护|提倡
 aerobic: 需氧的|有氧(健身)的
 aerospace: 航空航天
+aesthet: 美|审美|美学|美感
 affect: 影响|作用
 affection: 喜爱|关爱|爱意|情感
 afferen: 传入
@@ -136,6 +137,7 @@ atlas: 地图册|切片柱
 atop: prep.adv|在...顶上|在...上面
 atrophy: 萎缩
 attainment: 素养|造就|发迹|诣
+attendance: 出席人数|出席|出勤|考勤情况|提供帮助(in attendance)
 attest: 表明|认证
 attitud: 态度|看法|姿势
 attract: 吸引
@@ -349,6 +351,7 @@ contempora: 当代|当今|同龄
 contention: 看法|观点|争论|争吵|争夺|竞争
 contest: 竞赛|争夺|辩论
 continu: 连续|继续
+contour: v.n.|使与某轮廓吻合|在(地图,图表上)标等高线|(公路,铁路)循地形轮廓(尤指循等高线)而行
 contra: 对|反
 controver: 争议|否定
 converge: 汇聚|集中|趋同|收敛
@@ -363,7 +366,7 @@ cornea: 角膜
 correlat: 相关|co- + relate
 correspond: 对应|符合|相符|相当|通信
 correspondence: 对应|通讯|信件|函件
-corrupt: 腐败|腐坏|贪污|贪
+corrupt: adj.v.|腐败|腐坏|贪污|贪
 counter: n. |计数器|计算器|柜台|对立面|(棋盘游戏的)筹码|记分冰壶|v. 反驳|驳斥|抵制|抵消|(拳击)还击|逆向移动|adv. 相反地|对立地|逆向地|adj. 反面的|对立的
 counteract: 抵制|抵消|中和
 counterpart: 同行|副本|对方
@@ -430,6 +433,7 @@ dentat: 齿|锯齿边缘
 depict: 描述|描写
 deplet: 大量减少|耗尽
 depolariz: 去.极
+deprecat: 反对|抨击|轻视|声明不赞成
 depress: 使抑郁|使沮丧|降低|抑制|使萧条|使不景气|按下|压下
 depriv: 剥夺
 dereference: 废弃|解除参照
@@ -607,6 +611,7 @@ exclusive: 独家|只
 execut: 执行|实施|完成|处决
 exert: 运用|施加|尽力|努力
 exhibit: 展示|陈列|展品
+exile: 流放
 exogenous: 外生|外因|外成
 expand: 扩大|增加|扩展|发展|细谈|详述|变得更自信(善谈)|(宇宙)膨胀
 expansion: 扩张|扩充|展开|发展
@@ -646,6 +651,7 @@ fidelity: (对配偶或伴侣的)忠贞|(对人,组织或信仰的)忠诚|精确
 finale: 结局|终曲|最后一场|最后乐章|尾声
 financ: 财政|金融|资金|财源|财务事务|经济情况|提供资金|贷款购买|赊购
 finest: 最优质|最健康|最可接受|最满意|最好看|最精巧|最晴朗|最纤细|最难以看出|(颗粒)最细微|最杰出|最虚饰|最纯|最气势宏伟|保存得最好|最锋利|最精细复杂|最高尚
+firmware: 固件|韧件
 fissure: 裂
 fixation: 定影|固定术
 flat: 平|平面|平坦|平板|扁|平底
@@ -1461,6 +1467,7 @@ rumor: 谣言|传闻|传言|谣传|流言|谣|风声
 saccad: 眼跳|扫视
 saga: 萨迦(中世纪挪威或冰岛的传奇故事)|长篇小说|传奇故事|一连串事件(或经历)
 salien: 显著|突出|卓越
+sanitiz: 无害|消毒|卫生
 sarcasm: 讽刺|挖苦
 satiat: 饱满|饱食|满足|厌腻
 satiety: 满足|饱足|过多
@@ -1632,8 +1639,10 @@ subordinate: 下属|从属|次要|管辖
 subplate: 底板|垫板
 subpopulation: 亚群|分组
 subsequen: 随后|接着
+subsidiary: adj.n.|次要的|附属的|子公司的
 substance: 物质|实质|物|体|内容|质|实体|意义|意味|恉
 substant: 大量|实|me:低熵
+substitut: 代替|替换
 substrat: 基质|培养基
 subthalam: 底丘脑
 subtle: 不易察觉的|微妙的|敏锐的|有洞察力的|灵活的|巧妙的|含蓄的|隐晦的|<古>狡猾的
@@ -1733,6 +1742,7 @@ trace: 跟踪|痕迹|追踪|迹|痕迹|踪迹|踪|遗迹
 tract: 束|道|短文|传单
 trademark: v.n.|商标|标志|特点
 tradition: 传统|惯例|传说|信仰
+trajector: (物体射向或抛向空中形成的)轨道|轨迹|(事业等的)发展轨迹|起落|(几何)常角轨道|轨线
 transcriptom: 转录组
 transien: 短暂|转瞬即逝|无偿
 transitory: 短暂的|暂时的|瞬息的
