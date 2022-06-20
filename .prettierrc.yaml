@@ -5,6 +5,7 @@ arrowParens: 'avoid'
 bracketSpacing: true
 endOfLine: 'lf'
 jsxSingleQuote: true
+bracketSameLine: true
 printWidth: 100
 semi: false
 singleQuote: true
