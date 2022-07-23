@@ -43,6 +43,7 @@
 ### 前置条件
 
 - 需要在电脑上安装 node+npm+yarn
+  - 当前 EF 不支持 node 12 之前的 node 环境
 - 需要编辑器, 推荐 vscode
 - 一丁点儿 yaml 书写能力
 - 在浏览器中安装 [TamperMonkey](https://www.tampermonkey.net/) (以下简称 TM) 插件(extension)
@@ -52,25 +53,26 @@
 ### 开启项目
 
 1. clone/download
-2. 将本项目移动至**桌面(Desktop)**
-3. `yarn`
+2. 将本项目移动至**桌面(Desktop)**, 因为当前 EF 默认生成的 tampermonkey 配置文件 `dist/TM_entry.js` 是从桌面读取脚本的
+3. 运行 `yarn`
    - 添加依赖
-4. `yarn t`
+4. 运行 `yarn t`, 注意, 该进程为常驻进程, 你需要在新的 terminal 中唤起后续的 yarn 指令
    - 编译 index.ts / server.ts 至 dist 中
-5. `yarn w`
+5. 运行 `yarn w`, 注意, 该进程为常驻进程, 你需要在新的 terminal 中唤起后续的 yarn 指令
    - `_w_dict`: 监听 src/data/dict.yaml, 编译为 json
    - `_w_profile`: 监听 src/data/profile.yaml, 编译为 json
    - `_w_style`: 监听 src/frontend/style.less, 编译为 css
    - `_w_entry`: 监听 entry/ef.js, 改写其 @require/@resource
-6. `yarn s`
+6. 运行 `yarn s`, 注意, 该进程为常驻进程
    - 开启 node.js 服务器, 作为运行在 TM 中 EF 的数据源
      - EF 当前使用轮询的方式和服务器交互
+7. 可选: 当你成功运行上述三个指令一次之后, 以后再打开本地环境可以直接使用 `yarn tws` 同时唤起三个进程
 
 ### 在 TM 中添加脚本
 
-1. 打开 chrome
-2. 打开 TM
-3. 添加新脚本
+1. 打开 chrome 或者 edge(with chromium)
+2. 打开 TM, 并**确保 google chrome 赋予了 TM 访问本地文件的权限**
+3. 在 TM 中选择添加新脚本
 4. 在本项目中找到 dist/TM_entry.js 将其中的内容全选+复制, 并全部替换上一步中 chrome.TM 已经显示的编辑器页面中的代码, 保存
 5. 确保本项目文件夹在电脑的桌面
 6. 刷新页面, 打开某个英文 wikipedia, 你应该能看到 EF 已经在运行了
@@ -168,6 +170,7 @@ style.less
 
 ## TODO (or not)
 
+- 尝试使用 flutter + OCR 将 EF 蕴含的逻辑部署到多个客户端
 - 在 pub.dev 中直接 macOS 双指侧滑返回时, 脚本报错
 - 不是不可以在 vscode 中部署
 - **BUG**: 在 github 写 issue 时, 会导致存在于 issue 和 dict.yaml 中的单词消失掉

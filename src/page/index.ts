@@ -11,6 +11,7 @@ const EFSpeakSelectionsKey_R = 'R'
 const EFQueryHighlightKey_F = 'F'
 const EFSpeakHighlightKey_E = 'E'
 const EFAutoCloseTab = false
+const EFQueryDictMarkInterval = 1000
 
 const efpiFontSize = 16
 const efpiLineHeight = efpiFontSize + 4
@@ -655,22 +656,26 @@ async function main() {
     WordsInDictAndWebpage = {}
   }
 
-  //  监听本地词典变更, 并同步至网页
+  // 轮询本地 node.js 进程, 若发现字典变更则请求全量字典数据
   setTimeout(() => {
     setInterval(() => {
-      queryDictMark().then(info => {
-        if (info.dictMark !== localDictMark) {
-          console.log('EF: Will refresh page')
-          localDictMark = info.dictMark
+      queryDictMark()
+        .then(info => {
+          if (info.dictMark !== localDictMark) {
+            console.log('EF: Will refresh page')
+            localDictMark = info.dictMark
 
-          loadDict().then(dict => {
-            localDict = dict.dict
-            resetApp()
-            checkDOMFromSelector({ selectors: Profile.rootSelector })
-          })
-        }
-      })
-    }, 1000)
+            loadDict().then(dict => {
+              localDict = dict.dict
+              resetApp()
+              checkDOMFromSelector({ selectors: Profile.rootSelector })
+            })
+          }
+        })
+        .catch(reason => {
+          // 1. 可能是忘记开本地的 node.js 进程了
+        })
+    }, EFQueryDictMarkInterval)
   }, 2000)
 }
 
