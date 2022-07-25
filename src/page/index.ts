@@ -213,7 +213,9 @@ async function main() {
   }
   initWIWbNID()
 
-  // 运行时中获取, 在网页中存在, 在字典中存在
+  /**
+   * 运行时中获取, 在网页中存在, 在字典中存在
+   */
   let WordsInDictAndWebpage: IPairedWords = {}
 
   if (
@@ -229,10 +231,6 @@ async function main() {
   function getWordDetail(wordInWebpage: string): WordDetailResult | null {
     // BUG: https://en.wikipedia.org/wiki/Mydriasis
     // Can not match word "pupil" in first <a>, I don't know why 😂
-
-    // if (wordInWebpage === 'pupil') {
-    //   console.log('💥')
-    // }
 
     const word = wordInWebpage.toLowerCase()
 
@@ -264,8 +262,9 @@ async function main() {
     // break
     for (let end = word.length; end > 1; end--) {
       const tempKey = word.substring(startIndex, end)
-      if (localDict[tempKey]) {
-        dictResult = localDict[tempKey]
+      let value = localDict[tempKey]
+      if (value && typeof value != 'function') {
+        dictResult = value
         pairIndex = end
         matchKey = tempKey
         break
