@@ -131,6 +131,7 @@ aspir: 渴望|有志于
 assemb: 装配|集合|组装|拼接组装|凑合
 assess: 评估|评价|评定|考核
 assum: 假定|假设
+asterisk: v.n.|星号|星号键
 astrocyt: 星形胶质细胞
 astronaut: 宇航员|太空人|astro-:星|naut:水手(sailor)
 asunder: 碎|分
@@ -433,6 +434,7 @@ demonstrat: 演示|表明|示范|显示|论证|示威|表演|指明|示例
 dendr: tree
 denial: 否认|拒绝接受|拒不承认|剥夺|拒绝给予
 denish: 丹麦的|丹麦人的|丹麦语
+denote: 标志|预示|表示|意指
 dens:
   m: 稠密
   options:
@@ -1037,6 +1039,7 @@ mislead: 误导
 mitigat: 缓和|减轻
 mitosis: 有丝分裂
 mitotic: 有丝分裂的
+mnemonic: 记忆的|助记的|记忆术的
 moan: 呻吟
 modalit: 形式|形态|程序|物理疗法|主要的感觉
 moderat: 普|适中|不偏激|调停|仲裁
@@ -1707,6 +1710,7 @@ tactil: 触觉
 tangential: 肤浅|离题
 tasty: 美味的|<非正式> 有趣的|<英,非正式> 性感的|迷人的|善战的
 tear: n.v.|撕碎|撕裂|撕破|划破|撕掉|扯掉|拉伤|撕裂(肌肉或韧带)|狂奔|疾驰|(眼睛)流眼泪|深受...之苦的|饱经...摧残的|泪水|哭泣(tears)|裂口|破洞
+tedious: 冗长的|单调乏味的
 tegment: 被盖
 telencephal: 端脑|endbrain|cerebr
 teleolog: 目的论
@@ -1856,6 +1860,7 @@ whilst: 同时
 whit: 一点点|些微
 wholesome: 健康|有益
 widget: 装饰物|小机械|小部件|未定名的主要新产品
+wildcard: 通配符
 within: 内|中|里
 wizard: 巫师
 workload: 工作.负载|(人或组织的)工作量|工作负荷
