@@ -203,20 +203,20 @@ async function main() {
   console.log('EF: 🎉 Using:', Profile.name + (Profile.name === 'Default' ? '' : ' and Default'))
 
   const _initalizeInfo = await loadDict()
-  let localDict = _initalizeInfo.dict
+  let localDict = new Map<string, Detail>(Object.entries(_initalizeInfo.dict))
   let localDictMark = _initalizeInfo.dictMark
 
   // 运行时中获取的, 已知的单词, 或字典中不包含的单词
   let WordsInWebpageButNotExistInDict: string[] = []
   function initWIWbNID() {
-    WordsInWebpageButNotExistInDict = ['constructor', 'constructors', '__proto__']
+    WordsInWebpageButNotExistInDict = []
   }
   initWIWbNID()
 
   /**
    * 运行时中获取, 在网页中存在, 在字典中存在
    */
-  let WordsInDictAndWebpage: IPairedWords = {}
+  let WordsInDictAndWebpage: IPairedWords = new Map()
 
   if (
     navigator.userAgent.includes('AppleWebKit') &&
@@ -240,11 +240,12 @@ async function main() {
 
     // 若之前已经查询该单词, 则直接返回结果
     // 🤔🚧使用这种方法会返回 "constructor"
-    if (WordsInDictAndWebpage[word]) {
-      const cachedRuntimeInfo = WordsInDictAndWebpage[word]
+    let pairedWord = WordsInDictAndWebpage.get(word)
+    if (pairedWord) {
+      const cachedRuntimeInfo = pairedWord
       return {
         pairKey: cachedRuntimeInfo.key,
-        detail: localDict[cachedRuntimeInfo.key],
+        detail: localDict.get(cachedRuntimeInfo.key)!,
         fullPair: cachedRuntimeInfo.fullPair,
         pairIndex: cachedRuntimeInfo.pairIndex,
       }
@@ -262,7 +263,7 @@ async function main() {
     // break
     for (let end = word.length; end > 1; end--) {
       const tempKey = word.substring(startIndex, end)
-      let value = localDict[tempKey]
+      let value = localDict.get(tempKey)
       if (value && typeof value != 'function') {
         dictResult = value
         pairIndex = end
@@ -310,11 +311,11 @@ async function main() {
       pairKey: matchKey ?? undefined,
     }
 
-    WordsInDictAndWebpage[wordInWebpage] = {
+    WordsInDictAndWebpage.set(wordInWebpage, {
       key: matchKey!,
       fullPair: fullMatch,
       pairIndex,
-    }
+    })
 
     return result
   }
@@ -652,7 +653,7 @@ async function main() {
       parentElementHolder = t.parentElement
     })
     initWIWbNID()
-    WordsInDictAndWebpage = {}
+    WordsInDictAndWebpage = new Map()
   }
 
   // 轮询本地 node.js 进程, 若发现字典变更则请求全量字典数据
@@ -664,8 +665,8 @@ async function main() {
             console.log('EF: Will refresh page')
             localDictMark = info.dictMark
 
-            loadDict().then(dict => {
-              localDict = dict.dict
+            loadDict().then(info => {
+              localDict = new Map<string, Detail>(Object.entries(info.dict))
               resetApp()
               checkDOMFromSelector({ selectors: Profile.rootSelector })
             })
@@ -993,14 +994,15 @@ interface Detail {
   _ref?: any
 }
 
-interface IPairedWords {
-  [key: string]: {
+type IPairedWords = Map<
+  string,
+  {
     key: string
     fullPair: boolean
     pairIndex: number
     pairKey?: string
   }
-}
+>
 
 interface SiteProfile {
   name: string
