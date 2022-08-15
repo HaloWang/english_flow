@@ -283,6 +283,7 @@ commas:
   m: 逗号|","
   options:
     - FullMatch
+commentary: 现场解说|实况报道|评注性著作|评论文|讨论|评论|说明|写照
 commerc: 商业
 commission: 佣金|佣|委托
 compact: 压紧|小型|压实|袖珍|带镜小粉盒|合约|协定
@@ -406,6 +407,7 @@ curat: 操持|组织
 curriculum: 课表|课程
 cytogenetics: 细胞遗传学
 cytoplasm: 细胞质
+daemon: 魔鬼|恶魔(同 demon)|守护进程|后台程序|虚拟光驱软件
 datum: 数据|资料
 debate: 辩论|争论|争议|v. or n.
 debt: 债务
@@ -586,6 +588,7 @@ endors: (公开)赞同|认可|(在广告中对某种产品)宣传|吹捧|(尤指
 endow: 向(人,机构)捐赠|资助|赋予
 endur: 持续|持久|存在
 engag: 参加|从事|聘用|交战|交互
+engrave: 雕刻(文字,图案)|铭刻在(记忆,脑海)中(be engraved on/in)
 enlighten: 阐明|启发|启示|启迪|教导
 enormous: 巨大的
 enqueue: 排队|入队|队列
@@ -1138,6 +1141,7 @@ offload: v.adj.卸
 olfact: 嗅
 omit: 省略
 onset: 进攻|发端|猛攻
+operand: '[计] 操作数|[计] 运算对象'
 operant: 操作的|有效的|自发反应|操作性制约|发生作用之人或物
 opinionat: 武断|固执己见|主观
 oppos: 对|反|竞|阻碍
@@ -1208,6 +1212,7 @@ pedestal: 机架|底座|台
 peduncle: 花梗|肉茎
 peer: 同行|同辈|窥视|同等的
 penaliz: 惩罚|使...处于不利地位
+perceive: 认为|理解|察觉|注意到|意识到
 percept: 感知|洞察|看法|感觉|认识
 periallocortex: 皮层周围
 perimetry: 视野测量
@@ -1787,6 +1792,7 @@ trace: 跟踪|痕迹|追踪|迹|痕迹|踪迹|踪|遗迹
 tract: 束|道|短文|传单
 trademark: v.n.|商标|标志|特点
 tradition: 传统|惯例|传说|信仰
+trait: (人的个性的)特征|特点|遗传特征|一点|少许
 trajector: (物体射向或抛向空中形成的)轨道|轨迹|(事业等的)发展轨迹|起落|(几何)常角轨道|轨线
 transaction: 交易|买卖|业务|(学术团体会议的)议事录|公报|(人与人之间的)交流|相互影响|事务(元)|事项
 transcriptom: 转录组
