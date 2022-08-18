@@ -707,6 +707,8 @@ function searchWord(wordOrSentence: string) {
   isAWord && urlsToBeOpened.unshift(`https://en.wiktionary.org/wiki/${string}#Etymology`)
   // Google Define
   // isAWord && urlsToBeOpened.unshift(`https://www.google.com/search?q=define+${string}`)
+  // Wikipedia
+  isAWord && urlsToBeOpened.unshift(`https://en.wikipedia.org/wiki/${string}`)
   // Google Search
   // urlsToBeOpened.unshift(`https://www.google.com/search?q=${string}`)
 
