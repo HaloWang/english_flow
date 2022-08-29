@@ -367,8 +367,14 @@ async function main() {
     panel.style.opacity = '1'
 
     let innerHTML = ''
-    for (const _item of items) {
-      innerHTML += `<efpi>${_item}</efpi>`
+    if (shouldDisplayPanelAtTheTopOfEFT) {
+      for (const _item of items.reverse()) {
+        innerHTML += `<efpi>${_item}</efpi>`
+      }
+    } else {
+      for (const _item of items) {
+        innerHTML += `<efpi>${_item}</efpi>`
+      }
     }
     innerHTML = `<efpis>${innerHTML}</efpis>`
     panel.innerHTML = innerHTML
