@@ -351,6 +351,7 @@ conforman: 一致|顺应
 confound: 混淆|挫败讨厌|混乱|困惑
 confus: 迷惑
 congregat: 集合|聚集
+congress: 国会|议会|代表大会|美国国会(Congress)
 congruent: 相合的|一致的|(图形)全等的|叠合的
 conjectur: 推测
 conjunct: 结合|连接|合
@@ -688,6 +689,7 @@ facto:
   options:
     - FullMatch
 faint: 晕厥
+fairy: 仙子|小精灵
 faithful: 忠实的|忠诚的|如实的|忠于原事(物)的
 feat: n.|功绩|壮举|武艺|技艺|adj.|合适的|灵巧的
 federat: 盟|联
@@ -1162,7 +1164,7 @@ notion: 概念|主张
 notorious: 众所周知|声名狼藉
 novel: 小说|新颖|新奇
 novice: 初学者|新手|见习修士|见习修女|尚未赢过大赛的赛马
-nuance: 细微差别
+nuance: 细微差别|精确细腻地表演|细致入微地描绘
 nucle: 核
 numerous: 众多|大量|多
 obfuscat: 模糊|混淆
@@ -1598,7 +1600,7 @@ seeming: 表面上|看起来|似是而非
 segregat: 分割|分开|隔离|(种族.性别.宗教)隔离
 seize: 抓住|捉住|(用武力)夺取|占领|逮捕|捉拿|没收|扣押|把握(机会等)|(感觉,疼痛)侵袭|控制|吸引(注意力)|唤起(想象力)|<正式>理解|掌握|意识到|得知(be seized of)|(有活动部件的机器,机器的活动部件)咬住|卡住|<英,法律>依法占有(be seized of)|<史>具有(财产)的终身保有权(be seized of)
 seizure: 夺取|控制|突然发作
-semantic: 语义
+semantic: 语义的|语义学的
 semester: 学期|半学年
 semicolon: 分号|";"
 semiconductor: 半.导体
@@ -1796,6 +1798,7 @@ tabular: 扁平的|列成表格的
 tackle: v.|应付|解决(难题或局面)|与...交涉|(足球,曲棍球等比赛中)抢断|(橄榄球等比赛中)擒抱并摔倒(对方球员)|擒获|对付|打(尤指罪犯)|质问|责问|反对|反抗|n.|(足球等中的)抢断球|(橄榄球或美式足球)擒抱摔倒|(美式足球中的)阻截队员|体育器械|(尤指)渔具|(吊起重物用的)索具|滑轮|<英,俚>男性性器官
 tactic: 策略|兵法|战术|排兵布阵
 tactil: 触觉
+tale: 故事|传说|(对真人真事精彩的或夸张的)描述|讲述|谎言|流言蜚语
 tangential: 肤浅|离题
 tarpit: 沥青坑
 tasty: 美味的|<非正式> 有趣的|<英,非正式> 性感的|迷人的|善战的
@@ -1941,6 +1944,7 @@ violat: 违反|违背|侵犯|打扰|亵渎|损毁(神圣之地等)|<文>强奸
 virtual: 几乎...的|so nearly true|虚拟|实质上|简直|https://www.zhihu.com/question/19903523
 viscea: 内脏
 vital: 重要|核心
+vivid: 生动的|逼真的|(颜色)鲜艳的|明亮的|(人的想像)丰富的
 vivo: 生动|活泼|活跃
 vocabular: 词汇
 vocabulary: 词汇|词汇表|全部词汇
