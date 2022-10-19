@@ -442,6 +442,7 @@ debate: 辩论|争论|争议|v. or n.
 debt: 债务
 decay: 衰减|腐烂
 decepti: 骗
+decipher: 破译|辨认(难认,难解的东西)|理解(神秘或难懂的事物)
 declaim: 慷慨陈词|演讲
 declarative: '锚点:|Think about it: React/Flutter is declarative, ObjC/Swift using MVC is not|ReactiveCocoa and RxSwift are some approaches but not elegant|声明式|公告的|宣言的|陈述的|叙述的'
 declin: 拒绝|下降|衰|衰退|谢绝|没落|落
@@ -673,7 +674,7 @@ examin: 检查|审查|检验|查看|考核|查验|检
 excel: 精通|擅长|超过|胜过
 excit: 刺激|兴奋|激动
 exclama: 惊叹|惊呼|词源:ex+clama+re
-exclusive: 独家|只
+exclus: 独家|只|排斥
 execut: 执行|实施|完成|处决
 exert: 运用|施加|尽力|努力
 exhaustive: 详尽的|彻底的|消耗的
@@ -884,6 +885,7 @@ impuls: 冲动|脉冲|推动力|一时兴起的|随兴的|推动
 inappropriat: 非.合适|非.适当|非.挪用
 incandescen: 辉耀|炽热|发白热光
 incapacitat: 使无能为力|使不能
+incept: 开始|摄取|接收|始
 inclusiv: 广泛|包容
 incomplet: 不完整
 incongruent: 非.相合的|非.一致的|非.(图形)全等的|非.叠合的
@@ -925,6 +927,7 @@ inherit: 继承(遗产)|经遗传获得(品质,身体特征等)|接手|承担|�
 inhibit: 抑制
 inject: 注射|(给...)添加|增加(某品质)|投入(金钱或资源)|(往物质,装置中)注入或射入(电流,粒子束等)|将(宇宙飞船等)射入轨道(或弹道)
 injur: 伤
+innate: 先天的|固有的|(信仰)根深蒂固的
 innervat: 神经支配|神经分布
 innoculat: 接种|嫁接|灌输
 innovat: Latin innovare ("renew")|革新|创新
@@ -1087,11 +1090,13 @@ manufactur: (机械化)制造
 marginal: 边缘的|小的|微不足道的
 marked: 显著|明显
 martian: 火星的|火星人
+mascot: 吉祥物|福神
 masculin: 男|雄
 masturbat: 手淫
 mater: 母
 materiali: 唯物|物质化|实现
 matur: 成熟|熟|发达|到期
+mcgill: 麦吉尔
 measure: 测量|措施|办法|适量|适度|判断|衡量|度量单位|计量标准
 mechanism: 机理|机制|机构
 medial: 中间
@@ -1140,6 +1145,7 @@ moniker: 绰号|名字
 monolayer: 单层
 monolith: 整块石料|庞然大物
 monopoly: 垄断|专卖|独占事业|垄断贩卖
+montreal: 蒙特利尔
 mood: 心境|情绪|气氛|情感基调|心情不好|坏脾气|想(做某事)|有兴致(做某事)|(尤指音乐)激发...情感的|暗示...心境的|(群体的)态度|意愿|表达语气的动词屈折变化|(语法的)式|语气| 想(做某事)|有兴致(做某事)
 moral: 道德|义|合乎道德
 moreover: 此外|而且
@@ -1269,6 +1275,7 @@ paralimbic: 边缘旁系
 parallel: 排比|对应|类似
 paralyz: 无力|瘫痪
 paramedian: 旁正中
+paranoid: 多疑的|妄想的|患偏执症的|患妄想症的
 parenthes: 圆括号
 parietal: 顶叶
 partak: 参加|分享|参
@@ -1436,6 +1443,7 @@ quantit: 数量
 quantiz: 使量子化|把...分层
 quarter: 四分之一
 quartz: 石英
+quebec: 魁北克
 questionnaire: 调查问卷
 quie:
   m: 静
