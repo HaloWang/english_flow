@@ -400,6 +400,7 @@ convers: v.n.adj.|谈话|交谈|相反
 convex: 凸
 convinc: 信服|确信|说服
 coordinat: 坐标|协调|对等|配合
+copyleft: 非盈利版权|公版版权
 copypasta: 复制粘贴(just like chinese)
 cord: 索|绳|粗线
 cornea: 角膜
@@ -484,6 +485,7 @@ dentat: 齿|锯齿边缘
 depict: 描述|描写
 deplet: 大量减少|耗尽
 depolariz: 去.极
+depository: 贮藏所|受托者|存储处|仓库
 deprecat: 反对|抨击|轻视|声明不赞成
 depress: 使抑郁|使沮丧|降低|抑制|使萧条|使不景气|按下|压下
 depriv: 剥夺
@@ -863,6 +865,7 @@ hyphen: n.v.|连字符|连字号
 hypothalam: 下丘脑
 hypothe: 假设
 ideally: 理想地|观念上地
+ideograph: 象形文字|表意文字(等于 ideogram)
 idiom: 习语|成语|方言|土话|(个人,艺术形式等的)风格|特色
 idiomatic: (语言)自然地道的|与(某时期,人或团体的艺术或音乐风格)相合的|特点一致的
 ignite: 点燃|燃烧|引发|激起
@@ -1037,6 +1040,7 @@ koi:
   m: 锦鲤|观赏鱼
   options:
     - FullMatch
+labor: 劳动|工作|苦劳
 lack: 缺乏|减少
 ladder: 梯子
 laminar: 层|薄片状
@@ -1086,6 +1090,7 @@ macroscop: 宏观
 magnet: 磁
 magni: 巨大
 magnitude: 巨大|重要性|震级|规模|大小|数量|数值|(恒星的)亮度|星等
+mailslot: 信槽|邮件槽|投邮口
 majority: 多数
 malfunction: 故障
 malicious: 恶意的|恶毒的|怀恨的
@@ -1109,6 +1114,7 @@ materiali: 唯物|物质化|实现
 matur: 成熟|熟|发达|到期
 mcgill: 麦吉尔
 measure: 测量|措施|办法|适量|适度|判断|衡量|度量单位|计量标准
+mechanica: 论力学
 mechanism: 机理|机制|机构
 medial: 中间
 mediat: 调解|调停|斡旋|排解|调和|调处|劝解|说|间接的|居间的
@@ -1201,7 +1207,8 @@ nevertheless: 然而|不过|尽管如此
 nigra: 黑质
 nonetheless: 然而|尽管如此
 nonfinte: 非.限定|非.定式
-nonverbal: 不使用语言的|非言语的|不能说话的
+nonprofit: 非.营利|非.营利为目的
+nonverbal: 不使用.语言的|非.言语的|不能.说话的
 nostalg: 怀念|思念
 notabl: 显要|值得注意|令人尊重|非常成功
 notari: '-se:v.证明|-ze:vt.证明'
@@ -1261,9 +1268,9 @@ outperform: 胜过|比...做得好
 outstand: 突出|离港|超过
 overall: 全|总
 overcome: over+come, 几乎所有欧洲那一片的语言都是|克服|解决|征服|战胜|使受不了|使无法行动(或思考)
-overestimat: 高估
+overestimat: 高.估
 overheat: 过.热
-overlap: 重叠
+overlap: 重.叠
 overlook: 俯瞰|忽略|俯视|忘记|轻忽
 overrid: (以权力)否决|推翻|凌驾于|比...更重要|对(自动机器)改用手控|超驰控制|(尤指为改变运作方式而)操控|制服|伸展在...上面|重叠|从...上走过|从...上面驶过|(乘公共交通工具)超程乘车(实际距离超出车票允许的距离)
 overstatement: 大话|夸大其词

@@ -397,9 +397,13 @@ async function main() {
     EFStyledElementTagName,
     EFStyledElementTagName.toUpperCase(),
     'SCRIPT',
+    'script',
     'SVG',
+    'svg',
     'VIDEO',
+    'video',
     'STYLE',
+    'style',
   ]
 
   if (Profile.notMatchTagName) {
