@@ -566,6 +566,7 @@ dorso:
   options:
     - NotFull
 dose: 服药|一记
+downside: 缺点|不利方面
 drainage: 排水系统|排水|排泄|排出的水|污水|引流
 drama: 剧本|戏剧
 dramatic: 巨大而突然|急剧|戏剧
@@ -725,7 +726,10 @@ facto:
 faint: 晕厥
 fairy: 仙子|小精灵
 faithful: 忠实的|忠诚的|如实的|忠于原事(物)的
-feat: n.|功绩|壮举|武艺|技艺|adj.|合适的|灵巧的
+feat:
+  m: n.|功绩|壮举|武艺|技艺|adj.|合适的|灵巧的
+  options:
+    - FullMatch
 federat: 盟|联
 ferocious: 凶猛的|残暴的|激烈的|猛烈的|(感情)十分强烈的|很大的|极度的
 fetal: 胎儿的|胎的|胚胎的
@@ -1774,6 +1778,7 @@ spontane: 自发性|自然
 spot: 点|现场|斑|斑点|处|污点|点子|瑕|所|皰|识别|弄脏|沾污
 spouse: 配偶|和...结婚
 spurt: 喷射|喷出|冲刺|迸发|涌出的液体|喷出的火舌|短时激增|迸发
+squiggl: 弯曲|潦草
 squirrel: 松鼠
 stab:
   m: 固|稳
