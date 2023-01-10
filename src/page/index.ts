@@ -60,7 +60,6 @@ async function request<T = any>(
       url,
       ...options,
       onerror: error => {
-        console.log(error)
         _reject(error)
       },
       onabort: () => {

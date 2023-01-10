@@ -1,6 +1,5 @@
 {
   "files.autoSave": "off",
-  "git.enabled": false,
   "yaml.completion": false,
   "yaml.format.singleQuote": true,
   "[yaml]": {
