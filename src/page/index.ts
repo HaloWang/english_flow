@@ -138,7 +138,7 @@ async function loadDict() {
   })
 }
 
-async function _getWordDetail(word: string) {
+async function _getWordDetail() {
   return new Promise<any>((_resolve, _reject) => {
     // 1. memory cache
     // 2. localstorage cache
@@ -524,7 +524,6 @@ async function main() {
             // if (!classNameCheckArray.includes(notTextNode.className)) {
             //   classNameCheckArray.push(notTextNode.className)
             // }
-
             useEFTToReplaceWords({
               parent: notTextNode,
             })
